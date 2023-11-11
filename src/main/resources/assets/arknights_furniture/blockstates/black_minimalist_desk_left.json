@@ -1,0 +1,19 @@
+{
+    "variants": {
+        "facing=east": {
+            "model": "arknights_furniture:block/black_minimalist_desk_left",
+            "y": 90
+        },
+        "facing=north": {
+            "model": "arknights_furniture:block/black_minimalist_desk_left"
+        },
+        "facing=south": {
+            "model": "arknights_furniture:block/black_minimalist_desk_left",
+            "y": 180
+        },
+        "facing=west": {
+            "model": "arknights_furniture:block/black_minimalist_desk_left",
+            "y": 270
+        }
+    }
+}

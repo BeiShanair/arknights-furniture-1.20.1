@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=east": {
+      "model": "arknights_furniture:block/many_cardboard_boxes",
+      "y": 90
+    },
+    "facing=north": {
+      "model": "arknights_furniture:block/many_cardboard_boxes"
+    },
+    "facing=south": {
+      "model": "arknights_furniture:block/many_cardboard_boxes",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "arknights_furniture:block/many_cardboard_boxes",
+      "y": 270
+    }
+  }
+}

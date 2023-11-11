@@ -1,0 +1,40 @@
+{
+	"schemaVersion": 1,
+	"id": "arknights_furniture",
+	"version": "${version}",
+	"name": "Arknights Furniture",
+	"description": "这是明日方舟的家具模组",
+	"authors": [
+		"北山_Besson"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "MIT",
+	"icon": "assets/arknights_furniture/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"com.besson.arknights.ArknightsFurniture"
+		],
+		"client": [
+			"com.besson.arknights.ArknightsFurnitureClient"
+		],
+		"fabric-datagen": [
+			"com.besson.arknights.ArknightsFurnitureDataGenerator"
+		]
+	},
+	"mixins": [
+		"arknights_furniture.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.14.23",
+		"minecraft": "~1.20.1",
+		"java": ">=17",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
