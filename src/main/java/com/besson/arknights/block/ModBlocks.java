@@ -47,7 +47,7 @@ public class ModBlocks {
     public static final Block CLEAR_ORANGE_TV = registerBlock("clear_orange_tv",new ClearBlackTV(FabricBlockSettings.copyOf(Blocks.STONE).notSolid().nonOpaque()));
     public static final Block MINI_BULLETIN_BOARD2 = registerBlock("mini_bulletin_board2",new MiniBulletinBoard(FabricBlockSettings.copyOf(Blocks.STONE).notSolid().nonOpaque()));
     public static final Block ORANGE_BED = registerBlock("orange_bed",new PorcelainBed(FabricBlockSettings.copyOf(Blocks.STONE).notSolid().nonOpaque()));
-    public static final Block ORANGE_BEDSIDE_TABLE = registerBlock("orange_bedside_table",new PorcelainBed(FabricBlockSettings.copyOf(Blocks.STONE).notSolid().nonOpaque()));
+    public static final Block ORANGE_BEDSIDE_TABLE = registerBlock("orange_bedside_table",new PorcelainBedsideTable(FabricBlockSettings.copyOf(Blocks.STONE).notSolid().nonOpaque()));
     public static final Block ORANGE_CHECKERBOARD_BOOKCASE_1 = registerBlock("orange_checkerboard_bookcase1",new SolidCheckerboardBookcase(FabricBlockSettings.copyOf(Blocks.STONE).notSolid().nonOpaque()));
     public static final Block ORANGE_CHECKERBOARD_BOOKCASE_2 = registerBlock("orange_checkerboard_bookcase2",new SolidCheckerboardBookcase(FabricBlockSettings.copyOf(Blocks.STONE).notSolid().nonOpaque()));
     public static final Block ORANGE_CHECKERBOARD_BOOKCASE_3 = registerBlock("orange_checkerboard_bookcase3",new SolidCheckerboardBookcase(FabricBlockSettings.copyOf(Blocks.STONE).notSolid().nonOpaque()));
