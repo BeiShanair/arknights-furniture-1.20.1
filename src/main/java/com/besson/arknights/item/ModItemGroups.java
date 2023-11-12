@@ -71,6 +71,23 @@ public class ModItemGroups {
                         entries.add(ModBlocks.ORANGE_WALL_LAMP);
                         entries.add(ModBlocks.ORANGE_TABLE_CABINET);
                     }).build());
+    public static final ItemGroup ILLUSIONARY_BIOGRAPHY = Registry.register(Registries.ITEM_GROUP,
+            new Identifier(ArknightsFurniture.MOD_ID,"illusionary_biography"),
+            FabricItemGroup.builder().displayName(Text.translatable("itemgroup.illusionary_biography"))
+                    .icon(() -> new ItemStack(ModBlocks.BASKET_SHAPED_LOW_COFFEE_TABLE)).entries((displayContext, entries) -> {
+                        entries.add(ModBlocks.BASKET_SHAPED_LOW_COFFEE_TABLE);
+                        entries.add(ModBlocks.BROAD_LEAVED_POTTED_PLANTS);
+                        entries.add(ModBlocks.BROWN_LAZY_SOFA);
+                        entries.add(ModBlocks.CONIFEROUS_POTTED_PLANT);
+                        entries.add(ModBlocks.ECOLOGICAL_EXHIBITION_CABINET_BASE);
+                        entries.add(ModBlocks.ECOLOGICAL_EXHIBITION_CABINET_MAIN);
+                        entries.add(ModBlocks.EMBEDDED_SQUARE_CEILING_LIGHT);
+                        entries.add(ModBlocks.EMBEDDED_WIDE_CEILING_LIGHT);
+                        entries.add(ModBlocks.EXHIBITION_SPECIMEN_INFORMATION_BOARD);
+                        entries.add(ModBlocks.METAL_BED);
+                        entries.add(ModBlocks.SQUARE_BEDSIDE_CABINET);
+                        entries.add(ModBlocks.THICK_LEAVED_POTTED_PLANT);
+                    }).build());
     public static void registerItemGroup(){
         ArknightsFurniture.LOGGER.info("Registering Item Groups for" + ArknightsFurniture.MOD_ID);
     }

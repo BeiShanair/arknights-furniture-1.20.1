@@ -51,7 +51,21 @@
   "block.arknights_furniture.orange_table_cabinet":"Orange Table Cabinet",
   "block.arknights_furniture.orange_wall_lamp":"Orange Wall Lamp",
 
+  "block.arknights_furniture.basket_shaped_low_coffee_table":"Basket Shaped Low Coffee Table",
+  "block.arknights_furniture.broad_leaved_potted_plants":"Broad Leaved Potted Plants",
+  "block.arknights_furniture.brown_lazy_sofa":"Brown Lazy Sofa",
+  "block.arknights_furniture.coniferous_potted_plant":"Coniferous Potted Plant",
+  "block.arknights_furniture.ecological_exhibition_cabinet_base":"Ecological Exhibition Cabinet Base",
+  "block.arknights_furniture.ecological_exhibition_cabinet_main":"Ecological Exhibition Cabinet Main",
+  "block.arknights_furniture.embedded_square_ceiling_light":"Embedded Square Ceiling Light",
+  "block.arknights_furniture.embedded_wide_ceiling_light":"Embedded Wide Ceiling Light",
+  "block.arknights_furniture.exhibition_specimen_information_board":"Exhibition Specimen Information Board",
+  "block.arknights_furniture.metal_bed":"Metal Bed",
+  "block.arknights_furniture.square_bedside_cabinet":"Square Bedside Cabinet",
+  "block.arknights_furniture.thick_leaved_potted_plant":"Thick Leaved Potted Plant",
+
   "itemgroup.logo": "LOGO Group",
   "itemgroup.freight_warehouse": "Freight Warehouse",
-  "itemgroup.edge_solid_orange_simple_home": "Edge-Solid/Orange Simple Home"
+  "itemgroup.edge_solid_orange_simple_home": "Edge-Solid/Orange Simple Home",
+  "itemgroup.illusionary_biography": "Illusionary Biography"
 }

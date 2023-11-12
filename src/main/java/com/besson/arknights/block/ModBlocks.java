@@ -3,6 +3,7 @@ package com.besson.arknights.block;
 import com.besson.arknights.ArknightsFurniture;
 import com.besson.arknights.block.EdgeSolid_OrangeSimpleHome.*;
 import com.besson.arknights.block.FreightWarehouse.*;
+import com.besson.arknights.block.IllusionaryBiography.*;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.fabricmc.fabric.api.object.builder.v1.block.FabricBlockSettings;
 import net.minecraft.block.Block;
@@ -58,6 +59,18 @@ public class ModBlocks {
     public static final Block ORANGE_ROLLER_BACKREST = registerBlock("orange_roller_backrest",new BlackRollerBackrest(FabricBlockSettings.copyOf(Blocks.STONE).notSolid().nonOpaque()));
     public static final Block ORANGE_TABLE_CABINET = registerBlock("orange_table_cabinet",new BlackTableCabinet(FabricBlockSettings.copyOf(Blocks.STONE).notSolid().nonOpaque()));
     public static final Block ORANGE_WALL_LAMP = registerBlock("orange_wall_lamp",new PorcelainWallLamp(FabricBlockSettings.copyOf(Blocks.STONE).notSolid().nonOpaque()));
+    public static final Block BASKET_SHAPED_LOW_COFFEE_TABLE = registerBlock("basket_shaped_low_coffee_table",new BasketShapedLowCoffeeTable(FabricBlockSettings.copyOf(Blocks.STONE).notSolid().nonOpaque()));
+    public static final Block BROAD_LEAVED_POTTED_PLANTS = registerBlock("broad_leaved_potted_plants",new BroadLeavedPottedPlants(FabricBlockSettings.copyOf(Blocks.STONE).notSolid().nonOpaque()));
+    public static final Block BROWN_LAZY_SOFA = registerBlock("brown_lazy_sofa",new BrownLazySofa(FabricBlockSettings.copyOf(Blocks.STONE).notSolid().nonOpaque()));
+    public static final Block CONIFEROUS_POTTED_PLANT = registerBlock("coniferous_potted_plant",new ConiferousPottedPlant(FabricBlockSettings.copyOf(Blocks.STONE).notSolid().nonOpaque()));
+    public static final Block ECOLOGICAL_EXHIBITION_CABINET_BASE = registerBlock("ecological_exhibition_cabinet_base",new EcologicalExhibitionCabinetBase(FabricBlockSettings.copyOf(Blocks.STONE).notSolid().nonOpaque()));
+    public static final Block ECOLOGICAL_EXHIBITION_CABINET_MAIN = registerBlock("ecological_exhibition_cabinet_main",new EcologicalExhibitionCabinetMain(FabricBlockSettings.copyOf(Blocks.STONE).notSolid().nonOpaque()));
+    public static final Block EMBEDDED_SQUARE_CEILING_LIGHT = registerBlock("embedded_square_ceiling_light",new EmbeddedSquareCeilingLight(FabricBlockSettings.copyOf(Blocks.STONE).notSolid().nonOpaque()));
+    public static final Block EMBEDDED_WIDE_CEILING_LIGHT = registerBlock("embedded_wide_ceiling_light",new EmbeddedWideCeilingLight(FabricBlockSettings.copyOf(Blocks.STONE).notSolid().nonOpaque()));
+    public static final Block EXHIBITION_SPECIMEN_INFORMATION_BOARD = registerBlock("exhibition_specimen_information_board",new ExhibitionSpecimenInformationBoard(FabricBlockSettings.copyOf(Blocks.STONE).notSolid().nonOpaque()));
+    public static final Block METAL_BED = registerBlock("metal_bed",new MetalBed(FabricBlockSettings.copyOf(Blocks.STONE).notSolid().nonOpaque()));
+    public static final Block SQUARE_BEDSIDE_CABINET = registerBlock("square_bedside_cabinet",new SquareBedsideCabinet(FabricBlockSettings.copyOf(Blocks.STONE).notSolid().nonOpaque()));
+    public static final Block THICK_LEAVED_POTTED_PLANT = registerBlock("thick_leaved_potted_plant",new ThickLeavedPottedPlant(FabricBlockSettings.copyOf(Blocks.STONE).notSolid().nonOpaque()));
 
     private static Block registerBlock(String name,Block block){
         registerBlockItem(name,block);
