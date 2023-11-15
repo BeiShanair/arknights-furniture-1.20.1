@@ -4,6 +4,7 @@ import com.besson.arknights.ArknightsFurniture;
 import com.besson.arknights.block.EdgeSolid_OrangeSimpleHome.*;
 import com.besson.arknights.block.FreightWarehouse.*;
 import com.besson.arknights.block.IllusionaryBiography.*;
+import com.besson.arknights.block.LifeCycleModule12.*;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.fabricmc.fabric.api.object.builder.v1.block.FabricBlockSettings;
 import net.minecraft.block.Block;
@@ -71,6 +72,18 @@ public class ModBlocks {
     public static final Block METAL_BED = registerBlock("metal_bed",new MetalBed(FabricBlockSettings.copyOf(Blocks.STONE).notSolid().nonOpaque()));
     public static final Block SQUARE_BEDSIDE_CABINET = registerBlock("square_bedside_cabinet",new SquareBedsideCabinet(FabricBlockSettings.copyOf(Blocks.STONE).notSolid().nonOpaque()));
     public static final Block THICK_LEAVED_POTTED_PLANT = registerBlock("thick_leaved_potted_plant",new ThickLeavedPottedPlant(FabricBlockSettings.copyOf(Blocks.STONE).notSolid().nonOpaque()));
+    public static final Block CABIN_CEILING_COMPONENTS = registerBlock("cabin_ceiling_components",new CabinCeilingComponents(FabricBlockSettings.copyOf(Blocks.STONE).notSolid().nonOpaque()));
+    public static final Block CABIN_COMBINATION_DOUBLE_BED = registerBlock("cabin_combination_double_bed",new CabinCombinationDoubleBed(FabricBlockSettings.copyOf(Blocks.STONE).notSolid().nonOpaque()));
+    public static final Block CABIN_FIRE_EXTINGUISHER_SET = registerBlock("cabin_fire_extinguisher_set",new CabinFireExtinguisherSet(FabricBlockSettings.copyOf(Blocks.STONE).notSolid().nonOpaque()));
+    public static final Block CABIN_NOTE_BOARD = registerBlock("cabin_note_board",new CabinNoteBoard(FabricBlockSettings.copyOf(Blocks.STONE).notSolid().nonOpaque()));
+    public static final Block COMBINATION_ROLLER_BACKREST = registerBlock("combination_roller_backrest",new CombinationRollerBackrest(FabricBlockSettings.copyOf(Blocks.STONE).notSolid().nonOpaque()));
+    public static final Block COMBINATION_WORKBENCH_LEFT = registerBlock("combination_workbench_left",new CombinationWorkbench(FabricBlockSettings.copyOf(Blocks.STONE).notSolid().nonOpaque()));
+    public static final Block COMBINATION_WORKBENCH_RIGHT = registerBlock("combination_workbench_right",new CombinationWorkbench(FabricBlockSettings.copyOf(Blocks.STONE).notSolid().nonOpaque()));
+    public static final Block CONTROL_DISPLAY = registerBlock("control_display",new ControlDisplay(FabricBlockSettings.copyOf(Blocks.STONE).notSolid().nonOpaque()));
+    public static final Block EMBEDDED_DATA_CABINET1 = registerBlock("embedded_data_cabinet1",new EmbeddedDataCabinet(FabricBlockSettings.copyOf(Blocks.STONE).notSolid().nonOpaque()));
+    public static final Block EMBEDDED_DATA_CABINET2 = registerBlock("embedded_data_cabinet2",new EmbeddedDataCabinet(FabricBlockSettings.copyOf(Blocks.STONE).notSolid().nonOpaque()));
+    public static final Block EXPLOSION_PROOF_GARBAGE_BIN = registerBlock("explosion_proof_garbage_bin",new ExplosionProofGarbageBin(FabricBlockSettings.copyOf(Blocks.STONE).notSolid().nonOpaque()));
+    public static final Block LIFE_CYCLE_MODULE_CONTROL_CONSOLE = registerBlock("life_cycle_module_control_console",new LifeCycleModuleControlConsole(FabricBlockSettings.copyOf(Blocks.STONE).notSolid().nonOpaque()));
 
     private static Block registerBlock(String name,Block block){
         registerBlockItem(name,block);

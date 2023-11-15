@@ -64,8 +64,22 @@
   "block.arknights_furniture.square_bedside_cabinet":"Square Bedside Cabinet",
   "block.arknights_furniture.thick_leaved_potted_plant":"Thick Leaved Potted Plant",
 
+  "block.arknights_furniture.cabin_ceiling_components":"Cabin Ceiling Components",
+  "block.arknights_furniture.cabin_combination_double_bed":"Cabin Combination Double Bed",
+  "block.arknights_furniture.cabin_fire_extinguisher_set":"Cabin Fire Extinguisher Set",
+  "block.arknights_furniture.cabin_note_board":"Cabin Note Board",
+  "block.arknights_furniture.combination_roller_backrest":"Combination Roller Backrest",
+  "block.arknights_furniture.combination_workbench_left":"Combination Workbench Left",
+  "block.arknights_furniture.combination_workbench_right":"Combination Workbench Right",
+  "block.arknights_furniture.control_display":"Control Display",
+  "block.arknights_furniture.embedded_data_cabinet1":"Embedded Data Cabinet1",
+  "block.arknights_furniture.embedded_data_cabinet2":"Embedded Data Cabinet2",
+  "block.arknights_furniture.explosion_proof_garbage_bin":"Explosion Proof Garbage Bin",
+  "block.arknights_furniture.life_cycle_module_control_console":"Life Cycle Module Control Console",
+
   "itemgroup.logo": "LOGO Group",
   "itemgroup.freight_warehouse": "Freight Warehouse",
   "itemgroup.edge_solid_orange_simple_home": "Edge-Solid/Orange Simple Home",
-  "itemgroup.illusionary_biography": "Illusionary Biography"
+  "itemgroup.illusionary_biography": "Illusionary Biography",
+  "itemgroup.life_cycle_module_12": "Life Cycle Module 12"
 }

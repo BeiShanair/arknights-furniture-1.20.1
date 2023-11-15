@@ -88,6 +88,23 @@ public class ModItemGroups {
                         entries.add(ModBlocks.SQUARE_BEDSIDE_CABINET);
                         entries.add(ModBlocks.THICK_LEAVED_POTTED_PLANT);
                     }).build());
+    public static final ItemGroup LIFE_CYCLE_MODULE_12 = Registry.register(Registries.ITEM_GROUP,
+            new Identifier(ArknightsFurniture.MOD_ID,"life_cycle_module_12"),
+            FabricItemGroup.builder().displayName(Text.translatable("itemgroup.life_cycle_module_12"))
+                    .icon(() -> new ItemStack(ModBlocks.LIFE_CYCLE_MODULE_CONTROL_CONSOLE)).entries((displayContext, entries) -> {
+                        entries.add(ModBlocks.CABIN_CEILING_COMPONENTS);
+                        entries.add(ModBlocks.CABIN_COMBINATION_DOUBLE_BED);
+                        entries.add(ModBlocks.CABIN_FIRE_EXTINGUISHER_SET);
+                        entries.add(ModBlocks.CABIN_NOTE_BOARD);
+                        entries.add(ModBlocks.COMBINATION_ROLLER_BACKREST);
+                        entries.add(ModBlocks.COMBINATION_WORKBENCH_LEFT);
+                        entries.add(ModBlocks.COMBINATION_WORKBENCH_RIGHT);
+                        entries.add(ModBlocks.CONTROL_DISPLAY);
+                        entries.add(ModBlocks.EMBEDDED_DATA_CABINET1);
+                        entries.add(ModBlocks.EMBEDDED_DATA_CABINET2);
+                        entries.add(ModBlocks.EXPLOSION_PROOF_GARBAGE_BIN);
+                        entries.add(ModBlocks.LIFE_CYCLE_MODULE_CONTROL_CONSOLE);
+                    }).build());
     public static void registerItemGroup(){
         ArknightsFurniture.LOGGER.info("Registering Item Groups for" + ArknightsFurniture.MOD_ID);
     }
