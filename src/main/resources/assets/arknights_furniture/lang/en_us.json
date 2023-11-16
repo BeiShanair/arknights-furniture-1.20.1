@@ -77,9 +77,31 @@
   "block.arknights_furniture.explosion_proof_garbage_bin":"Explosion Proof Garbage Bin",
   "block.arknights_furniture.life_cycle_module_control_console":"Life Cycle Module Control Console",
 
+  "block.arknights_furniture.bar_counter_ceiling":"Bar Counter Ceiling",
+  "block.arknights_furniture.beverage_display_rack_coffee1":"Beverage Display Rack Coffee1",
+  "block.arknights_furniture.beverage_display_rack_coffee2":"Beverage Display Rack Coffee2",
+  "block.arknights_furniture.beverage_display_rack_dc":"Beverage Display Rack Dc",
+  "block.arknights_furniture.beverage_display_rack_drink":"Beverage Display Rack Drink",
+  "block.arknights_furniture.beverage_display_rack_empty":"Beverage Display Rack Empty",
+  "block.arknights_furniture.beverage_price_list":"Beverage Price List",
+  "block.arknights_furniture.bolivar_coffee_beans":"Bolivar Coffee Beans",
+  "block.arknights_furniture.brown_leap_grid_bookcase1":"Brown Leap Grid Bookcase1",
+  "block.arknights_furniture.brown_leap_grid_bookcase2":"Brown Leap Grid Bookcase2",
+  "block.arknights_furniture.brown_leap_grid_bookcase3":"Brown Leap Grid Bookcase3",
+  "block.arknights_furniture.columbia_street_view":"Columbia Street View",
+  "block.arknights_furniture.curved_bottom_high_foot_coffee_chair":"Curved Bottom High Foot Coffee Chair",
+  "block.arknights_furniture.long_leaved_potted_plant":"Long Leaved Potted Plant",
+  "block.arknights_furniture.one_legged_coffee_table":"One Legged Coffee Table",
+  "block.arknights_furniture.paired_coffee_chairs":"Paired Coffee Chairs",
+  "block.arknights_furniture.red_brick_cafe_bar_default":"Red Brick Cafe Bar",
+  "block.arknights_furniture.red_brick_storage_cabinet":"Red Brick StorageCabinet",
+  "block.arknights_furniture.soft_ceiling_light":"Soft Ceiling Light",
+  "block.arknights_furniture.suspended_ceiling_light":"Suspended Ceiling Light",
+
   "itemgroup.logo": "LOGO Group",
   "itemgroup.freight_warehouse": "Freight Warehouse",
   "itemgroup.edge_solid_orange_simple_home": "Edge-Solid/Orange Simple Home",
   "itemgroup.illusionary_biography": "Illusionary Biography",
-  "itemgroup.life_cycle_module_12": "Life Cycle Module 12"
+  "itemgroup.life_cycle_module_12": "Life Cycle Module 12",
+  "itemgroup.columbia_cafe": "Columbia Cafe"
 }

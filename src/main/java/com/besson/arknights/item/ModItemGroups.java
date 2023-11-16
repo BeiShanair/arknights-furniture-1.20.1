@@ -105,6 +105,31 @@ public class ModItemGroups {
                         entries.add(ModBlocks.EXPLOSION_PROOF_GARBAGE_BIN);
                         entries.add(ModBlocks.LIFE_CYCLE_MODULE_CONTROL_CONSOLE);
                     }).build());
+    public static final ItemGroup COLUMBIA_CAFE = Registry.register(Registries.ITEM_GROUP,
+            new Identifier(ArknightsFurniture.MOD_ID,"columbia_cafe"),
+            FabricItemGroup.builder().displayName(Text.translatable("itemgroup.columbia_cafe"))
+                    .icon(() -> new ItemStack(ModBlocks.BEVERAGE_DISPLAY_RACK_COFFEE1)).entries((displayContext, entries) -> {
+                        entries.add(ModBlocks.BAR_COUNTER_CEILING);
+                        entries.add(ModBlocks.BEVERAGE_DISPLAY_RACK_COFFEE1);
+                        entries.add(ModBlocks.BEVERAGE_DISPLAY_RACK_COFFEE2);
+                        entries.add(ModBlocks.BEVERAGE_DISPLAY_RACK_DC);
+                        entries.add(ModBlocks.BEVERAGE_DISPLAY_RACK_DRINK);
+                        entries.add(ModBlocks.BEVERAGE_DISPLAY_RACK_EMPTY);
+                        entries.add(ModBlocks.BEVERAGE_PRICE_LIST);
+                        entries.add(ModBlocks.BOLIVAR_COFFEE_BEANS);
+                        entries.add(ModBlocks.BROWN_LEAP_GRID_BOOKCASE1);
+                        entries.add(ModBlocks.BROWN_LEAP_GRID_BOOKCASE2);
+                        entries.add(ModBlocks.BROWN_LEAP_GRID_BOOKCASE3);
+                        entries.add(ModBlocks.COLUMBIA_STREET_VIEW);
+                        entries.add(ModBlocks.CURVED_BOTTOM_HIGH_FOOT_COFFEE_CHAIR);
+                        entries.add(ModBlocks.LONG_LEAVED_POTTED_PLANT);
+                        entries.add(ModBlocks.ONE_LEGGED_COFFEE_TABLE);
+                        entries.add(ModBlocks.PAIRED_COFFEE_CHAIRS);
+                        entries.add(ModBlocks.RED_BRICK_CAFE_BAR_DEFAULT);
+                        entries.add(ModBlocks.RED_BRICK_STORAGE_CABINET);
+                        entries.add(ModBlocks.SOFT_CEILING_LIGHT);
+                        entries.add(ModBlocks.SUSPENDED_CEILING_LIGHT);
+                    }).build());
     public static void registerItemGroup(){
         ArknightsFurniture.LOGGER.info("Registering Item Groups for" + ArknightsFurniture.MOD_ID);
     }

@@ -1,6 +1,7 @@
 package com.besson.arknights.block;
 
 import com.besson.arknights.ArknightsFurniture;
+import com.besson.arknights.block.ColumbiaCafe.*;
 import com.besson.arknights.block.EdgeSolid_OrangeSimpleHome.*;
 import com.besson.arknights.block.FreightWarehouse.*;
 import com.besson.arknights.block.IllusionaryBiography.*;
@@ -84,7 +85,29 @@ public class ModBlocks {
     public static final Block EMBEDDED_DATA_CABINET2 = registerBlock("embedded_data_cabinet2",new EmbeddedDataCabinet(FabricBlockSettings.copyOf(Blocks.STONE).notSolid().nonOpaque()));
     public static final Block EXPLOSION_PROOF_GARBAGE_BIN = registerBlock("explosion_proof_garbage_bin",new ExplosionProofGarbageBin(FabricBlockSettings.copyOf(Blocks.STONE).notSolid().nonOpaque()));
     public static final Block LIFE_CYCLE_MODULE_CONTROL_CONSOLE = registerBlock("life_cycle_module_control_console",new LifeCycleModuleControlConsole(FabricBlockSettings.copyOf(Blocks.STONE).notSolid().nonOpaque()));
-
+    public static final Block BAR_COUNTER_CEILING = registerBlock("bar_counter_ceiling",new BarCounterCeiling(FabricBlockSettings.copyOf(Blocks.STONE).notSolid().nonOpaque()));
+    public static final Block BEVERAGE_DISPLAY_RACK_COFFEE1 = registerBlock("beverage_display_rack_coffee1",new BeverageDisplayRack(FabricBlockSettings.copyOf(Blocks.STONE).notSolid().nonOpaque()));
+    public static final Block BEVERAGE_DISPLAY_RACK_COFFEE2 = registerBlock("beverage_display_rack_coffee2",new BeverageDisplayRack(FabricBlockSettings.copyOf(Blocks.STONE).notSolid().nonOpaque()));
+    public static final Block BEVERAGE_DISPLAY_RACK_DC = registerBlock("beverage_display_rack_dc",new BeverageDisplayRack(FabricBlockSettings.copyOf(Blocks.STONE).notSolid().nonOpaque()));
+    public static final Block BEVERAGE_DISPLAY_RACK_DRINK = registerBlock("beverage_display_rack_drink",new BeverageDisplayRack(FabricBlockSettings.copyOf(Blocks.STONE).notSolid().nonOpaque()));
+    public static final Block BEVERAGE_DISPLAY_RACK_EMPTY = registerBlock("beverage_display_rack_empty",new BeverageDisplayRack(FabricBlockSettings.copyOf(Blocks.STONE).notSolid().nonOpaque()));
+    public static final Block BEVERAGE_PRICE_LIST = registerBlock("beverage_price_list",new BeveragePriceList(FabricBlockSettings.copyOf(Blocks.STONE).notSolid().nonOpaque()));
+    public static final Block BOLIVAR_COFFEE_BEANS = registerBlock("bolivar_coffee_beans",new BolivarCoffeeBeans(FabricBlockSettings.copyOf(Blocks.STONE).notSolid().nonOpaque()));
+    public static final Block BROWN_LEAP_GRID_BOOKCASE1 = registerBlock("brown_leap_grid_bookcase1",new BrownLeapGridBookcase(FabricBlockSettings.copyOf(Blocks.STONE).notSolid().nonOpaque()));
+    public static final Block BROWN_LEAP_GRID_BOOKCASE2 = registerBlock("brown_leap_grid_bookcase2",new BrownLeapGridBookcase(FabricBlockSettings.copyOf(Blocks.STONE).notSolid().nonOpaque()));
+    public static final Block BROWN_LEAP_GRID_BOOKCASE3 = registerBlock("brown_leap_grid_bookcase3",new BrownLeapGridBookcase(FabricBlockSettings.copyOf(Blocks.STONE).notSolid().nonOpaque()));
+    public static final Block COLUMBIA_STREET_VIEW = registerBlock("columbia_street_view",new ColumbiaStreetView(FabricBlockSettings.copyOf(Blocks.STONE).notSolid().nonOpaque()));
+    public static final Block CURVED_BOTTOM_HIGH_FOOT_COFFEE_CHAIR = registerBlock("curved_bottom_high_foot_coffee_chair",new CurvedBottomHighFootCoffeeChair(FabricBlockSettings.copyOf(Blocks.STONE).notSolid().nonOpaque()));
+    public static final Block LONG_LEAVED_POTTED_PLANT = registerBlock("long_leaved_potted_plant",new LongLeavedPottedPlant(FabricBlockSettings.copyOf(Blocks.STONE).notSolid().nonOpaque()));
+    public static final Block ONE_LEGGED_COFFEE_TABLE = registerBlock("one_legged_coffee_table",new OneLeggedCoffeeTable(FabricBlockSettings.copyOf(Blocks.STONE).notSolid().nonOpaque()));
+    public static final Block PAIRED_COFFEE_CHAIRS = registerBlock("paired_coffee_chairs",new PairedCoffeeChairs(FabricBlockSettings.copyOf(Blocks.STONE).notSolid().nonOpaque()));
+    public static final Block RED_BRICK_CAFE_BAR_DEFAULT = registerBlock("red_brick_cafe_bar_default",new RedBrickCafeBar(FabricBlockSettings.copyOf(Blocks.STONE).notSolid().nonOpaque()));
+    public static final Block RED_BRICK_CAFE_BAR_LEFT = registerBlock("red_brick_cafe_bar_left",new RedBrickCafeBar(FabricBlockSettings.copyOf(Blocks.STONE).notSolid().nonOpaque()));
+    public static final Block RED_BRICK_CAFE_BAR_MIDDLE = registerBlock("red_brick_cafe_bar_middle",new RedBrickCafeBar(FabricBlockSettings.copyOf(Blocks.STONE).notSolid().nonOpaque()));
+    public static final Block RED_BRICK_CAFE_BAR_RIGHT = registerBlock("red_brick_cafe_bar_right",new RedBrickCafeBar(FabricBlockSettings.copyOf(Blocks.STONE).notSolid().nonOpaque()));
+    public static final Block RED_BRICK_STORAGE_CABINET = registerBlock("red_brick_storage_cabinet",new RedBrickStorageCabinet(FabricBlockSettings.copyOf(Blocks.STONE).notSolid().nonOpaque()));
+    public static final Block SOFT_CEILING_LIGHT = registerBlock("soft_ceiling_light",new SoftCeilingLight(FabricBlockSettings.copyOf(Blocks.STONE).notSolid().nonOpaque()));
+    public static final Block SUSPENDED_CEILING_LIGHT = registerBlock("suspended_ceiling_light",new SuspendedCeilingLight(FabricBlockSettings.copyOf(Blocks.STONE).notSolid().nonOpaque()));
     private static Block registerBlock(String name,Block block){
         registerBlockItem(name,block);
         return Registry.register(Registries.BLOCK,new Identifier(ArknightsFurniture.MOD_ID,name),block);
