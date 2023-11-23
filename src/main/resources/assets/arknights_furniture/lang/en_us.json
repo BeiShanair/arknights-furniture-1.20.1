@@ -98,10 +98,22 @@
   "block.arknights_furniture.soft_ceiling_light":"Soft Ceiling Light",
   "block.arknights_furniture.suspended_ceiling_light":"Suspended Ceiling Light",
 
+  "block.arknights_furniture.black_one_legged_table":"Black One Legged Table",
+  "block.arknights_furniture.black_retro_stool":"Black Retro Stool",
+  "block.arknights_furniture.black_simple_low_sofa":"Black Simple Low Sofa",
+  "block.arknights_furniture.black_vintage_chair":"Black Vintage Chair",
+  "block.arknights_furniture.bright_hanging_lamp":"Bright Hanging Lamp",
+  "block.arknights_furniture.duplex_wooden_wall_railing":"Duplex Wooden Wall Railing",
+  "block.arknights_furniture.sandalwood_bed":"Sandalwood Bed",
+  "block.arknights_furniture.sandalwood_bedside_cabinet":"Sandalwood Bedside Cabinet",
+  "block.arknights_furniture.sandalwood_low_foot_conference_table":"Sandalwood Low Foot Conference Table",
+  "block.arknights_furniture.sandalwood_meeting_board":"Sandalwood Meeting Board",
+
   "itemgroup.logo": "LOGO Group",
   "itemgroup.freight_warehouse": "Freight Warehouse",
   "itemgroup.edge_solid_orange_simple_home": "Edge-Solid/Orange Simple Home",
   "itemgroup.illusionary_biography": "Illusionary Biography",
   "itemgroup.life_cycle_module_12": "Life Cycle Module 12",
-  "itemgroup.columbia_cafe": "Columbia Cafe"
+  "itemgroup.columbia_cafe": "Columbia Cafe",
+  "itemgroup.security_bureau_lounge": "Security Bureau Lounge"
 }

@@ -1,4 +1,4 @@
-package com.besson.arknights.block.IllusionaryBiography;
+package com.besson.arknights.block.SecurityBureauLounge;
 
 import com.besson.arknights.block.FurnitureHorizontalFacingBlock;
 import com.besson.arknights.entity.SeatEntity;
@@ -14,12 +14,12 @@ import net.minecraft.util.shape.VoxelShape;
 import net.minecraft.world.BlockView;
 import net.minecraft.world.World;
 
-public class BrownLazySofa extends FurnitureHorizontalFacingBlock {
-    public BrownLazySofa(Settings settings) {
+public class BlackSimpleLowSofa extends FurnitureHorizontalFacingBlock {
+    public BlackSimpleLowSofa(Settings settings) {
         super(settings);
     }
 
-    private static final VoxelShape SHAPE = Block.createCuboidShape(-2, 0, -2, 18, 13, 18);
+    private static final VoxelShape SHAPE = Block.createCuboidShape(0, 0, 0, 16, 14, 16);
 
     @Override
     public VoxelShape getOutlineShape(BlockState state, BlockView world, BlockPos pos, ShapeContext context) {
@@ -28,7 +28,7 @@ public class BrownLazySofa extends FurnitureHorizontalFacingBlock {
     @Override
     public ActionResult onUse(BlockState state, World world, BlockPos pos, PlayerEntity player, Hand hand, BlockHitResult hit) {
         if (!world.isClient){
-            return SeatEntity.create(world,pos,0.25,player,state.get(FACING));
+            return SeatEntity.create(world,pos,0.2,player,state.get(FACING));
         }
         return ActionResult.SUCCESS;
     }
