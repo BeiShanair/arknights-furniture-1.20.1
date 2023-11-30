@@ -116,6 +116,12 @@ public class ModBlocks {
     public static final Block SANDALWOOD_BEDSIDE_CABINET = registerBlock("sandalwood_bedside_cabinet",new SandalwoodBedsideCabinet(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
     public static final Block SANDALWOOD_LOW_FOOT_CONFERENCE_TABLE = registerBlock("sandalwood_low_foot_conference_table",new SandalwoodLowFootConferenceTable(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
     public static final Block SANDALWOOD_MEETING_BOARD = registerBlock("sandalwood_meeting_board",new SandalwoodMeetingBoard(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+    public static final Block DUPLEX_COPPER_WALL_RAILING = registerBlock("duplex_copper_wall_railing",new DuplexWoodenWallRailing(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+    public static final Block GRAY_SIMPLE_LOW_SOFA = registerBlock("gray_simple_low_sofa",new BlackSimpleLowSofa(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+    public static final Block TEAK_BED = registerBlock("teak_bed",new SandalwoodBed(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+    public static final Block TEAK_BEDSIDE_CABINET = registerBlock("teak_bedside_cabinet",new SandalwoodBedsideCabinet(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+    public static final Block TEAK_LOW_FOOT_CONFERENCE_TABLE = registerBlock("teak_low_foot_conference_table",new SandalwoodLowFootConferenceTable(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+    public static final Block WHITE_ONE_LEGGED_TABLE = registerBlock("white_one_legged_table",new BlackOneLeggedTable(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
     private static Block registerBlock(String name,Block block){
         registerBlockItem(name,block);
         return Registry.register(Registries.BLOCK,new Identifier(ArknightsFurniture.MOD_ID,name),block);

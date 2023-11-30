@@ -1,0 +1,19 @@
+{
+    "variants": {
+        "facing=east": {
+            "model": "arknights_furniture:block/gray_simple_low_sofa",
+            "y": 90
+        },
+        "facing=north": {
+            "model": "arknights_furniture:block/gray_simple_low_sofa"
+        },
+        "facing=south": {
+            "model": "arknights_furniture:block/gray_simple_low_sofa",
+            "y": 180
+        },
+        "facing=west": {
+            "model": "arknights_furniture:block/gray_simple_low_sofa",
+            "y": 270
+        }
+    }
+}

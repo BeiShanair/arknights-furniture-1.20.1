@@ -130,7 +130,7 @@ public class ModItemGroups {
                         entries.add(ModBlocks.SOFT_CEILING_LIGHT);
                         entries.add(ModBlocks.SUSPENDED_CEILING_LIGHT);
                     }).build());
-    public static final ItemGroup SECURITY_BUREAU_LOUNGE = Registry.register(Registries.ITEM_GROUP,
+    public static final ItemGroup SECURITY_BUREAU_LOUNGE_SIMULATED_GANTRY_STYLE_LOUNGE = Registry.register(Registries.ITEM_GROUP,
             new Identifier(ArknightsFurniture.MOD_ID,"security_bureau_lounge"),
             FabricItemGroup.builder().displayName(Text.translatable("itemgroup.security_bureau_lounge"))
                     .icon(() -> new ItemStack(ModBlocks.BLACK_RETRO_STOOL)).entries((displayContext, entries) -> {
@@ -144,7 +144,19 @@ public class ModItemGroups {
                         entries.add(ModBlocks.SANDALWOOD_BEDSIDE_CABINET);
                         entries.add(ModBlocks.SANDALWOOD_LOW_FOOT_CONFERENCE_TABLE);
                         entries.add(ModBlocks.SANDALWOOD_MEETING_BOARD);
+                        entries.add(ModBlocks.DUPLEX_COPPER_WALL_RAILING);
+                        entries.add(ModBlocks.GRAY_SIMPLE_LOW_SOFA);
+                        entries.add(ModBlocks.TEAK_BED);
+                        entries.add(ModBlocks.TEAK_BEDSIDE_CABINET);
+                        entries.add(ModBlocks.TEAK_LOW_FOOT_CONFERENCE_TABLE);
+                        entries.add(ModBlocks.WHITE_ONE_LEGGED_TABLE);
                     }).build());
+    //public static final ItemGroup  = Registry.register(Registries.ITEM_GROUP,
+    //        new Identifier(ArknightsFurniture.MOD_ID,""),
+    //        FabricItemGroup.builder().displayName(Text.translatable("itemgroup."))
+    //                .icon(() -> new ItemStack(ModBlocks.)).entries((displayContext, entries) -> {
+    //                    entries.add(ModBlocks.);
+    //                }).build());
     public static void registerItemGroup(){
         ArknightsFurniture.LOGGER.info("Registering Item Groups for" + ArknightsFurniture.MOD_ID);
     }

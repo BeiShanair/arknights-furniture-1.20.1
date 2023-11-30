@@ -109,11 +109,18 @@
   "block.arknights_furniture.sandalwood_low_foot_conference_table":"Sandalwood Low Foot Conference Table",
   "block.arknights_furniture.sandalwood_meeting_board":"Sandalwood Meeting Board",
 
+  "block.arknights_furniture.duplex_copper_wall_railing":"Duplex Copper Wall Railing",
+  "block.arknights_furniture.gray_simple_low_sofa":"Gray Simple Low Sofa",
+  "block.arknights_furniture.teak_bed":"Teak Bed",
+  "block.arknights_furniture.teak_bedside_cabinet":"Teak Bedside Cabinet",
+  "block.arknights_furniture.teak_low_foot_conference_table":"Teak LowFoot Conference Table",
+  "block.arknights_furniture.white_one_legged_table":"White One Legged Table",
+
   "itemgroup.logo": "LOGO Group",
   "itemgroup.freight_warehouse": "Freight Warehouse",
   "itemgroup.edge_solid_orange_simple_home": "Edge-Solid/Orange Simple Home",
   "itemgroup.illusionary_biography": "Illusionary Biography",
   "itemgroup.life_cycle_module_12": "Life Cycle Module 12",
   "itemgroup.columbia_cafe": "Columbia Cafe",
-  "itemgroup.security_bureau_lounge": "Security Bureau Lounge"
+  "itemgroup.security_bureau_lounge": "Security Bureau Lounge/Simulated Gantry Style Lounge"
 }
