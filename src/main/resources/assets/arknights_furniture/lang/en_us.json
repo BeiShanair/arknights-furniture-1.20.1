@@ -116,11 +116,27 @@
   "block.arknights_furniture.teak_low_foot_conference_table":"Teak LowFoot Conference Table",
   "block.arknights_furniture.white_one_legged_table":"White One Legged Table",
 
+  "block.arknights_furniture.cushion_rocking_chair":"Cushion Rocking Chair",
+  "block.arknights_furniture.hand_woven_firewood_basket":"Hand Woven Firewood Basket",
+  "block.arknights_furniture.log_backchair":"Log Backchair",
+  "block.arknights_furniture.log_beam":"Log Beam",
+  "block.arknights_furniture.log_dining_table":"Log Dining Table",
+  "block.arknights_furniture.log_storage_cabinet_down":"Log Storage Cabinet Down",
+  "block.arknights_furniture.log_storage_cabinet_up1":"Log Storage Cabinet Up1",
+  "block.arknights_furniture.log_storage_cabinet_up2":"Log StorageCabinet Up2",
+  "block.arknights_furniture.retro_ceiling_fan":"Retro Ceiling Fan",
+  "block.arknights_furniture.spruce_violin":"Spruce Violin",
+  "block.arknights_furniture.the_body_of_a_living_creature":"The Body Of A Living Creature",
+  "block.arknights_furniture.vintage_chandelier":"Vintage Chandelier",
+  "block.arknights_furniture.wooden_sofa_elevated_bed_down":"Wooden Sofa Elevated Bed Down",
+  "block.arknights_furniture.wooden_sofa_elevated_bed_up":"Wooden Sofa Elevated Bed Up",
+
   "itemgroup.logo": "LOGO Group",
   "itemgroup.freight_warehouse": "Freight Warehouse",
   "itemgroup.edge_solid_orange_simple_home": "Edge-Solid/Orange Simple Home",
   "itemgroup.illusionary_biography": "Illusionary Biography",
   "itemgroup.life_cycle_module_12": "Life Cycle Module 12",
   "itemgroup.columbia_cafe": "Columbia Cafe",
-  "itemgroup.security_bureau_lounge": "Security Bureau Lounge/Simulated Gantry Style Lounge"
+  "itemgroup.security_bureau_lounge": "Security Bureau Lounge/Simulated Gantry Style Lounge",
+  "itemgroup.sami_country_villa": "Sami Country Villa"
 }

@@ -151,6 +151,25 @@ public class ModItemGroups {
                         entries.add(ModBlocks.TEAK_LOW_FOOT_CONFERENCE_TABLE);
                         entries.add(ModBlocks.WHITE_ONE_LEGGED_TABLE);
                     }).build());
+    public static final ItemGroup SAMI_COUNTRY_VILLA = Registry.register(Registries.ITEM_GROUP,
+            new Identifier(ArknightsFurniture.MOD_ID,"sami_country_villa"),
+            FabricItemGroup.builder().displayName(Text.translatable("itemgroup.sami_country_villa"))
+                    .icon(() -> new ItemStack(ModBlocks.THE_BODY_OF_A_LIVING_CREATURE)).entries((displayContext, entries) -> {
+                        entries.add(ModBlocks.CUSHION_ROCKING_CHAIR);
+                        entries.add(ModBlocks.HAND_WOVEN_FIREWOOD_BASKET);
+                        entries.add(ModBlocks.LOG_BACKCHAIR);
+                        entries.add(ModBlocks.LOG_BEAM);
+                        entries.add(ModBlocks.LOG_DINING_TABLE);
+                        entries.add(ModBlocks.LOG_STORAGE_CABINET_DOWN);
+                        entries.add(ModBlocks.LOG_STORAGE_CABINET_UP1);
+                        entries.add(ModBlocks.LOG_STORAGE_CABINET_UP2);
+                        entries.add(ModBlocks.RETRO_CEILING_FAN);
+                        entries.add(ModBlocks.SPRUCE_VIOLIN);
+                        entries.add(ModBlocks.THE_BODY_OF_A_LIVING_CREATURE);
+                        entries.add(ModBlocks.WOODEN_SOFA_ELEVATED_BED_DOWN);
+                        entries.add(ModBlocks.WOODEN_SOFA_ELEVATED_BED_UP);
+                        entries.add(ModBlocks.VINTAGE_CHANDELIER);
+                    }).build());
     //public static final ItemGroup  = Registry.register(Registries.ITEM_GROUP,
     //        new Identifier(ArknightsFurniture.MOD_ID,""),
     //        FabricItemGroup.builder().displayName(Text.translatable("itemgroup."))

@@ -6,6 +6,7 @@ import com.besson.arknights.block.EdgeSolid_OrangeSimpleHome.*;
 import com.besson.arknights.block.FreightWarehouse.*;
 import com.besson.arknights.block.IllusionaryBiography.*;
 import com.besson.arknights.block.LifeCycleModule12.*;
+import com.besson.arknights.block.SamiCountryVilla.*;
 import com.besson.arknights.block.SecurityBureauLounge.*;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.fabricmc.fabric.api.object.builder.v1.block.FabricBlockSettings;
@@ -122,6 +123,20 @@ public class ModBlocks {
     public static final Block TEAK_BEDSIDE_CABINET = registerBlock("teak_bedside_cabinet",new SandalwoodBedsideCabinet(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
     public static final Block TEAK_LOW_FOOT_CONFERENCE_TABLE = registerBlock("teak_low_foot_conference_table",new SandalwoodLowFootConferenceTable(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
     public static final Block WHITE_ONE_LEGGED_TABLE = registerBlock("white_one_legged_table",new BlackOneLeggedTable(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+    public static final Block CUSHION_ROCKING_CHAIR = registerBlock("cushion_rocking_chair",new CushionRockingChair(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+    public static final Block HAND_WOVEN_FIREWOOD_BASKET = registerBlock("hand_woven_firewood_basket",new HandWovenFirewoodBasket(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+    public static final Block LOG_BACKCHAIR = registerBlock("log_backchair",new LogBackchair(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+    public static final Block LOG_BEAM = registerBlock("log_beam",new LogBeam(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+    public static final Block LOG_DINING_TABLE = registerBlock("log_dining_table",new LogDiningTable(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+    public static final Block LOG_STORAGE_CABINET_DOWN = registerBlock("log_storage_cabinet_down",new LogStorageCabinetDown(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+    public static final Block LOG_STORAGE_CABINET_UP1 = registerBlock("log_storage_cabinet_up1",new LogStorageCabinetUp(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+    public static final Block LOG_STORAGE_CABINET_UP2 = registerBlock("log_storage_cabinet_up2",new LogStorageCabinetUp(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+    public static final Block RETRO_CEILING_FAN = registerBlock("retro_ceiling_fan",new RetroCeilingFan(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+    public static final Block SPRUCE_VIOLIN = registerBlock("spruce_violin",new SpruceViolin(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+    public static final Block THE_BODY_OF_A_LIVING_CREATURE = registerBlock("the_body_of_a_living_creature",new TheBodyOfaLivingCreature(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+    public static final Block VINTAGE_CHANDELIER = registerBlock("vintage_chandelier",new VintageChandelier(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+    public static final Block WOODEN_SOFA_ELEVATED_BED_DOWN = registerBlock("wooden_sofa_elevated_bed_down",new WoodenSofaElevatedBed(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+    public static final Block WOODEN_SOFA_ELEVATED_BED_UP = registerBlock("wooden_sofa_elevated_bed_up",new WoodenSofaElevatedBed(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
     private static Block registerBlock(String name,Block block){
         registerBlockItem(name,block);
         return Registry.register(Registries.BLOCK,new Identifier(ArknightsFurniture.MOD_ID,name),block);

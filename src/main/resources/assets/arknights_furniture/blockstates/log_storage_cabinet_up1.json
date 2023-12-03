@@ -1,0 +1,19 @@
+{
+    "variants": {
+        "facing=east": {
+            "model": "arknights_furniture:block/log_storage_cabinet_up1",
+            "y": 90
+        },
+        "facing=north": {
+            "model": "arknights_furniture:block/log_storage_cabinet_up1"
+        },
+        "facing=south": {
+            "model": "arknights_furniture:block/log_storage_cabinet_up1",
+            "y": 180
+        },
+        "facing=west": {
+            "model": "arknights_furniture:block/log_storage_cabinet_up1",
+            "y": 270
+        }
+    }
+}
