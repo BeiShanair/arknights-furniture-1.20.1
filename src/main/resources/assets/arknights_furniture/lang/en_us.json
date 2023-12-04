@@ -131,6 +131,22 @@
   "block.arknights_furniture.wooden_sofa_elevated_bed_down":"Wooden Sofa Elevated Bed Down",
   "block.arknights_furniture.wooden_sofa_elevated_bed_up":"Wooden Sofa Elevated Bed Up",
 
+  "block.arknights_furniture.activity_table":"Activity Table",
+  "block.arknights_furniture.backrest_single_chair":"Backrest Single Chair",
+  "block.arknights_furniture.black_cash_register":"Black Cash Register",
+  "block.arknights_furniture.bowl":"Bowl",
+  "block.arknights_furniture.dining_cabinets":"Dining Cabinets",
+  "block.arknights_furniture.dining_plate":"Dining Plate",
+  "block.arknights_furniture.dining_tray_rack":"Dining Tray Rack",
+  "block.arknights_furniture.exit_indicator_light":"Exit Indicator Light",
+  "block.arknights_furniture.floor_standing_poster_stand":"Floor Standing Poster Stand",
+  "block.arknights_furniture.high_stool":"High Stool",
+  "block.arknights_furniture.pizza_box":"Pizza Box",
+  "block.arknights_furniture.pizza_poster":"Pizza Poster",
+  "block.arknights_furniture.pizza_price_list1":"Pizza Price List1",
+  "block.arknights_furniture.pizza_price_list2":"Pizza Price List2",
+  "block.arknights_furniture.soft_light_chandeliers":"Soft Light Chandeliers",
+
   "itemgroup.logo": "LOGO Group",
   "itemgroup.freight_warehouse": "Freight Warehouse",
   "itemgroup.edge_solid_orange_simple_home": "Edge-Solid/Orange Simple Home",
@@ -138,5 +154,6 @@
   "itemgroup.life_cycle_module_12": "Life Cycle Module 12",
   "itemgroup.columbia_cafe": "Columbia Cafe",
   "itemgroup.security_bureau_lounge": "Security Bureau Lounge/Simulated Gantry Style Lounge",
-  "itemgroup.sami_country_villa": "Sami Country Villa"
+  "itemgroup.sami_country_villa": "Sami Country Villa",
+  "itemgroup.quick_chain_pizza_shops": "Quick Chain Pizza Shops"
 }

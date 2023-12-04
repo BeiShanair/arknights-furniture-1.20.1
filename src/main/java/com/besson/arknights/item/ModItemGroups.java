@@ -170,6 +170,26 @@ public class ModItemGroups {
                         entries.add(ModBlocks.WOODEN_SOFA_ELEVATED_BED_UP);
                         entries.add(ModBlocks.VINTAGE_CHANDELIER);
                     }).build());
+    public static final ItemGroup QUICK_CHAIN_PIZZA_SHOPS = Registry.register(Registries.ITEM_GROUP,
+            new Identifier(ArknightsFurniture.MOD_ID,"quick_chain_pizza_shops"),
+            FabricItemGroup.builder().displayName(Text.translatable("itemgroup.quick_chain_pizza_shops"))
+                    .icon(() -> new ItemStack(ModBlocks.FLOOR_STANDING_POSTER_STAND)).entries((displayContext, entries) -> {
+                        entries.add(ModBlocks.ACTIVITY_TABLE);
+                        entries.add(ModBlocks.BACKREST_SINGLE_CHAIR);
+                        entries.add(ModBlocks.BLACK_CASH_REGISTER);
+                        entries.add(ModBlocks.BOWL);
+                        entries.add(ModBlocks.DINING_CABINETS);
+                        entries.add(ModBlocks.DINING_PLATE);
+                        entries.add(ModBlocks.DINING_TRAY_RACK);
+                        entries.add(ModBlocks.EXIT_INDICATOR_LIGHT);
+                        entries.add(ModBlocks.FLOOR_STANDING_POSTER_STAND);
+                        entries.add(ModBlocks.HIGH_STOOL);
+                        entries.add(ModBlocks.PIZZA_BOX);
+                        entries.add(ModBlocks.PIZZA_POSTER);
+                        entries.add(ModBlocks.PIZZA_PRICE_LIST1);
+                        entries.add(ModBlocks.PIZZA_PRICE_LIST2);
+                        entries.add(ModBlocks.SOFT_LIGHT_CHANDELIERS);
+                    }).build());
     //public static final ItemGroup  = Registry.register(Registries.ITEM_GROUP,
     //        new Identifier(ArknightsFurniture.MOD_ID,""),
     //        FabricItemGroup.builder().displayName(Text.translatable("itemgroup."))
