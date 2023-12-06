@@ -190,6 +190,25 @@ public class ModItemGroups {
                         entries.add(ModBlocks.PIZZA_PRICE_LIST2);
                         entries.add(ModBlocks.SOFT_LIGHT_CHANDELIERS);
                     }).build());
+    public static final ItemGroup COLUMBIA_MODERN_HOTEL = Registry.register(Registries.ITEM_GROUP,
+            new Identifier(ArknightsFurniture.MOD_ID,""),
+            FabricItemGroup.builder().displayName(Text.translatable("itemgroup.columbia_modern_hotel"))
+                    .icon(() -> new ItemStack(ModBlocks.WILLIAM_PIANO_COMBINATION)).entries((displayContext, entries) -> {
+                        entries.add(ModBlocks.BEVERAGE_TABLE_HIGH_STOOL);
+                        entries.add(ModBlocks.BILLBOARD_JUKEBOX);
+                        entries.add(ModBlocks.BLACK_GOLD_FREEZER);
+                        entries.add(ModBlocks.HOTEL_UNIVERSAL_BAR_COUNTER);
+                        entries.add(ModBlocks.MODERN_HOTEL_CEILING);
+                        entries.add(ModBlocks.MODERN_HOTEL_FLOOR_LAMP);
+                        entries.add(ModBlocks.MODERN_HOTEL_PENDANT_LIGHT);
+                        entries.add(ModBlocks.MODERN_HOTEL_SOFA_DEFAULT);
+                        entries.add(ModBlocks.MODERN_HOTEL_TEA_TABLE);
+                        entries.add(ModBlocks.MODERN_HOTEL_WALL_LAMP);
+                        entries.add(ModBlocks.MODERN_WALL_HANGING_DECORATION);
+                        entries.add(ModBlocks.TOWER_SHAPED_BAR_COUNTER_SUSPENDED_CEILING);
+                        entries.add(ModBlocks.TOWER_SHAPED_BAR_COUNTER_SUSPENDED_CEILING2);
+                        entries.add(ModBlocks.WILLIAM_PIANO_COMBINATION);
+                    }).build());
     //public static final ItemGroup  = Registry.register(Registries.ITEM_GROUP,
     //        new Identifier(ArknightsFurniture.MOD_ID,""),
     //        FabricItemGroup.builder().displayName(Text.translatable("itemgroup."))

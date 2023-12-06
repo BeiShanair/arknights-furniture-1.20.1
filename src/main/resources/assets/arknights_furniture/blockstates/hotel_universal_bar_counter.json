@@ -1,0 +1,19 @@
+{
+    "variants": {
+        "facing=east": {
+            "model": "arknights_furniture:block/hotel_universal_bar_counter",
+            "y": 90
+        },
+        "facing=north": {
+            "model": "arknights_furniture:block/hotel_universal_bar_counter"
+        },
+        "facing=south": {
+            "model": "arknights_furniture:block/hotel_universal_bar_counter",
+            "y": 180
+        },
+        "facing=west": {
+            "model": "arknights_furniture:block/hotel_universal_bar_counter",
+            "y": 270
+        }
+    }
+}

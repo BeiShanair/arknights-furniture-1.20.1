@@ -134,7 +134,7 @@
   "block.arknights_furniture.activity_table":"Activity Table",
   "block.arknights_furniture.backrest_single_chair":"Backrest Single Chair",
   "block.arknights_furniture.black_cash_register":"Black Cash Register",
-  "block.arknights_furniture.bowl":"Bowl",
+  "block.arknights_furniture.pizza_bowl":"Bowl",
   "block.arknights_furniture.dining_cabinets":"Dining Cabinets",
   "block.arknights_furniture.dining_plate":"Dining Plate",
   "block.arknights_furniture.dining_tray_rack":"Dining Tray Rack",
@@ -147,6 +147,21 @@
   "block.arknights_furniture.pizza_price_list2":"Pizza Price List2",
   "block.arknights_furniture.soft_light_chandeliers":"Soft Light Chandeliers",
 
+  "block.arknights_furniture.beverage_table_high_stool":"Beverage Table High Stool",
+  "block.arknights_furniture.billboard_jukebox":"Billboard Jukebox",
+  "block.arknights_furniture.black_gold_freezer":"Black Gold Freezer",
+  "block.arknights_furniture.hotel_universal_bar_counter":"Hotel Universal Bar Counter",
+  "block.arknights_furniture.modern_hotel_ceiling":"Modern Hotel Ceiling",
+  "block.arknights_furniture.modern_hotel_floor_lamp":"Modern Hotel Floor Lamp",
+  "block.arknights_furniture.modern_hotel_pendant_light":"Modern Hotel Pendant Light",
+  "block.arknights_furniture.modern_hotel_sofa_default":"Modern Hotel Sofa",
+  "block.arknights_furniture.modern_hotel_tea_table":"Modern Hotel Tea Table",
+  "block.arknights_furniture.modern_hotel_wall_lamp":"Modern Hotel Wall Lamp",
+  "block.arknights_furniture.modern_wall_hanging_decoration":"Modern Wall Hanging Decoration",
+  "block.arknights_furniture.tower_shaped_bar_counter_suspended_ceiling":"Tower Shaped Bar Counter Suspended Ceiling1",
+  "block.arknights_furniture.tower_shaped_bar_counter_suspended_ceiling2":"Tower Shaped Bar Counter Suspended Ceiling2",
+  "block.arknights_furniture.william_piano_combination":"William Piano Combination",
+
   "itemgroup.logo": "LOGO Group",
   "itemgroup.freight_warehouse": "Freight Warehouse",
   "itemgroup.edge_solid_orange_simple_home": "Edge-Solid/Orange Simple Home",
@@ -155,5 +170,6 @@
   "itemgroup.columbia_cafe": "Columbia Cafe",
   "itemgroup.security_bureau_lounge": "Security Bureau Lounge/Simulated Gantry Style Lounge",
   "itemgroup.sami_country_villa": "Sami Country Villa",
-  "itemgroup.quick_chain_pizza_shops": "Quick Chain Pizza Shops"
+  "itemgroup.quick_chain_pizza_shops": "Quick Chain Pizza Shops",
+  "itemgroup.columbia_modern_hotel": "Columbia Modern Hotel"
 }

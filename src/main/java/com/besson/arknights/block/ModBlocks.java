@@ -2,6 +2,7 @@ package com.besson.arknights.block;
 
 import com.besson.arknights.ArknightsFurniture;
 import com.besson.arknights.block.ColumbiaCafe.*;
+import com.besson.arknights.block.ColumbiaModernHotel.*;
 import com.besson.arknights.block.EdgeSolid_OrangeSimpleHome.*;
 import com.besson.arknights.block.FreightWarehouse.*;
 import com.besson.arknights.block.IllusionaryBiography.*;
@@ -153,6 +154,20 @@ public class ModBlocks {
     public static final Block PIZZA_PRICE_LIST1 = registerBlock("pizza_price_list1",new PizzaPriceList(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
     public static final Block PIZZA_PRICE_LIST2 = registerBlock("pizza_price_list2",new PizzaPriceList(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
     public static final Block SOFT_LIGHT_CHANDELIERS = registerBlock("soft_light_chandeliers",new SoftLightChandeliers(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+    public static final Block BEVERAGE_TABLE_HIGH_STOOL = registerBlock("beverage_table_high_stool",new BeverageTableHighStool(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+    public static final Block BILLBOARD_JUKEBOX = registerBlock("billboard_jukebox",new BillboardJukebox(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+    public static final Block BLACK_GOLD_FREEZER = registerBlock("black_gold_freezer",new BlackGoldFreezer(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+    public static final Block HOTEL_UNIVERSAL_BAR_COUNTER = registerBlock("hotel_universal_bar_counter",new HotelUniversalBarCounter(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+    public static final Block MODERN_HOTEL_CEILING = registerBlock("modern_hotel_ceiling",new ModernHotelCeiling(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+    public static final Block MODERN_HOTEL_FLOOR_LAMP = registerBlock("modern_hotel_floor_lamp",new ModernHotelFloorLamp(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+    public static final Block MODERN_HOTEL_PENDANT_LIGHT = registerBlock("modern_hotel_pendant_light",new ModernHotelPendantLight(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+    public static final Block MODERN_HOTEL_SOFA_DEFAULT = registerBlock("modern_hotel_sofa_default",new ModernHotelSofa(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+    public static final Block MODERN_HOTEL_TEA_TABLE = registerBlock("modern_hotel_tea_table",new ModernHotelTeaTable(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+    public static final Block MODERN_HOTEL_WALL_LAMP = registerBlock("modern_hotel_wall_lamp",new ModernHotelWallLamp(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+    public static final Block MODERN_WALL_HANGING_DECORATION = registerBlock("modern_wall_hanging_decoration",new ModernWallHangingDecoration(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+    public static final Block TOWER_SHAPED_BAR_COUNTER_SUSPENDED_CEILING = registerBlock("tower_shaped_bar_counter_suspended_ceiling",new TowerShapedBarCounterSuspendedCeiling1(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+    public static final Block TOWER_SHAPED_BAR_COUNTER_SUSPENDED_CEILING2 = registerBlock("tower_shaped_bar_counter_suspended_ceiling2",new TowerShapedBarCounterSuspendedCeiling2(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+    public static final Block WILLIAM_PIANO_COMBINATION = registerBlock("william_piano_combination",new WilliamPianoCombination(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
     private static Block registerBlock(String name,Block block){
         registerBlockItem(name,block);
         return Registry.register(Registries.BLOCK,new Identifier(ArknightsFurniture.MOD_ID,name),block);
