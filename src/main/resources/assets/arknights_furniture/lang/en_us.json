@@ -162,6 +162,20 @@
   "block.arknights_furniture.tower_shaped_bar_counter_suspended_ceiling2":"Tower Shaped Bar Counter Suspended Ceiling2",
   "block.arknights_furniture.william_piano_combination":"William Piano Combination",
 
+  "block.arknights_furniture.cabin_pipeline_valves":"Cabin Pipeline Valves",
+  "block.arknights_furniture.emergency_push_bed":"Emergency Push Bed",
+  "block.arknights_furniture.multifunctional_disinfector":"Multifunctional Disinfector",
+  "block.arknights_furniture.multifunctional_engineering_shovel":"Multifunctional Engineering Shovel",
+  "block.arknights_furniture.safety_cabin_airway":"Safety Cabin Airway",
+  "block.arknights_furniture.safety_cabin_ceiling_light":"Safety Cabin Ceiling Light",
+  "block.arknights_furniture.safety_cabin_control_airway":"Safety Cabin Control Airway",
+  "block.arknights_furniture.safety_cabin_disinfection_light":"Safety Cabin Disinfection Light",
+  "block.arknights_furniture.safety_cabin_disinfection_room":"Safety Cabin Disinfection Room",
+  "block.arknights_furniture.safety_cabin_engineering_vehicle":"Safety Cabin Engineering Vehicle",
+  "block.arknights_furniture.safety_cabin_fluorescent_lamp":"Safety Cabin Fluorescent Lamp",
+  "block.arknights_furniture.safety_compartment_material_box":"Safety Compartment Material Box",
+  "block.arknights_furniture.supply_resource_tank":"Supply Resource Tank",
+
   "itemgroup.logo": "LOGO Group",
   "itemgroup.freight_warehouse": "Freight Warehouse",
   "itemgroup.edge_solid_orange_simple_home": "Edge-Solid/Orange Simple Home",
@@ -171,5 +185,6 @@
   "itemgroup.security_bureau_lounge": "Security Bureau Lounge/Simulated Gantry Style Lounge",
   "itemgroup.sami_country_villa": "Sami Country Villa",
   "itemgroup.quick_chain_pizza_shops": "Quick Chain Pizza Shops",
-  "itemgroup.columbia_modern_hotel": "Columbia Modern Hotel"
+  "itemgroup.columbia_modern_hotel": "Columbia Modern Hotel",
+  "itemgroup.airtight_chemical_safety_cabin": "Airtight Chemical Safety Cabin"
 }

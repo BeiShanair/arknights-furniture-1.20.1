@@ -1,6 +1,7 @@
 package com.besson.arknights.block;
 
 import com.besson.arknights.ArknightsFurniture;
+import com.besson.arknights.block.AirtightChemicalSafetyCabin.*;
 import com.besson.arknights.block.ColumbiaCafe.*;
 import com.besson.arknights.block.ColumbiaModernHotel.*;
 import com.besson.arknights.block.EdgeSolid_OrangeSimpleHome.*;
@@ -168,6 +169,19 @@ public class ModBlocks {
     public static final Block TOWER_SHAPED_BAR_COUNTER_SUSPENDED_CEILING = registerBlock("tower_shaped_bar_counter_suspended_ceiling",new TowerShapedBarCounterSuspendedCeiling1(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
     public static final Block TOWER_SHAPED_BAR_COUNTER_SUSPENDED_CEILING2 = registerBlock("tower_shaped_bar_counter_suspended_ceiling2",new TowerShapedBarCounterSuspendedCeiling2(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
     public static final Block WILLIAM_PIANO_COMBINATION = registerBlock("william_piano_combination",new WilliamPianoCombination(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+    public static final Block CABIN_PIPELINE_VALVES = registerBlock("cabin_pipeline_valves",new CabinPipelineValves(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+    public static final Block EMERGENCY_PUSH_BED = registerBlock("emergency_push_bed",new EmergencyPushBed(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+    public static final Block MULTIFUNCTIONAL_DISINFECTOR = registerBlock("multifunctional_disinfector",new MultifunctionalDisinfector(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+    public static final Block MULTIFUNCTIONAL_ENGINEERING_SHOVEL = registerBlock("multifunctional_engineering_shovel",new MultifunctionalEngineeringShovel(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+    public static final Block SAFETY_CABIN_AIRWAY = registerBlock("safety_cabin_airway",new SafetyCabinAirway(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+    public static final Block SAFETY_CABIN_CEILING_LIGHT = registerBlock("safety_cabin_ceiling_light",new SafetyCabinCeilingLight(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+    public static final Block SAFETY_CABIN_CONTROL_AIRWAY = registerBlock("safety_cabin_control_airway",new SafetyCabinControlAirway(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+    public static final Block SAFETY_CABIN_DISINFECTION_LIGHT = registerBlock("safety_cabin_disinfection_light",new SafetyCabinDisinfectionLight(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+    public static final Block SAFETY_CABIN_DISINFECTION_ROOM = registerBlock("safety_cabin_disinfection_room",new SafetyCabinDisinfectionRoom(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+    public static final Block SAFETY_CABIN_ENGINEERING_VEHICLE = registerBlock("safety_cabin_engineering_vehicle",new SafetyCabinEngineeringVehicle(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+    public static final Block SAFETY_CABIN_FLUORESCENT_LAMP = registerBlock("safety_cabin_fluorescent_lamp",new SafetyCabinFluorescentLamp(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+    public static final Block SAFETY_COMPARTMENT_MATERIAL_BOX = registerBlock("safety_compartment_material_box",new SafetyCompartmentMaterialBox(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+    public static final Block SUPPLY_RESOURCE_TANK = registerBlock("supply_resource_tank",new SupplyResourceTank(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
     private static Block registerBlock(String name,Block block){
         registerBlockItem(name,block);
         return Registry.register(Registries.BLOCK,new Identifier(ArknightsFurniture.MOD_ID,name),block);

@@ -191,7 +191,7 @@ public class ModItemGroups {
                         entries.add(ModBlocks.SOFT_LIGHT_CHANDELIERS);
                     }).build());
     public static final ItemGroup COLUMBIA_MODERN_HOTEL = Registry.register(Registries.ITEM_GROUP,
-            new Identifier(ArknightsFurniture.MOD_ID,""),
+            new Identifier(ArknightsFurniture.MOD_ID,"columbia_modern_hotel"),
             FabricItemGroup.builder().displayName(Text.translatable("itemgroup.columbia_modern_hotel"))
                     .icon(() -> new ItemStack(ModBlocks.WILLIAM_PIANO_COMBINATION)).entries((displayContext, entries) -> {
                         entries.add(ModBlocks.BEVERAGE_TABLE_HIGH_STOOL);
@@ -208,6 +208,25 @@ public class ModItemGroups {
                         entries.add(ModBlocks.TOWER_SHAPED_BAR_COUNTER_SUSPENDED_CEILING);
                         entries.add(ModBlocks.TOWER_SHAPED_BAR_COUNTER_SUSPENDED_CEILING2);
                         entries.add(ModBlocks.WILLIAM_PIANO_COMBINATION);
+                    }).build());
+
+    public static final ItemGroup AIRTIGHT_CHEMICAL_SAFETY_CABIN = Registry.register(Registries.ITEM_GROUP,
+            new Identifier(ArknightsFurniture.MOD_ID,"airtight_chemical_safety_cabin"),
+            FabricItemGroup.builder().displayName(Text.translatable("itemgroup.airtight_chemical_safety_cabin"))
+                    .icon(() -> new ItemStack(ModBlocks.SAFETY_CABIN_DISINFECTION_ROOM)).entries((displayContext, entries) -> {
+                        entries.add(ModBlocks.CABIN_PIPELINE_VALVES);
+                        entries.add(ModBlocks.EMERGENCY_PUSH_BED);
+                        entries.add(ModBlocks.MULTIFUNCTIONAL_DISINFECTOR);
+                        entries.add(ModBlocks.MULTIFUNCTIONAL_ENGINEERING_SHOVEL);
+                        entries.add(ModBlocks.SAFETY_CABIN_AIRWAY);
+                        entries.add(ModBlocks.SAFETY_CABIN_CEILING_LIGHT);
+                        entries.add(ModBlocks.SAFETY_CABIN_CONTROL_AIRWAY);
+                        entries.add(ModBlocks.SAFETY_CABIN_DISINFECTION_ROOM);
+                        entries.add(ModBlocks.SAFETY_CABIN_DISINFECTION_LIGHT);
+                        entries.add(ModBlocks.SAFETY_CABIN_ENGINEERING_VEHICLE);
+                        entries.add(ModBlocks.SAFETY_CABIN_FLUORESCENT_LAMP);
+                        entries.add(ModBlocks.SAFETY_COMPARTMENT_MATERIAL_BOX);
+                        entries.add(ModBlocks.SUPPLY_RESOURCE_TANK);
                     }).build());
     //public static final ItemGroup  = Registry.register(Registries.ITEM_GROUP,
     //        new Identifier(ArknightsFurniture.MOD_ID,""),
