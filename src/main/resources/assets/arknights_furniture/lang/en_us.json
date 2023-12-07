@@ -176,6 +176,22 @@
   "block.arknights_furniture.safety_compartment_material_box":"Safety Compartment Material Box",
   "block.arknights_furniture.supply_resource_tank":"Supply Resource Tank",
 
+  "block.arknights_furniture.cactus_potted_plant":"Cactus Potted Plant",
+  "block.arknights_furniture.chens_desk_default":"Chen's Desk",
+  "block.arknights_furniture.chens_honorary_certificate":"Chens Honorary Certificate",
+  "block.arknights_furniture.chens_office_chair":"Chen's Office Chair",
+  "block.arknights_furniture.chens_weapon_rack":"Chen's Weapon Rack",
+  "block.arknights_furniture.file1":"File1",
+  "block.arknights_furniture.file2":"File2",
+  "block.arknights_furniture.fluorescent_lamps_for_the_guard_bureau":"Fluorescent Lamps For TheGuard Bureau",
+  "block.arknights_furniture.general_bookcase_of_the_guard_bureau":"General Bookcase Of The Guard Bureau",
+  "block.arknights_furniture.general_garbage_bin_of_the_guard_bureau":"General Garbage Bin Of The Guard Bureau",
+  "block.arknights_furniture.guard_bureau_fluorescent_lamp":"Guard Bureau Fluorescent Lamp",
+  "block.arknights_furniture.guard_bureau_health_abdomen_plate":"Guard Bureau Health Abdomen Plate",
+  "block.arknights_furniture.office_clue_board":"Office Clue Board",
+  "block.arknights_furniture.special_upright_stakes_made_by_the_guard_bureau":"Special Upright Stakes Made By The Guard Bureau",
+  "block.arknights_furniture.spotlight_for_the_guard_bureau":"Spotlight For The Guard Bureau",
+
   "itemgroup.logo": "LOGO Group",
   "itemgroup.freight_warehouse": "Freight Warehouse",
   "itemgroup.edge_solid_orange_simple_home": "Edge-Solid/Orange Simple Home",
@@ -186,5 +202,6 @@
   "itemgroup.sami_country_villa": "Sami Country Villa",
   "itemgroup.quick_chain_pizza_shops": "Quick Chain Pizza Shops",
   "itemgroup.columbia_modern_hotel": "Columbia Modern Hotel",
-  "itemgroup.airtight_chemical_safety_cabin": "Airtight Chemical Safety Cabin"
+  "itemgroup.airtight_chemical_safety_cabin": "Airtight Chemical Safety Cabin",
+  "itemgroup.chens_office": "Chen's Office"
 }

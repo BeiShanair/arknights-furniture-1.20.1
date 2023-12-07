@@ -228,6 +228,26 @@ public class ModItemGroups {
                         entries.add(ModBlocks.SAFETY_COMPARTMENT_MATERIAL_BOX);
                         entries.add(ModBlocks.SUPPLY_RESOURCE_TANK);
                     }).build());
+    public static final ItemGroup CHENS_OFFICE = Registry.register(Registries.ITEM_GROUP,
+            new Identifier(ArknightsFurniture.MOD_ID,"chens_office"),
+            FabricItemGroup.builder().displayName(Text.translatable("itemgroup.chens_office"))
+                    .icon(() -> new ItemStack(ModBlocks.CHENS_HONORARY_CERTIFICATE)).entries((displayContext, entries) -> {
+                        entries.add(ModBlocks.CACTUS_POTTED_PLANT);
+                        entries.add(ModBlocks.CHENS_OFFICE_CHAIR);
+                        entries.add(ModBlocks.CHENS_DESK_DEFAULT);
+                        entries.add(ModBlocks.CHENS_HONORARY_CERTIFICATE);
+                        entries.add(ModBlocks.CHENS_WEAPON_RACK);
+                        entries.add(ModBlocks.FILE1);
+                        entries.add(ModBlocks.FILE2);
+                        entries.add(ModBlocks.FLUORESCENT_LAMPS_FOR_THE_GUARD_BUREAU);
+                        entries.add(ModBlocks.GENERAL_BOOKCASE_OF_THE_GUARD_BUREAU);
+                        entries.add(ModBlocks.GENERAL_GARBAGE_BIN_OF_THE_GUARD_BUREAU);
+                        entries.add(ModBlocks.GUARD_BUREAU_FLUORESCENT_LAMP);
+                        entries.add(ModBlocks.GUARD_BUREAU_HEALTH_ABDOMEN_PLATE);
+                        entries.add(ModBlocks.OFFICE_CLUE_BOARD);
+                        entries.add(ModBlocks.SPECIAL_UPRIGHT_STAKES_MADE_BY_THE_GUARD_BUREAU);
+                        entries.add(ModBlocks.SPOTLIGHT_FOR_THE_GUARD_BUREAU);
+                    }).build());
     //public static final ItemGroup  = Registry.register(Registries.ITEM_GROUP,
     //        new Identifier(ArknightsFurniture.MOD_ID,""),
     //        FabricItemGroup.builder().displayName(Text.translatable("itemgroup."))

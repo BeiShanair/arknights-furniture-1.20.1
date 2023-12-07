@@ -2,6 +2,7 @@ package com.besson.arknights.block;
 
 import com.besson.arknights.ArknightsFurniture;
 import com.besson.arknights.block.AirtightChemicalSafetyCabin.*;
+import com.besson.arknights.block.ChensOffice.*;
 import com.besson.arknights.block.ColumbiaCafe.*;
 import com.besson.arknights.block.ColumbiaModernHotel.*;
 import com.besson.arknights.block.EdgeSolid_OrangeSimpleHome.*;
@@ -182,6 +183,21 @@ public class ModBlocks {
     public static final Block SAFETY_CABIN_FLUORESCENT_LAMP = registerBlock("safety_cabin_fluorescent_lamp",new SafetyCabinFluorescentLamp(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
     public static final Block SAFETY_COMPARTMENT_MATERIAL_BOX = registerBlock("safety_compartment_material_box",new SafetyCompartmentMaterialBox(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
     public static final Block SUPPLY_RESOURCE_TANK = registerBlock("supply_resource_tank",new SupplyResourceTank(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+    public static final Block CACTUS_POTTED_PLANT = registerBlock("cactus_potted_plant",new CactusPottedPlant(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+    public static final Block CHENS_DESK_DEFAULT = registerBlock("chens_desk_default",new ChensDesk(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+    public static final Block CHENS_HONORARY_CERTIFICATE = registerBlock("chens_honorary_certificate",new ChensHonoraryCertificate(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+    public static final Block CHENS_OFFICE_CHAIR = registerBlock("chens_office_chair",new ChensOfficeChair(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+    public static final Block CHENS_WEAPON_RACK = registerBlock("chens_weapon_rack",new ChensWeaponRack(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+    public static final Block FILE1 = registerBlock("file1",new Files(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+    public static final Block FILE2 = registerBlock("file2",new Files(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+    public static final Block FLUORESCENT_LAMPS_FOR_THE_GUARD_BUREAU = registerBlock("fluorescent_lamps_for_the_guard_bureau",new FluorescentLampsForTheGuardBureau(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+    public static final Block GENERAL_BOOKCASE_OF_THE_GUARD_BUREAU = registerBlock("general_bookcase_of_the_guard_bureau",new GeneralBookcaseOfTheGuardBureau(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+    public static final Block GENERAL_GARBAGE_BIN_OF_THE_GUARD_BUREAU = registerBlock("general_garbage_bin_of_the_guard_bureau",new GeneralGarbageBinOfTheGuardBureau(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+    public static final Block GUARD_BUREAU_FLUORESCENT_LAMP = registerBlock("guard_bureau_fluorescent_lamp",new GuardBureauFluorescentLamp(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+    public static final Block GUARD_BUREAU_HEALTH_ABDOMEN_PLATE = registerBlock("guard_bureau_health_abdomen_plate",new GuardBureauHealthAbdomenPlate(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+    public static final Block OFFICE_CLUE_BOARD = registerBlock("office_clue_board",new OfficeClueBoard(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+    public static final Block SPECIAL_UPRIGHT_STAKES_MADE_BY_THE_GUARD_BUREAU = registerBlock("special_upright_stakes_made_by_the_guard_bureau",new SpecialUprightStakesMadeByTheGuardBureau(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+    public static final Block SPOTLIGHT_FOR_THE_GUARD_BUREAU = registerBlock("spotlight_for_the_guard_bureau",new SpotlightForTheGuardBureau(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
     private static Block registerBlock(String name,Block block){
         registerBlockItem(name,block);
         return Registry.register(Registries.BLOCK,new Identifier(ArknightsFurniture.MOD_ID,name),block);
