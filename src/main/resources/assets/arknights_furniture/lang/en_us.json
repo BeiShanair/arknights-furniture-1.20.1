@@ -192,6 +192,21 @@
   "block.arknights_furniture.special_upright_stakes_made_by_the_guard_bureau":"Special Upright Stakes Made By The Guard Bureau",
   "block.arknights_furniture.spotlight_for_the_guard_bureau":"Spotlight For The Guard Bureau",
 
+  "block.arknights_furniture.a_surfers_board_rack":"A Surfers Board Rack",
+  "block.arknights_furniture.beach_cottage_floor_lamp":"Beach Cottage Floor Lamp",
+  "block.arknights_furniture.blue_and_white_canvas_curtains_left":"Blue And White Canvas Curtains Left",
+  "block.arknights_furniture.blue_and_white_canvas_curtains_right":"Blue And White Canvas Curtains Right",
+  "block.arknights_furniture.lazy_double_lounge_chair_default":"Lazy Double Lounge Chair",
+  "block.arknights_furniture.lazy_high_legged_coffee_table":"Lazy High Legged Coffee Table",
+  "block.arknights_furniture.lazy_lounge_chair":"Lazy Lounge Chair",
+  "block.arknights_furniture.lazy_tea_table":"Lazy Tea Table",
+  "block.arknights_furniture.rhode_island_summer_calendar":"Rhode Island Summer Calendar",
+  "block.arknights_furniture.siesta_city_emblem_souvenir":"Siesta City Emblem Souvenir",
+  "block.arknights_furniture.summer_boat_cabinet_down":"Summer Boat Cabinet Down",
+  "block.arknights_furniture.summer_boat_cabinet_up":"Summer Boat Cabinet Up",
+  "block.arknights_furniture.summer_collection_cabinet":"Summer Collection Cabinet",
+  "block.arknights_furniture.wooden_top_beam":"Wooden Top Beam",
+
   "itemgroup.logo": "LOGO Group",
   "itemgroup.freight_warehouse": "Freight Warehouse",
   "itemgroup.edge_solid_orange_simple_home": "Edge-Solid/Orange Simple Home",
@@ -203,5 +218,6 @@
   "itemgroup.quick_chain_pizza_shops": "Quick Chain Pizza Shops",
   "itemgroup.columbia_modern_hotel": "Columbia Modern Hotel",
   "itemgroup.airtight_chemical_safety_cabin": "Airtight Chemical Safety Cabin",
-  "itemgroup.chens_office": "Chen's Office"
+  "itemgroup.chens_office": "Chen's Office",
+  "itemgroup.siesta_beach_cottage": "Siesta Beach Cottage"
 }

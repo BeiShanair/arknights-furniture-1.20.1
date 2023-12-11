@@ -248,6 +248,24 @@ public class ModItemGroups {
                         entries.add(ModBlocks.SPECIAL_UPRIGHT_STAKES_MADE_BY_THE_GUARD_BUREAU);
                         entries.add(ModBlocks.SPOTLIGHT_FOR_THE_GUARD_BUREAU);
                     }).build());
+    public static final ItemGroup SIESTA_BEACH_COTTAGE = Registry.register(Registries.ITEM_GROUP,
+            new Identifier(ArknightsFurniture.MOD_ID,"siesta_beach_cottage"),
+            FabricItemGroup.builder().displayName(Text.translatable("itemgroup.siesta_beach_cottage"))
+                    .icon(() -> new ItemStack(ModBlocks.LAZY_TEA_TABLE)).entries((displayContext, entries) -> {
+                        entries.add(ModBlocks.A_SURFERS_BOARD_RACK);
+                        entries.add(ModBlocks.BEACH_COTTAGE_FLOOR_LAMP);
+                        entries.add(ModBlocks.BLUE_AND_WHITE_CANVAS_CURTAINS_LEFT);
+                        entries.add(ModBlocks.BLUE_AND_WHITE_CANVAS_CURTAINS_RIGHT);
+                        entries.add(ModBlocks.LAZY_DOUBLE_LOUNGE_CHAIR_DEFAULT);
+                        entries.add(ModBlocks.LAZY_LOUNGE_CHAIR);
+                        entries.add(ModBlocks.LAZY_HIGH_LEGGED_COFFEE_TABLE);
+                        entries.add(ModBlocks.LAZY_TEA_TABLE);
+                        entries.add(ModBlocks.RHODE_ISLAND_SUMMER_CALENDAR);
+                        entries.add(ModBlocks.SIESTA_CITY_EMBLEM_SOUVENIR);
+                        entries.add(ModBlocks.SUMMER_BOAT_CABINET_UP);
+                        entries.add(ModBlocks.SUMMER_BOAT_CABINET_DOWN);
+                        entries.add(ModBlocks.WOODEN_TOP_BEAM);
+                    }).build());
     //public static final ItemGroup  = Registry.register(Registries.ITEM_GROUP,
     //        new Identifier(ArknightsFurniture.MOD_ID,""),
     //        FabricItemGroup.builder().displayName(Text.translatable("itemgroup."))

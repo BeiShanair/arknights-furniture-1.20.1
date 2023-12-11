@@ -1,0 +1,19 @@
+{
+    "variants": {
+        "facing=east": {
+            "model": "arknights_furniture:block/summer_boat_cabinet_down",
+            "y": 90
+        },
+        "facing=north": {
+            "model": "arknights_furniture:block/summer_boat_cabinet_down"
+        },
+        "facing=south": {
+            "model": "arknights_furniture:block/summer_boat_cabinet_down",
+            "y": 180
+        },
+        "facing=west": {
+            "model": "arknights_furniture:block/summer_boat_cabinet_down",
+            "y": 270
+        }
+    }
+}

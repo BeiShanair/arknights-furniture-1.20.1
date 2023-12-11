@@ -12,6 +12,7 @@ import com.besson.arknights.block.LifeCycleModule12.*;
 import com.besson.arknights.block.QuickChainPizzaShops.*;
 import com.besson.arknights.block.SamiCountryVilla.*;
 import com.besson.arknights.block.SecurityBureauLounge.*;
+import com.besson.arknights.block.SiestaBeachCottage.*;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.fabricmc.fabric.api.object.builder.v1.block.FabricBlockSettings;
 import net.minecraft.block.Block;
@@ -198,6 +199,20 @@ public class ModBlocks {
     public static final Block OFFICE_CLUE_BOARD = registerBlock("office_clue_board",new OfficeClueBoard(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
     public static final Block SPECIAL_UPRIGHT_STAKES_MADE_BY_THE_GUARD_BUREAU = registerBlock("special_upright_stakes_made_by_the_guard_bureau",new SpecialUprightStakesMadeByTheGuardBureau(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
     public static final Block SPOTLIGHT_FOR_THE_GUARD_BUREAU = registerBlock("spotlight_for_the_guard_bureau",new SpotlightForTheGuardBureau(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+    public static final Block A_SURFERS_BOARD_RACK = registerBlock("a_surfers_board_rack",new ASurfersBoardRack(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+    public static final Block BEACH_COTTAGE_FLOOR_LAMP = registerBlock("beach_cottage_floor_lamp",new BeachCottageFloorLamp(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+    public static final Block BLUE_AND_WHITE_CANVAS_CURTAINS_LEFT = registerBlock("blue_and_white_canvas_curtains_left",new BlueAndWhiteCanvasCurtains(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+    public static final Block BLUE_AND_WHITE_CANVAS_CURTAINS_RIGHT = registerBlock("blue_and_white_canvas_curtains_right",new BlueAndWhiteCanvasCurtains(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+    public static final Block LAZY_DOUBLE_LOUNGE_CHAIR_DEFAULT = registerBlock("lazy_double_lounge_chair_default",new LazyDoubleLoungeChair(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+    public static final Block LAZY_HIGH_LEGGED_COFFEE_TABLE = registerBlock("lazy_high_legged_coffee_table",new LazyHighLeggedCoffeeTable(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+    public static final Block LAZY_LOUNGE_CHAIR = registerBlock("lazy_lounge_chair",new LazyLoungeChair(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+    public static final Block LAZY_TEA_TABLE = registerBlock("lazy_tea_table",new LazyTeaTable(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+    public static final Block RHODE_ISLAND_SUMMER_CALENDAR = registerBlock("rhode_island_summer_calendar",new RhodeIslandSummerCalendar(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+    public static final Block SIESTA_CITY_EMBLEM_SOUVENIR = registerBlock("siesta_city_emblem_souvenir",new SiestaCityEmblemSouvenir(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+    public static final Block SUMMER_BOAT_CABINET_DOWN = registerBlock("summer_boat_cabinet_down",new SummerBoatCabinet(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+    public static final Block SUMMER_BOAT_CABINET_UP = registerBlock("summer_boat_cabinet_up",new SummerBoatCabinet(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+    public static final Block SUMMER_COLLECTION_CABINET = registerBlock("summer_collection_cabinet",new SummerCollectionCabinet(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+    public static final Block WOODEN_TOP_BEAM = registerBlock("wooden_top_beam",new WoodenTopBeam(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
     private static Block registerBlock(String name,Block block){
         registerBlockItem(name,block);
         return Registry.register(Registries.BLOCK,new Identifier(ArknightsFurniture.MOD_ID,name),block);
