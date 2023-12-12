@@ -207,6 +207,27 @@
   "block.arknights_furniture.summer_collection_cabinet":"Summer Collection Cabinet",
   "block.arknights_furniture.wooden_top_beam":"Wooden Top Beam",
 
+  "block.arknights_furniture.amber":"Amber",
+  "block.arknights_furniture.blaze":"Blaze",
+  "block.arknights_furniture.dark_clouds":"Dark Clouds",
+  "block.arknights_furniture.driftwood":"Driftwood",
+  "block.arknights_furniture.frosting":"Frosting",
+  "block.arknights_furniture.graphite_steel":"Graphite Steel",
+  "block.arknights_furniture.rehearsal_room_accessory_hanging_board":"Rehearsal Room Accessory Hanging Board",
+  "block.arknights_furniture.rehearsal_room_bench":"Rehearsal Room Bench",
+  "block.arknights_furniture.rehearsal_room_reception_desk":"Rehearsal Room Reception Desk",
+  "block.arknights_furniture.rehearsal_room_round_bench":"Rehearsal Room Round Bench",
+  "block.arknights_furniture.rehearsal_room_spotlight":"Rehearsal Room Spotlight",
+  "block.arknights_furniture.rehearsal_room_strap_hanging_board":"Rehearsal Room Strap Hanging Board",
+  "block.arknights_furniture.shallow_sea":"Shallow Sea",
+  "block.arknights_furniture.spotlight_ceiling":"Spotlight Ceiling",
+  "block.arknights_furniture.stage":"Stage",
+  "block.arknights_furniture.suspended_scrolling_display_screen":"Suspended Scrolling Display Screen",
+  "block.arknights_furniture.tour_equipment_combination":"Tour Equipment Combination",
+  "block.arknights_furniture.wheat_fragrance":"Wheat Fragrance",
+  "block.arknights_furniture.white_birch":"White Birch",
+  "block.arknights_furniture.yarma_khan_shelf_drum":"YarmaKhan Shelf Drum",
+
   "itemgroup.logo": "LOGO Group",
   "itemgroup.freight_warehouse": "Freight Warehouse",
   "itemgroup.edge_solid_orange_simple_home": "Edge-Solid/Orange Simple Home",
@@ -219,5 +240,6 @@
   "itemgroup.columbia_modern_hotel": "Columbia Modern Hotel",
   "itemgroup.airtight_chemical_safety_cabin": "Airtight Chemical Safety Cabin",
   "itemgroup.chens_office": "Chen's Office",
-  "itemgroup.siesta_beach_cottage": "Siesta Beach Cottage"
+  "itemgroup.siesta_beach_cottage": "Siesta Beach Cottage",
+  "itemgroup.rhode_island_modern_music_rehearsal_room": "Rhode Island Modern Music Rehearsal Room"
 }

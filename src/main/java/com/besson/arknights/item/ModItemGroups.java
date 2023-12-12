@@ -265,6 +265,32 @@ public class ModItemGroups {
                         entries.add(ModBlocks.SUMMER_BOAT_CABINET_UP);
                         entries.add(ModBlocks.SUMMER_BOAT_CABINET_DOWN);
                         entries.add(ModBlocks.WOODEN_TOP_BEAM);
+                        entries.add(ModBlocks.SUMMER_COLLECTION_CABINET);
+                    }).build());
+    public static final ItemGroup RHODE_ISLAND_MODERN_MUSIC_REHEARSAL_ROOM = Registry.register(Registries.ITEM_GROUP,
+            new Identifier(ArknightsFurniture.MOD_ID,"rhode_island_modern_music_rehearsal_room"),
+            FabricItemGroup.builder().displayName(Text.translatable("itemgroup.rhode_island_modern_music_rehearsal_room"))
+                    .icon(() -> new ItemStack(ModBlocks.YARMA_KHAN_SHELF_DRUM)).entries((displayContext, entries) -> {
+                        entries.add(ModBlocks.AMBER);
+                        entries.add(ModBlocks.BLAZE);
+                        entries.add(ModBlocks.DARK_CLOUDS);
+                        entries.add(ModBlocks.DRIFTWOOD);
+                        entries.add(ModBlocks.FROSTING);
+                        entries.add(ModBlocks.GRAPHITE_STEEL);
+                        entries.add(ModBlocks.REHEARSAL_ROOM_BENCH);
+                        entries.add(ModBlocks.REHEARSAL_ROOM_ACCESSORY_HANGING_BOARD);
+                        entries.add(ModBlocks.REHEARSAL_ROOM_SPOTLIGHT);
+                        entries.add(ModBlocks.REHEARSAL_ROOM_ROUND_BENCH);
+                        entries.add(ModBlocks.REHEARSAL_ROOM_RECEPTION_DESK);
+                        entries.add(ModBlocks.REHEARSAL_ROOM_STRAP_HANGING_BOARD);
+                        entries.add(ModBlocks.SHALLOW_SEA);
+                        entries.add(ModBlocks.SPOTLIGHT_CEILING);
+                        entries.add(ModBlocks.STAGE);
+                        entries.add(ModBlocks.TOUR_EQUIPMENT_COMBINATION);
+                        entries.add(ModBlocks.SUSPENDED_SCROLLING_DISPLAY_SCREEN);
+                        entries.add(ModBlocks.WHEAT_FRAGRANCE);
+                        entries.add(ModBlocks.WHITE_BIRCH);
+                        entries.add(ModBlocks.YARMA_KHAN_SHELF_DRUM);
                     }).build());
     //public static final ItemGroup  = Registry.register(Registries.ITEM_GROUP,
     //        new Identifier(ArknightsFurniture.MOD_ID,""),
