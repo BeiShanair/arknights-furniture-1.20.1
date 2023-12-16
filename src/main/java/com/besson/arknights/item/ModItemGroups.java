@@ -328,6 +328,26 @@ public class ModItemGroups {
                         entries.add(ModBlocks.SEVERAL_YIGUA);
                         entries.add(ModBlocks.SHAYI_BOOK_GROUP);
                     }).build());
+    public static final ItemGroup PENGUIN_LOGISTICS_SAFE_HOUSE = Registry.register(Registries.ITEM_GROUP,
+            new Identifier(ArknightsFurniture.MOD_ID,"penguin_logistics_safe_house"),
+            FabricItemGroup.builder().displayName(Text.translatable("itemgroup.penguin_logistics_safe_house"))
+                    .icon(() -> new ItemStack(ModBlocks.SAFETY_PARTITION_DOOR)).entries((displayContext, entries) -> {
+                        entries.add(ModBlocks.ADJUSTABLE_ROUND_STOOL);
+                        entries.add(ModBlocks.FLUORESCENT_LAMP_CEILING);
+                        entries.add(ModBlocks.GOODS_TO_BE_CARRIED);
+                        entries.add(ModBlocks.HIGH_POWER_FLOOR_LAMP);
+                        entries.add(ModBlocks.MULTIFUNCTIONAL_WORKBENCH);
+                        entries.add(ModBlocks.MULTIFUNCTIONAL_WORKBENCH_BOARD);
+                        entries.add(ModBlocks.MULTIFUNCTIONAL_WORKBENCH_COMPUTER);
+                        entries.add(ModBlocks.OLD_FASHIONED_RECORD_PLAYER);
+                        entries.add(ModBlocks.PENGUIN_CLUE_COLLECTION_BOARD);
+                        entries.add(ModBlocks.RED_GLOVE_COMPARTMENT1);
+                        entries.add(ModBlocks.RED_GLOVE_COMPARTMENT2);
+                        entries.add(ModBlocks.RED_GLOVE_COMPARTMENT3);
+                        entries.add(ModBlocks.SAFETY_PARTITION_DOOR);
+                        entries.add(ModBlocks.SOFT_SOFA_DEFAULT);
+                        entries.add(ModBlocks.TREASURED_BEVERAGE_BUCKET);
+                    }).build());
     // public static final ItemGroup  = Registry.register(Registries.ITEM_GROUP,
     //        new Identifier(ArknightsFurniture.MOD_ID,""),
     //        FabricItemGroup.builder().displayName(Text.translatable("itemgroup."))

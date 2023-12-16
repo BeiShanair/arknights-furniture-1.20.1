@@ -255,6 +255,22 @@
   "block.arknights_furniture.several_yigua":"Several Yigua",
   "block.arknights_furniture.shayi_book_group":"Shayi Book Group",
 
+  "block.arknights_furniture.adjustable_round_stool":"Adjustable Round Stool",
+  "block.arknights_furniture.fluorescent_lamp_ceiling":"Fluorescent Lamp Ceiling",
+  "block.arknights_furniture.goods_to_be_carried":"Goods To Be Carried",
+  "block.arknights_furniture.high_power_floor_lamp":"High Power Floor Lamp",
+  "block.arknights_furniture.multifunctional_workbench":"Multifunctional Workbench",
+  "block.arknights_furniture.multifunctional_workbench_board":"Multifunctional Workbench Board",
+  "block.arknights_furniture.multifunctional_workbench_computer":"Multifunctional Workbench Computer",
+  "block.arknights_furniture.old_fashioned_record_player":"Old Fashioned Record Player",
+  "block.arknights_furniture.penguin_clue_collection_board":"Penguin Clue Collection Board",
+  "block.arknights_furniture.red_glove_compartment1":"Red Glove Compartment1",
+  "block.arknights_furniture.red_glove_compartment2":"Red Glove Compartment2",
+  "block.arknights_furniture.red_glove_compartment3":"Red Glove Compartment3",
+  "block.arknights_furniture.safety_partition_door":"Safety Partition Door",
+  "block.arknights_furniture.soft_sofa_default":"Soft Sofa",
+  "block.arknights_furniture.treasured_beverage_bucket":"Treasured Beverage Bucket",
+
   "itemgroup.logo": "LOGO Group",
   "itemgroup.freight_warehouse": "Freight Warehouse",
   "itemgroup.edge_solid_orange_simple_home": "Edge-Solid/Orange Simple Home",
@@ -270,5 +286,6 @@
   "itemgroup.siesta_beach_cottage": "Siesta Beach Cottage",
   "itemgroup.rhode_island_modern_music_rehearsal_room": "Rhode Island Modern Music Rehearsal Room",
   "itemgroup.lancellar_ballroom": "Lancellar Ballroom",
-  "itemgroup.soul_secret_society": "Soul Secret Society"
+  "itemgroup.soul_secret_society": "Soul Secret Society",
+  "itemgroup.penguin_logistics_safe_house": "Penguin Logistics Safe House"
 }
