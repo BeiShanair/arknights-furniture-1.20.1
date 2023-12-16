@@ -13,6 +13,7 @@ import com.besson.arknights.block.LifeCycleModule12.*;
 import com.besson.arknights.block.PenguinLogisticsSafeHouse.*;
 import com.besson.arknights.block.QuickChainPizzaShops.*;
 import com.besson.arknights.block.RhodeIslandModernMusicRehearsalRoom.*;
+import com.besson.arknights.block.RhodeIslandWorkshop.*;
 import com.besson.arknights.block.SamiCountryVilla.*;
 import com.besson.arknights.block.SecurityBureauLounge.*;
 import com.besson.arknights.block.SiestaBeachCottage.*;
@@ -277,6 +278,16 @@ public class ModBlocks {
     public static final Block SAFETY_PARTITION_DOOR = registerBlock("safety_partition_door",new SafetyPartitionDoor(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
     public static final Block SOFT_SOFA_DEFAULT = registerBlock("soft_sofa_default",new SoftSofa(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
     public static final Block TREASURED_BEVERAGE_BUCKET = registerBlock("treasured_beverage_bucket",new TreasuredBeverageBucket(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+    public static final Block CLEANER = registerBlock("cleaner",new Cleaner(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+    public static final Block DOUBLE_BEAM_CRANE = registerBlock("double_beam_crane",new DoubleBeamCrane(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+    public static final Block FLOODLIGHT_SUSPENDED_CEILING = registerBlock("floodlight_suspended_ceiling",new FloodlightSuspendedCeiling(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+    public static final Block INDUSTRIAL_CUTTING_TABLE = registerBlock("industrial_cutting_table",new IndustrialCuttingTable(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+    public static final Block MATERIAL_BOX = registerBlock("material_box",new MaterialBox(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+    public static final Block MECHANICAL_ARM = registerBlock("mechanical_arm",new MechanicalArm(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+    public static final Block STAGING = registerBlock("staging",new Staging(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+    public static final Block WEAPON_STORAGE_CABINET = registerBlock("weapon_storage_cabinet",new WeaponStorageCabinet(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+    public static final Block WHITE_ROUND_STOOL = registerBlock("white_round_stool",new WhiteRoundStool(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+    public static final Block WORKSHOP_BLACKBOARD = registerBlock("workshop_blackboard",new WorkshopBlackboard(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
     private static Block registerBlock(String name,Block block){
         registerBlockItem(name,block);
         return Registry.register(Registries.BLOCK,new Identifier(ArknightsFurniture.MOD_ID,name),block);

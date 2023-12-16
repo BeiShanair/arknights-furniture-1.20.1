@@ -271,6 +271,17 @@
   "block.arknights_furniture.soft_sofa_default":"Soft Sofa",
   "block.arknights_furniture.treasured_beverage_bucket":"Treasured Beverage Bucket",
 
+  "block.arknights_furniture.cleaner":"Cleaner",
+  "block.arknights_furniture.double_beam_crane":"Double Beam Crane",
+  "block.arknights_furniture.floodlight_suspended_ceiling":"Floodlight Suspended Ceiling",
+  "block.arknights_furniture.industrial_cutting_table":"Industrial Cutting Table",
+  "block.arknights_furniture.material_box":"Material Box",
+  "block.arknights_furniture.mechanical_arm":"Mechanical Arm",
+  "block.arknights_furniture.staging":"Staging",
+  "block.arknights_furniture.weapon_storage_cabinet":"Weapon Storage Cabinet",
+  "block.arknights_furniture.white_round_stool":"White Round Stool",
+  "block.arknights_furniture.workshop_blackboard":"Workshop Blackboard",
+
   "itemgroup.logo": "LOGO Group",
   "itemgroup.freight_warehouse": "Freight Warehouse",
   "itemgroup.edge_solid_orange_simple_home": "Edge-Solid/Orange Simple Home",
@@ -287,5 +298,6 @@
   "itemgroup.rhode_island_modern_music_rehearsal_room": "Rhode Island Modern Music Rehearsal Room",
   "itemgroup.lancellar_ballroom": "Lancellar Ballroom",
   "itemgroup.soul_secret_society": "Soul Secret Society",
-  "itemgroup.penguin_logistics_safe_house": "Penguin Logistics Safe House"
+  "itemgroup.penguin_logistics_safe_house": "Penguin Logistics Safe House",
+  "itemgroup.rhode_island_workshop": "Rhode Island Workshop"
 }

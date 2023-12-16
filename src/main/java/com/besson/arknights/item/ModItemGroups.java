@@ -348,6 +348,21 @@ public class ModItemGroups {
                         entries.add(ModBlocks.SOFT_SOFA_DEFAULT);
                         entries.add(ModBlocks.TREASURED_BEVERAGE_BUCKET);
                     }).build());
+    public static final ItemGroup RHODE_ISLAND_WORKSHOP = Registry.register(Registries.ITEM_GROUP,
+            new Identifier(ArknightsFurniture.MOD_ID,"rhode_island_workshop"),
+            FabricItemGroup.builder().displayName(Text.translatable("itemgroup.rhode_island_workshop"))
+                    .icon(() -> new ItemStack(ModBlocks.MECHANICAL_ARM)).entries((displayContext, entries) -> {
+                        entries.add(ModBlocks.CLEANER);
+                        entries.add(ModBlocks.DOUBLE_BEAM_CRANE);
+                        entries.add(ModBlocks.FLOODLIGHT_SUSPENDED_CEILING);
+                        entries.add(ModBlocks.INDUSTRIAL_CUTTING_TABLE);
+                        entries.add(ModBlocks.MATERIAL_BOX);
+                        entries.add(ModBlocks.MECHANICAL_ARM);
+                        entries.add(ModBlocks.STAGING);
+                        entries.add(ModBlocks.WEAPON_STORAGE_CABINET);
+                        entries.add(ModBlocks.WHITE_ROUND_STOOL);
+                        entries.add(ModBlocks.WORKSHOP_BLACKBOARD);
+                    }).build());
     // public static final ItemGroup  = Registry.register(Registries.ITEM_GROUP,
     //        new Identifier(ArknightsFurniture.MOD_ID,""),
     //        FabricItemGroup.builder().displayName(Text.translatable("itemgroup."))
