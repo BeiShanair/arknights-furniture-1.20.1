@@ -228,6 +228,21 @@
   "block.arknights_furniture.white_birch":"White Birch",
   "block.arknights_furniture.yarma_khan_shelf_drum":"YarmaKhan Shelf Drum",
 
+  "block.arknights_furniture.ai_style_column_down":"Ai Style Column Down",
+  "block.arknights_furniture.ai_style_column_middle":"Ai Style Column Middle",
+  "block.arknights_furniture.ai_style_column_up":"Ai Style Column Up",
+  "block.arknights_furniture.banquet_hall_main_seat":"Banquet Hall Main Seat",
+  "block.arknights_furniture.banquet_hall_second_seat":"Banquet Hall Second Seat",
+  "block.arknights_furniture.banquet_table_default":"Banquet Table",
+  "block.arknights_furniture.bust_of_lancheng_guard":"Bust Of Lancheng Guard",
+  "block.arknights_furniture.candle_display_stove":"Candle Display Stove",
+  "block.arknights_furniture.ceiling_mounted_candle_chandelier":"Ceiling Mounted Candle Chandelier",
+  "block.arknights_furniture.double_ceiling_candle_chandelier":"Double Ceiling Candle Chandelier",
+  "block.arknights_furniture.lancellar_brazier":"Lancellar Brazier",
+  "block.arknights_furniture.lancellar_low_stool":"Lancellar Low Stool",
+  "block.arknights_furniture.lancellar_mirror":"Lancellar Mirror",
+  "block.arknights_furniture.locked_cabinet":"Locked Cabinet",
+
   "itemgroup.logo": "LOGO Group",
   "itemgroup.freight_warehouse": "Freight Warehouse",
   "itemgroup.edge_solid_orange_simple_home": "Edge-Solid/Orange Simple Home",
@@ -241,5 +256,6 @@
   "itemgroup.airtight_chemical_safety_cabin": "Airtight Chemical Safety Cabin",
   "itemgroup.chens_office": "Chen's Office",
   "itemgroup.siesta_beach_cottage": "Siesta Beach Cottage",
-  "itemgroup.rhode_island_modern_music_rehearsal_room": "Rhode Island Modern Music Rehearsal Room"
+  "itemgroup.rhode_island_modern_music_rehearsal_room": "Rhode Island Modern Music Rehearsal Room",
+  "itemgroup.lancellar_ballroom": "Lancellar Ballroom"
 }

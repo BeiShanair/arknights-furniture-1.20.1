@@ -8,6 +8,7 @@ import com.besson.arknights.block.ColumbiaModernHotel.*;
 import com.besson.arknights.block.EdgeSolid_OrangeSimpleHome.*;
 import com.besson.arknights.block.FreightWarehouse.*;
 import com.besson.arknights.block.IllusionaryBiography.*;
+import com.besson.arknights.block.LancellarBallroom.*;
 import com.besson.arknights.block.LifeCycleModule12.*;
 import com.besson.arknights.block.QuickChainPizzaShops.*;
 import com.besson.arknights.block.RhodeIslandModernMusicRehearsalRoom.*;
@@ -234,6 +235,20 @@ public class ModBlocks {
     public static final Block WHEAT_FRAGRANCE = registerBlock("wheat_fragrance",new Guitar(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
     public static final Block WHITE_BIRCH = registerBlock("white_birch",new Guitar(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
     public static final Block YARMA_KHAN_SHELF_DRUM = registerBlock("yarma_khan_shelf_drum",new YarmaKhanShelfDrum(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+    public static final Block AI_STYLE_COLUMN_DOWN = registerBlock("ai_style_column_down",new AiStyleColumn(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+    public static final Block AI_STYLE_COLUMN_MIDDLE = registerBlock("ai_style_column_middle",new AiStyleColumn(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+    public static final Block AI_STYLE_COLUMN_UP = registerBlock("ai_style_column_up",new AiStyleColumn(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+    public static final Block BANQUET_HALL_MAIN_SEAT = registerBlock("banquet_hall_main_seat",new BanquetHallMainSeat(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+    public static final Block BANQUET_HALL_SECOND_SEAT = registerBlock("banquet_hall_second_seat",new BanquetHallSecondSeat(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+    public static final Block BANQUET_TABLE_DEFAULT = registerBlock("banquet_table_default",new BanquetTable(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+    public static final Block BUST_OF_LANCHENG_GUARD = registerBlock("bust_of_lancheng_guard",new BustOfLanchengGuard(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+    public static final Block CANDLE_DISPLAY_STOVE = registerBlock("candle_display_stove",new CandleDisplayStove(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+    public static final Block CEILING_MOUNTED_CANDLE_CHANDELIER = registerBlock("ceiling_mounted_candle_chandelier",new CeilingMountedCandleChandelier(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+    public static final Block DOUBLE_CEILING_CANDLE_CHANDELIER = registerBlock("double_ceiling_candle_chandelier",new DoubleCeilingCandleChandelier(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+    public static final Block LANCELLAR_BRAZIER = registerBlock("lancellar_brazier",new LancellarBrazier(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+    public static final Block LANCELLAR_LOW_STOOL = registerBlock("lancellar_low_stool",new LancellarLowStool(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+    public static final Block LANCELLAR_MIRROR = registerBlock("lancellar_mirror",new LancellarMirror(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+    public static final Block LOCKED_CABINET = registerBlock("locked_cabinet",new LockedCabinet(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
     private static Block registerBlock(String name,Block block){
         registerBlockItem(name,block);
         return Registry.register(Registries.BLOCK,new Identifier(ArknightsFurniture.MOD_ID,name),block);

@@ -292,7 +292,27 @@ public class ModItemGroups {
                         entries.add(ModBlocks.WHITE_BIRCH);
                         entries.add(ModBlocks.YARMA_KHAN_SHELF_DRUM);
                     }).build());
-    //public static final ItemGroup  = Registry.register(Registries.ITEM_GROUP,
+
+    public static final ItemGroup LANCELLAR_BALLROOM = Registry.register(Registries.ITEM_GROUP,
+            new Identifier(ArknightsFurniture.MOD_ID,"lancellar_ballroom"),
+            FabricItemGroup.builder().displayName(Text.translatable("itemgroup.lancellar_ballroom"))
+                    .icon(() -> new ItemStack(ModBlocks.BANQUET_HALL_MAIN_SEAT)).entries((displayContext, entries) -> {
+                        entries.add(ModBlocks.AI_STYLE_COLUMN_DOWN);
+                        entries.add(ModBlocks.AI_STYLE_COLUMN_MIDDLE);
+                        entries.add(ModBlocks.AI_STYLE_COLUMN_UP);
+                        entries.add(ModBlocks.BANQUET_HALL_MAIN_SEAT);
+                        entries.add(ModBlocks.BANQUET_HALL_SECOND_SEAT);
+                        entries.add(ModBlocks.BANQUET_TABLE_DEFAULT);
+                        entries.add(ModBlocks.BUST_OF_LANCHENG_GUARD);
+                        entries.add(ModBlocks.CANDLE_DISPLAY_STOVE);
+                        entries.add(ModBlocks.CEILING_MOUNTED_CANDLE_CHANDELIER);
+                        entries.add(ModBlocks.DOUBLE_CEILING_CANDLE_CHANDELIER);
+                        entries.add(ModBlocks.LANCELLAR_BRAZIER);
+                        entries.add(ModBlocks.LANCELLAR_MIRROR);
+                        entries.add(ModBlocks.LANCELLAR_LOW_STOOL);
+                        entries.add(ModBlocks.LOCKED_CABINET);
+                    }).build());
+    // public static final ItemGroup  = Registry.register(Registries.ITEM_GROUP,
     //        new Identifier(ArknightsFurniture.MOD_ID,""),
     //        FabricItemGroup.builder().displayName(Text.translatable("itemgroup."))
     //                .icon(() -> new ItemStack(ModBlocks.)).entries((displayContext, entries) -> {
