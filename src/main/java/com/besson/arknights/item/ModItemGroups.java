@@ -312,6 +312,22 @@ public class ModItemGroups {
                         entries.add(ModBlocks.LANCELLAR_LOW_STOOL);
                         entries.add(ModBlocks.LOCKED_CABINET);
                     }).build());
+    public static final ItemGroup SOUL_SECRET_SOCIETY = Registry.register(Registries.ITEM_GROUP,
+            new Identifier(ArknightsFurniture.MOD_ID,"soul_secret_society"),
+            FabricItemGroup.builder().displayName(Text.translatable("itemgroup.soul_secret_society"))
+                    .icon(() -> new ItemStack(ModBlocks.MORE_YIGUA)).entries((displayContext, entries) -> {
+                        entries.add(ModBlocks.ABNORMAL_BEDDING_BED);
+                        entries.add(ModBlocks.ABNORMAL_BEDDING_LIGHT);
+                        entries.add(ModBlocks.ABNORMAL_BEDDING_TREE);
+                        entries.add(ModBlocks.AUXILIARY_INSTRUMENT_PENDANT_LAMP);
+                        entries.add(ModBlocks.CASTING_HONEY_CRUCIBLE);
+                        entries.add(ModBlocks.ELEGANT_WOODEN_CHAIRS);
+                        entries.add(ModBlocks.FRAGMENTED_SEQUENCE_DESK);
+                        entries.add(ModBlocks.LOCK_THE_NIGHT_STONE_WINDOW);
+                        entries.add(ModBlocks.MORE_YIGUA);
+                        entries.add(ModBlocks.SEVERAL_YIGUA);
+                        entries.add(ModBlocks.SHAYI_BOOK_GROUP);
+                    }).build());
     // public static final ItemGroup  = Registry.register(Registries.ITEM_GROUP,
     //        new Identifier(ArknightsFurniture.MOD_ID,""),
     //        FabricItemGroup.builder().displayName(Text.translatable("itemgroup."))

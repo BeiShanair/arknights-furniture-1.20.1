@@ -15,6 +15,7 @@ import com.besson.arknights.block.RhodeIslandModernMusicRehearsalRoom.*;
 import com.besson.arknights.block.SamiCountryVilla.*;
 import com.besson.arknights.block.SecurityBureauLounge.*;
 import com.besson.arknights.block.SiestaBeachCottage.*;
+import com.besson.arknights.block.SoulSecretSociety.*;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.fabricmc.fabric.api.object.builder.v1.block.FabricBlockSettings;
 import net.minecraft.block.Block;
@@ -249,6 +250,17 @@ public class ModBlocks {
     public static final Block LANCELLAR_LOW_STOOL = registerBlock("lancellar_low_stool",new LancellarLowStool(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
     public static final Block LANCELLAR_MIRROR = registerBlock("lancellar_mirror",new LancellarMirror(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
     public static final Block LOCKED_CABINET = registerBlock("locked_cabinet",new LockedCabinet(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+    public static final Block ABNORMAL_BEDDING_BED = registerBlock("abnormal_bedding_bed",new AbnormalBeddingBed(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+    public static final Block ABNORMAL_BEDDING_LIGHT = registerBlock("abnormal_bedding_light",new AbnormalBeddingLight(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+    public static final Block ABNORMAL_BEDDING_TREE = registerBlock("abnormal_bedding_tree",new AbnormalBeddingTree(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+    public static final Block AUXILIARY_INSTRUMENT_PENDANT_LAMP = registerBlock("auxiliary_instrument_pendant_lamp",new AuxiliaryInstrumentPendantLamp(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+    public static final Block CASTING_HONEY_CRUCIBLE = registerBlock("casting_honey_crucible",new CastingHoneyCrucible(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+    public static final Block ELEGANT_WOODEN_CHAIRS = registerBlock("elegant_wooden_chairs",new ElegantWoodenChairs(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+    public static final Block FRAGMENTED_SEQUENCE_DESK = registerBlock("fragmented_sequence_desk",new FragmentedSequenceDesk(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+    public static final Block LOCK_THE_NIGHT_STONE_WINDOW = registerBlock("lock_the_night_stone_window",new LockTheNightStoneWindow(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+    public static final Block MORE_YIGUA = registerBlock("more_yigua",new MoreYigua(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+    public static final Block SEVERAL_YIGUA = registerBlock("several_yigua",new SeveralYigua(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+    public static final Block SHAYI_BOOK_GROUP = registerBlock("shayi_book_group",new ShayiBookGroup(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
     private static Block registerBlock(String name,Block block){
         registerBlockItem(name,block);
         return Registry.register(Registries.BLOCK,new Identifier(ArknightsFurniture.MOD_ID,name),block);

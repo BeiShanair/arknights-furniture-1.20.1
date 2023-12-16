@@ -243,6 +243,18 @@
   "block.arknights_furniture.lancellar_mirror":"Lancellar Mirror",
   "block.arknights_furniture.locked_cabinet":"Locked Cabinet",
 
+  "block.arknights_furniture.abnormal_bedding_bed":"Abnormal Bedding Bed",
+  "block.arknights_furniture.abnormal_bedding_light":"Abnormal Bedding Light",
+  "block.arknights_furniture.abnormal_bedding_tree":"Abnormal Bedding Tree",
+  "block.arknights_furniture.auxiliary_instrument_pendant_lamp":"Auxiliary Instrument Pendant Lamp",
+  "block.arknights_furniture.casting_honey_crucible":"Casting Honey Crucible",
+  "block.arknights_furniture.elegant_wooden_chairs":"Elegant Wooden Chairs",
+  "block.arknights_furniture.fragmented_sequence_desk":"Fragmented Sequence Desk",
+  "block.arknights_furniture.lock_the_night_stone_window":"Lock The Night Stone Window",
+  "block.arknights_furniture.more_yigua":"More Yigua",
+  "block.arknights_furniture.several_yigua":"Several Yigua",
+  "block.arknights_furniture.shayi_book_group":"Shayi Book Group",
+
   "itemgroup.logo": "LOGO Group",
   "itemgroup.freight_warehouse": "Freight Warehouse",
   "itemgroup.edge_solid_orange_simple_home": "Edge-Solid/Orange Simple Home",
@@ -257,5 +269,6 @@
   "itemgroup.chens_office": "Chen's Office",
   "itemgroup.siesta_beach_cottage": "Siesta Beach Cottage",
   "itemgroup.rhode_island_modern_music_rehearsal_room": "Rhode Island Modern Music Rehearsal Room",
-  "itemgroup.lancellar_ballroom": "Lancellar Ballroom"
+  "itemgroup.lancellar_ballroom": "Lancellar Ballroom",
+  "itemgroup.soul_secret_society": "Soul Secret Society"
 }
