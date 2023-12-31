@@ -1,0 +1,19 @@
+{
+    "variants": {
+        "facing=east": {
+            "model": "arknights_furniture:block/inscription_ceiling_zi",
+            "y": 90
+        },
+        "facing=north": {
+            "model": "arknights_furniture:block/inscription_ceiling_zi"
+        },
+        "facing=south": {
+            "model": "arknights_furniture:block/inscription_ceiling_zi",
+            "y": 180
+        },
+        "facing=west": {
+            "model": "arknights_furniture:block/inscription_ceiling_zi",
+            "y": 270
+        }
+    }
+}

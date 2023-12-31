@@ -282,6 +282,29 @@
   "block.arknights_furniture.white_round_stool":"White Round Stool",
   "block.arknights_furniture.workshop_blackboard":"Workshop Blackboard",
 
+  "block.arknights_furniture.bamboo_screen":"Bamboo Screen",
+  "block.arknights_furniture.ceiling_lamp":"Ceiling Lamp",
+  "block.arknights_furniture.corner_wooden_default":"Corner Wooden",
+  "block.arknights_furniture.electric_frying_table":"Electric Frying Table",
+  "block.arknights_furniture.focus_lamp":"Focus Lamp",
+  "block.arknights_furniture.food_workshop_dining_table":"Food Workshop Dining Table",
+  "block.arknights_furniture.food_workshop_round_stool":"Food Workshop Round Stool",
+  "block.arknights_furniture.half_masked_screen":"Half Masked Screen",
+  "block.arknights_furniture.hexagonal_palace_lamp":"Hexagonal Palace Lamp",
+  "block.arknights_furniture.inscription_ceiling_default":"Inscription Ceiling Default",
+  "block.arknights_furniture.inscription_ceiling_fang":"Inscription Ceiling Fang",
+  "block.arknights_furniture.inscription_ceiling_jiao":"Inscription Ceiling Jiao",
+  "block.arknights_furniture.inscription_ceiling_long":"Inscription Ceiling Long",
+  "block.arknights_furniture.inscription_ceiling_meng":"Inscription Ceiling Meng",
+  "block.arknights_furniture.inscription_ceiling_menu1":"Inscription Ceiling Menu1",
+  "block.arknights_furniture.inscription_ceiling_menu2":"Inscription Ceiling Menu2",
+  "block.arknights_furniture.inscription_ceiling_zi":"Inscription Ceiling Zi",
+  "block.arknights_furniture.ornamental_plant":"Ornamental Plant",
+  "block.arknights_furniture.ornamental_potted_plants":"Ornamental Potted Plants",
+  "block.arknights_furniture.square_bench":"Square Bench",
+  "block.arknights_furniture.stewed_pot_platform":"Stewed Pot Platform",
+  "block.arknights_furniture.stewed_pot_platform_pot":"Stewed Pot Platform Pot",
+
   "itemgroup.logo": "LOGO Group",
   "itemgroup.freight_warehouse": "Freight Warehouse",
   "itemgroup.edge_solid_orange_simple_home": "Edge-Solid/Orange Simple Home",
@@ -299,5 +322,6 @@
   "itemgroup.lancellar_ballroom": "Lancellar Ballroom",
   "itemgroup.soul_secret_society": "Soul Secret Society",
   "itemgroup.penguin_logistics_safe_house": "Penguin Logistics Safe House",
-  "itemgroup.rhode_island_workshop": "Rhode Island Workshop"
+  "itemgroup.rhode_island_workshop": "Rhode Island Workshop",
+  "itemgroup.long_men_restaurant": "Long Men Restaurant"
 }

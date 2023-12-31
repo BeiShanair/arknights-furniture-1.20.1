@@ -363,6 +363,33 @@ public class ModItemGroups {
                         entries.add(ModBlocks.WHITE_ROUND_STOOL);
                         entries.add(ModBlocks.WORKSHOP_BLACKBOARD);
                     }).build());
+    public static final ItemGroup LONG_MEN_RESTAURANT = Registry.register(Registries.ITEM_GROUP,
+            new Identifier(ArknightsFurniture.MOD_ID,"long_men_restaurant"),
+            FabricItemGroup.builder().displayName(Text.translatable("itemgroup.long_men_restaurant"))
+                    .icon(() -> new ItemStack(ModBlocks.INSCRIPTION_CEILING_LONG)).entries((displayContext, entries) -> {
+                        entries.add(ModBlocks.BAMBOO_SCREEN);
+                        entries.add(ModBlocks.CEILING_LAMP);
+                        entries.add(ModBlocks.CORNER_WOODEN_DEFAULT);
+                        entries.add(ModBlocks.ELECTRIC_FRYING_TABLE);
+                        entries.add(ModBlocks.FOCUS_LAMP);
+                        entries.add(ModBlocks.FOOD_WORKSHOP_DINING_TABLE);
+                        entries.add(ModBlocks.FOOD_WORKSHOP_ROUND_STOOL);
+                        entries.add(ModBlocks.HALF_MASKED_SCREEN);
+                        entries.add(ModBlocks.HEXAGONAL_PALACE_LAMP);
+                        entries.add(ModBlocks.INSCRIPTION_CEILING_LONG);
+                        entries.add(ModBlocks.INSCRIPTION_CEILING_MENG);
+                        entries.add(ModBlocks.INSCRIPTION_CEILING_JIAO);
+                        entries.add(ModBlocks.INSCRIPTION_CEILING_ZI);
+                        entries.add(ModBlocks.INSCRIPTION_CEILING_FANG);
+                        entries.add(ModBlocks.INSCRIPTION_CEILING_DEFAULT);
+                        entries.add(ModBlocks.INSCRIPTION_CEILING_MENU1);
+                        entries.add(ModBlocks.INSCRIPTION_CEILING_MENU2);
+                        entries.add(ModBlocks.ORNAMENTAL_PLANT);
+                        entries.add(ModBlocks.ORNAMENTAL_POTTED_PLANTS);
+                        entries.add(ModBlocks.SQUARE_BENCH);
+                        entries.add(ModBlocks.STEWED_POT_PLATFORM);
+                        entries.add(ModBlocks.STEWED_POT_PLATFORM_POT);
+                    }).build());
     // public static final ItemGroup  = Registry.register(Registries.ITEM_GROUP,
     //        new Identifier(ArknightsFurniture.MOD_ID,""),
     //        FabricItemGroup.builder().displayName(Text.translatable("itemgroup."))
