@@ -1,6 +1,6 @@
-package com.besson.arknights.block.ColumbiaCafe;
+package com.besson.arknights.block.HealthyFastFoodRestaurant;
 
-import com.besson.arknights.block.ConnectableBlock;
+import com.besson.arknights.block.FurnitureHorizontalFacingBlock;
 import net.minecraft.block.Block;
 import net.minecraft.block.BlockState;
 import net.minecraft.block.ShapeContext;
@@ -8,8 +8,8 @@ import net.minecraft.util.math.BlockPos;
 import net.minecraft.util.shape.VoxelShape;
 import net.minecraft.world.BlockView;
 
-public class RedBrickCafeBar extends ConnectableBlock {
-    public RedBrickCafeBar(Settings settings) {
+public class DailyRecommendations extends FurnitureHorizontalFacingBlock {
+    public DailyRecommendations(Settings settings) {
         super(settings);
     }
 

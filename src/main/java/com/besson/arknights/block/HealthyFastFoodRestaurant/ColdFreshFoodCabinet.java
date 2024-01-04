@@ -1,4 +1,4 @@
-package com.besson.arknights.block.ColumbiaCafe;
+package com.besson.arknights.block.HealthyFastFoodRestaurant;
 
 import com.besson.arknights.block.ConnectableBlock;
 import net.minecraft.block.Block;
@@ -8,12 +8,12 @@ import net.minecraft.util.math.BlockPos;
 import net.minecraft.util.shape.VoxelShape;
 import net.minecraft.world.BlockView;
 
-public class RedBrickCafeBar extends ConnectableBlock {
-    public RedBrickCafeBar(Settings settings) {
+public class ColdFreshFoodCabinet extends ConnectableBlock {
+    public ColdFreshFoodCabinet(Settings settings) {
         super(settings);
     }
 
-    private static final VoxelShape SHAPE = Block.createCuboidShape(0,0,0,16,16,16);
+    private static final VoxelShape SHAPE = Block.createCuboidShape(0, 0, 0, 16, 32, 16);
 
     @Override
     public VoxelShape getOutlineShape(BlockState state, BlockView world, BlockPos pos, ShapeContext context) {

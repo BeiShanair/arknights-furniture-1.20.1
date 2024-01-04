@@ -1,0 +1,19 @@
+{
+    "variants": {
+        "facing=east": {
+            "model": "arknights_furniture:block/health_spotlight",
+            "y": 90
+        },
+        "facing=north": {
+            "model": "arknights_furniture:block/health_spotlight"
+        },
+        "facing=south": {
+            "model": "arknights_furniture:block/health_spotlight",
+            "y": 180
+        },
+        "facing=west": {
+            "model": "arknights_furniture:block/health_spotlight",
+            "y": 270
+        }
+    }
+}

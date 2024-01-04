@@ -7,6 +7,7 @@ import com.besson.arknights.block.ColumbiaCafe.*;
 import com.besson.arknights.block.ColumbiaModernHotel.*;
 import com.besson.arknights.block.EdgeSolid_OrangeSimpleHome.*;
 import com.besson.arknights.block.FreightWarehouse.*;
+import com.besson.arknights.block.HealthyFastFoodRestaurant.*;
 import com.besson.arknights.block.IllusionaryBiography.*;
 import com.besson.arknights.block.LancellarBallroom.*;
 import com.besson.arknights.block.LifeCycleModule12.*;
@@ -292,9 +293,6 @@ public class ModBlocks {
     public static final Block BAMBOO_SCREEN = registerBlock("bamboo_screen",new BambooScreen(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
     public static final Block CEILING_LAMP = registerBlock("ceiling_lamp",new CeilingLamp(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
     public static final Block CORNER_WOODEN_DEFAULT = registerBlock("corner_wooden_default",new CornerWooden(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
-    public static final Block CORNER_WOODEN_LEFT = registerBlock("corner_wooden_left",new CornerWooden(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
-    public static final Block CORNER_WOODEN_MIDDLE = registerBlock("corner_wooden_middle",new CornerWooden(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
-    public static final Block CORNER_WOODEN_RIGHT = registerBlock("corner_wooden_right",new CornerWooden(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
     public static final Block ELECTRIC_FRYING_TABLE = registerBlock("electric_frying_table",new ElectricFryingTable(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
     public static final Block FOCUS_LAMP = registerBlock("focus_lamp",new FocusLamp(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
     public static final Block FOOD_WORKSHOP_DINING_TABLE = registerBlock("food_workshop_dining_table",new FoodWorkshopDiningTable(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
@@ -314,6 +312,19 @@ public class ModBlocks {
     public static final Block SQUARE_BENCH = registerBlock("square_bench",new SquareBench(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
     public static final Block STEWED_POT_PLATFORM = registerBlock("stewed_pot_platform",new StewedPotPlatform(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
     public static final Block STEWED_POT_PLATFORM_POT = registerBlock("stewed_pot_platform_pot",new StewedPotPlatformPot(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+    public static final Block COLD_FRESH_FOOD_CABINET_DEFAULT = registerBlock("cold_fresh_food_cabinet_default",new ColdFreshFoodCabinet(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+    public static final Block DAILY_RECOMMENDATIONS = registerBlock("daily_recommendations",new DailyRecommendations(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+    public static final Block GREEN_DOUBLE_SOFA_DEFAULT = registerBlock("green_double_sofa_default",new GreenDoubleSofa(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+    public static final Block HEALTH_DECORATION_SIGN = registerBlock("health_decoration_sign",new HealthDecorationSign(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+    public static final Block HEALTH_DINING_TABLE = registerBlock("health_dining_table",new HealthDiningTable(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+    public static final Block HEALTH_PRICE_LIST = registerBlock("health_price_list",new HealthPriceList(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+    public static final Block HEALTH_SERVICE_DESK = registerBlock("health_service_desk",new HealthServiceDesk(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+    public static final Block HEALTH_SERVICE_DESK_CASHIER = registerBlock("health_service_desk_cashier",new HealthServiceDeskCashier(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+    public static final Block HEALTH_SPOTLIGHT = registerBlock("health_spotlight",new HealthSpotlight(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+    public static final Block ICED_JUICE_MAKER = registerBlock("iced_juice_maker",new IcedJuiceMaker(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+    public static final Block RELAXED_GARDEN_CEILING = registerBlock("relaxed_garden_ceiling",new RelaxedGardenCeiling(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+    public static final Block SELF_SERVICE_ORDERING_MACHINE = registerBlock("self_service_ordering_machine",new SelfServiceOrderingMachine(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+    public static final Block SELF_SERVICE_VENDING_MACHINE = registerBlock("self_service_vending_machine",new SelfServiceVendingMachine(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
     private static Block registerBlock(String name,Block block){
         registerBlockItem(name,block);
         return Registry.register(Registries.BLOCK,new Identifier(ArknightsFurniture.MOD_ID,name),block);

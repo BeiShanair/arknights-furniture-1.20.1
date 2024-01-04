@@ -390,6 +390,24 @@ public class ModItemGroups {
                         entries.add(ModBlocks.STEWED_POT_PLATFORM);
                         entries.add(ModBlocks.STEWED_POT_PLATFORM_POT);
                     }).build());
+    public static final ItemGroup HEALTHY_FAST_FOOD_RESTAURANT = Registry.register(Registries.ITEM_GROUP,
+            new Identifier(ArknightsFurniture.MOD_ID,"healthy_fast_food_restaurant"),
+            FabricItemGroup.builder().displayName(Text.translatable("itemgroup.healthy_fast_food_restaurant"))
+                    .icon(() -> new ItemStack(ModBlocks.ICED_JUICE_MAKER)).entries((displayContext, entries) -> {
+                        entries.add(ModBlocks.COLD_FRESH_FOOD_CABINET_DEFAULT);
+                        entries.add(ModBlocks.DAILY_RECOMMENDATIONS);
+                        entries.add(ModBlocks.GREEN_DOUBLE_SOFA_DEFAULT);
+                        entries.add(ModBlocks.HEALTH_DECORATION_SIGN);
+                        entries.add(ModBlocks.HEALTH_DINING_TABLE);
+                        entries.add(ModBlocks.HEALTH_PRICE_LIST);
+                        entries.add(ModBlocks.HEALTH_SERVICE_DESK);
+                        entries.add(ModBlocks.HEALTH_SERVICE_DESK_CASHIER);
+                        entries.add(ModBlocks.HEALTH_SPOTLIGHT);
+                        entries.add(ModBlocks.ICED_JUICE_MAKER);
+                        entries.add(ModBlocks.RELAXED_GARDEN_CEILING);
+                        entries.add(ModBlocks.SELF_SERVICE_ORDERING_MACHINE);
+                        entries.add(ModBlocks.SELF_SERVICE_VENDING_MACHINE);
+                    }).build());
     // public static final ItemGroup  = Registry.register(Registries.ITEM_GROUP,
     //        new Identifier(ArknightsFurniture.MOD_ID,""),
     //        FabricItemGroup.builder().displayName(Text.translatable("itemgroup."))

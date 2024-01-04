@@ -305,6 +305,20 @@
   "block.arknights_furniture.stewed_pot_platform":"Stewed Pot Platform",
   "block.arknights_furniture.stewed_pot_platform_pot":"Stewed Pot Platform Pot",
 
+  "block.arknights_furniture.cold_fresh_food_cabinet_default":"Cold Fresh Food Cabinet",
+  "block.arknights_furniture.daily_recommendations":"Daily Recommendations",
+  "block.arknights_furniture.green_double_sofa_default":"Green Double Sofa",
+  "block.arknights_furniture.health_decoration_sign":"Health Decoration Sign",
+  "block.arknights_furniture.health_dining_table":"Health Dining Table",
+  "block.arknights_furniture.health_price_list":"Health Price List",
+  "block.arknights_furniture.health_service_desk":"Health Service Desk",
+  "block.arknights_furniture.health_service_desk_cashier":"Health Service Desk Cashier",
+  "block.arknights_furniture.health_spotlight":"Health Spotlight",
+  "block.arknights_furniture.iced_juice_maker":"Iced Juice Maker",
+  "block.arknights_furniture.relaxed_garden_ceiling":"Relaxed Garden Ceiling",
+  "block.arknights_furniture.self_service_ordering_machine":"Self Service Ordering Machine",
+  "block.arknights_furniture.self_service_vending_machine":"Self Service Vending Machine",
+
   "itemgroup.logo": "LOGO Group",
   "itemgroup.freight_warehouse": "Freight Warehouse",
   "itemgroup.edge_solid_orange_simple_home": "Edge-Solid/Orange Simple Home",
@@ -323,5 +337,6 @@
   "itemgroup.soul_secret_society": "Soul Secret Society",
   "itemgroup.penguin_logistics_safe_house": "Penguin Logistics Safe House",
   "itemgroup.rhode_island_workshop": "Rhode Island Workshop",
-  "itemgroup.long_men_restaurant": "Long Men Restaurant"
+  "itemgroup.long_men_restaurant": "Long Men Restaurant",
+  "itemgroup.healthy_fast_food_restaurant": "Healthy Fast Food Restaurant"
 }
