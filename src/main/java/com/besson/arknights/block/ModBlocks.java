@@ -18,6 +18,7 @@ import com.besson.arknights.block.RhodeIslandModernMusicRehearsalRoom.*;
 import com.besson.arknights.block.RhodeIslandWorkshop.*;
 import com.besson.arknights.block.SamiCountryVilla.*;
 import com.besson.arknights.block.SecurityBureauLounge.*;
+import com.besson.arknights.block.SevenCitiesStyleRestaurant.*;
 import com.besson.arknights.block.SiestaBeachCottage.*;
 import com.besson.arknights.block.SoulSecretSociety.*;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
@@ -325,6 +326,16 @@ public class ModBlocks {
     public static final Block RELAXED_GARDEN_CEILING = registerBlock("relaxed_garden_ceiling",new RelaxedGardenCeiling(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
     public static final Block SELF_SERVICE_ORDERING_MACHINE = registerBlock("self_service_ordering_machine",new SelfServiceOrderingMachine(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
     public static final Block SELF_SERVICE_VENDING_MACHINE = registerBlock("self_service_vending_machine",new SelfServiceVendingMachine(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+    public static final Block BEER_STORAGE_CABINET = registerBlock("beer_storage_cabinet",new BeerStorageCabinet(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+    public static final Block CLEAN_SERVICE_DESK_DEFAULT = registerBlock("clean_service_desk_default",new CleanServiceDesk(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+    public static final Block DOUBLE_ROW_SOFA_SEAT_DEFAULT = registerBlock("double_row_sofa_seat_default",new DoubleRowSofaSeat(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+    public static final Block DOUBLE_ROW_SOFA_SEAT_DESK = registerBlock("double_row_sofa_seat_desk",new DoubleRowSofaSeatDesk(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+    public static final Block FOOD_INSULATION_CABINET = registerBlock("food_insulation_cabinet",new FoodInsulationCabinet(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+    public static final Block HIGH_FOOT_PRICE_LIST = registerBlock("high_foot_price_list",new HighFootPriceList(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+    public static final Block LARGE_PROMOTIONAL_BOARD = registerBlock("large_promotional_board",new LargePromotionalBoard(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+    public static final Block RESTAURANT_PROMOTIONAL_BOARD = registerBlock("restaurant_promotional_board",new RestaurantPromotionalBoard(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+    public static final Block SEVEN_CITY_STYLE_WARM_LIGHT_CHANDELIER = registerBlock("seven_city_style_warm_light_chandelier",new SevenCityStyleWarmLightChandelier(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+
     private static Block registerBlock(String name,Block block){
         registerBlockItem(name,block);
         return Registry.register(Registries.BLOCK,new Identifier(ArknightsFurniture.MOD_ID,name),block);

@@ -408,6 +408,20 @@ public class ModItemGroups {
                         entries.add(ModBlocks.SELF_SERVICE_ORDERING_MACHINE);
                         entries.add(ModBlocks.SELF_SERVICE_VENDING_MACHINE);
                     }).build());
+    public static final ItemGroup SEVEN_CITIES_STYLE_RESTAURANT = Registry.register(Registries.ITEM_GROUP,
+            new Identifier(ArknightsFurniture.MOD_ID,"seven_cities_style_restaurant"),
+            FabricItemGroup.builder().displayName(Text.translatable("itemgroup.seven_cities_style_restaurant"))
+                    .icon(() -> new ItemStack(ModBlocks.FOOD_INSULATION_CABINET)).entries((displayContext, entries) -> {
+                        entries.add(ModBlocks.BEER_STORAGE_CABINET);
+                        entries.add(ModBlocks.CLEAN_SERVICE_DESK_DEFAULT);
+                        entries.add(ModBlocks.DOUBLE_ROW_SOFA_SEAT_DEFAULT);
+                        entries.add(ModBlocks.DOUBLE_ROW_SOFA_SEAT_DESK);
+                        entries.add(ModBlocks.FOOD_INSULATION_CABINET);
+                        entries.add(ModBlocks.HIGH_FOOT_PRICE_LIST);
+                        entries.add(ModBlocks.LARGE_PROMOTIONAL_BOARD);
+                        entries.add(ModBlocks.RESTAURANT_PROMOTIONAL_BOARD);
+                        entries.add(ModBlocks.SEVEN_CITY_STYLE_WARM_LIGHT_CHANDELIER);
+                    }).build());
     // public static final ItemGroup  = Registry.register(Registries.ITEM_GROUP,
     //        new Identifier(ArknightsFurniture.MOD_ID,""),
     //        FabricItemGroup.builder().displayName(Text.translatable("itemgroup."))

@@ -319,6 +319,16 @@
   "block.arknights_furniture.self_service_ordering_machine":"Self Service Ordering Machine",
   "block.arknights_furniture.self_service_vending_machine":"Self Service Vending Machine",
 
+  "block.arknights_furniture.beer_storage_cabinet":"Beer Storage Cabinet",
+  "block.arknights_furniture.clean_service_desk_default":"Clean Service Desk",
+  "block.arknights_furniture.double_row_sofa_seat_default":"Double Row Sofa Seat",
+  "block.arknights_furniture.double_row_sofa_seat_desk":"Double Row Sofa Seat Desk",
+  "block.arknights_furniture.food_insulation_cabinet":"Food Insulation Cabinet",
+  "block.arknights_furniture.high_foot_price_list":"High Foot Price List",
+  "block.arknights_furniture.large_promotional_board":"Large Promotional Board",
+  "block.arknights_furniture.restaurant_promotional_board":"Restaurant Promotional Board",
+  "block.arknights_furniture.seven_city_style_warm_light_chandelier":"Seven City Style Warm Light Chandelier",
+
   "itemgroup.logo": "LOGO Group",
   "itemgroup.freight_warehouse": "Freight Warehouse",
   "itemgroup.edge_solid_orange_simple_home": "Edge-Solid/Orange Simple Home",
@@ -338,5 +348,6 @@
   "itemgroup.penguin_logistics_safe_house": "Penguin Logistics Safe House",
   "itemgroup.rhode_island_workshop": "Rhode Island Workshop",
   "itemgroup.long_men_restaurant": "Long Men Restaurant",
-  "itemgroup.healthy_fast_food_restaurant": "Healthy Fast Food Restaurant"
+  "itemgroup.healthy_fast_food_restaurant": "Healthy Fast Food Restaurant",
+  "itemgroup.seven_cities_style_restaurant": "Seven Cities Style Restaurant"
 }
