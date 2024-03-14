@@ -16,6 +16,7 @@ import com.besson.arknights.block.PenguinLogisticsSafeHouse.*;
 import com.besson.arknights.block.QuickChainPizzaShops.*;
 import com.besson.arknights.block.RhodeIslandModernMusicRehearsalRoom.*;
 import com.besson.arknights.block.RhodeIslandWorkshop.*;
+import com.besson.arknights.block.SakazMercenaryLounge.*;
 import com.besson.arknights.block.SamiCountryVilla.*;
 import com.besson.arknights.block.SecurityBureauLounge.*;
 import com.besson.arknights.block.SevenCitiesStyleRestaurant.*;
@@ -46,6 +47,7 @@ public class ModBlocks {
     public static final Block QUICK_POSTIT_NOTES = registerBlock("quick_postit_notes", new QuickPostitNotes(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
     public static final Block SHIFT_ATTENDANCE_BOARD = registerBlock("shift_attendance_board", new ShiftAttendanceBoard(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
     public static final Block STREET_GRAFFITI = registerBlock("street_graffiti", new StreetGraffiti(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+
     public static final Block BLACK_MINIMALIST_CLOCK = registerBlock("black_minimalist_clock",new BlackMinimalistClock(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
     public static final Block BLACK_MINIMALIST_DESK_LEFT = registerBlock("black_minimalist_desk_left",new BlackMinimalistDesk(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
     public static final Block BLACK_MINIMALIST_DESK_RIGHT = registerBlock("black_minimalist_desk_right",new BlackMinimalistDesk(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
@@ -61,6 +63,7 @@ public class ModBlocks {
     public static final Block SOLID_CHECKERBOARD_BOOKCASE3 = registerBlock("solid_checkerboard_bookcase3",new SolidCheckerboardBookcase(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
     public static final Block SOLID_COLOR_SOFA_DEFAULT = registerBlock("solid_color_sofa_default",new SolidColorSofa(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
     public static final Block SOLID_RIGHT_ANGLE_COFFEE_TABLE = registerBlock("solid_right_angle_coffee_table",new SolidRightAngleCoffeeTable(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+
     public static final Block CLEAR_ORANGE_TV = registerBlock("clear_orange_tv",new ClearBlackTV(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
     public static final Block MINI_BULLETIN_BOARD2 = registerBlock("mini_bulletin_board2",new MiniBulletinBoard(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
     public static final Block ORANGE_BED = registerBlock("orange_bed",new PorcelainBed(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
@@ -71,11 +74,12 @@ public class ModBlocks {
     public static final Block ORANGE_COLOR_SOFA_DEFAULT = registerBlock("orange_color_sofa_default",new SolidColorSofa(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
     public static final Block ORANGE_MINIMALIST_CLOCK = registerBlock("orange_minimalist_clock",new BlackMinimalistClock(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
     public static final Block ORANGE_MINIMALIST_DESK_LEFT = registerBlock("orange_minimalist_desk_left",new BlackMinimalistDesk(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
-    public static final Block ORANGE_MINIMALIST_DESK_RIGHT = registerBlock("orange_minimalist_desk_right",new BlackMinimalistClock(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+    public static final Block ORANGE_MINIMALIST_DESK_RIGHT = registerBlock("orange_minimalist_desk_right",new BlackMinimalistDesk(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
     public static final Block ORANGE_RIGHT_ANGLE_COFFEE_TABLE = registerBlock("orange_right_angle_coffee_table",new SolidRightAngleCoffeeTable(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
     public static final Block ORANGE_ROLLER_BACKREST = registerBlock("orange_roller_backrest",new BlackRollerBackrest(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
     public static final Block ORANGE_TABLE_CABINET = registerBlock("orange_table_cabinet",new BlackTableCabinet(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
     public static final Block ORANGE_WALL_LAMP = registerBlock("orange_wall_lamp",new PorcelainWallLamp(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+
     public static final Block BASKET_SHAPED_LOW_COFFEE_TABLE = registerBlock("basket_shaped_low_coffee_table",new BasketShapedLowCoffeeTable(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
     public static final Block BROAD_LEAVED_POTTED_PLANTS = registerBlock("broad_leaved_potted_plants",new BroadLeavedPottedPlants(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
     public static final Block BROWN_LAZY_SOFA = registerBlock("brown_lazy_sofa",new BrownLazySofa(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
@@ -88,6 +92,7 @@ public class ModBlocks {
     public static final Block METAL_BED = registerBlock("metal_bed",new MetalBed(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
     public static final Block SQUARE_BEDSIDE_CABINET = registerBlock("square_bedside_cabinet",new SquareBedsideCabinet(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
     public static final Block THICK_LEAVED_POTTED_PLANT = registerBlock("thick_leaved_potted_plant",new ThickLeavedPottedPlant(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+
     public static final Block CABIN_CEILING_COMPONENTS = registerBlock("cabin_ceiling_components",new CabinCeilingComponents(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
     public static final Block CABIN_COMBINATION_DOUBLE_BED = registerBlock("cabin_combination_double_bed",new CabinCombinationDoubleBed(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
     public static final Block CABIN_FIRE_EXTINGUISHER_SET = registerBlock("cabin_fire_extinguisher_set",new CabinFireExtinguisherSet(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
@@ -100,6 +105,7 @@ public class ModBlocks {
     public static final Block EMBEDDED_DATA_CABINET2 = registerBlock("embedded_data_cabinet2",new EmbeddedDataCabinet(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
     public static final Block EXPLOSION_PROOF_GARBAGE_BIN = registerBlock("explosion_proof_garbage_bin",new ExplosionProofGarbageBin(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
     public static final Block LIFE_CYCLE_MODULE_CONTROL_CONSOLE = registerBlock("life_cycle_module_control_console",new LifeCycleModuleControlConsole(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+
     public static final Block BAR_COUNTER_CEILING = registerBlock("bar_counter_ceiling",new BarCounterCeiling(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
     public static final Block BEVERAGE_DISPLAY_RACK_COFFEE1 = registerBlock("beverage_display_rack_coffee1",new BeverageDisplayRack(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
     public static final Block BEVERAGE_DISPLAY_RACK_COFFEE2 = registerBlock("beverage_display_rack_coffee2",new BeverageDisplayRack(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
@@ -120,6 +126,7 @@ public class ModBlocks {
     public static final Block RED_BRICK_STORAGE_CABINET = registerBlock("red_brick_storage_cabinet",new RedBrickStorageCabinet(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
     public static final Block SOFT_CEILING_LIGHT = registerBlock("soft_ceiling_light",new SoftCeilingLight(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
     public static final Block SUSPENDED_CEILING_LIGHT = registerBlock("suspended_ceiling_light",new SuspendedCeilingLight(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+
     public static final Block BLACK_ONE_LEGGED_TABLE = registerBlock("black_one_legged_table",new BlackOneLeggedTable(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
     public static final Block BLACK_RETRO_STOOL = registerBlock("black_retro_stool",new BlackRetroStool(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
     public static final Block BLACK_SIMPLE_LOW_SOFA = registerBlock("black_simple_low_sofa",new BlackSimpleLowSofa(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
@@ -136,6 +143,7 @@ public class ModBlocks {
     public static final Block TEAK_BEDSIDE_CABINET = registerBlock("teak_bedside_cabinet",new SandalwoodBedsideCabinet(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
     public static final Block TEAK_LOW_FOOT_CONFERENCE_TABLE = registerBlock("teak_low_foot_conference_table",new SandalwoodLowFootConferenceTable(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
     public static final Block WHITE_ONE_LEGGED_TABLE = registerBlock("white_one_legged_table",new BlackOneLeggedTable(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+
     public static final Block CUSHION_ROCKING_CHAIR = registerBlock("cushion_rocking_chair",new CushionRockingChair(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
     public static final Block HAND_WOVEN_FIREWOOD_BASKET = registerBlock("hand_woven_firewood_basket",new HandWovenFirewoodBasket(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
     public static final Block LOG_BACKCHAIR = registerBlock("log_backchair",new LogBackchair(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
@@ -150,6 +158,7 @@ public class ModBlocks {
     public static final Block VINTAGE_CHANDELIER = registerBlock("vintage_chandelier",new VintageChandelier(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
     public static final Block WOODEN_SOFA_ELEVATED_BED_DOWN = registerBlock("wooden_sofa_elevated_bed_down",new WoodenSofaElevatedBed(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
     public static final Block WOODEN_SOFA_ELEVATED_BED_UP = registerBlock("wooden_sofa_elevated_bed_up",new WoodenSofaElevatedBed(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+
     public static final Block ACTIVITY_TABLE = registerBlock("activity_table",new ActivityTable(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
     public static final Block BACKREST_SINGLE_CHAIR = registerBlock("backrest_single_chair",new BackrestSingleChair(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
     public static final Block BLACK_CASH_REGISTER = registerBlock("black_cash_register",new BlackCashRegister(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
@@ -165,6 +174,7 @@ public class ModBlocks {
     public static final Block PIZZA_PRICE_LIST1 = registerBlock("pizza_price_list1",new PizzaPriceList(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
     public static final Block PIZZA_PRICE_LIST2 = registerBlock("pizza_price_list2",new PizzaPriceList(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
     public static final Block SOFT_LIGHT_CHANDELIERS = registerBlock("soft_light_chandeliers",new SoftLightChandeliers(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+
     public static final Block BEVERAGE_TABLE_HIGH_STOOL = registerBlock("beverage_table_high_stool",new BeverageTableHighStool(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
     public static final Block BILLBOARD_JUKEBOX = registerBlock("billboard_jukebox",new BillboardJukebox(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
     public static final Block BLACK_GOLD_FREEZER = registerBlock("black_gold_freezer",new BlackGoldFreezer(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
@@ -179,6 +189,7 @@ public class ModBlocks {
     public static final Block TOWER_SHAPED_BAR_COUNTER_SUSPENDED_CEILING = registerBlock("tower_shaped_bar_counter_suspended_ceiling",new TowerShapedBarCounterSuspendedCeiling1(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
     public static final Block TOWER_SHAPED_BAR_COUNTER_SUSPENDED_CEILING2 = registerBlock("tower_shaped_bar_counter_suspended_ceiling2",new TowerShapedBarCounterSuspendedCeiling2(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
     public static final Block WILLIAM_PIANO_COMBINATION = registerBlock("william_piano_combination",new WilliamPianoCombination(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+
     public static final Block CABIN_PIPELINE_VALVES = registerBlock("cabin_pipeline_valves",new CabinPipelineValves(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
     public static final Block EMERGENCY_PUSH_BED = registerBlock("emergency_push_bed",new EmergencyPushBed(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
     public static final Block MULTIFUNCTIONAL_DISINFECTOR = registerBlock("multifunctional_disinfector",new MultifunctionalDisinfector(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
@@ -192,6 +203,7 @@ public class ModBlocks {
     public static final Block SAFETY_CABIN_FLUORESCENT_LAMP = registerBlock("safety_cabin_fluorescent_lamp",new SafetyCabinFluorescentLamp(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
     public static final Block SAFETY_COMPARTMENT_MATERIAL_BOX = registerBlock("safety_compartment_material_box",new SafetyCompartmentMaterialBox(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
     public static final Block SUPPLY_RESOURCE_TANK = registerBlock("supply_resource_tank",new SupplyResourceTank(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+
     public static final Block CACTUS_POTTED_PLANT = registerBlock("cactus_potted_plant",new CactusPottedPlant(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
     public static final Block CHENS_DESK_DEFAULT = registerBlock("chens_desk_default",new ChensDesk(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
     public static final Block CHENS_HONORARY_CERTIFICATE = registerBlock("chens_honorary_certificate",new ChensHonoraryCertificate(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
@@ -207,6 +219,7 @@ public class ModBlocks {
     public static final Block OFFICE_CLUE_BOARD = registerBlock("office_clue_board",new OfficeClueBoard(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
     public static final Block SPECIAL_UPRIGHT_STAKES_MADE_BY_THE_GUARD_BUREAU = registerBlock("special_upright_stakes_made_by_the_guard_bureau",new SpecialUprightStakesMadeByTheGuardBureau(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
     public static final Block SPOTLIGHT_FOR_THE_GUARD_BUREAU = registerBlock("spotlight_for_the_guard_bureau",new SpotlightForTheGuardBureau(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+
     public static final Block A_SURFERS_BOARD_RACK = registerBlock("a_surfers_board_rack",new ASurfersBoardRack(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
     public static final Block BEACH_COTTAGE_FLOOR_LAMP = registerBlock("beach_cottage_floor_lamp",new BeachCottageFloorLamp(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
     public static final Block BLUE_AND_WHITE_CANVAS_CURTAINS_LEFT = registerBlock("blue_and_white_canvas_curtains_left",new BlueAndWhiteCanvasCurtains(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
@@ -221,6 +234,7 @@ public class ModBlocks {
     public static final Block SUMMER_BOAT_CABINET_UP = registerBlock("summer_boat_cabinet_up",new SummerBoatCabinet(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
     public static final Block SUMMER_COLLECTION_CABINET = registerBlock("summer_collection_cabinet",new SummerCollectionCabinet(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
     public static final Block WOODEN_TOP_BEAM = registerBlock("wooden_top_beam",new WoodenTopBeam(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+
     public static final Block AMBER = registerBlock("amber",new Guitar(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
     public static final Block BLAZE = registerBlock("blaze",new Guitar(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
     public static final Block DARK_CLOUDS = registerBlock("dark_clouds",new Guitar(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
@@ -241,6 +255,7 @@ public class ModBlocks {
     public static final Block WHEAT_FRAGRANCE = registerBlock("wheat_fragrance",new Guitar(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
     public static final Block WHITE_BIRCH = registerBlock("white_birch",new Guitar(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
     public static final Block YARMA_KHAN_SHELF_DRUM = registerBlock("yarma_khan_shelf_drum",new YarmaKhanShelfDrum(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+
     public static final Block AI_STYLE_COLUMN_DOWN = registerBlock("ai_style_column_down",new AiStyleColumn(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
     public static final Block AI_STYLE_COLUMN_MIDDLE = registerBlock("ai_style_column_middle",new AiStyleColumn(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
     public static final Block AI_STYLE_COLUMN_UP = registerBlock("ai_style_column_up",new AiStyleColumn(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
@@ -255,6 +270,7 @@ public class ModBlocks {
     public static final Block LANCELLAR_LOW_STOOL = registerBlock("lancellar_low_stool",new LancellarLowStool(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
     public static final Block LANCELLAR_MIRROR = registerBlock("lancellar_mirror",new LancellarMirror(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
     public static final Block LOCKED_CABINET = registerBlock("locked_cabinet",new LockedCabinet(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+
     public static final Block ABNORMAL_BEDDING_BED = registerBlock("abnormal_bedding_bed",new AbnormalBeddingBed(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
     public static final Block ABNORMAL_BEDDING_LIGHT = registerBlock("abnormal_bedding_light",new AbnormalBeddingLight(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
     public static final Block ABNORMAL_BEDDING_TREE = registerBlock("abnormal_bedding_tree",new AbnormalBeddingTree(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
@@ -266,6 +282,7 @@ public class ModBlocks {
     public static final Block MORE_YIGUA = registerBlock("more_yigua",new MoreYigua(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
     public static final Block SEVERAL_YIGUA = registerBlock("several_yigua",new SeveralYigua(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
     public static final Block SHAYI_BOOK_GROUP = registerBlock("shayi_book_group",new ShayiBookGroup(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+
     public static final Block ADJUSTABLE_ROUND_STOOL = registerBlock("adjustable_round_stool",new AdjustableRoundStool(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
     public static final Block FLUORESCENT_LAMP_CEILING = registerBlock("fluorescent_lamp_ceiling",new FluorescentLampCeiling(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
     public static final Block GOODS_TO_BE_CARRIED = registerBlock("goods_to_be_carried",new GoodsToBeCarried(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
@@ -281,6 +298,7 @@ public class ModBlocks {
     public static final Block SAFETY_PARTITION_DOOR = registerBlock("safety_partition_door",new SafetyPartitionDoor(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
     public static final Block SOFT_SOFA_DEFAULT = registerBlock("soft_sofa_default",new SoftSofa(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
     public static final Block TREASURED_BEVERAGE_BUCKET = registerBlock("treasured_beverage_bucket",new TreasuredBeverageBucket(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+
     public static final Block CLEANER = registerBlock("cleaner",new Cleaner(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
     public static final Block DOUBLE_BEAM_CRANE = registerBlock("double_beam_crane",new DoubleBeamCrane(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
     public static final Block FLOODLIGHT_SUSPENDED_CEILING = registerBlock("floodlight_suspended_ceiling",new FloodlightSuspendedCeiling(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
@@ -291,6 +309,7 @@ public class ModBlocks {
     public static final Block WEAPON_STORAGE_CABINET = registerBlock("weapon_storage_cabinet",new WeaponStorageCabinet(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
     public static final Block WHITE_ROUND_STOOL = registerBlock("white_round_stool",new WhiteRoundStool(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
     public static final Block WORKSHOP_BLACKBOARD = registerBlock("workshop_blackboard",new WorkshopBlackboard(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+
     public static final Block BAMBOO_SCREEN = registerBlock("bamboo_screen",new BambooScreen(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
     public static final Block CEILING_LAMP = registerBlock("ceiling_lamp",new CeilingLamp(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
     public static final Block CORNER_WOODEN_DEFAULT = registerBlock("corner_wooden_default",new CornerWooden(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
@@ -313,6 +332,7 @@ public class ModBlocks {
     public static final Block SQUARE_BENCH = registerBlock("square_bench",new SquareBench(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
     public static final Block STEWED_POT_PLATFORM = registerBlock("stewed_pot_platform",new StewedPotPlatform(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
     public static final Block STEWED_POT_PLATFORM_POT = registerBlock("stewed_pot_platform_pot",new StewedPotPlatformPot(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+
     public static final Block COLD_FRESH_FOOD_CABINET_DEFAULT = registerBlock("cold_fresh_food_cabinet_default",new ColdFreshFoodCabinet(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
     public static final Block DAILY_RECOMMENDATIONS = registerBlock("daily_recommendations",new DailyRecommendations(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
     public static final Block GREEN_DOUBLE_SOFA_DEFAULT = registerBlock("green_double_sofa_default",new GreenDoubleSofa(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
@@ -326,6 +346,7 @@ public class ModBlocks {
     public static final Block RELAXED_GARDEN_CEILING = registerBlock("relaxed_garden_ceiling",new RelaxedGardenCeiling(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
     public static final Block SELF_SERVICE_ORDERING_MACHINE = registerBlock("self_service_ordering_machine",new SelfServiceOrderingMachine(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
     public static final Block SELF_SERVICE_VENDING_MACHINE = registerBlock("self_service_vending_machine",new SelfServiceVendingMachine(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+
     public static final Block BEER_STORAGE_CABINET = registerBlock("beer_storage_cabinet",new BeerStorageCabinet(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
     public static final Block CLEAN_SERVICE_DESK_DEFAULT = registerBlock("clean_service_desk_default",new CleanServiceDesk(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
     public static final Block DOUBLE_ROW_SOFA_SEAT_DEFAULT = registerBlock("double_row_sofa_seat_default",new DoubleRowSofaSeat(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
@@ -335,6 +356,23 @@ public class ModBlocks {
     public static final Block LARGE_PROMOTIONAL_BOARD = registerBlock("large_promotional_board",new LargePromotionalBoard(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
     public static final Block RESTAURANT_PROMOTIONAL_BOARD = registerBlock("restaurant_promotional_board",new RestaurantPromotionalBoard(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
     public static final Block SEVEN_CITY_STYLE_WARM_LIGHT_CHANDELIER = registerBlock("seven_city_style_warm_light_chandelier",new SevenCityStyleWarmLightChandelier(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+
+    public static final Block BULLETPROOF_GLASS_PARTITION = registerBlock("bulletproof_glass_partition",new BulletproofGlassPartition(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+    public static final Block DETONATOR_MAKING_TOOL = registerBlock("detonator_making_tool",new DetonatorMakingTool(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+    public static final Block HANGING_DART_PLATE = registerBlock("hanging_dart_plate",new HangingDartPlate(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+    public static final Block HANGING_STORAGE_RACK = registerBlock("hanging_storage_rack",new HangingStorageRack(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+    public static final Block HIGH_FOOT_DINING_TABLE = registerBlock("high_foot_dining_table",new HighFootDiningTable(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+    public static final Block HIGH_YIELD_EXPLOSIVE_RAW_MATERIALS = registerBlock("high_yield_explosive_raw_materials",new HighYieldExplosiveRawMaterials(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+    public static final Block LOUNGE_LIGHT_SOURCE_CEILING = registerBlock("lounge_light_source_ceiling",new LoungeLightSourceCeiling(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+    public static final Block LOUNGE_LIGHT_TUBE = registerBlock("lounge_light_tube",new LoungeLightTube(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+    public static final Block LOUNGE_NOTICE_BOARD = registerBlock("lounge_notice_board",new LoungeNoticeBoard(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+    public static final Block LOUNGE_PENDANT_LIGHT = registerBlock("lounge_pendant_light",new LoungePendantLight(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+    public static final Block LOUNGE_SMALL_WALL_LAMP = registerBlock("lounge_small_wall_lamp",new LoungeSmallWallLamp(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+    public static final Block RED_FRAMED_FLOOR_MIRROR = registerBlock("red_framed_floor_mirror",new RedFramedFloorMirror(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+    public static final Block SAKAZ_BILLIARDS_TABLE = registerBlock("sakaz_billiards_table",new SakazBilliardsTable(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+    public static final Block SAKAZ_PENDULUM = registerBlock("sakaz_pendulum",new SakazPendulum(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+    public static final Block SPOILS_DISPLAY_RACK = registerBlock("spoils_display_rack",new SpoilsDisplayRack(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+
 
     private static Block registerBlock(String name,Block block){
         registerBlockItem(name,block);

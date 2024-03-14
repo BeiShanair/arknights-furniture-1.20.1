@@ -422,6 +422,26 @@ public class ModItemGroups {
                         entries.add(ModBlocks.RESTAURANT_PROMOTIONAL_BOARD);
                         entries.add(ModBlocks.SEVEN_CITY_STYLE_WARM_LIGHT_CHANDELIER);
                     }).build());
+    public static final ItemGroup SAKAZ_MERCENARY_LOUNGE = Registry.register(Registries.ITEM_GROUP,
+            new Identifier(ArknightsFurniture.MOD_ID,"sakaz_mercenary_lounge"),
+            FabricItemGroup.builder().displayName(Text.translatable("itemGroup.sakaz_mercenary_lounge"))
+                    .icon(() -> new ItemStack(ModBlocks.HIGH_FOOT_DINING_TABLE)).entries((displayContext, entries) -> {
+                        entries.add(ModBlocks.BULLETPROOF_GLASS_PARTITION);
+                        entries.add(ModBlocks.DETONATOR_MAKING_TOOL);
+                        entries.add(ModBlocks.HANGING_DART_PLATE);
+                        entries.add(ModBlocks.HANGING_STORAGE_RACK);
+                        entries.add(ModBlocks.HIGH_FOOT_DINING_TABLE);
+                        entries.add(ModBlocks.HIGH_YIELD_EXPLOSIVE_RAW_MATERIALS);
+                        entries.add(ModBlocks.LOUNGE_LIGHT_SOURCE_CEILING);
+                        entries.add(ModBlocks.LOUNGE_LIGHT_TUBE);
+                        entries.add(ModBlocks.LOUNGE_NOTICE_BOARD);
+                        entries.add(ModBlocks.LOUNGE_PENDANT_LIGHT);
+                        entries.add(ModBlocks.LOUNGE_SMALL_WALL_LAMP);
+                        entries.add(ModBlocks.RED_FRAMED_FLOOR_MIRROR);
+                        entries.add(ModBlocks.SAKAZ_BILLIARDS_TABLE);
+                        entries.add(ModBlocks.SAKAZ_PENDULUM);
+                        entries.add(ModBlocks.SPOILS_DISPLAY_RACK);
+                    }).build());
     // public static final ItemGroup  = Registry.register(Registries.ITEM_GROUP,
     //        new Identifier(ArknightsFurniture.MOD_ID,""),
     //        FabricItemGroup.builder().displayName(Text.translatable("itemgroup."))

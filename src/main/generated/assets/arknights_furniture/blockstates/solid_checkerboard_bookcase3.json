@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=east": {
+      "model": "arknights_furniture:block/solid_checkerboard_bookcase3",
+      "y": 90
+    },
+    "facing=north": {
+      "model": "arknights_furniture:block/solid_checkerboard_bookcase3"
+    },
+    "facing=south": {
+      "model": "arknights_furniture:block/solid_checkerboard_bookcase3",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "arknights_furniture:block/solid_checkerboard_bookcase3",
+      "y": 270
+    }
+  }
+}

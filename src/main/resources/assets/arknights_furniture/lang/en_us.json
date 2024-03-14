@@ -1,5 +1,5 @@
 {
-  "item.arknights_furniture.ark_logo":"Rhodes Island Logo",
+  "item.arknights_furniture.rhodes_island_logo":"Rhodes Island Logo",
 
   "block.arknights_furniture.cardboard_box": "Cardboard Box",
   "block.arknights_furniture.cargo_pad": "Cargo Pad",
@@ -329,6 +329,23 @@
   "block.arknights_furniture.restaurant_promotional_board":"Restaurant Promotional Board",
   "block.arknights_furniture.seven_city_style_warm_light_chandelier":"Seven City Style Warm Light Chandelier",
 
+  "block.arknights_furniture.bulletproof_glass_partition":"Bulletproof Glass Partition",
+  "block.arknights_furniture.detonator_making_tool":"Detonator Making Tool",
+  "block.arknights_furniture.hanging_dart_plate":"Hanging Dart Plate",
+  "block.arknights_furniture.hanging_storage_rack":"Hanging Storage Rack",
+  "block.arknights_furniture.high_foot_dining_table":"High Foot Dining Table",
+  "block.arknights_furniture.high_yield_explosive_raw_materials":"High Yield Explosive Raw Materials",
+  "block.arknights_furniture.lounge_light_source_ceiling":"Lounge Light Source Ceiling",
+  "block.arknights_furniture.lounge_light_tube":"Lounge Light Tube",
+  "block.arknights_furniture.lounge_notice_board":"Lounge Notice Board",
+  "block.arknights_furniture.lounge_pendant_light":"Lounge Pendant Light",
+  "block.arknights_furniture.lounge_small_wall_lamp":"Lounge Small Wall Lamp",
+  "block.arknights_furniture.red_framed_floor_mirror":"Red Framed Floor Mirror",
+  "block.arknights_furniture.sakaz_billiards_table":"Sakaz Billiards Table",
+  "block.arknights_furniture.sakaz_pendulum":"Sakaz Pendulum",
+  "block.arknights_furniture.spoils_display_rack":"Spoils Display Rack",
+
+
   "itemgroup.logo": "LOGO Group",
   "itemgroup.freight_warehouse": "Freight Warehouse",
   "itemgroup.edge_solid_orange_simple_home": "Edge-Solid/Orange Simple Home",
@@ -349,5 +366,6 @@
   "itemgroup.rhode_island_workshop": "Rhode Island Workshop",
   "itemgroup.long_men_restaurant": "Long Men Restaurant",
   "itemgroup.healthy_fast_food_restaurant": "Healthy Fast Food Restaurant",
-  "itemgroup.seven_cities_style_restaurant": "Seven Cities Style Restaurant"
+  "itemgroup.seven_cities_style_restaurant": "Seven Cities Style Restaurant",
+  "itemGroup.sakaz_mercenary_lounge": "Sakaz Mercenary Lounge"
 }
