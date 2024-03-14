@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=east": {
+      "model": "arknights_furniture:block/safety_cabin_control_airway",
+      "y": 90
+    },
+    "facing=north": {
+      "model": "arknights_furniture:block/safety_cabin_control_airway"
+    },
+    "facing=south": {
+      "model": "arknights_furniture:block/safety_cabin_control_airway",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "arknights_furniture:block/safety_cabin_control_airway",
+      "y": 270
+    }
+  }
+}

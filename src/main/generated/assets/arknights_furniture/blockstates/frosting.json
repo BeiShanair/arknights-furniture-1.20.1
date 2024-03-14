@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=east": {
+      "model": "arknights_furniture:block/frosting",
+      "y": 90
+    },
+    "facing=north": {
+      "model": "arknights_furniture:block/frosting"
+    },
+    "facing=south": {
+      "model": "arknights_furniture:block/frosting",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "arknights_furniture:block/frosting",
+      "y": 270
+    }
+  }
+}

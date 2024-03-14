@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=east": {
+      "model": "arknights_furniture:block/abnormal_bedding_tree",
+      "y": 90
+    },
+    "facing=north": {
+      "model": "arknights_furniture:block/abnormal_bedding_tree"
+    },
+    "facing=south": {
+      "model": "arknights_furniture:block/abnormal_bedding_tree",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "arknights_furniture:block/abnormal_bedding_tree",
+      "y": 270
+    }
+  }
+}

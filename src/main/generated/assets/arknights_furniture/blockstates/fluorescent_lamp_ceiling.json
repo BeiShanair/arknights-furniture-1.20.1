@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=east": {
+      "model": "arknights_furniture:block/fluorescent_lamp_ceiling",
+      "y": 90
+    },
+    "facing=north": {
+      "model": "arknights_furniture:block/fluorescent_lamp_ceiling"
+    },
+    "facing=south": {
+      "model": "arknights_furniture:block/fluorescent_lamp_ceiling",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "arknights_furniture:block/fluorescent_lamp_ceiling",
+      "y": 270
+    }
+  }
+}

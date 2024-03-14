@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=east": {
+      "model": "arknights_furniture:block/double_ceiling_candle_chandelier",
+      "y": 90
+    },
+    "facing=north": {
+      "model": "arknights_furniture:block/double_ceiling_candle_chandelier"
+    },
+    "facing=south": {
+      "model": "arknights_furniture:block/double_ceiling_candle_chandelier",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "arknights_furniture:block/double_ceiling_candle_chandelier",
+      "y": 270
+    }
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=east": {
+      "model": "arknights_furniture:block/william_piano_combination",
+      "y": 90
+    },
+    "facing=north": {
+      "model": "arknights_furniture:block/william_piano_combination"
+    },
+    "facing=south": {
+      "model": "arknights_furniture:block/william_piano_combination",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "arknights_furniture:block/william_piano_combination",
+      "y": 270
+    }
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=east": {
+      "model": "arknights_furniture:block/detonator_making_tool",
+      "y": 90
+    },
+    "facing=north": {
+      "model": "arknights_furniture:block/detonator_making_tool"
+    },
+    "facing=south": {
+      "model": "arknights_furniture:block/detonator_making_tool",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "arknights_furniture:block/detonator_making_tool",
+      "y": 270
+    }
+  }
+}
