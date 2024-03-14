@@ -367,5 +367,12 @@
   "itemgroup.long_men_restaurant": "Long Men Restaurant",
   "itemgroup.healthy_fast_food_restaurant": "Healthy Fast Food Restaurant",
   "itemgroup.seven_cities_style_restaurant": "Seven Cities Style Restaurant",
-  "itemGroup.sakaz_mercenary_lounge": "Sakaz Mercenary Lounge"
+  "itemGroup.sakaz_mercenary_lounge": "Sakaz Mercenary Lounge",
+
+  "painting.arknights_furniture.unconfirmed_biological_skeleton.title":"Unconfirmed Biological Skeleton",
+  "painting.arknights_furniture.unconfirmed_biological_skeleton.author":"Hypergryph",
+  "painting.arknights_furniture.unknown_biological_specimen_collection1.title":"Unknown Biological Specimen Collection1",
+  "painting.arknights_furniture.unknown_biological_specimen_collection1.author":"Hypergryph",
+  "painting.arknights_furniture.unknown_biological_specimen_collection2.title":"Unknown Biological Specimen Collection2",
+  "painting.arknights_furniture.unknown_biological_specimen_collection2.author":"Hypergryph"
 }

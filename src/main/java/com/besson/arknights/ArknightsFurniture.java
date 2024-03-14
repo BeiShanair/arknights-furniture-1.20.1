@@ -4,6 +4,7 @@ import com.besson.arknights.block.ModBlocks;
 import com.besson.arknights.entity.ModEntities;
 import com.besson.arknights.item.ModItemGroups;
 import com.besson.arknights.item.ModItems;
+import com.besson.arknights.painting.ModPaintingVariants;
 import net.fabricmc.api.ModInitializer;
 
 import org.slf4j.Logger;
@@ -19,6 +20,7 @@ public class ArknightsFurniture implements ModInitializer {
 		ModItemGroups.registerItemGroup();
 		ModBlocks.registerModBlocks();
 		ModEntities.init();
+		ModPaintingVariants.registerModPaintings();
 		LOGGER.info("Hello Fabric world!");
 	}
 }
