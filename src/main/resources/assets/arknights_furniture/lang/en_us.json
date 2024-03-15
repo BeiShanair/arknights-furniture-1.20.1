@@ -345,6 +345,16 @@
   "block.arknights_furniture.sakaz_pendulum":"Sakaz Pendulum",
   "block.arknights_furniture.spoils_display_rack":"Spoils Display Rack",
 
+  "block.arknights_furniture.circular_suspended_ceiling":"Circular Suspended Ceiling",
+  "block.arknights_furniture.club_bulletin_board":"Club Bulletin Board",
+  "block.arknights_furniture.floor_mounted_bookshelf":"Floor Mounted Bookshelf",
+  "block.arknights_furniture.hanging_lamp":"Hanging Lamp",
+  "block.arknights_furniture.low_floor_lamp":"Low Floor Lamp",
+  "block.arknights_furniture.low_storage_cabinet":"Low Storage Cabinet",
+  "block.arknights_furniture.portable_picnic_stove":"Portable Picnic Stove",
+  "block.arknights_furniture.simple_toilet_chair":"Simple Toilet Chair",
+  "block.arknights_furniture.wooden_long_table":"Wooden Long Table",
+
 
   "itemgroup.logo": "LOGO Group",
   "itemgroup.freight_warehouse": "Freight Warehouse",
@@ -368,6 +378,7 @@
   "itemgroup.healthy_fast_food_restaurant": "Healthy Fast Food Restaurant",
   "itemgroup.seven_cities_style_restaurant": "Seven Cities Style Restaurant",
   "itemGroup.sakaz_mercenary_lounge": "Sakaz Mercenary Lounge",
+  "itemGroup.uras_student_lounge": "Uras Student Lounge",
 
   "painting.arknights_furniture.unconfirmed_biological_skeleton.title":"Unconfirmed Biological Skeleton",
   "painting.arknights_furniture.unconfirmed_biological_skeleton.author":"Hypergryph",

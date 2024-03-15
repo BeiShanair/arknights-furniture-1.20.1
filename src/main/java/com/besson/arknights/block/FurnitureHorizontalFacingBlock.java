@@ -13,7 +13,7 @@ import org.jetbrains.annotations.Nullable;
 
 public class FurnitureHorizontalFacingBlock extends HorizontalFacingBlock {
     public static final DirectionProperty FACING = Properties.HORIZONTAL_FACING;
-    protected FurnitureHorizontalFacingBlock(Settings settings) {
+    public FurnitureHorizontalFacingBlock(Settings settings) {
         super(settings);
     }
     @Nullable

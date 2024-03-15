@@ -12,7 +12,7 @@ import net.minecraft.world.WorldAccess;
 public class ConnectableBlock extends FurnitureHorizontalFacingBlock{
     //此类为具有多状态的可连接方块提供继承方法
     public static final EnumProperty<Type> TYPE = EnumProperty.of("type", Type.class);
-    protected ConnectableBlock(Settings settings) {
+    public ConnectableBlock(Settings settings) {
         super(settings);
         this.setDefaultState(this.getStateManager().getDefaultState().with(TYPE, Type.SINGLE));
     }

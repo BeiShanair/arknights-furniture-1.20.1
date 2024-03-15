@@ -442,6 +442,21 @@ public class ModItemGroups {
                         entries.add(ModBlocks.SAKAZ_PENDULUM);
                         entries.add(ModBlocks.SPOILS_DISPLAY_RACK);
                     }).build());
+
+    public static final ItemGroup URSA_STUDENT_LOUNGE = Registry.register(Registries.ITEM_GROUP,
+            new Identifier(ArknightsFurniture.MOD_ID,"ursa_student_lounge"),
+            FabricItemGroup.builder().displayName(Text.translatable("itemGroup.uras_student_lounge"))
+                    .icon(() -> new ItemStack(ModBlocks.WOODEN_LONG_TABLE)).entries((displayContext, entries) -> {
+                        entries.add(ModBlocks.CIRCULAR_SUSPENDED_CEILING);
+                        entries.add(ModBlocks.CLUB_BULLETIN_BOARD);
+                        entries.add(ModBlocks.FLOOR_MOUNTED_BOOKSHELF);
+                        entries.add(ModBlocks.HANGING_LAMP);
+                        entries.add(ModBlocks.LOW_FLOOR_LAMP);
+                        entries.add(ModBlocks.LOW_STORAGE_CABINET);
+                        entries.add(ModBlocks.PORTABLE_PICNIC_STOVE);
+                        entries.add(ModBlocks.SIMPLE_TOILET_CHAIR);
+                        entries.add(ModBlocks.WOODEN_LONG_TABLE);
+                    }).build());
     // public static final ItemGroup  = Registry.register(Registries.ITEM_GROUP,
     //        new Identifier(ArknightsFurniture.MOD_ID,""),
     //        FabricItemGroup.builder().displayName(Text.translatable("itemgroup."))

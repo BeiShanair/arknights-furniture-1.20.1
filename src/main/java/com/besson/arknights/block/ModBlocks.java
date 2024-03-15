@@ -22,6 +22,7 @@ import com.besson.arknights.block.SecurityBureauLounge.*;
 import com.besson.arknights.block.SevenCitiesStyleRestaurant.*;
 import com.besson.arknights.block.SiestaBeachCottage.*;
 import com.besson.arknights.block.SoulSecretSociety.*;
+import com.besson.arknights.block.UrsasStudentLounge.*;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.fabricmc.fabric.api.object.builder.v1.block.FabricBlockSettings;
 import net.minecraft.block.Block;
@@ -372,6 +373,17 @@ public class ModBlocks {
     public static final Block SAKAZ_BILLIARDS_TABLE = registerBlock("sakaz_billiards_table",new SakazBilliardsTable(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
     public static final Block SAKAZ_PENDULUM = registerBlock("sakaz_pendulum",new SakazPendulum(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
     public static final Block SPOILS_DISPLAY_RACK = registerBlock("spoils_display_rack",new SpoilsDisplayRack(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+
+    public static final Block CIRCULAR_SUSPENDED_CEILING = registerBlock("circular_suspended_ceiling",new CircularSuspendedCeiling(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+    public static final Block CLUB_BULLETIN_BOARD = registerBlock("club_bulletin_board",new ClubBulletinBoard(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+    public static final Block FLOOR_MOUNTED_BOOKSHELF = registerBlock("floor_mounted_bookshelf",new FloorMountedBookshelf(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+    public static final Block HANGING_LAMP = registerBlock("hanging_lamp",new HangingLamp(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+    public static final Block LOW_FLOOR_LAMP = registerBlock("low_floor_lamp",new LowFloorLamp(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+    public static final Block LOW_STORAGE_CABINET = registerBlock("low_storage_cabinet",new LowStorageCabinet(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+    public static final Block PORTABLE_PICNIC_STOVE = registerBlock("portable_picnic_stove",new PortablePicnicStove(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+    public static final Block SIMPLE_TOILET_CHAIR = registerBlock("simple_toilet_chair",new SimpleToiletChair(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+    public static final Block WOODEN_LONG_TABLE = registerBlock("wooden_long_table",new WoodenLongTable(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+
 
 
     private static Block registerBlock(String name,Block block){
