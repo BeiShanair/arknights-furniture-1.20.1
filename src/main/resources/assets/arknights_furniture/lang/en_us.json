@@ -369,6 +369,20 @@
   "block.arknights_furniture.six_candle_chandelier":"Six Candle Chandelier",
   "block.arknights_furniture.white_extended_default":"White Extended",
 
+  "block.arknights_furniture.floor_signs":"FloorSigns",
+  "block.arknights_furniture.movable_storage_cabinet":"MovableStorageCabinet",
+  "block.arknights_furniture.overload_printer":"OverloadPrinter",
+  "block.arknights_furniture.personnel_office_light_source":"PersonnelOfficeLightSource",
+  "block.arknights_furniture.sharp_ornamental_plants":"SharpOrnamentalPlants",
+  "block.arknights_furniture.standard_office_chair":"StandardOfficeChair",
+  "block.arknights_furniture.standard_office_desk":"StandardOfficeDesk",
+  "block.arknights_furniture.standard_office_desk_computer":"StandardOfficeDeskComputer",
+  "block.arknights_furniture.station_indicator_board":"StationIndicatorBoard",
+  "block.arknights_furniture.station_light_source":"StationLightSource",
+  "block.arknights_furniture.transparent_screen_for_partition":"TransparentScreenForPartition",
+  "block.arknights_furniture.waiting_sofa_stool":"WaitingSofaStool",
+  "block.arknights_furniture.water_dispenser":"WaterDispenser",
+
   "itemgroup.logo": "LOGO Group",
   "itemgroup.freight_warehouse": "Freight Warehouse",
   "itemgroup.edge_solid_orange_simple_home": "Edge-Solid/Orange Simple Home",
@@ -393,6 +407,7 @@
   "itemGroup.sakaz_mercenary_lounge": "Sakaz Mercenary Lounge",
   "itemGroup.uras_student_lounge": "Uras Student Lounge",
   "itemgroup.letania_night": "Letania Night",
+  "itemgroup.rhodes_island_office_of_personnel": "Rhodes Island Office Of Personnel",
 
   "painting.arknights_furniture.unconfirmed_biological_skeleton.title":"Unconfirmed Biological Skeleton",
   "painting.arknights_furniture.unconfirmed_biological_skeleton.author":"Hypergryph",

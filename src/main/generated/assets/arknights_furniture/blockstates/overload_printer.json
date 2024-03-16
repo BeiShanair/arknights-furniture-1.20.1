@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=east": {
+      "model": "arknights_furniture:block/overload_printer",
+      "y": 90
+    },
+    "facing=north": {
+      "model": "arknights_furniture:block/overload_printer"
+    },
+    "facing=south": {
+      "model": "arknights_furniture:block/overload_printer",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "arknights_furniture:block/overload_printer",
+      "y": 270
+    }
+  }
+}

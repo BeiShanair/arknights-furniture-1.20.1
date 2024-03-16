@@ -476,6 +476,26 @@ public class ModItemGroups {
                         entries.add(ModBlocks.SIX_CANDLE_CHANDELIER);
                         entries.add(ModBlocks.WHITE_EXTENDED_DEFAULT);
                     }).build());
+
+    public static final ItemGroup RHODES_ISLAND_OFFICE_OF_PERSONNEL = Registry.register(Registries.ITEM_GROUP,
+            new Identifier(ArknightsFurniture.MOD_ID,"rhodes_island_office_of_personnel"),
+            FabricItemGroup.builder().displayName(Text.translatable("itemgroup.rhodes_island_office_of_personnel"))
+                    .icon(() -> new ItemStack(ModBlocks.SHARP_ORNAMENTAL_PLANTS)).entries((displayContext, entries) -> {
+                        entries.add(ModBlocks.FLOOR_SIGNS);
+                        entries.add(ModBlocks.MOVABLE_STORAGE_CABINET);
+                        entries.add(ModBlocks.OVERLOAD_PRINTER);
+                        entries.add(ModBlocks.PERSONNEL_OFFICE_LIGHT_SOURCE);
+                        entries.add(ModBlocks.SHARP_ORNAMENTAL_PLANTS);
+                        entries.add(ModBlocks.STANDARD_OFFICE_CHAIR);
+                        entries.add(ModBlocks.STANDARD_OFFICE_DESK);
+                        entries.add(ModBlocks.STANDARD_OFFICE_DESK_COMPUTER);
+                        entries.add(ModBlocks.STATION_INDICATOR_BOARD);
+                        entries.add(ModBlocks.STATION_LIGHT_SOURCE);
+                        entries.add(ModBlocks.TRANSPARENT_SCREEN_FOR_PARTITION);
+                        entries.add(ModBlocks.WAITING_SOFA_STOOL);
+                        entries.add(ModBlocks.WATER_DISPENSER);
+
+                    }).build());
     // public static final ItemGroup  = Registry.register(Registries.ITEM_GROUP,
     //        new Identifier(ArknightsFurniture.MOD_ID,""),
     //        FabricItemGroup.builder().displayName(Text.translatable("itemgroup."))

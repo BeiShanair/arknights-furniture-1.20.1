@@ -16,6 +16,7 @@ import com.besson.arknights.block.LongmenRestaurant.*;
 import com.besson.arknights.block.PenguinLogisticsSafeHouse.*;
 import com.besson.arknights.block.QuickChainPizzaShops.*;
 import com.besson.arknights.block.RhodeIslandModernMusicRehearsalRoom.*;
+import com.besson.arknights.block.RhodeIslandOfficeofPersonnel.*;
 import com.besson.arknights.block.RhodeIslandWorkshop.*;
 import com.besson.arknights.block.SakazMercenaryLounge.*;
 import com.besson.arknights.block.SamiCountryVilla.*;
@@ -399,6 +400,20 @@ public class ModBlocks {
     public static final Block SIX_CANDLE_CHANDELIER = registerBlock("six_candle_chandelier",new SixCandleChandelier(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
     public static final Block WHITE_EXTENDED_DEFAULT = registerBlock("white_extended_default",new WhiteExtended(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
 
+
+    public static final Block FLOOR_SIGNS = registerBlock("floor_signs",new FloorSigns(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+    public static final Block MOVABLE_STORAGE_CABINET = registerBlock("movable_storage_cabinet",new MovableStorageCabinet(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+    public static final Block OVERLOAD_PRINTER = registerBlock("overload_printer",new OverloadPrinter(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+    public static final Block PERSONNEL_OFFICE_LIGHT_SOURCE = registerBlock("personnel_office_light_source",new PersonnelOfficeLightSource(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+    public static final Block SHARP_ORNAMENTAL_PLANTS = registerBlock("sharp_ornamental_plants",new SharpOrnamentalPlants(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+    public static final Block STANDARD_OFFICE_CHAIR = registerBlock("standard_office_chair",new StandardOfficeChair(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+    public static final Block STANDARD_OFFICE_DESK = registerBlock("standard_office_desk",new StandardOfficeDesk(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+    public static final Block STANDARD_OFFICE_DESK_COMPUTER = registerBlock("standard_office_desk_computer",new StandardOfficeDeskComputer(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+    public static final Block STATION_INDICATOR_BOARD = registerBlock("station_indicator_board",new StationIndicatorBoard(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+    public static final Block STATION_LIGHT_SOURCE = registerBlock("station_light_source",new StationLightSource(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+    public static final Block TRANSPARENT_SCREEN_FOR_PARTITION = registerBlock("transparent_screen_for_partition",new TransparentScreenForPartition(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+    public static final Block WAITING_SOFA_STOOL = registerBlock("waiting_sofa_stool",new WaitingSofaStool(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+    public static final Block WATER_DISPENSER = registerBlock("water_dispenser",new WaterDispenser(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
 
     private static Block registerBlock(String name,Block block){
         registerBlockItem(name,block);
