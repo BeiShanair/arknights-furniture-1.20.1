@@ -6,6 +6,7 @@ import com.besson.arknights.block.ChensOffice.*;
 import com.besson.arknights.block.ColumbiaCafe.*;
 import com.besson.arknights.block.ColumbiaModernHotel.*;
 import com.besson.arknights.block.EdgeSolid_OrangeSimpleHome.*;
+import com.besson.arknights.block.FlameHall.*;
 import com.besson.arknights.block.FreightWarehouse.*;
 import com.besson.arknights.block.HealthyFastFoodRestaurant.*;
 import com.besson.arknights.block.IllusionaryBiography.*;
@@ -423,6 +424,18 @@ public class ModBlocks {
     public static final Block TRIBAL_DECORATIVE_CHANDELIER = registerBlock("tribal_decorative_chandelier",new TribalDecorativeChandelier(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
     public static final Block TRIBAL_ELEVATED_BED = registerBlock("tribal_elevated_bed",new TribalElevatedBed(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
     public static final Block TRIBAL_STYLE_SOFA_DEFAULT = registerBlock("tribal_style_sofa_default",new TribalStyleSofa(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+
+    public static final Block BASKET_LAMP = registerBlock("basket_lamp",new BasketLamp(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+    public static final Block CARVED_WOODEN_SCREEN = registerBlock("carved_wooden_screen",new CarvedWoodenScreen(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+    public static final Block EXTENDED_FOOTSTOOL = registerBlock("extended_footstool",new ExtendedFootstool(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+    public static final Block HIGH_FOOTED_CANDLE_LAMP = registerBlock("high_footed_candle_lamp",new HighFootedCandleLamp(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+    public static final Block NEW_STYLE_IMPERIAL_CONCUBINE_BED_DEFAULT = registerBlock("new_style_imperial_concubine_bed_default",new NewStyleImperialConcubineBed(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+    public static final Block PAGODA_LAMP = registerBlock("pagoda_lamp",new PagodaLamp(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+    public static final Block SHORT_LEGGED_LONG_TABLE = registerBlock("short_legged_long_table",new ShortLeggedLongTable(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+    public static final Block SOURCE_STONE_WATER_BOILER = registerBlock("source_stone_water_boiler",new SourceStoneWaterBoiler(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+    public static final Block SQUARE_TOP_BOX_CABINET = registerBlock("square_top_box_cabinet",new SquareTopBoxCabinet(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+    public static final Block SQUARE_TOP_BOX_CABINET2 = registerBlock("square_top_box_cabinet2",new SquareTopBoxCabinet(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+    public static final Block WOODEN_CARVED_ROUND_STOOL = registerBlock("wooden_carved_round_stool",new WoodenCarvedRoundStool(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
 
     private static Block registerBlock(String name,Block block){
         registerBlockItem(name,block);

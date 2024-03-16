@@ -507,7 +507,23 @@ public class ModItemGroups {
                         entries.add(ModBlocks.TRIBAL_DECORATIVE_CHANDELIER);
                         entries.add(ModBlocks.TRIBAL_ELEVATED_BED);
                         entries.add(ModBlocks.TRIBAL_STYLE_SOFA_DEFAULT);
+                    }).build());
 
+    public static final ItemGroup FLAME_HALL = Registry.register(Registries.ITEM_GROUP,
+            new Identifier(ArknightsFurniture.MOD_ID,"flame_hall"),
+            FabricItemGroup.builder().displayName(Text.translatable("itemGroup.flame_hall"))
+                    .icon(() -> new ItemStack(ModBlocks.CARVED_WOODEN_SCREEN)).entries((displayContext, entries) -> {
+                        entries.add(ModBlocks.BASKET_LAMP);
+                        entries.add(ModBlocks.CARVED_WOODEN_SCREEN);
+                        entries.add(ModBlocks.EXTENDED_FOOTSTOOL);
+                        entries.add(ModBlocks.HIGH_FOOTED_CANDLE_LAMP);
+                        entries.add(ModBlocks.NEW_STYLE_IMPERIAL_CONCUBINE_BED_DEFAULT);
+                        entries.add(ModBlocks.PAGODA_LAMP);
+                        entries.add(ModBlocks.SHORT_LEGGED_LONG_TABLE);
+                        entries.add(ModBlocks.SOURCE_STONE_WATER_BOILER);
+                        entries.add(ModBlocks.SQUARE_TOP_BOX_CABINET);
+                        entries.add(ModBlocks.SQUARE_TOP_BOX_CABINET2);
+                        entries.add(ModBlocks.WOODEN_CARVED_ROUND_STOOL);
                     }).build());
     // public static final ItemGroup  = Registry.register(Registries.ITEM_GROUP,
     //        new Identifier(ArknightsFurniture.MOD_ID,""),

@@ -391,6 +391,18 @@
   "block.arknights_furniture.tribal_elevated_bed":"Tribal Elevated Bed",
   "block.arknights_furniture.tribal_style_sofa_default":"Tribal Style Sofa",
 
+  "block.arknights_furniture.basket_lamp":"Basket Lamp",
+  "block.arknights_furniture.carved_wooden_screen":"Carved Wooden Screen",
+  "block.arknights_furniture.extended_footstool":"Extended Footstool",
+  "block.arknights_furniture.high_footed_candle_lamp":"High Footed Candle Lamp",
+  "block.arknights_furniture.new_style_imperial_concubine_bed_default":"New Style Imperial Concubine Bed",
+  "block.arknights_furniture.pagoda_lamp":"Pagoda Lamp",
+  "block.arknights_furniture.short_legged_long_table":"Short Legged Long Table",
+  "block.arknights_furniture.source_stone_water_boiler":"Source Stone Water Boiler",
+  "block.arknights_furniture.square_top_box_cabinet":"Square Top Box Cabinet",
+  "block.arknights_furniture.square_top_box_cabinet2":"Square Top Box Cabinet2",
+  "block.arknights_furniture.wooden_carved_round_stool":"Wooden Carved Round Stool",
+
   "itemgroup.logo": "LOGO Group",
   "itemgroup.freight_warehouse": "Freight Warehouse",
   "itemgroup.edge_solid_orange_simple_home": "Edge-Solid/Orange Simple Home",
@@ -416,7 +428,8 @@
   "itemGroup.uras_student_lounge": "Uras Student Lounge",
   "itemgroup.letania_night": "Letania Night",
   "itemgroup.rhodes_island_office_of_personnel": "Rhodes Island Office Of Personnel",
-
+  "itemGroup.tribal_lodge": "Tribal Lodge",
+  "itemGroup.flame_hall": "Flame Hall",
 
   "painting.arknights_furniture.unconfirmed_biological_skeleton.title":"Unconfirmed Biological Skeleton",
   "painting.arknights_furniture.unconfirmed_biological_skeleton.author":"Hypergryph",
