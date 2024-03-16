@@ -396,6 +396,18 @@ public class ModModelProvider extends FabricModelProvider {
         blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.SQUARE_TOP_BOX_CABINET);
         blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.SQUARE_TOP_BOX_CABINET2);
         blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.WOODEN_CARVED_ROUND_STOOL);
+
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.CLASSICAL_DISPLAY_CABINET);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.CLEAN_HAND_BASIN);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.JADE_PENDANT_LAMP);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.JADE_PENDANT_LAMP_SMALL);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.MINIMALIST_COFFEE_TABLE);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.PALE_BRANCHES_AND_TRUNKS);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.SOFA_STOOL);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.SOFA_STOOL_SQUARE);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.SWORD_ARMOR_COLLECTION_CABINET);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.TRAINING_CALENDAR);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.WATERING_KETTLE);
     }
 
     @Override

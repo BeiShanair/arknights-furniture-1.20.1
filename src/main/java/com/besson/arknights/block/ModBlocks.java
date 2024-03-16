@@ -10,6 +10,7 @@ import com.besson.arknights.block.FlameHall.*;
 import com.besson.arknights.block.FreightWarehouse.*;
 import com.besson.arknights.block.HealthyFastFoodRestaurant.*;
 import com.besson.arknights.block.IllusionaryBiography.*;
+import com.besson.arknights.block.ImitationoftheLivingroomoftheLightHouse.*;
 import com.besson.arknights.block.LancellarBallroom.*;
 import com.besson.arknights.block.LetaniaNight.*;
 import com.besson.arknights.block.LifeCycleModule12.*;
@@ -436,6 +437,21 @@ public class ModBlocks {
     public static final Block SQUARE_TOP_BOX_CABINET = registerBlock("square_top_box_cabinet",new SquareTopBoxCabinet(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
     public static final Block SQUARE_TOP_BOX_CABINET2 = registerBlock("square_top_box_cabinet2",new SquareTopBoxCabinet(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
     public static final Block WOODEN_CARVED_ROUND_STOOL = registerBlock("wooden_carved_round_stool",new WoodenCarvedRoundStool(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+
+    public static final Block CLASSICAL_DISPLAY_CABINET = registerBlock("classical_display_cabinet",new ClassicalDisplayCabinet(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+    public static final Block CLEAN_HAND_BASIN = registerBlock("clean_hand_basin",new CleanHandBasin(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+    public static final Block EXTENDED_SOFA_DEFAULT = registerBlock("extended_sofa_default",new ExtendedSofa(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+    public static final Block JADE_PENDANT_LAMP = registerBlock("jade_pendant_lamp",new JadePendantLamp(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+    public static final Block JADE_PENDANT_LAMP_SMALL = registerBlock("jade_pendant_lamp_small",new JadePendantLampSmall(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+    public static final Block MARBLE_HIGH_PLATFORM_DEFAULT = registerBlock("marble_high_platform_default",new MarbleHighPlatform(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+    public static final Block MINIMALIST_COFFEE_TABLE = registerBlock("minimalist_coffee_table",new MinimalistCoffeeTable(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+    public static final Block PALE_BRANCHES_AND_TRUNKS = registerBlock("pale_branches_and_trunks",new PaleBranchesAndTrunks(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+    public static final Block SOFA_STOOL = registerBlock("sofa_stool",new SofaStool(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+    public static final Block SOFA_STOOL_SQUARE = registerBlock("sofa_stool_square",new SofaStoolSquare(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+    public static final Block SWORD_ARMOR_COLLECTION_CABINET = registerBlock("sword_armor_collection_cabinet",new SwordArmorCollectionCabinet(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+    public static final Block TRAINING_CALENDAR = registerBlock("training_calendar",new TrainingCalendar(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+    public static final Block WATERING_KETTLE = registerBlock("watering_kettle",new WateringKettle(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+
 
     private static Block registerBlock(String name,Block block){
         registerBlockItem(name,block);

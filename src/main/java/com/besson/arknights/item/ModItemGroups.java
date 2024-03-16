@@ -525,6 +525,25 @@ public class ModItemGroups {
                         entries.add(ModBlocks.SQUARE_TOP_BOX_CABINET2);
                         entries.add(ModBlocks.WOODEN_CARVED_ROUND_STOOL);
                     }).build());
+
+    public static final ItemGroup IMITATION_OF_THE_LIVING_ROOM_OF_THE_LIGHT_HOUSE = Registry.register(Registries.ITEM_GROUP,
+            new Identifier(ArknightsFurniture.MOD_ID,"imitation_of_the_living_room_of_the_light_house"),
+            FabricItemGroup.builder().displayName(Text.translatable("itemGroup.imitation_of_the_living_room_of_the_light_house"))
+                    .icon(() -> new ItemStack(ModBlocks.JADE_PENDANT_LAMP)).entries((displayContext, entries) -> {
+                        entries.add(ModBlocks.CLASSICAL_DISPLAY_CABINET);
+                        entries.add(ModBlocks.CLEAN_HAND_BASIN);
+                        entries.add(ModBlocks.EXTENDED_SOFA_DEFAULT);
+                        entries.add(ModBlocks.JADE_PENDANT_LAMP);
+                        entries.add(ModBlocks.JADE_PENDANT_LAMP_SMALL);
+                        entries.add(ModBlocks.MARBLE_HIGH_PLATFORM_DEFAULT);
+                        entries.add(ModBlocks.MINIMALIST_COFFEE_TABLE);
+                        entries.add(ModBlocks.PALE_BRANCHES_AND_TRUNKS);
+                        entries.add(ModBlocks.SOFA_STOOL);
+                        entries.add(ModBlocks.SOFA_STOOL_SQUARE);
+                        entries.add(ModBlocks.SWORD_ARMOR_COLLECTION_CABINET);
+                        entries.add(ModBlocks.TRAINING_CALENDAR);
+                        entries.add(ModBlocks.WATERING_KETTLE);
+                    }).build());
     // public static final ItemGroup  = Registry.register(Registries.ITEM_GROUP,
     //        new Identifier(ArknightsFurniture.MOD_ID,""),
     //        FabricItemGroup.builder().displayName(Text.translatable("itemgroup."))

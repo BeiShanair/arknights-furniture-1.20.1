@@ -403,6 +403,21 @@
   "block.arknights_furniture.square_top_box_cabinet2":"Square Top Box Cabinet2",
   "block.arknights_furniture.wooden_carved_round_stool":"Wooden Carved Round Stool",
 
+  "block.arknights_furniture.classical_display_cabinet":"Classical Display Cabinet",
+  "block.arknights_furniture.clean_hand_basin":"Clean Hand Basin",
+  "block.arknights_furniture.extended_sofa_default":"Extended Sofa",
+  "block.arknights_furniture.jade_pendant_lamp":"Jade Pendant Lamp",
+  "block.arknights_furniture.jade_pendant_lamp_small":"Jade Pendant Lamp Small",
+  "block.arknights_furniture.marble_high_platform_default":"Marble High Platform",
+  "block.arknights_furniture.minimalist_coffee_table":"Minimalist Coffee Table",
+  "block.arknights_furniture.pale_branches_and_trunks":"Pale Branches And Trunks",
+  "block.arknights_furniture.sofa_stool":"Sofa Stool",
+  "block.arknights_furniture.sofa_stool_square":"Sofa Stool Square",
+  "block.arknights_furniture.sword_armor_collection_cabinet":"Sword Armor Collection Cabinet",
+  "block.arknights_furniture.training_calendar":"Training Calendar",
+  "block.arknights_furniture.watering_kettle":"Watering Kettle",
+
+
   "itemgroup.logo": "LOGO Group",
   "itemgroup.freight_warehouse": "Freight Warehouse",
   "itemgroup.edge_solid_orange_simple_home": "Edge-Solid/Orange Simple Home",
@@ -430,6 +445,7 @@
   "itemgroup.rhodes_island_office_of_personnel": "Rhodes Island Office Of Personnel",
   "itemGroup.tribal_lodge": "Tribal Lodge",
   "itemGroup.flame_hall": "Flame Hall",
+  "itemGroup.imitation_of_the_living_room_of_the_light_house": "Imitation Of The Living Room Of The Light House",
 
   "painting.arknights_furniture.unconfirmed_biological_skeleton.title":"Unconfirmed Biological Skeleton",
   "painting.arknights_furniture.unconfirmed_biological_skeleton.author":"Hypergryph",
