@@ -494,6 +494,19 @@ public class ModItemGroups {
                         entries.add(ModBlocks.TRANSPARENT_SCREEN_FOR_PARTITION);
                         entries.add(ModBlocks.WAITING_SOFA_STOOL);
                         entries.add(ModBlocks.WATER_DISPENSER);
+                    }).build());
+
+    public static final ItemGroup TRIBAL_LODGE = Registry.register(Registries.ITEM_GROUP,
+            new Identifier(ArknightsFurniture.MOD_ID,"tribal_lodge"),
+            FabricItemGroup.builder().displayName(Text.translatable("itemGroup.tribal_lodge"))
+                    .icon(() -> new ItemStack(ModBlocks.TOTEM_POT)).entries((displayContext, entries) ->{
+                        entries.add(ModBlocks.POTTED_TROPICAL_PLANTS);
+                        entries.add(ModBlocks.TOTEM_POT);
+                        entries.add(ModBlocks.TOTEM_SOUND);
+                        entries.add(ModBlocks.TRIBAL_DEBRIS_STONE_PIER);
+                        entries.add(ModBlocks.TRIBAL_DECORATIVE_CHANDELIER);
+                        entries.add(ModBlocks.TRIBAL_ELEVATED_BED);
+                        entries.add(ModBlocks.TRIBAL_STYLE_SOFA_DEFAULT);
 
                     }).build());
     // public static final ItemGroup  = Registry.register(Registries.ITEM_GROUP,

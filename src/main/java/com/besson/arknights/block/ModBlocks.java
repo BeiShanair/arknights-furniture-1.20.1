@@ -24,6 +24,7 @@ import com.besson.arknights.block.SecurityBureauLounge.*;
 import com.besson.arknights.block.SevenCitiesStyleRestaurant.*;
 import com.besson.arknights.block.SiestaBeachCottage.*;
 import com.besson.arknights.block.SoulSecretSociety.*;
+import com.besson.arknights.block.TribalLodge.*;
 import com.besson.arknights.block.UrsasStudentLounge.*;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.fabricmc.fabric.api.object.builder.v1.block.FabricBlockSettings;
@@ -414,6 +415,14 @@ public class ModBlocks {
     public static final Block TRANSPARENT_SCREEN_FOR_PARTITION = registerBlock("transparent_screen_for_partition",new TransparentScreenForPartition(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
     public static final Block WAITING_SOFA_STOOL = registerBlock("waiting_sofa_stool",new WaitingSofaStool(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
     public static final Block WATER_DISPENSER = registerBlock("water_dispenser",new WaterDispenser(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+
+    public static final Block POTTED_TROPICAL_PLANTS = registerBlock("potted_tropical_plants",new PottedTropicalPlants(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+    public static final Block TOTEM_POT = registerBlock("totem_pot",new TotemPot(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+    public static final Block TOTEM_SOUND = registerBlock("totem_sound",new TotemSound(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+    public static final Block TRIBAL_DEBRIS_STONE_PIER = registerBlock("tribal_debris_stone_pier",new TribalDebrisStonePier(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+    public static final Block TRIBAL_DECORATIVE_CHANDELIER = registerBlock("tribal_decorative_chandelier",new TribalDecorativeChandelier(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+    public static final Block TRIBAL_ELEVATED_BED = registerBlock("tribal_elevated_bed",new TribalElevatedBed(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+    public static final Block TRIBAL_STYLE_SOFA_DEFAULT = registerBlock("tribal_style_sofa_default",new TribalStyleSofa(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
 
     private static Block registerBlock(String name,Block block){
         registerBlockItem(name,block);

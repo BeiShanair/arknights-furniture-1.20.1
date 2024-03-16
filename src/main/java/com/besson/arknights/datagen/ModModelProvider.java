@@ -378,6 +378,13 @@ public class ModModelProvider extends FabricModelProvider {
         blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.TRANSPARENT_SCREEN_FOR_PARTITION);
         blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.WAITING_SOFA_STOOL);
         blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.WATER_DISPENSER);
+
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.POTTED_TROPICAL_PLANTS);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.TOTEM_POT);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.TOTEM_SOUND);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.TRIBAL_DEBRIS_STONE_PIER);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.TRIBAL_DECORATIVE_CHANDELIER);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.TRIBAL_ELEVATED_BED);
     }
 
     @Override
