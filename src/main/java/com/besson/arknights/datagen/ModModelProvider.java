@@ -352,6 +352,18 @@ public class ModModelProvider extends FabricModelProvider {
         blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.SIMPLE_TOILET_CHAIR);
         blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.WOODEN_LONG_TABLE);
 
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.ACCOMPANIMENT_CHAIR);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.ANTIQUE_RECORD_PLAYER);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.BALL_OF_BALANCE);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.BLACK_LACQUER_WHITE_HEAD_CELLO);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.FOUR_CANDLE_CHANDELIER);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.FOUR_COLUMN_BED);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.INTEGRATED_DESK);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.INTEGRATED_DESK_BOTTOM);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.INTEGRATED_DESK_UPPER);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.LETANIA_BEVERAGE);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.MISCELLANEOUS_BOOK_PILE);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.SIX_CANDLE_CHANDELIER);
     }
 
     @Override

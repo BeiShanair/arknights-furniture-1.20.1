@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=east": {
+      "model": "arknights_furniture:block/antique_record_player",
+      "y": 90
+    },
+    "facing=north": {
+      "model": "arknights_furniture:block/antique_record_player"
+    },
+    "facing=south": {
+      "model": "arknights_furniture:block/antique_record_player",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "arknights_furniture:block/antique_record_player",
+      "y": 270
+    }
+  }
+}

@@ -355,6 +355,19 @@
   "block.arknights_furniture.simple_toilet_chair":"Simple Toilet Chair",
   "block.arknights_furniture.wooden_long_table":"Wooden Long Table",
 
+  "block.arknights_furniture.accompaniment_chair":"Accompaniment Chair",
+  "block.arknights_furniture.antique_record_player":"Antique Record Player",
+  "block.arknights_furniture.ball_of_balance":"Ball Of Balance",
+  "block.arknights_furniture.black_lacquer_white_head_cello":"Black Lacquer White Head Cello",
+  "block.arknights_furniture.four_candle_chandelier":"Four Candle Chandelier",
+  "block.arknights_furniture.four_column_bed":"Four ColumnBed",
+  "block.arknights_furniture.integrated_desk":"Integrated Desk",
+  "block.arknights_furniture.integrated_desk_bottom":"Integrated Desk Bottom",
+  "block.arknights_furniture.integrated_desk_upper":"Integrated Desk Upper",
+  "block.arknights_furniture.letania_beverage":"Letania Beverage",
+  "block.arknights_furniture.miscellaneous_book_pile":"Miscellaneous Book Pile",
+  "block.arknights_furniture.six_candle_chandelier":"Six Candle Chandelier",
+  "block.arknights_furniture.white_extended_default":"White Extended",
 
   "itemgroup.logo": "LOGO Group",
   "itemgroup.freight_warehouse": "Freight Warehouse",
@@ -379,6 +392,7 @@
   "itemgroup.seven_cities_style_restaurant": "Seven Cities Style Restaurant",
   "itemGroup.sakaz_mercenary_lounge": "Sakaz Mercenary Lounge",
   "itemGroup.uras_student_lounge": "Uras Student Lounge",
+  "itemgroup.letania_night": "Letania Night",
 
   "painting.arknights_furniture.unconfirmed_biological_skeleton.title":"Unconfirmed Biological Skeleton",
   "painting.arknights_furniture.unconfirmed_biological_skeleton.author":"Hypergryph",

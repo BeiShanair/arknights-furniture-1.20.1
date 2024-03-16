@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=east": {
+      "model": "arknights_furniture:block/black_lacquer_white_head_cello",
+      "y": 90
+    },
+    "facing=north": {
+      "model": "arknights_furniture:block/black_lacquer_white_head_cello"
+    },
+    "facing=south": {
+      "model": "arknights_furniture:block/black_lacquer_white_head_cello",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "arknights_furniture:block/black_lacquer_white_head_cello",
+      "y": 270
+    }
+  }
+}

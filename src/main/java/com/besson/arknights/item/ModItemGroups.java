@@ -457,6 +457,25 @@ public class ModItemGroups {
                         entries.add(ModBlocks.SIMPLE_TOILET_CHAIR);
                         entries.add(ModBlocks.WOODEN_LONG_TABLE);
                     }).build());
+
+    public static final ItemGroup LETANIA_NIGHT = Registry.register(Registries.ITEM_GROUP,
+            new Identifier(ArknightsFurniture.MOD_ID,"letania_night"),
+            FabricItemGroup.builder().displayName(Text.translatable("itemgroup.letania_night"))
+                    .icon(() -> new ItemStack(ModBlocks.ANTIQUE_RECORD_PLAYER)).entries((displayContext, entries) -> {
+                        entries.add(ModBlocks.ACCOMPANIMENT_CHAIR);
+                        entries.add(ModBlocks.ANTIQUE_RECORD_PLAYER);
+                        entries.add(ModBlocks.BALL_OF_BALANCE);
+                        entries.add(ModBlocks.BLACK_LACQUER_WHITE_HEAD_CELLO);
+                        entries.add(ModBlocks.FOUR_CANDLE_CHANDELIER);
+                        entries.add(ModBlocks.FOUR_COLUMN_BED);
+                        entries.add(ModBlocks.INTEGRATED_DESK);
+                        entries.add(ModBlocks.INTEGRATED_DESK_BOTTOM);
+                        entries.add(ModBlocks.INTEGRATED_DESK_UPPER);
+                        entries.add(ModBlocks.LETANIA_BEVERAGE);
+                        entries.add(ModBlocks.MISCELLANEOUS_BOOK_PILE);
+                        entries.add(ModBlocks.SIX_CANDLE_CHANDELIER);
+                        entries.add(ModBlocks.WHITE_EXTENDED_DEFAULT);
+                    }).build());
     // public static final ItemGroup  = Registry.register(Registries.ITEM_GROUP,
     //        new Identifier(ArknightsFurniture.MOD_ID,""),
     //        FabricItemGroup.builder().displayName(Text.translatable("itemgroup."))

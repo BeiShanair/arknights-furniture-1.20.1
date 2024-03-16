@@ -10,6 +10,7 @@ import com.besson.arknights.block.FreightWarehouse.*;
 import com.besson.arknights.block.HealthyFastFoodRestaurant.*;
 import com.besson.arknights.block.IllusionaryBiography.*;
 import com.besson.arknights.block.LancellarBallroom.*;
+import com.besson.arknights.block.LetaniaNight.*;
 import com.besson.arknights.block.LifeCycleModule12.*;
 import com.besson.arknights.block.LongmenRestaurant.*;
 import com.besson.arknights.block.PenguinLogisticsSafeHouse.*;
@@ -384,6 +385,19 @@ public class ModBlocks {
     public static final Block SIMPLE_TOILET_CHAIR = registerBlock("simple_toilet_chair",new SimpleToiletChair(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
     public static final Block WOODEN_LONG_TABLE = registerBlock("wooden_long_table",new WoodenLongTable(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
 
+    public static final Block ACCOMPANIMENT_CHAIR = registerBlock("accompaniment_chair",new AccompanimentChair(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+    public static final Block ANTIQUE_RECORD_PLAYER = registerBlock("antique_record_player",new AntiqueRecordPlayer(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+    public static final Block BALL_OF_BALANCE = registerBlock("ball_of_balance",new BallOfBalance(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+    public static final Block BLACK_LACQUER_WHITE_HEAD_CELLO = registerBlock("black_lacquer_white_head_cello",new BlackLacquerWhiteHeadCello(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+    public static final Block FOUR_CANDLE_CHANDELIER = registerBlock("four_candle_chandelier",new FourCandleChandelier(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+    public static final Block FOUR_COLUMN_BED = registerBlock("four_column_bed",new FourColumnBed(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+    public static final Block INTEGRATED_DESK = registerBlock("integrated_desk",new IntegratedDesk(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+    public static final Block INTEGRATED_DESK_BOTTOM = registerBlock("integrated_desk_bottom",new IntegratedDeskBottom(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+    public static final Block INTEGRATED_DESK_UPPER = registerBlock("integrated_desk_upper",new IntegratedDeskUpper(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+    public static final Block LETANIA_BEVERAGE = registerBlock("letania_beverage",new LetaniaBeverage(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+    public static final Block MISCELLANEOUS_BOOK_PILE = registerBlock("miscellaneous_book_pile",new MiscellaneousBookPile(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+    public static final Block SIX_CANDLE_CHANDELIER = registerBlock("six_candle_chandelier",new SixCandleChandelier(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+    public static final Block WHITE_EXTENDED_DEFAULT = registerBlock("white_extended_default",new WhiteExtended(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
 
 
     private static Block registerBlock(String name,Block block){

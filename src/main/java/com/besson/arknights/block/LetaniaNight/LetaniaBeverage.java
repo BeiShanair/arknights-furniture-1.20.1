@@ -1,5 +1,6 @@
-package com.besson.arknights.block;
+package com.besson.arknights.block.LetaniaNight;
 
+import com.besson.arknights.block.FurnitureHorizontalFacingBlock;
 import net.minecraft.block.Block;
 import net.minecraft.block.BlockState;
 import net.minecraft.block.ShapeContext;
@@ -8,15 +9,15 @@ import net.minecraft.util.shape.VoxelShape;
 import net.minecraft.world.BlockView;
 
 
-public class DefaultBlock extends FurnitureHorizontalFacingBlock{
-    public static final VoxelShape SHAPE_N = Block.createCuboidShape(0,0,0,16,16,16);
+public class LetaniaBeverage extends FurnitureHorizontalFacingBlock {
+    public static final VoxelShape SHAPE_N = Block.createCuboidShape(3, 0, 4, 14, 11, 12);
 
-    public static final VoxelShape SHAPE_W = Block.createCuboidShape(0,0,0,16,16,16);
+    public static final VoxelShape SHAPE_W = Block.createCuboidShape(4, 0, 2, 12, 11, 13);
 
-    public static final VoxelShape SHAPE_S = Block.createCuboidShape(0,0,0,16,16,16);
+    public static final VoxelShape SHAPE_S = Block.createCuboidShape(2, 0, 4, 13, 11, 12);
 
-    public static final VoxelShape SHAPE_E = Block.createCuboidShape(0,0,0,16,16,16);
-    public DefaultBlock(Settings settings) {
+    public static final VoxelShape SHAPE_E = Block.createCuboidShape(4, 0, 3, 12, 11, 14);
+    public LetaniaBeverage(Settings settings) {
         super(settings);
     }
 
