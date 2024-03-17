@@ -489,6 +489,16 @@
   "block.arknights_furniture.white_jade_yellow_beam_couch":"White Jade Yellow Beam Couch",
   "block.arknights_furniture.xiangtai":"Xiangtai",
 
+  "block.arknights_furniture.confinement_floor_lamp":"Confinement Floor Lamp",
+  "block.arknights_furniture.cubic_extended_chandelier":"Cubic Extended Chandelier",
+  "block.arknights_furniture.display_lamp_tree":"Display Lamp Tree",
+  "block.arknights_furniture.minimalist_combination_sofa_default":"Minimalist Combination Sofa",
+  "block.arknights_furniture.modern_style_photo_frame":"Modern Style Photo Frame",
+  "block.arknights_furniture.moon_shadow_decoration":"Moon Shadow Decoration",
+  "block.arknights_furniture.paired_static_chandeliers":"Paired Static Chandeliers",
+  "block.arknights_furniture.rectangular_splicing_coffee_table":"Rectangular Splicing Coffee Table",
+  "block.arknights_furniture.red_paint_storage_cabinet":"Red Paint Storage Cabinet",
+  "block.arknights_furniture.wooden_low_cabinet":"Wooden Low Cabinet",
 
   "itemgroup.logo": "LOGO Group",
   "itemgroup.freight_warehouse": "Freight Warehouse",
@@ -523,6 +533,7 @@
   "itemGroup.mansfield_cell": "Mansfield Cell",
   "itemGroup.meditation_garden": "Meditation Garden",
   "itemGroup.danqing_pavilion": "Danqing Pavilion",
+  "itemGroup.walter_trend_room": "Walter Trend Room",
 
   "painting.arknights_furniture.unconfirmed_biological_skeleton.title":"Unconfirmed Biological Skeleton",
   "painting.arknights_furniture.unconfirmed_biological_skeleton.author":"Hypergryph",

@@ -641,6 +641,23 @@ public class ModItemGroups {
                         entries.add(ModBlocks.WHITE_JADE_YELLOW_BEAM_COUCH);
                         entries.add(ModBlocks.XIANGTAI);
                     }).build());
+
+    public static final ItemGroup WALTER_TREND_ROOM = Registry.register(Registries.ITEM_GROUP,
+            new Identifier(ArknightsFurniture.MOD_ID,"walter_trend_room"),
+            FabricItemGroup.builder().displayName(Text.translatable("itemGroup.walter_trend_room"))
+                    .icon(() -> new ItemStack(ModBlocks.CONFINEMENT_FLOOR_LAMP)).entries((displayContext, entries) -> {
+                        entries.add(ModBlocks.CONFINEMENT_FLOOR_LAMP);
+                        entries.add(ModBlocks.CUBIC_EXTENDED_CHANDELIER);
+                        entries.add(ModBlocks.DISPLAY_LAMP_TREE);
+                        entries.add(ModBlocks.MINIMALIST_COMBINATION_SOFA_DEFAULT);
+                        entries.add(ModBlocks.MODERN_STYLE_PHOTO_FRAME);
+                        entries.add(ModBlocks.MOON_SHADOW_DECORATION);
+                        entries.add(ModBlocks.PAIRED_STATIC_CHANDELIERS);
+                        entries.add(ModBlocks.RECTANGULAR_SPLICING_COFFEE_TABLE);
+                        entries.add(ModBlocks.RED_PAINT_STORAGE_CABINET);
+                        entries.add(ModBlocks.WOODEN_LOW_CABINET);
+
+                    }).build());
     // public static final ItemGroup  = Registry.register(Registries.ITEM_GROUP,
     //        new Identifier(ArknightsFurniture.MOD_ID,""),
     //        FabricItemGroup.builder().displayName(Text.translatable("itemgroup."))

@@ -32,6 +32,7 @@ import com.besson.arknights.block.SiestaBeachCottage.*;
 import com.besson.arknights.block.SoulSecretSociety.*;
 import com.besson.arknights.block.TribalLodge.*;
 import com.besson.arknights.block.UrsasStudentLounge.*;
+import com.besson.arknights.block.WalterTrendRoom.*;
 import com.besson.arknights.block.WhiteWangno.*;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.fabricmc.fabric.api.object.builder.v1.block.FabricBlockSettings;
@@ -528,6 +529,17 @@ public class ModBlocks {
     public static final Block UNIVERSAL_LIGHTING = registerBlock("universal_lighting",new UniversalLighting(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
     public static final Block WHITE_JADE_YELLOW_BEAM_COUCH = registerBlock("white_jade_yellow_beam_couch",new WhiteJadeYellowBeamCouch(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
     public static final Block XIANGTAI = registerBlock("xiangtai",new Xiangtai(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+
+    public static final Block CONFINEMENT_FLOOR_LAMP = registerBlock("confinement_floor_lamp",new ConfinementFloorLamp(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+    public static final Block CUBIC_EXTENDED_CHANDELIER = registerBlock("cubic_extended_chandelier",new CubicExtendedChandelier(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+    public static final Block DISPLAY_LAMP_TREE = registerBlock("display_lamp_tree",new DisplayLampTree(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+    public static final Block MINIMALIST_COMBINATION_SOFA_DEFAULT = registerBlock("minimalist_combination_sofa_default",new MinimalistCombinationSofa(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+    public static final Block MODERN_STYLE_PHOTO_FRAME = registerBlock("modern_style_photo_frame",new ModernStylePhotoFrame(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+    public static final Block MOON_SHADOW_DECORATION = registerBlock("moon_shadow_decoration",new MoonShadowDecoration(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+    public static final Block PAIRED_STATIC_CHANDELIERS = registerBlock("paired_static_chandeliers",new PairedStaticChandeliers(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+    public static final Block RECTANGULAR_SPLICING_COFFEE_TABLE = registerBlock("rectangular_splicing_coffee_table",new RectangularSplicingCoffeeTable(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+    public static final Block RED_PAINT_STORAGE_CABINET = registerBlock("red_paint_storage_cabinet",new RedPaintStorageCabinet(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+    public static final Block WOODEN_LOW_CABINET = registerBlock("wooden_low_cabinet",new WoodenLowCabinet(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
 
 
     private static Block registerBlock(String name,Block block){
