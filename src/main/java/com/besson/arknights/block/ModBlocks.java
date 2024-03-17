@@ -16,6 +16,7 @@ import com.besson.arknights.block.LancellarBallroom.*;
 import com.besson.arknights.block.LetaniaNight.*;
 import com.besson.arknights.block.LifeCycleModule12.*;
 import com.besson.arknights.block.LongmenRestaurant.*;
+import com.besson.arknights.block.MansfieldCell.*;
 import com.besson.arknights.block.PenguinLogisticsSafeHouse.*;
 import com.besson.arknights.block.QuickChainPizzaShops.*;
 import com.besson.arknights.block.RhodeIslandModernMusicRehearsalRoom.*;
@@ -480,6 +481,22 @@ public class ModBlocks {
     public static final Block SUSPENDED_LIGHT_SOURCE_GROUP = registerBlock("suspended_light_source_group",new SuspendedLightSourceGroup(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
     public static final Block VERTICAL_KITCHEN_SET = registerBlock("vertical_kitchen_set",new VerticalKitchenSet(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
     public static final Block VERTICAL_KITCHEN_SET_UPPER = registerBlock("vertical_kitchen_set_upper",new VerticalKitchenSetUpper(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+
+    public static final Block BAFFLE = registerBlock("baffle",new Baffle(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+    public static final Block CELL_AIR_EXCHANGE_PORT = registerBlock("cell_air_exchange_port",new CellAirExchangePort(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+    public static final Block CELL_CEILING_LIGHT = registerBlock("cell_ceiling_light",new CellCeilingLight(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+    public static final Block DOUBLE_LAYER_IRON_BED = registerBlock("double_layer_iron_bed",new DoubleLayerIronBed(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+    public static final Block EMBEDDED_GLASS_MIRROR = registerBlock("embedded_glass_mirror",new EmbeddedGlassMirror(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+    public static final Block EXPOSED_WATER_PIPES = registerBlock("exposed_water_pipes",new ExposedWaterPipes(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+    public static final Block HALF_OPEN_LONG_PLATE_PARTITION_STOOL = registerBlock("half_open_long_plate_partition_stool",new HalfOpenLongPlatePartitionStool(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+    public static final Block HANDCUFFED_PRISONERS_CHAIR = registerBlock("handcuffed_prisoners_chair",new HandcuffedPrisonersChair(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+    public static final Block IRON_FAN_SUSPENDED_CEILING = registerBlock("iron_fan_suspended_ceiling",new IronFanSuspendedCeiling(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+    public static final Block LARGE_CAPACITY_HOT_WATER_KETTLE = registerBlock("large_capacity_hot_water_kettle",new LargeCapacityHotWaterKettle(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+    public static final Block PERSONAL_WASHING_TABLE = registerBlock("personal_washing_table",new PersonalWashingTable(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+    public static final Block SAFETY_INSPECTION_EQUIPMENT = registerBlock("safety_inspection_equipment",new SafetyInspectionEquipment(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+    public static final Block SINGLE_PERSON_TOILET = registerBlock("single_person_toilet",new SinglePersonToilet(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+    public static final Block WARNING_EQUIPMENT = registerBlock("warning_equipment",new WarningEquipment(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+    public static final Block WATER_CONTAINER = registerBlock("water_container",new WaterContainer(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
 
 
     private static Block registerBlock(String name,Block block){

@@ -436,6 +436,22 @@ public class ModModelProvider extends FabricModelProvider {
         blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.VERTICAL_KITCHEN_SET);
         blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.VERTICAL_KITCHEN_SET_UPPER);
 
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.BAFFLE);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.CELL_AIR_EXCHANGE_PORT);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.CELL_CEILING_LIGHT);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.DOUBLE_LAYER_IRON_BED);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.EMBEDDED_GLASS_MIRROR);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.EXPOSED_WATER_PIPES);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.HALF_OPEN_LONG_PLATE_PARTITION_STOOL);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.HANDCUFFED_PRISONERS_CHAIR);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.IRON_FAN_SUSPENDED_CEILING);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.LARGE_CAPACITY_HOT_WATER_KETTLE);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.PERSONAL_WASHING_TABLE);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.SAFETY_INSPECTION_EQUIPMENT);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.SINGLE_PERSON_TOILET);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.WARNING_EQUIPMENT);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.WATER_CONTAINER);
+
     }
 
     @Override

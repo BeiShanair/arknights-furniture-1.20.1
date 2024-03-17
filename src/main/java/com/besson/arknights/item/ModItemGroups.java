@@ -580,6 +580,27 @@ public class ModItemGroups {
                         entries.add(ModBlocks.SUSPENDED_LIGHT_SOURCE_GROUP);
                         entries.add(ModBlocks.VERTICAL_KITCHEN_SET);
                         entries.add(ModBlocks.VERTICAL_KITCHEN_SET_UPPER);
+                    }).build());
+
+    public static final ItemGroup MANSFIELD_CELL = Registry.register(Registries.ITEM_GROUP,
+            new Identifier(ArknightsFurniture.MOD_ID,"mansfield_cell"),
+            FabricItemGroup.builder().displayName(Text.translatable("itemGroup.mansfield_cell"))
+                    .icon(() -> new ItemStack(ModBlocks.SAFETY_INSPECTION_EQUIPMENT)).entries((displayContext, entries) -> {
+                        entries.add(ModBlocks.BAFFLE);
+                        entries.add(ModBlocks.CELL_AIR_EXCHANGE_PORT);
+                        entries.add(ModBlocks.CELL_CEILING_LIGHT);
+                        entries.add(ModBlocks.DOUBLE_LAYER_IRON_BED);
+                        entries.add(ModBlocks.EMBEDDED_GLASS_MIRROR);
+                        entries.add(ModBlocks.EXPOSED_WATER_PIPES);
+                        entries.add(ModBlocks.HALF_OPEN_LONG_PLATE_PARTITION_STOOL);
+                        entries.add(ModBlocks.HANDCUFFED_PRISONERS_CHAIR);
+                        entries.add(ModBlocks.IRON_FAN_SUSPENDED_CEILING);
+                        entries.add(ModBlocks.LARGE_CAPACITY_HOT_WATER_KETTLE);
+                        entries.add(ModBlocks.PERSONAL_WASHING_TABLE);
+                        entries.add(ModBlocks.SAFETY_INSPECTION_EQUIPMENT);
+                        entries.add(ModBlocks.SINGLE_PERSON_TOILET);
+                        entries.add(ModBlocks.WARNING_EQUIPMENT);
+                        entries.add(ModBlocks.WATER_CONTAINER);
 
                     }).build());
     // public static final ItemGroup  = Registry.register(Registries.ITEM_GROUP,

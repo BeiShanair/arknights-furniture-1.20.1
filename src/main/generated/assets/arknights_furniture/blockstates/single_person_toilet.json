@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=east": {
+      "model": "arknights_furniture:block/single_person_toilet",
+      "y": 90
+    },
+    "facing=north": {
+      "model": "arknights_furniture:block/single_person_toilet"
+    },
+    "facing=south": {
+      "model": "arknights_furniture:block/single_person_toilet",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "arknights_furniture:block/single_person_toilet",
+      "y": 270
+    }
+  }
+}
