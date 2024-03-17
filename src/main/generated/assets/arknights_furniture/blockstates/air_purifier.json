@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=east": {
+      "model": "arknights_furniture:block/air_purifier",
+      "y": 90
+    },
+    "facing=north": {
+      "model": "arknights_furniture:block/air_purifier"
+    },
+    "facing=south": {
+      "model": "arknights_furniture:block/air_purifier",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "arknights_furniture:block/air_purifier",
+      "y": 270
+    }
+  }
+}

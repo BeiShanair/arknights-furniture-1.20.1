@@ -29,6 +29,7 @@ import com.besson.arknights.block.SiestaBeachCottage.*;
 import com.besson.arknights.block.SoulSecretSociety.*;
 import com.besson.arknights.block.TribalLodge.*;
 import com.besson.arknights.block.UrsasStudentLounge.*;
+import com.besson.arknights.block.WhiteWangno.*;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.fabricmc.fabric.api.object.builder.v1.block.FabricBlockSettings;
 import net.minecraft.block.Block;
@@ -465,6 +466,20 @@ public class ModBlocks {
     public static final Block WOOD_GRID_CEILING_FENCE = registerBlock("wood_grid_ceiling_fence",new WoodGridCeilingFence(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
     public static final Block YELLOW_SMALL_ROUND_STOOL = registerBlock("yellow_small_round_stool",new YellowSmallRoundStool(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
 
+    public static final Block AIR_PURIFIER = registerBlock("air_purifier",new AirPurifier(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+    public static final Block AREA_SEPARATION_DECORATION = registerBlock("area_separation_decoration",new AreaSeparationDecoration(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+    public static final Block BRACKET_LIGHT_SOURCE = registerBlock("bracket_light_source",new BracketLightSource(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+    public static final Block CIRCULAR_DECORATIVE_LIGHT_SOURCE = registerBlock("circular_decorative_light_source",new CircularDecorativeLightSource(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+    public static final Block EMBEDDED_KITCHEN_UNIT = registerBlock("embedded_kitchen_unit",new EmbeddedKitchenUnit(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+    public static final Block LIGHT_SOURCE_CEILING = registerBlock("light_source_ceiling",new LightSourceCeiling(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+    public static final Block MINIMALIST_HIGH_CHAIR = registerBlock("minimalist_high_chair",new MinimalistHighChair(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+    public static final Block MULTIFUNCTIONAL_COOKING_TABLE = registerBlock("multifunctional_cooking_table",new MultifunctionalCookingTable(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+    public static final Block NO_PICTURE_FRAME = registerBlock("no_picture_frame",new NoPictureFrame(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+    public static final Block PLAIN_BED = registerBlock("plain_bed",new PlainBed(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+    public static final Block RECESSED_LIGHT_SOURCE = registerBlock("recessed_light_source",new RecessedLightSource(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+    public static final Block SUSPENDED_LIGHT_SOURCE_GROUP = registerBlock("suspended_light_source_group",new SuspendedLightSourceGroup(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+    public static final Block VERTICAL_KITCHEN_SET = registerBlock("vertical_kitchen_set",new VerticalKitchenSet(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+    public static final Block VERTICAL_KITCHEN_SET_UPPER = registerBlock("vertical_kitchen_set_upper",new VerticalKitchenSetUpper(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
 
 
     private static Block registerBlock(String name,Block block){

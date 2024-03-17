@@ -560,6 +560,26 @@ public class ModItemGroups {
                         entries.add(ModBlocks.WOOD_FENCE);
                         entries.add(ModBlocks.WOOD_GRID_CEILING_FENCE);
                         entries.add(ModBlocks.YELLOW_SMALL_ROUND_STOOL);
+                    }).build());
+
+    public static final ItemGroup WHITE_WANGNO = Registry.register(Registries.ITEM_GROUP,
+            new Identifier(ArknightsFurniture.MOD_ID,"white_wangno"),
+            FabricItemGroup.builder().displayName(Text.translatable("itemGroup.white_wangno"))
+                    .icon(() -> new ItemStack(ModBlocks.PLAIN_BED)).entries((displayContext, entries) -> {
+                        entries.add(ModBlocks.AIR_PURIFIER);
+                        entries.add(ModBlocks.AREA_SEPARATION_DECORATION);
+                        entries.add(ModBlocks.BRACKET_LIGHT_SOURCE);
+                        entries.add(ModBlocks.CIRCULAR_DECORATIVE_LIGHT_SOURCE);
+                        entries.add(ModBlocks.EMBEDDED_KITCHEN_UNIT);
+                        entries.add(ModBlocks.LIGHT_SOURCE_CEILING);
+                        entries.add(ModBlocks.MINIMALIST_HIGH_CHAIR);
+                        entries.add(ModBlocks.MULTIFUNCTIONAL_COOKING_TABLE);
+                        entries.add(ModBlocks.NO_PICTURE_FRAME);
+                        entries.add(ModBlocks.PLAIN_BED);
+                        entries.add(ModBlocks.RECESSED_LIGHT_SOURCE);
+                        entries.add(ModBlocks.SUSPENDED_LIGHT_SOURCE_GROUP);
+                        entries.add(ModBlocks.VERTICAL_KITCHEN_SET);
+                        entries.add(ModBlocks.VERTICAL_KITCHEN_SET_UPPER);
 
                     }).build());
     // public static final ItemGroup  = Registry.register(Registries.ITEM_GROUP,

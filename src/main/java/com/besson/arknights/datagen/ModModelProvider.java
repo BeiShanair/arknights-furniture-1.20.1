@@ -421,6 +421,21 @@ public class ModModelProvider extends FabricModelProvider {
         blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.WOOD_GRID_CEILING_FENCE);
         blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.YELLOW_SMALL_ROUND_STOOL);
 
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.AIR_PURIFIER);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.AREA_SEPARATION_DECORATION);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.BRACKET_LIGHT_SOURCE);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.CIRCULAR_DECORATIVE_LIGHT_SOURCE);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.EMBEDDED_KITCHEN_UNIT);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.LIGHT_SOURCE_CEILING);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.MINIMALIST_HIGH_CHAIR);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.MULTIFUNCTIONAL_COOKING_TABLE);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.NO_PICTURE_FRAME);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.PLAIN_BED);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.RECESSED_LIGHT_SOURCE);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.SUSPENDED_LIGHT_SOURCE_GROUP);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.VERTICAL_KITCHEN_SET);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.VERTICAL_KITCHEN_SET_UPPER);
+
     }
 
     @Override
