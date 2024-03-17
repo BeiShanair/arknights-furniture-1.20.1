@@ -30,6 +30,7 @@ import com.besson.arknights.block.SecurityBureauLounge.*;
 import com.besson.arknights.block.SevenCitiesStyleRestaurant.*;
 import com.besson.arknights.block.SiestaBeachCottage.*;
 import com.besson.arknights.block.SoulSecretSociety.*;
+import com.besson.arknights.block.SpecialEquipmentExhibitionRoom.*;
 import com.besson.arknights.block.TribalLodge.*;
 import com.besson.arknights.block.UrsasStudentLounge.*;
 import com.besson.arknights.block.WalterTrendRoom.*;
@@ -540,6 +541,24 @@ public class ModBlocks {
     public static final Block RECTANGULAR_SPLICING_COFFEE_TABLE = registerBlock("rectangular_splicing_coffee_table",new RectangularSplicingCoffeeTable(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
     public static final Block RED_PAINT_STORAGE_CABINET = registerBlock("red_paint_storage_cabinet",new RedPaintStorageCabinet(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
     public static final Block WOODEN_LOW_CABINET = registerBlock("wooden_low_cabinet",new WoodenLowCabinet(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+
+    public static final Block ADHESIVE_SHOCK_BOMB = registerBlock("adhesive_shock_bomb",new AdhesiveShockBomb(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+    public static final Block COMFORTABLE_SEATS = registerBlock("comfortable_seats",new ComfortableSeats(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+    public static final Block CONFERENCE_TABLE_DEFAULT = registerBlock("conference_table_default",new ConferenceTable(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+    public static final Block DEFENSE_TARGET = registerBlock("defense_target",new DefenseTarget(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+    public static final Block DETACHABLE_ONE_WAY_MIRROR = registerBlock("detachable_one_way_mirror",new DetachableOneWayMirror(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+    public static final Block EMBEDDED_NEWSPAPER_RACK = registerBlock("embedded_newspaper_rack",new EmbeddedNewspaperRack(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+    public static final Block EMERGENCY_LIGHTING = registerBlock("emergency_lighting",new EmergencyLighting(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+    public static final Block EXHIBITION_ROOM_CEILING_LIGHT = registerBlock("exhibition_room_ceiling_light",new ExhibitionRoomCeilingLight(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+    public static final Block EXHIBITION_ROOM_MAIN_CEILING_LIGHT = registerBlock("exhibition_room_main_ceiling_light",new ExhibitionRoomMainCeilingLight(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+    public static final Block LIGHT_DISCHARGE_SHIELD = registerBlock("light_discharge_shield",new LightDischargeShield(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+    public static final Block MISSILE_INTERCEPTION_SYSTEM = registerBlock("missile_interception_system",new MissileInterceptionSystem(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+    public static final Block PORTABLE_FIRE_PLATFORM = registerBlock("portable_fire_platform",new PortableFirePlatform(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+    public static final Block PORTABLE_GENERATOR = registerBlock("portable_generator",new PortableGenerator(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+    public static final Block PORTABLE_REINFORCEMENT_DEVICE = registerBlock("portable_reinforcement_device",new PortableReinforcementDevice(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+    public static final Block PORTABLE_SHIELD = registerBlock("portable_shield",new PortableShield(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+    public static final Block SURVEILLANCE_CAMERA = registerBlock("surveillance_camera",new SurveillanceCamera(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+    public static final Block THROW_DISCHARGE_DEVICE = registerBlock("throw_discharge_device",new ThrowDischargeDevice(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
 
 
     private static Block registerBlock(String name,Block block){

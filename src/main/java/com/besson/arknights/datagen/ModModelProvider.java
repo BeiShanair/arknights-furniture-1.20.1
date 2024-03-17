@@ -491,6 +491,23 @@ public class ModModelProvider extends FabricModelProvider {
         blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.RED_PAINT_STORAGE_CABINET);
         blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.WOODEN_LOW_CABINET);
 
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.ADHESIVE_SHOCK_BOMB);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.COMFORTABLE_SEATS);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.DEFENSE_TARGET);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.DETACHABLE_ONE_WAY_MIRROR);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.EMBEDDED_NEWSPAPER_RACK);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.EMERGENCY_LIGHTING);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.EXHIBITION_ROOM_CEILING_LIGHT);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.EXHIBITION_ROOM_MAIN_CEILING_LIGHT);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.LIGHT_DISCHARGE_SHIELD);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.MISSILE_INTERCEPTION_SYSTEM);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.PORTABLE_FIRE_PLATFORM);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.PORTABLE_GENERATOR);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.PORTABLE_REINFORCEMENT_DEVICE);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.PORTABLE_SHIELD);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.SURVEILLANCE_CAMERA);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.THROW_DISCHARGE_DEVICE);
+
     }
 
     @Override

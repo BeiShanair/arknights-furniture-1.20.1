@@ -656,7 +656,29 @@ public class ModItemGroups {
                         entries.add(ModBlocks.RECTANGULAR_SPLICING_COFFEE_TABLE);
                         entries.add(ModBlocks.RED_PAINT_STORAGE_CABINET);
                         entries.add(ModBlocks.WOODEN_LOW_CABINET);
+                    }).build());
 
+    public static final ItemGroup SPECIAL_EQUIPMENT_EXHIBITION_ROOM = Registry.register(Registries.ITEM_GROUP,
+            new Identifier(ArknightsFurniture.MOD_ID,"special_equipment_exhibition_room"),
+            FabricItemGroup.builder().displayName(Text.translatable("itemGroup.special_equipment_exhibition_room"))
+                    .icon(() -> new ItemStack(ModBlocks.ADHESIVE_SHOCK_BOMB)).entries((displayContext, entries) -> {
+                        entries.add(ModBlocks.ADHESIVE_SHOCK_BOMB);
+                        entries.add(ModBlocks.COMFORTABLE_SEATS);
+                        entries.add(ModBlocks.CONFERENCE_TABLE_DEFAULT);
+                        entries.add(ModBlocks.DEFENSE_TARGET);
+                        entries.add(ModBlocks.DETACHABLE_ONE_WAY_MIRROR);
+                        entries.add(ModBlocks.EMBEDDED_NEWSPAPER_RACK);
+                        entries.add(ModBlocks.EMERGENCY_LIGHTING);
+                        entries.add(ModBlocks.EXHIBITION_ROOM_CEILING_LIGHT);
+                        entries.add(ModBlocks.EXHIBITION_ROOM_MAIN_CEILING_LIGHT);
+                        entries.add(ModBlocks.LIGHT_DISCHARGE_SHIELD);
+                        entries.add(ModBlocks.MISSILE_INTERCEPTION_SYSTEM);
+                        entries.add(ModBlocks.PORTABLE_FIRE_PLATFORM);
+                        entries.add(ModBlocks.PORTABLE_GENERATOR);
+                        entries.add(ModBlocks.PORTABLE_REINFORCEMENT_DEVICE);
+                        entries.add(ModBlocks.PORTABLE_SHIELD);
+                        entries.add(ModBlocks.SURVEILLANCE_CAMERA);
+                        entries.add(ModBlocks.THROW_DISCHARGE_DEVICE);
                     }).build());
     // public static final ItemGroup  = Registry.register(Registries.ITEM_GROUP,
     //        new Identifier(ArknightsFurniture.MOD_ID,""),
