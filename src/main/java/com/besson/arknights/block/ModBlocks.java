@@ -17,6 +17,7 @@ import com.besson.arknights.block.LetaniaNight.*;
 import com.besson.arknights.block.LifeCycleModule12.*;
 import com.besson.arknights.block.LongmenRestaurant.*;
 import com.besson.arknights.block.MansfieldCell.*;
+import com.besson.arknights.block.MeditationGarden.*;
 import com.besson.arknights.block.PenguinLogisticsSafeHouse.*;
 import com.besson.arknights.block.QuickChainPizzaShops.*;
 import com.besson.arknights.block.RhodeIslandModernMusicRehearsalRoom.*;
@@ -497,6 +498,19 @@ public class ModBlocks {
     public static final Block SINGLE_PERSON_TOILET = registerBlock("single_person_toilet",new SinglePersonToilet(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
     public static final Block WARNING_EQUIPMENT = registerBlock("warning_equipment",new WarningEquipment(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
     public static final Block WATER_CONTAINER = registerBlock("water_container",new WaterContainer(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+
+    public static final Block ACCOMPANIED_BY_FROST_AND_COLD = registerBlock("accompanied_by_frost_and_cold",new AccompaniedByFrostAndCold(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+    public static final Block BY_QU_ZHENG = registerBlock("by_qu_zheng",new ByQuZheng(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+    public static final Block CLEAN = registerBlock("clean",new Clean(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+    public static final Block CONFESSION = registerBlock("confession",new Confession(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+    public static final Block FROST = registerBlock("frost",new Frost(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+    public static final Block GENTLE = registerBlock("gentle",new Gentle(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+    public static final Block HANGING_RULER = registerBlock("hanging_ruler",new HangingRuler(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+    public static final Block LIGHTWEIGHT_ALL_OVER = registerBlock("lightweight_all_over",new LightweightAllOver(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+    public static final Block LIKE_ME = registerBlock("like_me",new LikeMe(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+    public static final Block TIMING = registerBlock("timing",new Timing(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+    public static final Block TURBID = registerBlock("turbid",new Turbid(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+    public static final Block WRONG_BRANCH = registerBlock("wrong_branch",new WrongBranch(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
 
 
     private static Block registerBlock(String name,Block block){

@@ -601,7 +601,24 @@ public class ModItemGroups {
                         entries.add(ModBlocks.SINGLE_PERSON_TOILET);
                         entries.add(ModBlocks.WARNING_EQUIPMENT);
                         entries.add(ModBlocks.WATER_CONTAINER);
+                    }).build());
 
+    public static final ItemGroup MEDITATION_GARDEN = Registry.register(Registries.ITEM_GROUP,
+            new Identifier(ArknightsFurniture.MOD_ID,"meditation_garden"),
+            FabricItemGroup.builder().displayName(Text.translatable("itemGroup.meditation_garden"))
+                    .icon(() -> new ItemStack(ModBlocks.LIKE_ME)).entries((displayContext, entries) -> {
+                        entries.add(ModBlocks.ACCOMPANIED_BY_FROST_AND_COLD);
+                        entries.add(ModBlocks.BY_QU_ZHENG);
+                        entries.add(ModBlocks.CLEAN);
+                        entries.add(ModBlocks.CONFESSION);
+                        entries.add(ModBlocks.FROST);
+                        entries.add(ModBlocks.GENTLE);
+                        entries.add(ModBlocks.HANGING_RULER);
+                        entries.add(ModBlocks.LIGHTWEIGHT_ALL_OVER);
+                        entries.add(ModBlocks.LIKE_ME);
+                        entries.add(ModBlocks.TIMING);
+                        entries.add(ModBlocks.TURBID);
+                        entries.add(ModBlocks.WRONG_BRANCH);
                     }).build());
     // public static final ItemGroup  = Registry.register(Registries.ITEM_GROUP,
     //        new Identifier(ArknightsFurniture.MOD_ID,""),

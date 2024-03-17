@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=east": {
+      "model": "arknights_furniture:block/accompanied_by_frost_and_cold",
+      "y": 90
+    },
+    "facing=north": {
+      "model": "arknights_furniture:block/accompanied_by_frost_and_cold"
+    },
+    "facing=south": {
+      "model": "arknights_furniture:block/accompanied_by_frost_and_cold",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "arknights_furniture:block/accompanied_by_frost_and_cold",
+      "y": 270
+    }
+  }
+}

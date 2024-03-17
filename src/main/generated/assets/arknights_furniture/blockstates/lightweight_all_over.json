@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=east": {
+      "model": "arknights_furniture:block/lightweight_all_over",
+      "y": 90
+    },
+    "facing=north": {
+      "model": "arknights_furniture:block/lightweight_all_over"
+    },
+    "facing=south": {
+      "model": "arknights_furniture:block/lightweight_all_over",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "arknights_furniture:block/lightweight_all_over",
+      "y": 270
+    }
+  }
+}

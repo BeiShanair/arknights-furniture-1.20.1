@@ -452,6 +452,19 @@ public class ModModelProvider extends FabricModelProvider {
         blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.WARNING_EQUIPMENT);
         blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.WATER_CONTAINER);
 
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.ACCOMPANIED_BY_FROST_AND_COLD);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.BY_QU_ZHENG);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.CLEAN);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.CONFESSION);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.FROST);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.GENTLE);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.HANGING_RULER);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.LIGHTWEIGHT_ALL_OVER);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.LIKE_ME);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.TIMING);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.TURBID);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.WRONG_BRANCH);
+
     }
 
     @Override
