@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=east": {
+      "model": "arknights_furniture:block/emergency_lighting",
+      "y": 90
+    },
+    "facing=north": {
+      "model": "arknights_furniture:block/emergency_lighting"
+    },
+    "facing=south": {
+      "model": "arknights_furniture:block/emergency_lighting",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "arknights_furniture:block/emergency_lighting",
+      "y": 270
+    }
+  }
+}

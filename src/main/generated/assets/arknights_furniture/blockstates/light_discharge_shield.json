@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=east": {
+      "model": "arknights_furniture:block/light_discharge_shield",
+      "y": 90
+    },
+    "facing=north": {
+      "model": "arknights_furniture:block/light_discharge_shield"
+    },
+    "facing=south": {
+      "model": "arknights_furniture:block/light_discharge_shield",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "arknights_furniture:block/light_discharge_shield",
+      "y": 270
+    }
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=east": {
+      "model": "arknights_furniture:block/embedded_newspaper_rack",
+      "y": 90
+    },
+    "facing=north": {
+      "model": "arknights_furniture:block/embedded_newspaper_rack"
+    },
+    "facing=south": {
+      "model": "arknights_furniture:block/embedded_newspaper_rack",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "arknights_furniture:block/embedded_newspaper_rack",
+      "y": 270
+    }
+  }
+}
