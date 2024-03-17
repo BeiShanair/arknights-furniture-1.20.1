@@ -408,6 +408,19 @@ public class ModModelProvider extends FabricModelProvider {
         blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.SWORD_ARMOR_COLLECTION_CABINET);
         blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.TRAINING_CALENDAR);
         blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.WATERING_KETTLE);
+
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.A_SHOWCASE_FILLED_WITH_WATER);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.BAMBOO_BASKET_SOURCE_STONE_LAMP);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.BRASS_SQUARE_CEILING_LIGHT);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.CHRONICLE_CALENDAR);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.ROLLER_REFRIGERATOR);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.SHAKE_AND_SHAKE_THE_SOFA);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.TOY_CABINET);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.WATERCOLOR_PAINTING_SET);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.WOOD_FENCE);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.WOOD_GRID_CEILING_FENCE);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.YELLOW_SMALL_ROUND_STOOL);
+
     }
 
     @Override

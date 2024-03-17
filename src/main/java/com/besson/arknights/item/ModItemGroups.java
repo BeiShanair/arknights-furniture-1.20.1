@@ -544,6 +544,24 @@ public class ModItemGroups {
                         entries.add(ModBlocks.TRAINING_CALENDAR);
                         entries.add(ModBlocks.WATERING_KETTLE);
                     }).build());
+
+    public static final ItemGroup YELLOW_DENG_DENG_GAME_ROOM = Registry.register(Registries.ITEM_GROUP,
+            new Identifier(ArknightsFurniture.MOD_ID,"yellow_deng_deng_game_room"),
+            FabricItemGroup.builder().displayName(Text.translatable("itemGroup.yellow_deng_deng_game_room"))
+                    .icon(() -> new ItemStack(ModBlocks.BAMBOO_BASKET_SOURCE_STONE_LAMP)).entries((displayContext, entries) -> {
+                        entries.add(ModBlocks.A_SHOWCASE_FILLED_WITH_WATER);
+                        entries.add(ModBlocks.BAMBOO_BASKET_SOURCE_STONE_LAMP);
+                        entries.add(ModBlocks.BRASS_SQUARE_CEILING_LIGHT);
+                        entries.add(ModBlocks.CHRONICLE_CALENDAR);
+                        entries.add(ModBlocks.ROLLER_REFRIGERATOR);
+                        entries.add(ModBlocks.SHAKE_AND_SHAKE_THE_SOFA);
+                        entries.add(ModBlocks.TOY_CABINET);
+                        entries.add(ModBlocks.WATERCOLOR_PAINTING_SET);
+                        entries.add(ModBlocks.WOOD_FENCE);
+                        entries.add(ModBlocks.WOOD_GRID_CEILING_FENCE);
+                        entries.add(ModBlocks.YELLOW_SMALL_ROUND_STOOL);
+
+                    }).build());
     // public static final ItemGroup  = Registry.register(Registries.ITEM_GROUP,
     //        new Identifier(ArknightsFurniture.MOD_ID,""),
     //        FabricItemGroup.builder().displayName(Text.translatable("itemgroup."))

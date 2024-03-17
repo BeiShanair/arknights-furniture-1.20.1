@@ -9,6 +9,7 @@ import com.besson.arknights.block.EdgeSolid_OrangeSimpleHome.*;
 import com.besson.arknights.block.FlameHall.*;
 import com.besson.arknights.block.FreightWarehouse.*;
 import com.besson.arknights.block.HealthyFastFoodRestaurant.*;
+import com.besson.arknights.block.HuangDengDengGameRoom.*;
 import com.besson.arknights.block.IllusionaryBiography.*;
 import com.besson.arknights.block.ImitationoftheLivingroomoftheLightHouse.*;
 import com.besson.arknights.block.LancellarBallroom.*;
@@ -451,6 +452,19 @@ public class ModBlocks {
     public static final Block SWORD_ARMOR_COLLECTION_CABINET = registerBlock("sword_armor_collection_cabinet",new SwordArmorCollectionCabinet(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
     public static final Block TRAINING_CALENDAR = registerBlock("training_calendar",new TrainingCalendar(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
     public static final Block WATERING_KETTLE = registerBlock("watering_kettle",new WateringKettle(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+
+    public static final Block A_SHOWCASE_FILLED_WITH_WATER = registerBlock("a_showcase_filled_with_water",new AShowcaseFilledWithWater(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+    public static final Block BAMBOO_BASKET_SOURCE_STONE_LAMP = registerBlock("bamboo_basket_source_stone_lamp",new BambooBasketSourceStoneLamp(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+    public static final Block BRASS_SQUARE_CEILING_LIGHT = registerBlock("brass_square_ceiling_light",new BrassSquareCeilingLight(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+    public static final Block CHRONICLE_CALENDAR = registerBlock("chronicle_calendar",new ChronicleCalendar(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+    public static final Block ROLLER_REFRIGERATOR = registerBlock("roller_refrigerator",new RollerRefrigerator(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+    public static final Block SHAKE_AND_SHAKE_THE_SOFA = registerBlock("shake_and_shake_the_sofa",new ShakeAndShakeTheSofa(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+    public static final Block TOY_CABINET = registerBlock("toy_cabinet",new ToyCabinet(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+    public static final Block WATERCOLOR_PAINTING_SET = registerBlock("watercolor_painting_set",new WatercolorPaintingSet(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+    public static final Block WOOD_FENCE = registerBlock("wood_fence",new WoodFence(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+    public static final Block WOOD_GRID_CEILING_FENCE = registerBlock("wood_grid_ceiling_fence",new WoodGridCeilingFence(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+    public static final Block YELLOW_SMALL_ROUND_STOOL = registerBlock("yellow_small_round_stool",new YellowSmallRoundStool(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+
 
 
     private static Block registerBlock(String name,Block block){

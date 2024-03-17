@@ -417,6 +417,17 @@
   "block.arknights_furniture.training_calendar":"Training Calendar",
   "block.arknights_furniture.watering_kettle":"Watering Kettle",
 
+  "block.arknights_furniture.a_showcase_filled_with_water":"A Showcase Filled With Water",
+  "block.arknights_furniture.bamboo_basket_source_stone_lamp":"Bamboo Basket Source Stone Lamp",
+  "block.arknights_furniture.brass_square_ceiling_light":"Brass Square Ceiling Light",
+  "block.arknights_furniture.chronicle_calendar":"Chronicle Calendar",
+  "block.arknights_furniture.roller_refrigerator":"Roller Refrigerator",
+  "block.arknights_furniture.shake_and_shake_the_sofa":"Shake And Shake The Sofa",
+  "block.arknights_furniture.toy_cabinet":"Toy Cabinet",
+  "block.arknights_furniture.watercolor_painting_set":"Watercolor Painting Set",
+  "block.arknights_furniture.wood_fence":"Wood Fence",
+  "block.arknights_furniture.wood_grid_ceiling_fence":"Wood Grid Ceiling Fence",
+  "block.arknights_furniture.yellow_small_round_stool":"Yellow Small Round Stool",
 
   "itemgroup.logo": "LOGO Group",
   "itemgroup.freight_warehouse": "Freight Warehouse",
@@ -446,6 +457,7 @@
   "itemGroup.tribal_lodge": "Tribal Lodge",
   "itemGroup.flame_hall": "Flame Hall",
   "itemGroup.imitation_of_the_living_room_of_the_light_house": "Imitation Of The Living Room Of The Light House",
+  "itemGroup.yellow_deng_deng_game_room": "Yellow Deng Deng Game Room",
 
   "painting.arknights_furniture.unconfirmed_biological_skeleton.title":"Unconfirmed Biological Skeleton",
   "painting.arknights_furniture.unconfirmed_biological_skeleton.author":"Hypergryph",

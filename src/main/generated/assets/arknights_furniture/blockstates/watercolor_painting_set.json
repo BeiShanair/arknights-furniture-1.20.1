@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=east": {
+      "model": "arknights_furniture:block/watercolor_painting_set",
+      "y": 90
+    },
+    "facing=north": {
+      "model": "arknights_furniture:block/watercolor_painting_set"
+    },
+    "facing=south": {
+      "model": "arknights_furniture:block/watercolor_painting_set",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "arknights_furniture:block/watercolor_painting_set",
+      "y": 270
+    }
+  }
+}

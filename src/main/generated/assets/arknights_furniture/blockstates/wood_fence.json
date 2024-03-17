@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=east": {
+      "model": "arknights_furniture:block/wood_fence",
+      "y": 90
+    },
+    "facing=north": {
+      "model": "arknights_furniture:block/wood_fence"
+    },
+    "facing=south": {
+      "model": "arknights_furniture:block/wood_fence",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "arknights_furniture:block/wood_fence",
+      "y": 270
+    }
+  }
+}
