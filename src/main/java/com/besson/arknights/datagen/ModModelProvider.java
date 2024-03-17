@@ -465,6 +465,22 @@ public class ModModelProvider extends FabricModelProvider {
         blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.TURBID);
         blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.WRONG_BRANCH);
 
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.A_CASE_BASED_ON_WILL);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.A_VERSATILE_CYLINDER);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.FLOOR_STANDING_LIGHT);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.HIGH_HANGING_LIGHT);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.LANDING_CLOUD_SILK);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.LIGHT_GAUZE_LANDSCAPE_SCREEN);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.LITTER_CONTAINER);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.PUYU_KNOT);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.RANDOM_THOUGHTS_SCREEN);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.STILL_WATER_LOTUS_BOX);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.SUSHAN_MOUNTAIN_AND_WATER);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.TRANSPARENT_HANGING_CURTAIN_WIDE);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.UNIVERSAL_LIGHTING);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.WHITE_JADE_YELLOW_BEAM_COUCH);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.XIANGTAI);
+
     }
 
     @Override

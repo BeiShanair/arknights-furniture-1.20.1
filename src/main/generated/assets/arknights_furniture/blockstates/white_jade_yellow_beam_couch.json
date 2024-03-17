@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=east": {
+      "model": "arknights_furniture:block/white_jade_yellow_beam_couch",
+      "y": 90
+    },
+    "facing=north": {
+      "model": "arknights_furniture:block/white_jade_yellow_beam_couch"
+    },
+    "facing=south": {
+      "model": "arknights_furniture:block/white_jade_yellow_beam_couch",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "arknights_furniture:block/white_jade_yellow_beam_couch",
+      "y": 270
+    }
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=east": {
+      "model": "arknights_furniture:block/a_case_based_on_will",
+      "y": 90
+    },
+    "facing=north": {
+      "model": "arknights_furniture:block/a_case_based_on_will"
+    },
+    "facing=south": {
+      "model": "arknights_furniture:block/a_case_based_on_will",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "arknights_furniture:block/a_case_based_on_will",
+      "y": 270
+    }
+  }
+}

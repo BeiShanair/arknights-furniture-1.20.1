@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=east": {
+      "model": "arknights_furniture:block/a_versatile_cylinder",
+      "y": 90
+    },
+    "facing=north": {
+      "model": "arknights_furniture:block/a_versatile_cylinder"
+    },
+    "facing=south": {
+      "model": "arknights_furniture:block/a_versatile_cylinder",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "arknights_furniture:block/a_versatile_cylinder",
+      "y": 270
+    }
+  }
+}

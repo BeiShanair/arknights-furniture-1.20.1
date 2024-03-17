@@ -620,6 +620,27 @@ public class ModItemGroups {
                         entries.add(ModBlocks.TURBID);
                         entries.add(ModBlocks.WRONG_BRANCH);
                     }).build());
+
+    public static final ItemGroup DANQING_PAVILION = Registry.register(Registries.ITEM_GROUP,
+            new Identifier(ArknightsFurniture.MOD_ID,"danqing_pavilion"),
+            FabricItemGroup.builder().displayName(Text.translatable("itemGroup.danqing_pavilion"))
+                    .icon(() -> new ItemStack(ModBlocks.FLOOR_STANDING_LIGHT)).entries((displayContext, entries) -> {
+                        entries.add(ModBlocks.A_CASE_BASED_ON_WILL);
+                        entries.add(ModBlocks.A_VERSATILE_CYLINDER);
+                        entries.add(ModBlocks.FLOOR_STANDING_LIGHT);
+                        entries.add(ModBlocks.HIGH_HANGING_LIGHT);
+                        entries.add(ModBlocks.LANDING_CLOUD_SILK);
+                        entries.add(ModBlocks.LIGHT_GAUZE_LANDSCAPE_SCREEN);
+                        entries.add(ModBlocks.LITTER_CONTAINER);
+                        entries.add(ModBlocks.PUYU_KNOT);
+                        entries.add(ModBlocks.RANDOM_THOUGHTS_SCREEN);
+                        entries.add(ModBlocks.STILL_WATER_LOTUS_BOX);
+                        entries.add(ModBlocks.SUSHAN_MOUNTAIN_AND_WATER);
+                        entries.add(ModBlocks.TRANSPARENT_HANGING_CURTAIN_WIDE);
+                        entries.add(ModBlocks.UNIVERSAL_LIGHTING);
+                        entries.add(ModBlocks.WHITE_JADE_YELLOW_BEAM_COUCH);
+                        entries.add(ModBlocks.XIANGTAI);
+                    }).build());
     // public static final ItemGroup  = Registry.register(Registries.ITEM_GROUP,
     //        new Identifier(ArknightsFurniture.MOD_ID,""),
     //        FabricItemGroup.builder().displayName(Text.translatable("itemgroup."))

@@ -473,6 +473,23 @@
   "block.arknights_furniture.turbid":"Turbid",
   "block.arknights_furniture.wrong_branch":"Wrong Branch",
 
+  "block.arknights_furniture.a_case_based_on_will":"A Case Based On Will",
+  "block.arknights_furniture.a_versatile_cylinder":"A Versatile Cylinder",
+  "block.arknights_furniture.floor_standing_light":"Floor Standing Light",
+  "block.arknights_furniture.high_hanging_light":"High Hanging Light",
+  "block.arknights_furniture.landing_cloud_silk":"Landing Cloud Silk",
+  "block.arknights_furniture.light_gauze_landscape_screen":"Light Gauze Landscape Screen",
+  "block.arknights_furniture.litter_container":"Litter Container",
+  "block.arknights_furniture.puyu_knot":"Puyu Knot",
+  "block.arknights_furniture.random_thoughts_screen":"Random Thoughts Screen",
+  "block.arknights_furniture.still_water_lotus_box":"Still Water Lotus Box",
+  "block.arknights_furniture.sushan_mountain_and_water":"Sushan Mountain And Water",
+  "block.arknights_furniture.transparent_hanging_curtain_wide":"Transparent Hanging Curtain Wide",
+  "block.arknights_furniture.universal_lighting":"Universal Lighting",
+  "block.arknights_furniture.white_jade_yellow_beam_couch":"White Jade Yellow Beam Couch",
+  "block.arknights_furniture.xiangtai":"Xiangtai",
+
+
   "itemgroup.logo": "LOGO Group",
   "itemgroup.freight_warehouse": "Freight Warehouse",
   "itemgroup.edge_solid_orange_simple_home": "Edge-Solid/Orange Simple Home",
@@ -505,6 +522,7 @@
   "itemGroup.white_wangno": "White Wangno",
   "itemGroup.mansfield_cell": "Mansfield Cell",
   "itemGroup.meditation_garden": "Meditation Garden",
+  "itemGroup.danqing_pavilion": "Danqing Pavilion",
 
   "painting.arknights_furniture.unconfirmed_biological_skeleton.title":"Unconfirmed Biological Skeleton",
   "painting.arknights_furniture.unconfirmed_biological_skeleton.author":"Hypergryph",

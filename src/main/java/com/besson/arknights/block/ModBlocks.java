@@ -5,6 +5,7 @@ import com.besson.arknights.block.AirtightChemicalSafetyCabin.*;
 import com.besson.arknights.block.ChensOffice.*;
 import com.besson.arknights.block.ColumbiaCafe.*;
 import com.besson.arknights.block.ColumbiaModernHotel.*;
+import com.besson.arknights.block.DanqingPavilion.*;
 import com.besson.arknights.block.EdgeSolid_OrangeSimpleHome.*;
 import com.besson.arknights.block.FlameHall.*;
 import com.besson.arknights.block.FreightWarehouse.*;
@@ -511,6 +512,22 @@ public class ModBlocks {
     public static final Block TIMING = registerBlock("timing",new Timing(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
     public static final Block TURBID = registerBlock("turbid",new Turbid(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
     public static final Block WRONG_BRANCH = registerBlock("wrong_branch",new WrongBranch(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+
+    public static final Block A_CASE_BASED_ON_WILL = registerBlock("a_case_based_on_will",new ACaseBasedOnWill(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+    public static final Block A_VERSATILE_CYLINDER = registerBlock("a_versatile_cylinder",new AVersatileCylinder(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+    public static final Block FLOOR_STANDING_LIGHT = registerBlock("floor_standing_light",new FloorStandingLight(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+    public static final Block HIGH_HANGING_LIGHT = registerBlock("high_hanging_light",new HighHangingLight(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+    public static final Block LANDING_CLOUD_SILK = registerBlock("landing_cloud_silk",new LandingCloudSilk(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+    public static final Block LIGHT_GAUZE_LANDSCAPE_SCREEN = registerBlock("light_gauze_landscape_screen",new LightGauzeLandscapeScreen(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+    public static final Block LITTER_CONTAINER = registerBlock("litter_container",new LitterContainer(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+    public static final Block PUYU_KNOT = registerBlock("puyu_knot",new PuyuKnot(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+    public static final Block RANDOM_THOUGHTS_SCREEN = registerBlock("random_thoughts_screen",new RandomThoughtsScreen(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+    public static final Block STILL_WATER_LOTUS_BOX = registerBlock("still_water_lotus_box",new StillWaterLotusBox(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+    public static final Block SUSHAN_MOUNTAIN_AND_WATER = registerBlock("sushan_mountain_and_water",new SushanMountainAndWater(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+    public static final Block TRANSPARENT_HANGING_CURTAIN_WIDE = registerBlock("transparent_hanging_curtain_wide",new TransparentHangingCurtainWide(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+    public static final Block UNIVERSAL_LIGHTING = registerBlock("universal_lighting",new UniversalLighting(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+    public static final Block WHITE_JADE_YELLOW_BEAM_COUCH = registerBlock("white_jade_yellow_beam_couch",new WhiteJadeYellowBeamCouch(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+    public static final Block XIANGTAI = registerBlock("xiangtai",new Xiangtai(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
 
 
     private static Block registerBlock(String name,Block block){
