@@ -734,6 +734,25 @@ public class ModItemGroups {
                         entries.add(ModBlocks.SPLICING_SUSPENDED_LAMP_TUBES);
                         entries.add(ModBlocks.STACKED_DECORATIVE_CHANDELIER);
                     }).build());
+
+    public static final ItemGroup STUDIO_FOR_PHOTOGRAPHY_ENTHUSIASTS = Registry.register(Registries.ITEM_GROUP,
+            new Identifier(ArknightsFurniture.MOD_ID,"studio_for_photography_enthusiasts"),
+            FabricItemGroup.builder().displayName(Text.translatable("itemGroup.studio_for_photography_enthusiasts"))
+                    .icon(() -> new ItemStack(ModBlocks.FILM_AND_TELEVISION_MAKEUP_STAGE)).entries((displayContext, entries) -> {
+                        entries.add(ModBlocks.FILM_AND_TELEVISION_MAKEUP_STAGE);
+                        entries.add(ModBlocks.FLOODLIGHT);
+                        entries.add(ModBlocks.FLOOR_FITTING_MIRROR);
+                        entries.add(ModBlocks.LARGE_OIL_PAINTING);
+                        entries.add(ModBlocks.MULTIFUNCTIONAL_BRACKET);
+                        entries.add(ModBlocks.PHOTOGRAPHY_AUXILIARY_EQUIPMENT);
+                        entries.add(ModBlocks.PHOTOGRAPHY_HIGH_STOOL);
+                        entries.add(ModBlocks.PHOTOGRAPHY_WORKBENCH);
+                        entries.add(ModBlocks.SIMPLIFIED_FITTING_ROOM);
+                        entries.add(ModBlocks.SLIDING_RAIL_TYPE_CEILING_LIGHT_SOURCE);
+                        entries.add(ModBlocks.SQUARE_LOW_STOOL);
+                        entries.add(ModBlocks.TRANSPARENT_HANGING_CURTAIN);
+                        entries.add(ModBlocks.WHEEL_WORK_CHAIR);
+                    }).build());
     // public static final ItemGroup  = Registry.register(Registries.ITEM_GROUP,
     //        new Identifier(ArknightsFurniture.MOD_ID,""),
     //        FabricItemGroup.builder().displayName(Text.translatable("itemgroup."))

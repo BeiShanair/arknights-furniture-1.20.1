@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=east": {
+      "model": "arknights_furniture:block/large_oil_painting",
+      "y": 90
+    },
+    "facing=north": {
+      "model": "arknights_furniture:block/large_oil_painting"
+    },
+    "facing=south": {
+      "model": "arknights_furniture:block/large_oil_painting",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "arknights_furniture:block/large_oil_painting",
+      "y": 270
+    }
+  }
+}

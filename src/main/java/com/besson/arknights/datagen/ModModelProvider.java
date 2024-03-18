@@ -546,6 +546,20 @@ public class ModModelProvider extends FabricModelProvider {
         blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.SPLICING_SUSPENDED_LAMP_TUBES);
         blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.STACKED_DECORATIVE_CHANDELIER);
 
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.FILM_AND_TELEVISION_MAKEUP_STAGE);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.FLOODLIGHT);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.FLOOR_FITTING_MIRROR);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.LARGE_OIL_PAINTING);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.MULTIFUNCTIONAL_BRACKET);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.PHOTOGRAPHY_AUXILIARY_EQUIPMENT);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.PHOTOGRAPHY_HIGH_STOOL);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.PHOTOGRAPHY_WORKBENCH);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.SIMPLIFIED_FITTING_ROOM);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.SLIDING_RAIL_TYPE_CEILING_LIGHT_SOURCE);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.SQUARE_LOW_STOOL);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.TRANSPARENT_HANGING_CURTAIN);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.WHEEL_WORK_CHAIR);
+
     }
 
     @Override

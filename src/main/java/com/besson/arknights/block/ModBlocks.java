@@ -34,6 +34,7 @@ import com.besson.arknights.block.SevenCitiesStyleRestaurant.*;
 import com.besson.arknights.block.SiestaBeachCottage.*;
 import com.besson.arknights.block.SoulSecretSociety.*;
 import com.besson.arknights.block.SpecialEquipmentExhibitionRoom.*;
+import com.besson.arknights.block.StudioForPhotographyEnthusiasts.*;
 import com.besson.arknights.block.TribalLodge.*;
 import com.besson.arknights.block.UrsasStudentLounge.*;
 import com.besson.arknights.block.WalterTrendRoom.*;
@@ -601,6 +602,20 @@ public class ModBlocks {
     public static final Block SIMPLE_WALL_MOUNTED_STORAGE_RACK = registerBlock("simple_wall_mounted_storage_rack",new SimpleWallMountedStorageRack(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
     public static final Block SPLICING_SUSPENDED_LAMP_TUBES = registerBlock("splicing_suspended_lamp_tubes",new SplicingSuspendedLampTubes(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
     public static final Block STACKED_DECORATIVE_CHANDELIER = registerBlock("stacked_decorative_chandelier",new StackedDecorativeChandelier(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+
+    public static final Block FILM_AND_TELEVISION_MAKEUP_STAGE = registerBlock("film_and_television_makeup_stage",new FilmAndTelevisionMakeupStage(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+    public static final Block FLOODLIGHT = registerBlock("floodlight",new Floodlight(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+    public static final Block FLOOR_FITTING_MIRROR = registerBlock("floor_fitting_mirror",new FloorFittingMirror(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+    public static final Block LARGE_OIL_PAINTING = registerBlock("large_oil_painting",new LargeOilPainting(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+    public static final Block MULTIFUNCTIONAL_BRACKET = registerBlock("multifunctional_bracket",new MultifunctionalBracket(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+    public static final Block PHOTOGRAPHY_AUXILIARY_EQUIPMENT = registerBlock("photography_auxiliary_equipment",new PhotographyAuxiliaryEquipment(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+    public static final Block PHOTOGRAPHY_HIGH_STOOL = registerBlock("photography_high_stool",new PhotographyHighStool(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+    public static final Block PHOTOGRAPHY_WORKBENCH = registerBlock("photography_workbench",new PhotographyWorkbench(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+    public static final Block SIMPLIFIED_FITTING_ROOM = registerBlock("simplified_fitting_room",new SimplifiedFittingRoom(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+    public static final Block SLIDING_RAIL_TYPE_CEILING_LIGHT_SOURCE = registerBlock("sliding_rail_type_ceiling_light_source",new SlidingRailTypeCeilingLightSource(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+    public static final Block SQUARE_LOW_STOOL = registerBlock("square_low_stool",new SquareLowStool(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+    public static final Block TRANSPARENT_HANGING_CURTAIN = registerBlock("transparent_hanging_curtain",new TransparentHangingCurtain(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+    public static final Block WHEEL_WORK_CHAIR = registerBlock("wheel_work_chair",new WheelWorkChair(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
 
     private static Block registerBlock(String name,Block block){
         registerBlockItem(name,block);

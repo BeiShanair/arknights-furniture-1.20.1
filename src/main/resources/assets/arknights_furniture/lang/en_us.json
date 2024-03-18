@@ -557,6 +557,20 @@
   "block.arknights_furniture.splicing_suspended_lamp_tubes":"Splicing Suspended Lamp Tubes",
   "block.arknights_furniture.stacked_decorative_chandelier":"Stacked Decorative Chandelier",
 
+  "block.arknights_furniture.film_and_television_makeup_stage":"Film And Television Makeup Stage",
+  "block.arknights_furniture.floodlight":"Floodlight",
+  "block.arknights_furniture.floor_fitting_mirror":"Floor Fitting Mirror",
+  "block.arknights_furniture.large_oil_painting":"Large Oil Painting",
+  "block.arknights_furniture.multifunctional_bracket":"Multifunctional Bracket",
+  "block.arknights_furniture.photography_auxiliary_equipment":"Photography Auxiliary Equipment",
+  "block.arknights_furniture.photography_high_stool":"Photography High Stool",
+  "block.arknights_furniture.photography_workbench":"Photography Workbench",
+  "block.arknights_furniture.simplified_fitting_room":"Simplified FittingRoom",
+  "block.arknights_furniture.sliding_rail_type_ceiling_light_source":"Sliding Rail Type Ceiling Light Source",
+  "block.arknights_furniture.square_low_stool":"Square Low Stool",
+  "block.arknights_furniture.transparent_hanging_curtain":"Transparent Hanging Curtain",
+  "block.arknights_furniture.wheel_work_chair":"Wheel Work Chair",
+
   "itemgroup.logo": "LOGO Group",
   "itemgroup.freight_warehouse": "Freight Warehouse",
   "itemgroup.edge_solid_orange_simple_home": "Edge-Solid/Orange Simple Home",
@@ -595,6 +609,7 @@
   "itemGroup.office_of_the_first_aid_expert_group": "Office Of The First Aid Expert Group",
   "itemGroup.iberia_resort": "Iberia Resort",
   "itemGroup.lenas_resting_place": "Lena's Resting Place",
+  "itemGroup.studio_for_photography_enthusiasts": "Studio For Photography Enthusiasts",
 
   "painting.arknights_furniture.unconfirmed_biological_skeleton.title":"Unconfirmed Biological Skeleton",
   "painting.arknights_furniture.unconfirmed_biological_skeleton.author":"Hypergryph",
