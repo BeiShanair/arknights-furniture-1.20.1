@@ -508,6 +508,21 @@ public class ModModelProvider extends FabricModelProvider {
         blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.SURVEILLANCE_CAMERA);
         blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.THROW_DISCHARGE_DEVICE);
 
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.CHIEF_PHYSICIAN_CHAIR);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.EMERGENCY_EXPERT_GROUP_OFFICE);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.EXTENDED_INDEPENDENT_WORKBENCH_LEFT);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.EXTENDED_INDEPENDENT_WORKBENCH_RIGHT);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.INFORMATION_INTEGRATION_EDITION);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.INTEGRATED_LIGHT_SOURCE);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.MEDICAL_EQUIPMENT_RACK);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.MEDICAL_PROJECTOR);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.MULTIFUNCTIONAL_IRRADIATION_SYSTEM);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.RESPIRATORY_MAINTENANCE_DEVICE);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.SCROLL_SCREEN);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.SURGICAL_AREA_ISOLATION_CURTAIN);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.VACUUM_CONSTANT_TEMPERATURE_STORAGE_BOX);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.WORK_BENCH);
+
     }
 
     @Override

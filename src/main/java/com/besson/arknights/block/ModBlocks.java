@@ -19,6 +19,7 @@ import com.besson.arknights.block.LifeCycleModule12.*;
 import com.besson.arknights.block.LongmenRestaurant.*;
 import com.besson.arknights.block.MansfieldCell.*;
 import com.besson.arknights.block.MeditationGarden.*;
+import com.besson.arknights.block.OfficeoftheFirstAidExpertGroup.*;
 import com.besson.arknights.block.PenguinLogisticsSafeHouse.*;
 import com.besson.arknights.block.QuickChainPizzaShops.*;
 import com.besson.arknights.block.RhodeIslandModernMusicRehearsalRoom.*;
@@ -559,6 +560,21 @@ public class ModBlocks {
     public static final Block PORTABLE_SHIELD = registerBlock("portable_shield",new PortableShield(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
     public static final Block SURVEILLANCE_CAMERA = registerBlock("surveillance_camera",new SurveillanceCamera(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
     public static final Block THROW_DISCHARGE_DEVICE = registerBlock("throw_discharge_device",new ThrowDischargeDevice(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+
+    public static final Block CHIEF_PHYSICIAN_CHAIR = registerBlock("chief_physician_chair",new ChiefPhysicianChair(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+    public static final Block EMERGENCY_EXPERT_GROUP_OFFICE = registerBlock("emergency_expert_group_office",new EmergencyExpertGroupOffice(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+    public static final Block EXTENDED_INDEPENDENT_WORKBENCH_LEFT = registerBlock("extended_independent_workbench_left",new ExtendedIndependentWorkbench(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+    public static final Block EXTENDED_INDEPENDENT_WORKBENCH_RIGHT = registerBlock("extended_independent_workbench_right",new ExtendedIndependentWorkbench(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+    public static final Block INFORMATION_INTEGRATION_EDITION = registerBlock("information_integration_edition",new InformationIntegrationEdition(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+    public static final Block INTEGRATED_LIGHT_SOURCE = registerBlock("integrated_light_source",new IntegratedLightSource(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+    public static final Block MEDICAL_EQUIPMENT_RACK = registerBlock("medical_equipment_rack",new MedicalEquipmentRack(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+    public static final Block MEDICAL_PROJECTOR = registerBlock("medical_projector",new MedicalProjector(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+    public static final Block MULTIFUNCTIONAL_IRRADIATION_SYSTEM = registerBlock("multifunctional_irradiation_system",new MultifunctionalIrradiationSystem(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+    public static final Block RESPIRATORY_MAINTENANCE_DEVICE = registerBlock("respiratory_maintenance_device",new RespiratoryMaintenanceDevice(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+    public static final Block SCROLL_SCREEN = registerBlock("scroll_screen",new ScrollScreen(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+    public static final Block SURGICAL_AREA_ISOLATION_CURTAIN = registerBlock("surgical_area_isolation_curtain",new SurgicalAreaIsolationCurtain(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+    public static final Block VACUUM_CONSTANT_TEMPERATURE_STORAGE_BOX = registerBlock("vacuum_constant_temperature_storage_box",new VacuumConstantTemperatureStorageBox(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+    public static final Block WORK_BENCH = registerBlock("work_bench",new WorkBench(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
 
 
     private static Block registerBlock(String name,Block block){

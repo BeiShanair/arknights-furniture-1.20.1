@@ -680,6 +680,27 @@ public class ModItemGroups {
                         entries.add(ModBlocks.SURVEILLANCE_CAMERA);
                         entries.add(ModBlocks.THROW_DISCHARGE_DEVICE);
                     }).build());
+
+    public static final ItemGroup OFFICE_OF_THE_FIRST_AID_EXPERT_GROUP = Registry.register(Registries.ITEM_GROUP,
+            new Identifier(ArknightsFurniture.MOD_ID,"office_of_the_first_aid_expert_group"),
+            FabricItemGroup.builder().displayName(Text.translatable("itemGroup.office_of_the_first_aid_expert_group"))
+                    .icon(() -> new ItemStack(ModBlocks.EMERGENCY_EXPERT_GROUP_OFFICE)).entries((displayContext, entries) -> {
+                        entries.add(ModBlocks.CHIEF_PHYSICIAN_CHAIR);
+                        entries.add(ModBlocks.EMERGENCY_EXPERT_GROUP_OFFICE);
+                        entries.add(ModBlocks.EXTENDED_INDEPENDENT_WORKBENCH_LEFT);
+                        entries.add(ModBlocks.EXTENDED_INDEPENDENT_WORKBENCH_RIGHT);
+                        entries.add(ModBlocks.INFORMATION_INTEGRATION_EDITION);
+                        entries.add(ModBlocks.INTEGRATED_LIGHT_SOURCE);
+                        entries.add(ModBlocks.MEDICAL_EQUIPMENT_RACK);
+                        entries.add(ModBlocks.MEDICAL_PROJECTOR);
+                        entries.add(ModBlocks.MULTIFUNCTIONAL_IRRADIATION_SYSTEM);
+                        entries.add(ModBlocks.RESPIRATORY_MAINTENANCE_DEVICE);
+                        entries.add(ModBlocks.SCROLL_SCREEN);
+                        entries.add(ModBlocks.SURGICAL_AREA_ISOLATION_CURTAIN);
+                        entries.add(ModBlocks.VACUUM_CONSTANT_TEMPERATURE_STORAGE_BOX);
+                        entries.add(ModBlocks.WORK_BENCH);
+
+                    }).build());
     // public static final ItemGroup  = Registry.register(Registries.ITEM_GROUP,
     //        new Identifier(ArknightsFurniture.MOD_ID,""),
     //        FabricItemGroup.builder().displayName(Text.translatable("itemgroup."))
