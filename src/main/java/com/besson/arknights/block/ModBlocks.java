@@ -6,6 +6,7 @@ import com.besson.arknights.block.ChensOffice.*;
 import com.besson.arknights.block.ColumbiaCafe.*;
 import com.besson.arknights.block.ColumbiaModernHotel.*;
 import com.besson.arknights.block.DanqingPavilion.*;
+import com.besson.arknights.block.DosoresPrivateSAPRoom.*;
 import com.besson.arknights.block.EdgeSolid_OrangeSimpleHome.*;
 import com.besson.arknights.block.FlameHall.*;
 import com.besson.arknights.block.FreightWarehouse.*;
@@ -616,6 +617,15 @@ public class ModBlocks {
     public static final Block SQUARE_LOW_STOOL = registerBlock("square_low_stool",new SquareLowStool(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
     public static final Block TRANSPARENT_HANGING_CURTAIN = registerBlock("transparent_hanging_curtain",new TransparentHangingCurtain(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
     public static final Block WHEEL_WORK_CHAIR = registerBlock("wheel_work_chair",new WheelWorkChair(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+
+    public static final Block LAND_BASED_ARTIFICIAL_LANDSCAPING = registerBlock("land_based_artificial_landscaping",new LandBasedArtificialLandscaping(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+    public static final Block LUXURY_WOODEN_LOW_BED = registerBlock("luxury_wooden_low_bed",new LuxuryWoodenLowBed(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+    public static final Block MARBLE_ICE_POOL = registerBlock("marble_ice_pool",new MarbleIcePool(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+    public static final Block NOBLE_WILD_CHANDELIER = registerBlock("noble_wild_chandelier",new NobleWildChandelier(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+    public static final Block SEASIDE_IMPRESSION_HIGH_BENCH = registerBlock("seaside_impression_high_bench",new SeasideImpressionHighBench(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+    public static final Block SHORT_PLUSH_STOOLS = registerBlock("short_plush_stools",new ShortPlushStools(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+    public static final Block TREASURE_DISPLAY_CABINET = registerBlock("treasure_display_cabinet",new TreasureDisplayCabinet(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+    public static final Block WARM_CEILING_LIGHT = registerBlock("warm_ceiling_light",new WarmCeilingLight(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
 
     private static Block registerBlock(String name,Block block){
         registerBlockItem(name,block);

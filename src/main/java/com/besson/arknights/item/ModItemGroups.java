@@ -753,6 +753,21 @@ public class ModItemGroups {
                         entries.add(ModBlocks.TRANSPARENT_HANGING_CURTAIN);
                         entries.add(ModBlocks.WHEEL_WORK_CHAIR);
                     }).build());
+
+    public static final ItemGroup DOSORES_PRIVATE_SPA_ROOM = Registry.register(Registries.ITEM_GROUP,
+            new Identifier(ArknightsFurniture.MOD_ID,"dosores_private_spa_room"),
+            FabricItemGroup.builder().displayName(Text.translatable("itemGroup.dosores_private_spa_room"))
+                    .icon(() -> new ItemStack(ModBlocks.LUXURY_WOODEN_LOW_BED)).entries((displayContext, entries) -> {
+                        entries.add(ModBlocks.LAND_BASED_ARTIFICIAL_LANDSCAPING);
+                        entries.add(ModBlocks.LUXURY_WOODEN_LOW_BED);
+                        entries.add(ModBlocks.MARBLE_ICE_POOL);
+                        entries.add(ModBlocks.NOBLE_WILD_CHANDELIER);
+                        entries.add(ModBlocks.SEASIDE_IMPRESSION_HIGH_BENCH);
+                        entries.add(ModBlocks.SHORT_PLUSH_STOOLS);
+                        entries.add(ModBlocks.TREASURE_DISPLAY_CABINET);
+                        entries.add(ModBlocks.WARM_CEILING_LIGHT);
+
+                    }).build());
     // public static final ItemGroup  = Registry.register(Registries.ITEM_GROUP,
     //        new Identifier(ArknightsFurniture.MOD_ID,""),
     //        FabricItemGroup.builder().displayName(Text.translatable("itemgroup."))

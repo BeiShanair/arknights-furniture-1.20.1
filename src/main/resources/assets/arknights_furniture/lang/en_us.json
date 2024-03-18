@@ -571,6 +571,15 @@
   "block.arknights_furniture.transparent_hanging_curtain":"Transparent Hanging Curtain",
   "block.arknights_furniture.wheel_work_chair":"Wheel Work Chair",
 
+  "block.arknights_furniture.land_based_artificial_landscaping":"Land Based Artificial Landscaping",
+  "block.arknights_furniture.luxury_wooden_low_bed":"Luxury Wooden Low Bed",
+  "block.arknights_furniture.marble_ice_pool":"Marble Ice Pool",
+  "block.arknights_furniture.noble_wild_chandelier":"Noble Wild Chandelier",
+  "block.arknights_furniture.seaside_impression_high_bench":"Seaside Impression High Bench",
+  "block.arknights_furniture.short_plush_stools":"Short Plush Stools",
+  "block.arknights_furniture.treasure_display_cabinet":"Treasure Display Cabinet",
+  "block.arknights_furniture.warm_ceiling_light":"Warm Ceiling Light",
+
   "itemgroup.logo": "LOGO Group",
   "itemgroup.freight_warehouse": "Freight Warehouse",
   "itemgroup.edge_solid_orange_simple_home": "Edge-Solid/Orange Simple Home",
@@ -610,6 +619,7 @@
   "itemGroup.iberia_resort": "Iberia Resort",
   "itemGroup.lenas_resting_place": "Lena's Resting Place",
   "itemGroup.studio_for_photography_enthusiasts": "Studio For Photography Enthusiasts",
+  "itemGroup.dosores_private_spa_room": "Dosores Private Spa Room",
 
   "painting.arknights_furniture.unconfirmed_biological_skeleton.title":"Unconfirmed Biological Skeleton",
   "painting.arknights_furniture.unconfirmed_biological_skeleton.author":"Hypergryph",
