@@ -1,4 +1,4 @@
-package com.besson.arknights.block.OfficeoftheFirstAidExpertGroup;
+package com.besson.arknights.block.IberiaResort;
 
 import com.besson.arknights.block.FurnitureHorizontalFacingBlock;
 import com.besson.arknights.entity.SeatEntity;
@@ -14,10 +14,10 @@ import net.minecraft.util.shape.VoxelShape;
 import net.minecraft.world.BlockView;
 import net.minecraft.world.World;
 
-public class WorkBench extends FurnitureHorizontalFacingBlock {
-    public static final VoxelShape SHAPE = Block.createCuboidShape(3, 0, 3, 13, 11, 13);
+public class UpholsteredWoodenChairs extends FurnitureHorizontalFacingBlock {
+    public static final VoxelShape SHAPE = Block.createCuboidShape(3, 0, 3, 13, 20, 13);
 
-    public WorkBench(Settings settings) {
+    public UpholsteredWoodenChairs(Settings settings) {
         super(settings);
     }
 

@@ -699,7 +699,22 @@ public class ModItemGroups {
                         entries.add(ModBlocks.SURGICAL_AREA_ISOLATION_CURTAIN);
                         entries.add(ModBlocks.VACUUM_CONSTANT_TEMPERATURE_STORAGE_BOX);
                         entries.add(ModBlocks.WORK_BENCH);
+                    }).build());
 
+    public static final ItemGroup IBERIA_RESORT = Registry.register(Registries.ITEM_GROUP,
+            new Identifier(ArknightsFurniture.MOD_ID,"iberia_resort"),
+            FabricItemGroup.builder().displayName(Text.translatable("itemGroup.iberia_resort"))
+                    .icon(() -> new ItemStack(ModBlocks.FOLDING_SCREEN)).entries((displayContext, entries) -> {
+                        entries.add(ModBlocks.EASY_MUSIC_DRUM);
+                        entries.add(ModBlocks.FOLDING_SCREEN);
+                        entries.add(ModBlocks.LEISURE_COFFEE_TABLE);
+                        entries.add(ModBlocks.OCEAN_TIDE_CHANDELIER);
+                        entries.add(ModBlocks.PORTABLE_FOLDING_TABLE);
+                        entries.add(ModBlocks.RETRO_LANTERN);
+                        entries.add(ModBlocks.SOFT_SOFA_DEFAULT2);
+                        entries.add(ModBlocks.TOURIST_STORAGE_CABINET);
+                        entries.add(ModBlocks.UPHOLSTERED_WOODEN_CHAIRS);
+                        entries.add(ModBlocks.WOODEN_HANGING_LAMP);
                     }).build());
     // public static final ItemGroup  = Registry.register(Registries.ITEM_GROUP,
     //        new Identifier(ArknightsFurniture.MOD_ID,""),

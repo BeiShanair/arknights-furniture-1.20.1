@@ -1,0 +1,64 @@
+{
+    "variants": {
+        "facing=north,type=single": {
+            "model": "arknights_furniture:block/soft_sofa_default2"
+        },
+        "facing=north,type=left": {
+            "model": "arknights_furniture:block/soft_sofa_left2"
+        },
+        "facing=north,type=right": {
+            "model": "arknights_furniture:block/soft_sofa_right2"
+        },
+        "facing=north,type=middle": {
+            "model": "arknights_furniture:block/soft_sofa_middle2"
+        },
+        "facing=east,type=single": {
+            "model": "arknights_furniture:block/soft_sofa_default2",
+            "y": 90
+        },
+        "facing=east,type=left": {
+            "model": "arknights_furniture:block/soft_sofa_left2",
+            "y": 90
+        },
+        "facing=east,type=right": {
+            "model": "arknights_furniture:block/soft_sofa_right2",
+            "y": 90
+        },
+        "facing=east,type=middle": {
+            "model": "arknights_furniture:block/soft_sofa_middle2",
+            "y": 90
+        },
+        "facing=south,type=single": {
+            "model": "arknights_furniture:block/soft_sofa_default2",
+            "y": 180
+        },
+        "facing=south,type=left": {
+            "model": "arknights_furniture:block/soft_sofa_left2",
+            "y": 180
+        },
+        "facing=south,type=right": {
+            "model": "arknights_furniture:block/soft_sofa_right2",
+            "y": 180
+        },
+        "facing=south,type=middle": {
+            "model": "arknights_furniture:block/soft_sofa_middle2",
+            "y": 180
+        },
+        "facing=west,type=single": {
+            "model": "arknights_furniture:block/soft_sofa_default2",
+            "y": 270
+        },
+        "facing=west,type=left": {
+            "model": "arknights_furniture:block/soft_sofa_left2",
+            "y": 270
+        },
+        "facing=west,type=right": {
+            "model": "arknights_furniture:block/soft_sofa_right2",
+            "y": 270
+        },
+        "facing=west,type=middle": {
+            "model": "arknights_furniture:block/soft_sofa_middle2",
+            "y": 270
+        }
+    }
+}

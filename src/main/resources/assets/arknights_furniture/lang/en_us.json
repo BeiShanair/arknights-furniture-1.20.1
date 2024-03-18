@@ -533,6 +533,17 @@
   "block.arknights_furniture.vacuum_constant_temperature_storage_box":"Vacuum Constant Temperature Storage Box",
   "block.arknights_furniture.work_bench":"Work Bench",
 
+  "block.arknights_furniture.easy_music_drum":"Easy Music Drum",
+  "block.arknights_furniture.folding_screen":"Folding Screen",
+  "block.arknights_furniture.leisure_coffee_table":"Leisure Coffee Table",
+  "block.arknights_furniture.ocean_tide_chandelier":"Ocean Tide Chandelier",
+  "block.arknights_furniture.portable_folding_table":"Portable Folding Table",
+  "block.arknights_furniture.retro_lantern":"Retro Lantern",
+  "block.arknights_furniture.soft_sofa_default2":"Soft Sofa",
+  "block.arknights_furniture.tourist_storage_cabinet":"Tourist Storage Cabinet",
+  "block.arknights_furniture.upholstered_wooden_chairs":"Upholstered Wooden Chairs",
+  "block.arknights_furniture.wooden_hanging_lamp":"Wooden Hanging Lamp",
+
   "itemgroup.logo": "LOGO Group",
   "itemgroup.freight_warehouse": "Freight Warehouse",
   "itemgroup.edge_solid_orange_simple_home": "Edge-Solid/Orange Simple Home",
@@ -569,6 +580,7 @@
   "itemGroup.walter_trend_room": "Walter Trend Room",
   "itemGroup.special_equipment_exhibition_room": "Special Equipment Exhibition Room",
   "itemGroup.office_of_the_first_aid_expert_group": "Office Of The First Aid Expert Group",
+  "itemGroup.iberia_resort": "Iberia Resort",
 
   "painting.arknights_furniture.unconfirmed_biological_skeleton.title":"Unconfirmed Biological Skeleton",
   "painting.arknights_furniture.unconfirmed_biological_skeleton.author":"Hypergryph",
