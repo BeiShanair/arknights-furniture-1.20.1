@@ -716,6 +716,24 @@ public class ModItemGroups {
                         entries.add(ModBlocks.UPHOLSTERED_WOODEN_CHAIRS);
                         entries.add(ModBlocks.WOODEN_HANGING_LAMP);
                     }).build());
+
+    public static final ItemGroup LENAS_RESTING_PLACE = Registry.register(Registries.ITEM_GROUP,
+            new Identifier(ArknightsFurniture.MOD_ID,"lenas_resting_place"),
+            FabricItemGroup.builder().displayName(Text.translatable("itemGroup.lenas_resting_place"))
+                    .icon(() -> new ItemStack(ModBlocks.INDOOR_SMALL_FLOWER_BED)).entries((displayContext, entries) -> {
+                        entries.add(ModBlocks.CONVENIENT_TOOL_HANGING_BOARD);
+                        entries.add(ModBlocks.ESSENTIAL_OIL_STORAGE_DEVICE);
+                        entries.add(ModBlocks.INDOOR_SMALL_FLOWER_BED);
+                        entries.add(ModBlocks.MINOS_HIGH_WAIST_VASE);
+                        entries.add(ModBlocks.PERFUME_COUNTER);
+                        entries.add(ModBlocks.PET_NEST);
+                        entries.add(ModBlocks.PIPELINE_STORAGE_RACK);
+                        entries.add(ModBlocks.RAISE_THE_KING_BED);
+                        entries.add(ModBlocks.SIMPLE_HIGH_CHAIR);
+                        entries.add(ModBlocks.SIMPLE_WALL_MOUNTED_STORAGE_RACK);
+                        entries.add(ModBlocks.SPLICING_SUSPENDED_LAMP_TUBES);
+                        entries.add(ModBlocks.STACKED_DECORATIVE_CHANDELIER);
+                    }).build());
     // public static final ItemGroup  = Registry.register(Registries.ITEM_GROUP,
     //        new Identifier(ArknightsFurniture.MOD_ID,""),
     //        FabricItemGroup.builder().displayName(Text.translatable("itemgroup."))

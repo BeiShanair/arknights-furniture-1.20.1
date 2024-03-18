@@ -544,6 +544,19 @@
   "block.arknights_furniture.upholstered_wooden_chairs":"Upholstered Wooden Chairs",
   "block.arknights_furniture.wooden_hanging_lamp":"Wooden Hanging Lamp",
 
+  "block.arknights_furniture.convenient_tool_hanging_board":"Convenient Tool Hanging Board",
+  "block.arknights_furniture.essential_oil_storage_device":"Essential Oil Storage Device",
+  "block.arknights_furniture.indoor_small_flower_bed":"Indoor Small Flower Bed",
+  "block.arknights_furniture.minos_high_waist_vase":"Minos High Waist Vase",
+  "block.arknights_furniture.perfume_counter":"Perfume Counter",
+  "block.arknights_furniture.pet_nest":"Pet Nest",
+  "block.arknights_furniture.pipeline_storage_rack":"Pipeline Storage Rack",
+  "block.arknights_furniture.raise_the_king_bed":"Raise The King Bed",
+  "block.arknights_furniture.simple_high_chair":"Simple High Chair",
+  "block.arknights_furniture.simple_wall_mounted_storage_rack":"Simple Wall Mounted Storage Rack",
+  "block.arknights_furniture.splicing_suspended_lamp_tubes":"Splicing Suspended Lamp Tubes",
+  "block.arknights_furniture.stacked_decorative_chandelier":"Stacked Decorative Chandelier",
+
   "itemgroup.logo": "LOGO Group",
   "itemgroup.freight_warehouse": "Freight Warehouse",
   "itemgroup.edge_solid_orange_simple_home": "Edge-Solid/Orange Simple Home",
@@ -581,6 +594,7 @@
   "itemGroup.special_equipment_exhibition_room": "Special Equipment Exhibition Room",
   "itemGroup.office_of_the_first_aid_expert_group": "Office Of The First Aid Expert Group",
   "itemGroup.iberia_resort": "Iberia Resort",
+  "itemGroup.lenas_resting_place": "Lena's Resting Place",
 
   "painting.arknights_furniture.unconfirmed_biological_skeleton.title":"Unconfirmed Biological Skeleton",
   "painting.arknights_furniture.unconfirmed_biological_skeleton.author":"Hypergryph",

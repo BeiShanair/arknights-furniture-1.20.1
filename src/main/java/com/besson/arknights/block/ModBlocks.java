@@ -15,6 +15,7 @@ import com.besson.arknights.block.IberiaResort.*;
 import com.besson.arknights.block.IllusionaryBiography.*;
 import com.besson.arknights.block.ImitationoftheLivingroomoftheLightHouse.*;
 import com.besson.arknights.block.LancellarBallroom.*;
+import com.besson.arknights.block.LenasRestingPlace.*;
 import com.besson.arknights.block.LetaniaNight.*;
 import com.besson.arknights.block.LifeCycleModule12.*;
 import com.besson.arknights.block.LongmenRestaurant.*;
@@ -587,6 +588,19 @@ public class ModBlocks {
     public static final Block TOURIST_STORAGE_CABINET = registerBlock("tourist_storage_cabinet",new TouristStorageCabinet(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
     public static final Block UPHOLSTERED_WOODEN_CHAIRS = registerBlock("upholstered_wooden_chairs",new UpholsteredWoodenChairs(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
     public static final Block WOODEN_HANGING_LAMP = registerBlock("wooden_hanging_lamp",new WoodenHangingLamp(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+
+    public static final Block CONVENIENT_TOOL_HANGING_BOARD = registerBlock("convenient_tool_hanging_board",new ConvenientToolHangingBoard(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+    public static final Block ESSENTIAL_OIL_STORAGE_DEVICE = registerBlock("essential_oil_storage_device",new EssentialOilStorageDevice(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+    public static final Block INDOOR_SMALL_FLOWER_BED = registerBlock("indoor_small_flower_bed",new IndoorSmallFlowerBed(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+    public static final Block MINOS_HIGH_WAIST_VASE = registerBlock("minos_high_waist_vase",new MinosHighWaistVase(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+    public static final Block PERFUME_COUNTER = registerBlock("perfume_counter",new PerfumeCounter(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+    public static final Block PET_NEST = registerBlock("pet_nest",new PetNest(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+    public static final Block PIPELINE_STORAGE_RACK = registerBlock("pipeline_storage_rack",new PipelineStorageRack(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+    public static final Block RAISE_THE_KING_BED = registerBlock("raise_the_king_bed",new RaiseTheKingBed(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+    public static final Block SIMPLE_HIGH_CHAIR = registerBlock("simple_high_chair",new SimpleHighChair(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+    public static final Block SIMPLE_WALL_MOUNTED_STORAGE_RACK = registerBlock("simple_wall_mounted_storage_rack",new SimpleWallMountedStorageRack(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+    public static final Block SPLICING_SUSPENDED_LAMP_TUBES = registerBlock("splicing_suspended_lamp_tubes",new SplicingSuspendedLampTubes(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+    public static final Block STACKED_DECORATIVE_CHANDELIER = registerBlock("stacked_decorative_chandelier",new StackedDecorativeChandelier(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
 
     private static Block registerBlock(String name,Block block){
         registerBlockItem(name,block);
