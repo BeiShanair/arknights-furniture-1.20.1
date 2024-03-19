@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=east": {
+      "model": "arknights_furniture:block/narrow_washbasin",
+      "y": 90
+    },
+    "facing=north": {
+      "model": "arknights_furniture:block/narrow_washbasin"
+    },
+    "facing=south": {
+      "model": "arknights_furniture:block/narrow_washbasin",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "arknights_furniture:block/narrow_washbasin",
+      "y": 270
+    }
+  }
+}

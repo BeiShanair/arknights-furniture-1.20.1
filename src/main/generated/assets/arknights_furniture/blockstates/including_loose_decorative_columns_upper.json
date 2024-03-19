@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=east": {
+      "model": "arknights_furniture:block/including_loose_decorative_columns_upper",
+      "y": 90
+    },
+    "facing=north": {
+      "model": "arknights_furniture:block/including_loose_decorative_columns_upper"
+    },
+    "facing=south": {
+      "model": "arknights_furniture:block/including_loose_decorative_columns_upper",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "arknights_furniture:block/including_loose_decorative_columns_upper",
+      "y": 270
+    }
+  }
+}
