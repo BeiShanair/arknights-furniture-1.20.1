@@ -569,6 +569,21 @@ public class ModModelProvider extends FabricModelProvider {
         blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.TREASURE_DISPLAY_CABINET);
         blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.WARM_CEILING_LIGHT);
 
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.BLUE_WOOLEN_ARMCHAIR);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.CHALKY_PILLAR_BOTTOM);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.CHALKY_PILLAR_DEFAULT);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.CHALKY_PILLAR_MIDDLE);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.CHALKY_PILLAR_UPPER);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.CHENS_LUGGAGE);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.CIRCULAR_CHANDELIER);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.DINNER_TABLE);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.ECOLOGICAL_CULTIVATION_BOX);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.IMITATION_SOURCE_STONE_ICE_CRYSTAL_STATUE);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.SOFT_CEILING_LIGHT2);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.STANDARD_DOUBLE_BED);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.STANDARD_MULTIFUNCTIONAL_BRACKET);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.WALL_MOUNTED_DISPLAY_RACK);
+
     }
 
     @Override

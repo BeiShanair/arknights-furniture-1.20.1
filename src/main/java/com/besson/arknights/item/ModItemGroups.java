@@ -766,6 +766,26 @@ public class ModItemGroups {
                         entries.add(ModBlocks.SHORT_PLUSH_STOOLS);
                         entries.add(ModBlocks.TREASURE_DISPLAY_CABINET);
                         entries.add(ModBlocks.WARM_CEILING_LIGHT);
+                    }).build());
+
+    public static final ItemGroup VICTORIA_GUARDS_COLLEGE_DORMITORY = Registry.register(Registries.ITEM_GROUP,
+            new Identifier(ArknightsFurniture.MOD_ID,"victoria_guards_college_dormitory"),
+            FabricItemGroup.builder().displayName(Text.translatable("itemGroup.victoria_guards_college_dormitory"))
+                    .icon(() -> new ItemStack(ModBlocks.BLUE_WOOLEN_ARMCHAIR)).entries((displayContext, entries) -> {
+                        entries.add(ModBlocks.BLUE_WOOLEN_ARMCHAIR);
+                        entries.add(ModBlocks.CHALKY_PILLAR_BOTTOM);
+                        entries.add(ModBlocks.CHALKY_PILLAR_DEFAULT);
+                        entries.add(ModBlocks.CHALKY_PILLAR_MIDDLE);
+                        entries.add(ModBlocks.CHALKY_PILLAR_UPPER);
+                        entries.add(ModBlocks.CHENS_LUGGAGE);
+                        entries.add(ModBlocks.CIRCULAR_CHANDELIER);
+                        entries.add(ModBlocks.DINNER_TABLE);
+                        entries.add(ModBlocks.ECOLOGICAL_CULTIVATION_BOX);
+                        entries.add(ModBlocks.IMITATION_SOURCE_STONE_ICE_CRYSTAL_STATUE);
+                        entries.add(ModBlocks.SOFT_CEILING_LIGHT2);
+                        entries.add(ModBlocks.STANDARD_DOUBLE_BED);
+                        entries.add(ModBlocks.STANDARD_MULTIFUNCTIONAL_BRACKET);
+                        entries.add(ModBlocks.WALL_MOUNTED_DISPLAY_RACK);
 
                     }).build());
     // public static final ItemGroup  = Registry.register(Registries.ITEM_GROUP,

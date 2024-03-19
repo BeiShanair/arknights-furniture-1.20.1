@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=east": {
+      "model": "arknights_furniture:block/imitation_source_stone_ice_crystal_statue",
+      "y": 90
+    },
+    "facing=north": {
+      "model": "arknights_furniture:block/imitation_source_stone_ice_crystal_statue"
+    },
+    "facing=south": {
+      "model": "arknights_furniture:block/imitation_source_stone_ice_crystal_statue",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "arknights_furniture:block/imitation_source_stone_ice_crystal_statue",
+      "y": 270
+    }
+  }
+}

@@ -38,6 +38,7 @@ import com.besson.arknights.block.SpecialEquipmentExhibitionRoom.*;
 import com.besson.arknights.block.StudioForPhotographyEnthusiasts.*;
 import com.besson.arknights.block.TribalLodge.*;
 import com.besson.arknights.block.UrsasStudentLounge.*;
+import com.besson.arknights.block.VictoriaGuardsCollegeDormitory.*;
 import com.besson.arknights.block.WalterTrendRoom.*;
 import com.besson.arknights.block.WhiteWangno.*;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
@@ -626,6 +627,21 @@ public class ModBlocks {
     public static final Block SHORT_PLUSH_STOOLS = registerBlock("short_plush_stools",new ShortPlushStools(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
     public static final Block TREASURE_DISPLAY_CABINET = registerBlock("treasure_display_cabinet",new TreasureDisplayCabinet(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
     public static final Block WARM_CEILING_LIGHT = registerBlock("warm_ceiling_light",new WarmCeilingLight(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+
+    public static final Block BLUE_WOOLEN_ARMCHAIR = registerBlock("blue_woolen_armchair",new BlueWoolenArmchair(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+    public static final Block CHALKY_PILLAR_BOTTOM = registerBlock("chalky_pillar_bottom",new ChalkyPillar(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+    public static final Block CHALKY_PILLAR_DEFAULT = registerBlock("chalky_pillar_default",new ChalkyPillar(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+    public static final Block CHALKY_PILLAR_MIDDLE = registerBlock("chalky_pillar_middle",new ChalkyPillar(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+    public static final Block CHALKY_PILLAR_UPPER = registerBlock("chalky_pillar_upper",new ChalkyPillar(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+    public static final Block CHENS_LUGGAGE = registerBlock("chens_luggage",new ChensLuggage(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+    public static final Block CIRCULAR_CHANDELIER = registerBlock("circular_chandelier",new CircularChandelier(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+    public static final Block DINNER_TABLE = registerBlock("dinner_table",new DinnerTable(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+    public static final Block ECOLOGICAL_CULTIVATION_BOX = registerBlock("ecological_cultivation_box",new EcologicalCultivationBox(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+    public static final Block IMITATION_SOURCE_STONE_ICE_CRYSTAL_STATUE = registerBlock("imitation_source_stone_ice_crystal_statue",new ImitationSourceStoneIceCrystalStatue(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+    public static final Block SOFT_CEILING_LIGHT2 = registerBlock("soft_ceiling_light2",new SoftCeilingLight2(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+    public static final Block STANDARD_DOUBLE_BED = registerBlock("standard_double_bed",new StandardDoubleBed(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+    public static final Block STANDARD_MULTIFUNCTIONAL_BRACKET = registerBlock("standard_multifunctional_bracket",new StandardMultifunctionalBracket(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+    public static final Block WALL_MOUNTED_DISPLAY_RACK = registerBlock("wall_mounted_display_rack",new WallMountedDisplayRack(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
 
     private static Block registerBlock(String name,Block block){
         registerBlockItem(name,block);
