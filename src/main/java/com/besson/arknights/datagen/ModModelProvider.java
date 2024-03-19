@@ -610,6 +610,21 @@ public class ModModelProvider extends FabricModelProvider {
         blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.WHITE_LEATHER_LIVE_STREAMING_CHAIR);
         blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.WHITE_LEATHER_LIVE_STREAMING_STOOL);
 
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.ARCADE_HALL_ADVERTISING_BOARD);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.AVANT_GARDE_HIGH_CHAIR);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.AVANT_GARDE_LONG_LEGGED_STOOL);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.AVANT_GARDE_VENDING_MACHINE);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.CACTUS_LAMP_TUBE);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.GUN_SHOOTING_MACHINE);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.HANGING_DISPLAY_SCREEN);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.MUSIC_DANCE_MACHINE);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.PINBALL_MACHINE);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.POWERFUL_DANCE_MACHINE_PLATFORM_ARMREST);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.RANDOM_GRAFFITI_BOARD);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.REPLENISHMENT_TROLLEY);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.SIMPLE_FRONT_DESK);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.TRANSPARENT_GLASS_MIRROR);
+
     }
 
     @Override

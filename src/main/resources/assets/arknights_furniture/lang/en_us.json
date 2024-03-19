@@ -621,6 +621,21 @@
   "block.arknights_furniture.white_leather_live_streaming_chair":"White Leather Live Streaming Chair",
   "block.arknights_furniture.white_leather_live_streaming_stool":"White Leather Live Streaming Stool",
 
+  "block.arknights_furniture.arcade_hall_advertising_board":"Arcade Hall Advertising Board",
+  "block.arknights_furniture.avant_garde_high_chair":"Avant Garde High Chair",
+  "block.arknights_furniture.avant_garde_long_legged_stool":"Avant Garde Long Legged Stool",
+  "block.arknights_furniture.avant_garde_vending_machine":"Avant Garde Vending Machine",
+  "block.arknights_furniture.cactus_lamp_tube":"Cactus Lamp Tube",
+  "block.arknights_furniture.gun_shooting_machine":"Gun Shooting Machine",
+  "block.arknights_furniture.hanging_display_screen":"Hanging Display Screen",
+  "block.arknights_furniture.music_dance_machine":"Music Dance Machine",
+  "block.arknights_furniture.pinball_machine":"Pinball Machine",
+  "block.arknights_furniture.powerful_dance_machine_platform_armrest":"Powerful Dance Machine Platform Armrest",
+  "block.arknights_furniture.random_graffiti_board":"Random Graffiti Board",
+  "block.arknights_furniture.replenishment_trolley":"Replenishment Trolley",
+  "block.arknights_furniture.simple_front_desk":"Simple Front Desk",
+  "block.arknights_furniture.transparent_glass_mirror":"Transparent Glass Mirror",
+
   "itemgroup.logo": "LOGO Group",
 
   "itemgroup.freight_warehouse": "Freight Warehouse",
@@ -665,6 +680,7 @@
   "itemGroup.victoria_guards_college_dormitory": "Victoria Guards College Dormitory",
   "itemGroup.knights_of_the_red_pine_lounge": "Knights Of The Red Pine Lounge",
   "itemGroup.casimir_live_room": "Casimir Live Room",
+  "itemGroup.avant_garde_arcade_hall": "Avant-Garde Arcade Hall",
 
   "painting.arknights_furniture.unconfirmed_biological_skeleton.title":"Unconfirmed Biological Skeleton",
   "painting.arknights_furniture.unconfirmed_biological_skeleton.author":"Hypergryph",

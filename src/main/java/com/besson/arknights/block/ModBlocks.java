@@ -2,6 +2,7 @@ package com.besson.arknights.block;
 
 import com.besson.arknights.ArknightsFurniture;
 import com.besson.arknights.block.AirtightChemicalSafetyCabin.*;
+import com.besson.arknights.block.AvantGardeArcadeHalls.*;
 import com.besson.arknights.block.CasimirLiveRoom.*;
 import com.besson.arknights.block.ChensOffice.*;
 import com.besson.arknights.block.ColumbiaCafe.*;
@@ -670,6 +671,21 @@ public class ModBlocks {
     public static final Block TRAPEZOIDAL_LOW_LEGGED_INTERVIEW_TABLE = registerBlock("trapezoidal_low_legged_interview_table",new TrapezoidalLowLeggedInterviewTable(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
     public static final Block WHITE_LEATHER_LIVE_STREAMING_CHAIR = registerBlock("white_leather_live_streaming_chair",new WhiteLeatherLiveStreamingChair(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
     public static final Block WHITE_LEATHER_LIVE_STREAMING_STOOL = registerBlock("white_leather_live_streaming_stool",new WhiteLeatherLiveStreamingStool(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+
+    public static final Block ARCADE_HALL_ADVERTISING_BOARD = registerBlock("arcade_hall_advertising_board",new ArcadeHallAdvertisingBoard(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+    public static final Block AVANT_GARDE_HIGH_CHAIR = registerBlock("avant_garde_high_chair",new AvantGardeHighChair(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+    public static final Block AVANT_GARDE_LONG_LEGGED_STOOL = registerBlock("avant_garde_long_legged_stool",new AvantGardeLongLeggedStool(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+    public static final Block AVANT_GARDE_VENDING_MACHINE = registerBlock("avant_garde_vending_machine",new AvantGardeVendingMachine(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+    public static final Block CACTUS_LAMP_TUBE = registerBlock("cactus_lamp_tube",new CactusLampTube(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+    public static final Block GUN_SHOOTING_MACHINE = registerBlock("gun_shooting_machine",new GunShootingMachine(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+    public static final Block HANGING_DISPLAY_SCREEN = registerBlock("hanging_display_screen",new HangingDisplayScreen(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+    public static final Block MUSIC_DANCE_MACHINE = registerBlock("music_dance_machine",new MusicDanceMachine(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+    public static final Block PINBALL_MACHINE = registerBlock("pinball_machine",new PinballMachine(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+    public static final Block POWERFUL_DANCE_MACHINE_PLATFORM_ARMREST = registerBlock("powerful_dance_machine_platform_armrest",new PowerfulDanceMachinePlatformArmrest(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+    public static final Block RANDOM_GRAFFITI_BOARD = registerBlock("random_graffiti_board",new RandomGraffitiBoard(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+    public static final Block REPLENISHMENT_TROLLEY = registerBlock("replenishment_trolley",new ReplenishmentTrolley(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+    public static final Block SIMPLE_FRONT_DESK = registerBlock("simple_front_desk",new SimpleFrontDesk(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+    public static final Block TRANSPARENT_GLASS_MIRROR = registerBlock("transparent_glass_mirror",new TransparentGlassMirror(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
 
     private static Block registerBlock(String name,Block block){
         registerBlockItem(name,block);

@@ -823,6 +823,26 @@ public class ModItemGroups {
                         entries.add(ModBlocks.WHITE_LEATHER_LIVE_STREAMING_CHAIR);
                         entries.add(ModBlocks.WHITE_LEATHER_LIVE_STREAMING_STOOL);
                     }).build());
+
+    public static final ItemGroup AVANT_GARDE_ARCADE_HALL = Registry.register(Registries.ITEM_GROUP,
+            new Identifier(ArknightsFurniture.MOD_ID,"avant_garde_arcade_hall"),
+            FabricItemGroup.builder().displayName(Text.translatable("itemGroup.avant_garde_arcade_hall"))
+                    .icon(() -> new ItemStack(ModBlocks.ARCADE_HALL_ADVERTISING_BOARD)).entries((displayContext, entries) -> {
+                        entries.add(ModBlocks.ARCADE_HALL_ADVERTISING_BOARD);
+                        entries.add(ModBlocks.AVANT_GARDE_HIGH_CHAIR);
+                        entries.add(ModBlocks.AVANT_GARDE_LONG_LEGGED_STOOL);
+                        entries.add(ModBlocks.AVANT_GARDE_VENDING_MACHINE);
+                        entries.add(ModBlocks.CACTUS_LAMP_TUBE);
+                        entries.add(ModBlocks.GUN_SHOOTING_MACHINE);
+                        entries.add(ModBlocks.HANGING_DISPLAY_SCREEN);
+                        entries.add(ModBlocks.MUSIC_DANCE_MACHINE);
+                        entries.add(ModBlocks.PINBALL_MACHINE);
+                        entries.add(ModBlocks.POWERFUL_DANCE_MACHINE_PLATFORM_ARMREST);
+                        entries.add(ModBlocks.RANDOM_GRAFFITI_BOARD);
+                        entries.add(ModBlocks.REPLENISHMENT_TROLLEY);
+                        entries.add(ModBlocks.SIMPLE_FRONT_DESK);
+                        entries.add(ModBlocks.TRANSPARENT_GLASS_MIRROR);
+                    }).build());
     // public static final ItemGroup  = Registry.register(Registries.ITEM_GROUP,
     //        new Identifier(ArknightsFurniture.MOD_ID,""),
     //        FabricItemGroup.builder().displayName(Text.translatable("itemgroup."))
