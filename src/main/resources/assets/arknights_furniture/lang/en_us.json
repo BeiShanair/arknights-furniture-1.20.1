@@ -606,7 +606,23 @@
   "block.arknights_furniture.steel_pipe_sofa_chair":"Steel Pipe Sofa Chair",
   "block.arknights_furniture.sundry_display_cabinet":"Sundry Display Cabinet",
 
+  "block.arknights_furniture.columnar_live_streaming_display_screen":"Columnar Live Streaming Display Screen",
+  "block.arknights_furniture.diamond_modern_live_channel":"Diamond Modern Live Channel",
+  "block.arknights_furniture.dual_color_gradient_display_screen":"Dual Color Gradient Display Screen",
+  "block.arknights_furniture.dual_color_mobile_baffle_in_the_interview_room":"Dual Color Mobile Baffle In The Interview Room",
+  "block.arknights_furniture.flag_shaped_display_screen":"Flag Shaped Display Screen",
+  "block.arknights_furniture.red_and_white_interview_chairs":"Red And White Interview Chairs",
+  "block.arknights_furniture.ring_display_pendant_lamp":"Ring Display Pendant Lamp",
+  "block.arknights_furniture.simple_transparent_display_screen":"Simple Transparent Display Screen",
+  "block.arknights_furniture.slide_live_camera":"Slide Live Camera",
+  "block.arknights_furniture.special_ceiling_light_for_live_broadcast_room":"Special Ceiling Light For Live Broadcast Room",
+  "block.arknights_furniture.to_carve_flames":"To Carve Flames",
+  "block.arknights_furniture.trapezoidal_low_legged_interview_table":"TrapezoidalLow Legged Interview Table",
+  "block.arknights_furniture.white_leather_live_streaming_chair":"White Leather Live Streaming Chair",
+  "block.arknights_furniture.white_leather_live_streaming_stool":"White Leather Live Streaming Stool",
+
   "itemgroup.logo": "LOGO Group",
+
   "itemgroup.freight_warehouse": "Freight Warehouse",
   "itemgroup.edge_solid_orange_simple_home": "Edge-Solid/Orange Simple Home",
   "itemgroup.illusionary_biography": "Illusionary Biography",
@@ -648,6 +664,7 @@
   "itemGroup.dosores_private_spa_room": "Dosores Private Spa Room",
   "itemGroup.victoria_guards_college_dormitory": "Victoria Guards College Dormitory",
   "itemGroup.knights_of_the_red_pine_lounge": "Knights Of The Red Pine Lounge",
+  "itemGroup.casimir_live_room": "Casimir Live Room",
 
   "painting.arknights_furniture.unconfirmed_biological_skeleton.title":"Unconfirmed Biological Skeleton",
   "painting.arknights_furniture.unconfirmed_biological_skeleton.author":"Hypergryph",

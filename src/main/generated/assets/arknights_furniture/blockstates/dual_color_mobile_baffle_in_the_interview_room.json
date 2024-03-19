@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=east": {
+      "model": "arknights_furniture:block/dual_color_mobile_baffle_in_the_interview_room",
+      "y": 90
+    },
+    "facing=north": {
+      "model": "arknights_furniture:block/dual_color_mobile_baffle_in_the_interview_room"
+    },
+    "facing=south": {
+      "model": "arknights_furniture:block/dual_color_mobile_baffle_in_the_interview_room",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "arknights_furniture:block/dual_color_mobile_baffle_in_the_interview_room",
+      "y": 270
+    }
+  }
+}

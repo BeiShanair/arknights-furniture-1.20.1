@@ -2,6 +2,7 @@ package com.besson.arknights.block;
 
 import com.besson.arknights.ArknightsFurniture;
 import com.besson.arknights.block.AirtightChemicalSafetyCabin.*;
+import com.besson.arknights.block.CasimirLiveRoom.*;
 import com.besson.arknights.block.ChensOffice.*;
 import com.besson.arknights.block.ColumbiaCafe.*;
 import com.besson.arknights.block.ColumbiaModernHotel.*;
@@ -654,6 +655,21 @@ public class ModBlocks {
     public static final Block SIMPLE_VERTICAL_TUBE_CHANDELIER = registerBlock("simple_vertical_tube_chandelier",new SimpleVerticalTubeChandelier(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
     public static final Block STEEL_PIPE_SOFA_CHAIR = registerBlock("steel_pipe_sofa_chair",new SteelPipeSofaChair(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
     public static final Block SUNDRY_DISPLAY_CABINET = registerBlock("sundry_display_cabinet",new SundryDisplayCabinet(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+
+    public static final Block COLUMNAR_LIVE_STREAMING_DISPLAY_SCREEN = registerBlock("columnar_live_streaming_display_screen",new ColumnarLiveStreamingDisplayScreen(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+    public static final Block DIAMOND_MODERN_LIVE_CHANNEL = registerBlock("diamond_modern_live_channel",new DiamondModernLiveChannel(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+    public static final Block DUAL_COLOR_GRADIENT_DISPLAY_SCREEN = registerBlock("dual_color_gradient_display_screen",new DualColorGradientDisplayScreen(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+    public static final Block DUAL_COLOR_MOBILE_BAFFLE_IN_THE_INTERVIEW_ROOM = registerBlock("dual_color_mobile_baffle_in_the_interview_room",new DualColorMobileBaffleInTheInterviewRoom(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+    public static final Block FLAG_SHAPED_DISPLAY_SCREEN = registerBlock("flag_shaped_display_screen",new FlagShapedDisplayScreen(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+    public static final Block RED_AND_WHITE_INTERVIEW_CHAIRS = registerBlock("red_and_white_interview_chairs",new RedAndWhiteInterviewChairs(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+    public static final Block RING_DISPLAY_PENDANT_LAMP = registerBlock("ring_display_pendant_lamp",new RingDisplayPendantLamp(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+    public static final Block SIMPLE_TRANSPARENT_DISPLAY_SCREEN = registerBlock("simple_transparent_display_screen",new SimpleTransparentDisplayScreen(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+    public static final Block SLIDE_LIVE_CAMERA = registerBlock("slide_live_camera",new SlideLiveCamera(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+    public static final Block SPECIAL_CEILING_LIGHT_FOR_LIVE_BROADCAST_ROOM = registerBlock("special_ceiling_light_for_live_broadcast_room",new SpecialCeilingLightForLiveBroadcastRoom(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+    public static final Block TO_CARVE_FLAMES = registerBlock("to_carve_flames",new ToCarveFlames(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+    public static final Block TRAPEZOIDAL_LOW_LEGGED_INTERVIEW_TABLE = registerBlock("trapezoidal_low_legged_interview_table",new TrapezoidalLowLeggedInterviewTable(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+    public static final Block WHITE_LEATHER_LIVE_STREAMING_CHAIR = registerBlock("white_leather_live_streaming_chair",new WhiteLeatherLiveStreamingChair(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+    public static final Block WHITE_LEATHER_LIVE_STREAMING_STOOL = registerBlock("white_leather_live_streaming_stool",new WhiteLeatherLiveStreamingStool(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
 
     private static Block registerBlock(String name,Block block){
         registerBlockItem(name,block);

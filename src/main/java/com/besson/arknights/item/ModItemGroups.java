@@ -803,6 +803,26 @@ public class ModItemGroups {
                         entries.add(ModBlocks.STEEL_PIPE_SOFA_CHAIR);
                         entries.add(ModBlocks.SUNDRY_DISPLAY_CABINET);
                     }).build());
+
+    public static final ItemGroup CASIMIR_LIVE_ROOM = Registry.register(Registries.ITEM_GROUP,
+            new Identifier(ArknightsFurniture.MOD_ID,"casimir_live_room"),
+            FabricItemGroup.builder().displayName(Text.translatable("itemGroup.casimir_live_room"))
+                    .icon(() -> new ItemStack(ModBlocks.DIAMOND_MODERN_LIVE_CHANNEL)).entries((displayContext, entries) -> {
+                        entries.add(ModBlocks.COLUMNAR_LIVE_STREAMING_DISPLAY_SCREEN);
+                        entries.add(ModBlocks.DIAMOND_MODERN_LIVE_CHANNEL);
+                        entries.add(ModBlocks.DUAL_COLOR_GRADIENT_DISPLAY_SCREEN);
+                        entries.add(ModBlocks.DUAL_COLOR_MOBILE_BAFFLE_IN_THE_INTERVIEW_ROOM);
+                        entries.add(ModBlocks.FLAG_SHAPED_DISPLAY_SCREEN);
+                        entries.add(ModBlocks.RED_AND_WHITE_INTERVIEW_CHAIRS);
+                        entries.add(ModBlocks.RING_DISPLAY_PENDANT_LAMP);
+                        entries.add(ModBlocks.SIMPLE_TRANSPARENT_DISPLAY_SCREEN);
+                        entries.add(ModBlocks.SLIDE_LIVE_CAMERA);
+                        entries.add(ModBlocks.SPECIAL_CEILING_LIGHT_FOR_LIVE_BROADCAST_ROOM);
+                        entries.add(ModBlocks.TO_CARVE_FLAMES);
+                        entries.add(ModBlocks.TRAPEZOIDAL_LOW_LEGGED_INTERVIEW_TABLE);
+                        entries.add(ModBlocks.WHITE_LEATHER_LIVE_STREAMING_CHAIR);
+                        entries.add(ModBlocks.WHITE_LEATHER_LIVE_STREAMING_STOOL);
+                    }).build());
     // public static final ItemGroup  = Registry.register(Registries.ITEM_GROUP,
     //        new Identifier(ArknightsFurniture.MOD_ID,""),
     //        FabricItemGroup.builder().displayName(Text.translatable("itemgroup."))

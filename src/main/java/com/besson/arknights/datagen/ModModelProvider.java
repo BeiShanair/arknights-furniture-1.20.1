@@ -595,6 +595,21 @@ public class ModModelProvider extends FabricModelProvider {
         blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.STEEL_PIPE_SOFA_CHAIR);
         blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.SUNDRY_DISPLAY_CABINET);
 
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.COLUMNAR_LIVE_STREAMING_DISPLAY_SCREEN);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.DIAMOND_MODERN_LIVE_CHANNEL);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.DUAL_COLOR_GRADIENT_DISPLAY_SCREEN);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.DUAL_COLOR_MOBILE_BAFFLE_IN_THE_INTERVIEW_ROOM);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.FLAG_SHAPED_DISPLAY_SCREEN);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.RED_AND_WHITE_INTERVIEW_CHAIRS);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.RING_DISPLAY_PENDANT_LAMP);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.SIMPLE_TRANSPARENT_DISPLAY_SCREEN);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.SLIDE_LIVE_CAMERA);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.SPECIAL_CEILING_LIGHT_FOR_LIVE_BROADCAST_ROOM);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.TO_CARVE_FLAMES);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.TRAPEZOIDAL_LOW_LEGGED_INTERVIEW_TABLE);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.WHITE_LEATHER_LIVE_STREAMING_CHAIR);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.WHITE_LEATHER_LIVE_STREAMING_STOOL);
+
     }
 
     @Override
