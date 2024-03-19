@@ -595,6 +595,17 @@
   "block.arknights_furniture.standard_multifunctional_bracket":"Standard Multifunctional Bracket",
   "block.arknights_furniture.wall_mounted_display_rack":"Wall Mounted Display Rack",
 
+  "block.arknights_furniture.candlestick_wall_lamp":"Candlestick Wall Lamp",
+  "block.arknights_furniture.cavalry_shaped_floor_lamp":"Cavalry Shaped Floor Lamp",
+  "block.arknights_furniture.handshake":"Handshake",
+  "block.arknights_furniture.including_loose_decorative_columns_bottom":"Including Loose Decorative Columns Bottom",
+  "block.arknights_furniture.including_loose_decorative_columns_upper":"Including Loose Decorative Columns Upper",
+  "block.arknights_furniture.narrow_washbasin":"Narrow Washbasin",
+  "block.arknights_furniture.new_green_bottle_insert":"NewGreen Bottle Insert",
+  "block.arknights_furniture.simple_vertical_tube_chandelier":"Simple Vertical Tube Chandelier",
+  "block.arknights_furniture.steel_pipe_sofa_chair":"Steel Pipe Sofa Chair",
+  "block.arknights_furniture.sundry_display_cabinet":"Sundry Display Cabinet",
+
   "itemgroup.logo": "LOGO Group",
   "itemgroup.freight_warehouse": "Freight Warehouse",
   "itemgroup.edge_solid_orange_simple_home": "Edge-Solid/Orange Simple Home",
@@ -636,6 +647,7 @@
   "itemGroup.studio_for_photography_enthusiasts": "Studio For Photography Enthusiasts",
   "itemGroup.dosores_private_spa_room": "Dosores Private Spa Room",
   "itemGroup.victoria_guards_college_dormitory": "Victoria Guards College Dormitory",
+  "itemGroup.knights_of_the_red_pine_lounge": "Knights Of The Red Pine Lounge",
 
   "painting.arknights_furniture.unconfirmed_biological_skeleton.title":"Unconfirmed Biological Skeleton",
   "painting.arknights_furniture.unconfirmed_biological_skeleton.author":"Hypergryph",

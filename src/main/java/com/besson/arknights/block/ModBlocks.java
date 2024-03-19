@@ -15,6 +15,7 @@ import com.besson.arknights.block.HuangDengDengGameRoom.*;
 import com.besson.arknights.block.IberiaResort.*;
 import com.besson.arknights.block.IllusionaryBiography.*;
 import com.besson.arknights.block.ImitationoftheLivingroomoftheLightHouse.*;
+import com.besson.arknights.block.KnightsoftheRedPineLounge.*;
 import com.besson.arknights.block.LancellarBallroom.*;
 import com.besson.arknights.block.LenasRestingPlace.*;
 import com.besson.arknights.block.LetaniaNight.*;
@@ -642,6 +643,17 @@ public class ModBlocks {
     public static final Block STANDARD_DOUBLE_BED = registerBlock("standard_double_bed",new StandardDoubleBed(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
     public static final Block STANDARD_MULTIFUNCTIONAL_BRACKET = registerBlock("standard_multifunctional_bracket",new StandardMultifunctionalBracket(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
     public static final Block WALL_MOUNTED_DISPLAY_RACK = registerBlock("wall_mounted_display_rack",new WallMountedDisplayRack(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+
+    public static final Block CANDLESTICK_WALL_LAMP = registerBlock("candlestick_wall_lamp",new CandlestickWallLamp(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+    public static final Block CAVALRY_SHAPED_FLOOR_LAMP = registerBlock("cavalry_shaped_floor_lamp",new CavalryShapedFloorLamp(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+    public static final Block HANDSHAKE = registerBlock("handshake",new Handshake(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+    public static final Block INCLUDING_LOOSE_DECORATIVE_COLUMNS_BOTTOM = registerBlock("including_loose_decorative_columns_bottom",new IncludingLooseDecorativeColumns(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+    public static final Block INCLUDING_LOOSE_DECORATIVE_COLUMNS_UPPER = registerBlock("including_loose_decorative_columns_upper",new IncludingLooseDecorativeColumns(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+    public static final Block NARROW_WASHBASIN = registerBlock("narrow_washbasin",new NarrowWashbasin(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+    public static final Block NEW_GREEN_BOTTLE_INSERT = registerBlock("new_green_bottle_insert",new NewGreenBottleInsert(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+    public static final Block SIMPLE_VERTICAL_TUBE_CHANDELIER = registerBlock("simple_vertical_tube_chandelier",new SimpleVerticalTubeChandelier(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+    public static final Block STEEL_PIPE_SOFA_CHAIR = registerBlock("steel_pipe_sofa_chair",new SteelPipeSofaChair(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+    public static final Block SUNDRY_DISPLAY_CABINET = registerBlock("sundry_display_cabinet",new SundryDisplayCabinet(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
 
     private static Block registerBlock(String name,Block block){
         registerBlockItem(name,block);

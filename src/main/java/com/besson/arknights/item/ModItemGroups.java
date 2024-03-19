@@ -786,7 +786,22 @@ public class ModItemGroups {
                         entries.add(ModBlocks.STANDARD_DOUBLE_BED);
                         entries.add(ModBlocks.STANDARD_MULTIFUNCTIONAL_BRACKET);
                         entries.add(ModBlocks.WALL_MOUNTED_DISPLAY_RACK);
+                    }).build());
 
+    public static final ItemGroup KNIGHTS_OF_THE_RED_PINE_LOUNGE = Registry.register(Registries.ITEM_GROUP,
+            new Identifier(ArknightsFurniture.MOD_ID,"knights_of_the_red_pine_lounge"),
+            FabricItemGroup.builder().displayName(Text.translatable("itemGroup.knights_of_the_red_pine_lounge"))
+                    .icon(() -> new ItemStack(ModBlocks.HANDSHAKE)).entries((displayContext, entries) -> {
+                        entries.add(ModBlocks.CANDLESTICK_WALL_LAMP);
+                        entries.add(ModBlocks.CAVALRY_SHAPED_FLOOR_LAMP);
+                        entries.add(ModBlocks.HANDSHAKE);
+                        entries.add(ModBlocks.INCLUDING_LOOSE_DECORATIVE_COLUMNS_BOTTOM);
+                        entries.add(ModBlocks.INCLUDING_LOOSE_DECORATIVE_COLUMNS_UPPER);
+                        entries.add(ModBlocks.NARROW_WASHBASIN);
+                        entries.add(ModBlocks.NEW_GREEN_BOTTLE_INSERT);
+                        entries.add(ModBlocks.SIMPLE_VERTICAL_TUBE_CHANDELIER);
+                        entries.add(ModBlocks.STEEL_PIPE_SOFA_CHAIR);
+                        entries.add(ModBlocks.SUNDRY_DISPLAY_CABINET);
                     }).build());
     // public static final ItemGroup  = Registry.register(Registries.ITEM_GROUP,
     //        new Identifier(ArknightsFurniture.MOD_ID,""),
