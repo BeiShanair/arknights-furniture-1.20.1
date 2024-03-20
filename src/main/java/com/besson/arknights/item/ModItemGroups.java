@@ -843,6 +843,24 @@ public class ModItemGroups {
                         entries.add(ModBlocks.SIMPLE_FRONT_DESK);
                         entries.add(ModBlocks.TRANSPARENT_GLASS_MIRROR);
                     }).build());
+
+    public static final ItemGroup CHERRAG_STYLE_HOTEL = Registry.register(Registries.ITEM_GROUP,
+            new Identifier(ArknightsFurniture.MOD_ID,"cherrag_style_hotel"),
+            FabricItemGroup.builder().displayName(Text.translatable("itemGroup.cherrag_style_hotel"))
+                    .icon(() -> new ItemStack(ModBlocks.LAKE_LIGHT_WATER_COLOR_CURTAIN)).entries((displayContext, entries) -> {
+                        entries.add(ModBlocks.DOUBLE_STACKED_CABINET);
+                        entries.add(ModBlocks.INVITE_FRIENDS_TO_EXPLORE_LANTERN);
+                        entries.add(ModBlocks.LAKE_LIGHT_WATER_COLOR_CURTAIN);
+                        entries.add(ModBlocks.NEW_TEA_DUSTPAN_RACK);
+                        entries.add(ModBlocks.POETIC_AXIS);
+                        entries.add(ModBlocks.QINGYAN_TEA_COOKING_PLATFORM);
+                        entries.add(ModBlocks.SHU_EMBROIDERY_YARN_PILLAR);
+                        entries.add(ModBlocks.TEA_PICKING_BASKET);
+                        entries.add(ModBlocks.TRANSPARENT_BAMBOO_CURTAIN);
+                        entries.add(ModBlocks.WALL_LAMP);
+                        entries.add(ModBlocks.YELLOW_PEAR_WOOD_CHESS_TABLE);
+                        entries.add(ModBlocks.YELLOW_PEAR_WOOD_SQUARE_STOOL);
+                    }).build());
     // public static final ItemGroup  = Registry.register(Registries.ITEM_GROUP,
     //        new Identifier(ArknightsFurniture.MOD_ID,""),
     //        FabricItemGroup.builder().displayName(Text.translatable("itemgroup."))

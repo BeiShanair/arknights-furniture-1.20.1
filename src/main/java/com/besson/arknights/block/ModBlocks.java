@@ -5,6 +5,7 @@ import com.besson.arknights.block.AirtightChemicalSafetyCabin.*;
 import com.besson.arknights.block.AvantGardeArcadeHalls.*;
 import com.besson.arknights.block.CasimirLiveRoom.*;
 import com.besson.arknights.block.ChensOffice.*;
+import com.besson.arknights.block.CherragStyleHotel.*;
 import com.besson.arknights.block.ColumbiaCafe.*;
 import com.besson.arknights.block.ColumbiaModernHotel.*;
 import com.besson.arknights.block.DanqingPavilion.*;
@@ -686,6 +687,19 @@ public class ModBlocks {
     public static final Block REPLENISHMENT_TROLLEY = registerBlock("replenishment_trolley",new ReplenishmentTrolley(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
     public static final Block SIMPLE_FRONT_DESK = registerBlock("simple_front_desk",new SimpleFrontDesk(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
     public static final Block TRANSPARENT_GLASS_MIRROR = registerBlock("transparent_glass_mirror",new TransparentGlassMirror(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+
+    public static final Block DOUBLE_STACKED_CABINET = registerBlock("double_stacked_cabinet",new DoubleStackedCabinet(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+    public static final Block INVITE_FRIENDS_TO_EXPLORE_LANTERN = registerBlock("invite_friends_to_explore_lantern",new InviteFriendsToExploreLantern(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+    public static final Block LAKE_LIGHT_WATER_COLOR_CURTAIN = registerBlock("lake_light_water_color_curtain",new LakeLightWaterColorCurtain(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+    public static final Block NEW_TEA_DUSTPAN_RACK = registerBlock("new_tea_dustpan_rack",new NewTeaDustpanRack(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+    public static final Block POETIC_AXIS = registerBlock("poetic_axis",new PoeticAxis(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+    public static final Block QINGYAN_TEA_COOKING_PLATFORM = registerBlock("qingyan_tea_cooking_platform",new QingyanTeaCookingPlatform(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+    public static final Block SHU_EMBROIDERY_YARN_PILLAR = registerBlock("shu_embroidery_yarn_pillar",new ShuEmbroideryYarnPillar(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+    public static final Block TEA_PICKING_BASKET = registerBlock("tea_picking_basket",new TeaPickingBasket(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+    public static final Block TRANSPARENT_BAMBOO_CURTAIN = registerBlock("transparent_bamboo_curtain",new TransparentBambooCurtain(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+    public static final Block WALL_LAMP = registerBlock("wall_lamp",new WallLamp(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+    public static final Block YELLOW_PEAR_WOOD_CHESS_TABLE = registerBlock("yellow_pear_wood_chess_table",new YellowPearWoodChessTable(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+    public static final Block YELLOW_PEAR_WOOD_SQUARE_STOOL = registerBlock("yellow_pear_wood_square_stool",new YellowPearWoodSquareStool(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
 
     private static Block registerBlock(String name,Block block){
         registerBlockItem(name,block);

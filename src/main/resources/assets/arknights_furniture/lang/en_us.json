@@ -636,6 +636,19 @@
   "block.arknights_furniture.simple_front_desk":"Simple Front Desk",
   "block.arknights_furniture.transparent_glass_mirror":"Transparent Glass Mirror",
 
+  "block.arknights_furniture.double_stacked_cabinet":"Double Stacked Cabinet",
+  "block.arknights_furniture.invite_friends_to_explore_lantern":"Invite Friends To Explore Lantern",
+  "block.arknights_furniture.lake_light_water_color_curtain":"Lake Light Water Color Curtain",
+  "block.arknights_furniture.new_tea_dustpan_rack":"New Tea Dustpan Rack",
+  "block.arknights_furniture.poetic_axis":"Poetic Axis",
+  "block.arknights_furniture.qingyan_tea_cooking_platform":"Qingyan Tea Cooking Platform",
+  "block.arknights_furniture.shu_embroidery_yarn_pillar":"Shu Embroidery Yarn Pillar",
+  "block.arknights_furniture.tea_picking_basket":"Tea Picking Basket",
+  "block.arknights_furniture.transparent_bamboo_curtain":"Transparent Bamboo Curtain",
+  "block.arknights_furniture.wall_lamp":"Wall Lamp",
+  "block.arknights_furniture.yellow_pear_wood_chess_table":"Yellow Pear Wood Chess Table",
+  "block.arknights_furniture.yellow_pear_wood_square_stool":"Yellow Pear Wood Square Stool",
+
   "itemgroup.logo": "LOGO Group",
 
   "itemgroup.freight_warehouse": "Freight Warehouse",
@@ -681,6 +694,7 @@
   "itemGroup.knights_of_the_red_pine_lounge": "Knights Of The Red Pine Lounge",
   "itemGroup.casimir_live_room": "Casimir Live Room",
   "itemGroup.avant_garde_arcade_hall": "Avant-Garde Arcade Hall",
+  "itemGroup.cherrag_style_hotel": "Cherrag Style Hotel",
 
   "painting.arknights_furniture.unconfirmed_biological_skeleton.title":"Unconfirmed Biological Skeleton",
   "painting.arknights_furniture.unconfirmed_biological_skeleton.author":"Hypergryph",

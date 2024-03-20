@@ -625,6 +625,19 @@ public class ModModelProvider extends FabricModelProvider {
         blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.SIMPLE_FRONT_DESK);
         blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.TRANSPARENT_GLASS_MIRROR);
 
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.DOUBLE_STACKED_CABINET);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.INVITE_FRIENDS_TO_EXPLORE_LANTERN);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.LAKE_LIGHT_WATER_COLOR_CURTAIN);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.NEW_TEA_DUSTPAN_RACK);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.POETIC_AXIS);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.QINGYAN_TEA_COOKING_PLATFORM);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.SHU_EMBROIDERY_YARN_PILLAR);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.TEA_PICKING_BASKET);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.TRANSPARENT_BAMBOO_CURTAIN);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.WALL_LAMP);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.YELLOW_PEAR_WOOD_CHESS_TABLE);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.YELLOW_PEAR_WOOD_SQUARE_STOOL);
+
     }
 
     @Override
