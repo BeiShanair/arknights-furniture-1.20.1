@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=east": {
+      "model": "arknights_furniture:block/public_old_book_stacks",
+      "y": 90
+    },
+    "facing=north": {
+      "model": "arknights_furniture:block/public_old_book_stacks"
+    },
+    "facing=south": {
+      "model": "arknights_furniture:block/public_old_book_stacks",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "arknights_furniture:block/public_old_book_stacks",
+      "y": 270
+    }
+  }
+}

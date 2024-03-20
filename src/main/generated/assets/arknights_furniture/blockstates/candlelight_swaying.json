@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=east": {
+      "model": "arknights_furniture:block/candlelight_swaying",
+      "y": 90
+    },
+    "facing=north": {
+      "model": "arknights_furniture:block/candlelight_swaying"
+    },
+    "facing=south": {
+      "model": "arknights_furniture:block/candlelight_swaying",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "arknights_furniture:block/candlelight_swaying",
+      "y": 270
+    }
+  }
+}

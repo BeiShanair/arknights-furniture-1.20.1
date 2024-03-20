@@ -638,6 +638,20 @@ public class ModModelProvider extends FabricModelProvider {
         blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.YELLOW_PEAR_WOOD_CHESS_TABLE);
         blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.YELLOW_PEAR_WOOD_SQUARE_STOOL);
 
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.BOUQUETS_OF_FLOWERS_AND_PILES_OF_BROCADES);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.CANDLELIGHT_SWAYING);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.FOREST_FEATHER_BEAST);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.FOREST_STYLE_STORAGE_RACK);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.GOLDEN_ROUND_CHAIR);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.ICE_CRYSTAL_FLOWER_BUD);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.ICE_CRYSTAL_FLOWER_CLUSTER);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.MOBILE_STAIRS);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.PUBLIC_OLD_BOOK_STACKS);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.STORE_OWNERS_LUGGAGE);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.SUMMER_IS_LUSH_AND_LUSH);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.TREE_SHAPED_HIGH_PLATFORM);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.TREE_SHAPED_ROUND_TABLE);
+
     }
 
     @Override

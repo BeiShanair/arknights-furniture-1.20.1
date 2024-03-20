@@ -3,6 +3,7 @@ package com.besson.arknights.block;
 import com.besson.arknights.ArknightsFurniture;
 import com.besson.arknights.block.AirtightChemicalSafetyCabin.*;
 import com.besson.arknights.block.AvantGardeArcadeHalls.*;
+import com.besson.arknights.block.CarratonFlowerAndLightHouse.*;
 import com.besson.arknights.block.CasimirLiveRoom.*;
 import com.besson.arknights.block.ChensOffice.*;
 import com.besson.arknights.block.CherragStyleHotel.*;
@@ -700,6 +701,20 @@ public class ModBlocks {
     public static final Block WALL_LAMP = registerBlock("wall_lamp",new WallLamp(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
     public static final Block YELLOW_PEAR_WOOD_CHESS_TABLE = registerBlock("yellow_pear_wood_chess_table",new YellowPearWoodChessTable(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
     public static final Block YELLOW_PEAR_WOOD_SQUARE_STOOL = registerBlock("yellow_pear_wood_square_stool",new YellowPearWoodSquareStool(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+
+    public static final Block BOUQUETS_OF_FLOWERS_AND_PILES_OF_BROCADES = registerBlock("bouquets_of_flowers_and_piles_of_brocades",new BouquetsOfFlowersAndPilesOfBrocades(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+    public static final Block CANDLELIGHT_SWAYING = registerBlock("candlelight_swaying",new CandlelightSwaying(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+    public static final Block FOREST_FEATHER_BEAST = registerBlock("forest_feather_beast",new ForestFeatherBeast(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+    public static final Block FOREST_STYLE_STORAGE_RACK = registerBlock("forest_style_storage_rack",new ForestStyleStorageRack(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+    public static final Block GOLDEN_ROUND_CHAIR = registerBlock("golden_round_chair",new GoldenRoundChair(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+    public static final Block ICE_CRYSTAL_FLOWER_BUD = registerBlock("ice_crystal_flower_bud",new IceCrystalFlowerBud(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+    public static final Block ICE_CRYSTAL_FLOWER_CLUSTER = registerBlock("ice_crystal_flower_cluster",new IceCrystalFlowerCluster(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+    public static final Block MOBILE_STAIRS = registerBlock("mobile_stairs",new MobileStairs(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+    public static final Block PUBLIC_OLD_BOOK_STACKS = registerBlock("public_old_book_stacks",new PublicOldBookStacks(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+    public static final Block STORE_OWNERS_LUGGAGE = registerBlock("store_owners_luggage",new StoreOwnersLuggage(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+    public static final Block SUMMER_IS_LUSH_AND_LUSH = registerBlock("summer_is_lush_and_lush",new SummerIsLushAndLush(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+    public static final Block TREE_SHAPED_HIGH_PLATFORM = registerBlock("tree_shaped_high_platform",new TreeShapedHighPlatform(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+    public static final Block TREE_SHAPED_ROUND_TABLE = registerBlock("tree_shaped_round_table",new TreeShapedRoundTable(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
 
     private static Block registerBlock(String name,Block block){
         registerBlockItem(name,block);

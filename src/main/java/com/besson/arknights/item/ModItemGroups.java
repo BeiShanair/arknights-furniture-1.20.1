@@ -861,6 +861,25 @@ public class ModItemGroups {
                         entries.add(ModBlocks.YELLOW_PEAR_WOOD_CHESS_TABLE);
                         entries.add(ModBlocks.YELLOW_PEAR_WOOD_SQUARE_STOOL);
                     }).build());
+
+    public static final ItemGroup CARRATON_FLOWER_AND_LIGHT_HOUSE = Registry.register(Registries.ITEM_GROUP,
+            new Identifier(ArknightsFurniture.MOD_ID,"carraton_flower_and_light_house"),
+            FabricItemGroup.builder().displayName(Text.translatable("itemGroup.carraton_flower_and_light_house"))
+                    .icon(() -> new ItemStack(ModBlocks.FOREST_FEATHER_BEAST)).entries((displayContext, entries) -> {
+                        entries.add(ModBlocks.BOUQUETS_OF_FLOWERS_AND_PILES_OF_BROCADES);
+                        entries.add(ModBlocks.CANDLELIGHT_SWAYING);
+                        entries.add(ModBlocks.FOREST_FEATHER_BEAST);
+                        entries.add(ModBlocks.FOREST_STYLE_STORAGE_RACK);
+                        entries.add(ModBlocks.GOLDEN_ROUND_CHAIR);
+                        entries.add(ModBlocks.ICE_CRYSTAL_FLOWER_BUD);
+                        entries.add(ModBlocks.ICE_CRYSTAL_FLOWER_CLUSTER);
+                        entries.add(ModBlocks.MOBILE_STAIRS);
+                        entries.add(ModBlocks.PUBLIC_OLD_BOOK_STACKS);
+                        entries.add(ModBlocks.STORE_OWNERS_LUGGAGE);
+                        entries.add(ModBlocks.SUMMER_IS_LUSH_AND_LUSH);
+                        entries.add(ModBlocks.TREE_SHAPED_HIGH_PLATFORM);
+                        entries.add(ModBlocks.TREE_SHAPED_ROUND_TABLE);
+                    }).build());
     // public static final ItemGroup  = Registry.register(Registries.ITEM_GROUP,
     //        new Identifier(ArknightsFurniture.MOD_ID,""),
     //        FabricItemGroup.builder().displayName(Text.translatable("itemgroup."))

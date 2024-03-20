@@ -649,6 +649,20 @@
   "block.arknights_furniture.yellow_pear_wood_chess_table":"Yellow Pear Wood Chess Table",
   "block.arknights_furniture.yellow_pear_wood_square_stool":"Yellow Pear Wood Square Stool",
 
+  "block.arknights_furniture.bouquets_of_flowers_and_piles_of_brocades":"Bouquets Of Flowers And Piles Of Brocades",
+  "block.arknights_furniture.candlelight_swaying":"Candlelight Swaying",
+  "block.arknights_furniture.forest_feather_beast":"Forest Feather Beast",
+  "block.arknights_furniture.forest_style_storage_rack":"Forest Style Storage Rack",
+  "block.arknights_furniture.golden_round_chair":"Golden Round Chair",
+  "block.arknights_furniture.ice_crystal_flower_bud":"Ice Crystal Flower Bud",
+  "block.arknights_furniture.ice_crystal_flower_cluster":"Ice Crystal Flower Cluster",
+  "block.arknights_furniture.mobile_stairs":"Mobile Stairs",
+  "block.arknights_furniture.public_old_book_stacks":"Public Old Book Stacks",
+  "block.arknights_furniture.store_owners_luggage":"Store Owners Luggage",
+  "block.arknights_furniture.summer_is_lush_and_lush":"Summer Is Lush And Lush",
+  "block.arknights_furniture.tree_shaped_high_platform":"Tree Shaped High Platform",
+  "block.arknights_furniture.tree_shaped_round_table":"Tree Shaped Round Table",
+
   "itemgroup.logo": "LOGO Group",
 
   "itemgroup.freight_warehouse": "Freight Warehouse",
@@ -695,6 +709,7 @@
   "itemGroup.casimir_live_room": "Casimir Live Room",
   "itemGroup.avant_garde_arcade_hall": "Avant-Garde Arcade Hall",
   "itemGroup.cherrag_style_hotel": "Cherrag Style Hotel",
+  "itemGroup.carraton_flower_and_light_house": "Carraton Flower And Light House",
 
   "painting.arknights_furniture.unconfirmed_biological_skeleton.title":"Unconfirmed Biological Skeleton",
   "painting.arknights_furniture.unconfirmed_biological_skeleton.author":"Hypergryph",
