@@ -677,6 +677,19 @@
   "block.arknights_furniture.stone_bed_by_the_window":"Stone Bed By The Window",
   "block.arknights_furniture.vital_fountain":"Vital Fountain",
 
+  "block.arknights_furniture.branched_suspended_lamp":"Branched Suspended Lamp",
+  "block.arknights_furniture.brass_floor_lamp":"Brass Floor Lamp",
+  "block.arknights_furniture.decoration_gypsum_table":"Decoration Gypsum Table",
+  "block.arknights_furniture.diamond_suspended_lamp":"Diamond Suspended Lamp",
+  "block.arknights_furniture.glass_vase":"Glass Vase",
+  "block.arknights_furniture.good_colleague_sofa":"Good Colleague Sofa",
+  "block.arknights_furniture.good_senior_showcase":"Good Senior Showcase",
+  "block.arknights_furniture.marble_short_table":"Marble Short Table",
+  "block.arknights_furniture.physical_photo_frame":"Physical Photo Frame",
+  "block.arknights_furniture.reading_desk":"Reading Desk",
+  "block.arknights_furniture.solid_wood_couch":"Solid Wood Couch",
+  "block.arknights_furniture.storage_rack":"Storage Rack",
+
   "itemgroup.logo": "LOGO Group",
 
   "itemgroup.freight_warehouse": "Freight Warehouse",
@@ -725,6 +738,7 @@
   "itemGroup.cherrag_style_hotel": "Cherrag Style Hotel",
   "itemGroup.carraton_flower_and_light_house": "Carraton Flower And Light House",
   "itemGroup.impression_of_the_castle": "Impression Of The Castle",
+  "itemGroup.lateran_notary_lounge": "Lateran Notary Lounge",
 
   "painting.arknights_furniture.unconfirmed_biological_skeleton.title":"Unconfirmed Biological Skeleton",
   "painting.arknights_furniture.unconfirmed_biological_skeleton.author":"Hypergryph",

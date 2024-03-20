@@ -22,6 +22,7 @@ import com.besson.arknights.block.ImitationoftheLivingroomoftheLightHouse.*;
 import com.besson.arknights.block.ImpressionOfTheCastle.*;
 import com.besson.arknights.block.KnightsoftheRedPineLounge.*;
 import com.besson.arknights.block.LancellarBallroom.*;
+import com.besson.arknights.block.LateranNotaryLounge.*;
 import com.besson.arknights.block.LenasRestingPlace.*;
 import com.besson.arknights.block.LetaniaNight.*;
 import com.besson.arknights.block.LifeCycleModule12.*;
@@ -730,6 +731,19 @@ public class ModBlocks {
     public static final Block SILVER_CLAMP_KETTLE = registerBlock("silver_clamp_kettle",new SilverClampKettle(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
     public static final Block STONE_BED_BY_THE_WINDOW = registerBlock("stone_bed_by_the_window",new StoneBedByTheWindow(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
     public static final Block VITAL_FOUNTAIN = registerBlock("vital_fountain",new VitalFountain(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+
+    public static final Block BRANCHED_SUSPENDED_LAMP = registerBlock("branched_suspended_lamp",new BranchedSuspendedLamp(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+    public static final Block BRASS_FLOOR_LAMP = registerBlock("brass_floor_lamp",new BrassFloorLamp(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+    public static final Block DECORATION_GYPSUM_TABLE = registerBlock("decoration_gypsum_table",new DecorationGypsumTable(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+    public static final Block DIAMOND_SUSPENDED_LAMP = registerBlock("diamond_suspended_lamp",new DiamondSuspendedLamp(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+    public static final Block GLASS_VASE = registerBlock("glass_vase",new GlassVase(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+    public static final Block GOOD_COLLEAGUE_SOFA = registerBlock("good_colleague_sofa",new GoodColleagueSofa(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+    public static final Block GOOD_SENIOR_SHOWCASE = registerBlock("good_senior_showcase",new GoodSeniorShowcase(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+    public static final Block MARBLE_SHORT_TABLE = registerBlock("marble_short_table",new MarbleShortTable(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+    public static final Block PHYSICAL_PHOTO_FRAME = registerBlock("physical_photo_frame",new PhysicalPhotoFrame(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+    public static final Block READING_DESK = registerBlock("reading_desk",new ReadingDesk(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+    public static final Block SOLID_WOOD_COUCH = registerBlock("solid_wood_couch",new SolidWoodCouch(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+    public static final Block STORAGE_RACK = registerBlock("storage_rack",new StorageRack(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
 
     private static Block registerBlock(String name,Block block){
         registerBlockItem(name,block);

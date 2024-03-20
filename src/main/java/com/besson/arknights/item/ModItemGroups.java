@@ -898,7 +898,24 @@ public class ModItemGroups {
                         entries.add(ModBlocks.SILVER_CLAMP_KETTLE);
                         entries.add(ModBlocks.STONE_BED_BY_THE_WINDOW);
                         entries.add(ModBlocks.VITAL_FOUNTAIN);
+                    }).build());
 
+    public static final ItemGroup LATERAN_NOTARY_LOUNGE = Registry.register(Registries.ITEM_GROUP,
+            new Identifier(ArknightsFurniture.MOD_ID,"lateran_notary_lounge"),
+            FabricItemGroup.builder().displayName(Text.translatable("itemGroup.lateran_notary_lounge"))
+                    .icon(() -> new ItemStack(ModBlocks.BRASS_FLOOR_LAMP)).entries((displayContext, entries) -> {
+                        entries.add(ModBlocks.BRANCHED_SUSPENDED_LAMP);
+                        entries.add(ModBlocks.BRASS_FLOOR_LAMP);
+                        entries.add(ModBlocks.DECORATION_GYPSUM_TABLE);
+                        entries.add(ModBlocks.DIAMOND_SUSPENDED_LAMP);
+                        entries.add(ModBlocks.GLASS_VASE);
+                        entries.add(ModBlocks.GOOD_COLLEAGUE_SOFA);
+                        entries.add(ModBlocks.GOOD_SENIOR_SHOWCASE);
+                        entries.add(ModBlocks.MARBLE_SHORT_TABLE);
+                        entries.add(ModBlocks.PHYSICAL_PHOTO_FRAME);
+                        entries.add(ModBlocks.READING_DESK);
+                        entries.add(ModBlocks.SOLID_WOOD_COUCH);
+                        entries.add(ModBlocks.STORAGE_RACK);
                     }).build());
     // public static final ItemGroup  = Registry.register(Registries.ITEM_GROUP,
     //        new Identifier(ArknightsFurniture.MOD_ID,""),
