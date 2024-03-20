@@ -42,6 +42,7 @@ import com.besson.arknights.block.SevenCitiesStyleRestaurant.*;
 import com.besson.arknights.block.SiestaBeachCottage.*;
 import com.besson.arknights.block.SoulSecretSociety.*;
 import com.besson.arknights.block.SpecialEquipmentExhibitionRoom.*;
+import com.besson.arknights.block.StormCommandoWarRoom.*;
 import com.besson.arknights.block.StudioForPhotographyEnthusiasts.*;
 import com.besson.arknights.block.TribalLodge.*;
 import com.besson.arknights.block.UrsasStudentLounge.*;
@@ -744,6 +745,20 @@ public class ModBlocks {
     public static final Block READING_DESK = registerBlock("reading_desk",new ReadingDesk(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
     public static final Block SOLID_WOOD_COUCH = registerBlock("solid_wood_couch",new SolidWoodCouch(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
     public static final Block STORAGE_RACK = registerBlock("storage_rack",new StorageRack(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+
+    public static final Block BLUE_CLOTH_SOFA_CHAIR = registerBlock("blue_cloth_sofa_chair",new BlueClothSofaChair(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+    public static final Block CEILING_LAMP2 = registerBlock("ceiling_lamp2",new CeilingLamp2(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+    public static final Block COMBAT_ROOM_BEVERAGE_KITS = registerBlock("combat_room_beverage_kits",new CombatRoomBeverageKits(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+    public static final Block COMMUNICATION_TERMINAL = registerBlock("communication_terminal",new CommunicationTerminal(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+    public static final Block COMMUNICATION_TERMINAL_CONFIDENTIAL_FILE_CABINET = registerBlock("communication_terminal_confidential_file_cabinet",new CommunicationTerminalConfidentialFileCabinet(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+    public static final Block FLOOR_LAMP = registerBlock("floor_lamp",new FloorLamp(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+    public static final Block IRON_WIRE_ENERGY_SAVING_LAMP = registerBlock("iron_wire_energy_saving_lamp",new IronWireEnergySavingLamp(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+    public static final Block SOFT_LIGHT_NIGHT_LIGHT = registerBlock("soft_light_night_light",new SoftLightNightLight(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+    public static final Block STRETCHABLE_ELECTRONIC_SCREEN = registerBlock("stretchable_electronic_screen",new StretchableElectronicScreen(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+    public static final Block TACTICAL_DRILL_ROD = registerBlock("tactical_drill_rod",new TacticalDrillRod(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+    public static final Block TACTICAL_INTELLIGENCE_HANGING_BOARD = registerBlock("tactical_intelligence_hanging_board",new TacticalIntelligenceHangingBoard(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+    public static final Block TACTICAL_REHEARSAL_TABLE = registerBlock("tactical_rehearsal_table",new TacticalRehearsalTable(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+    public static final Block TACTICAL_SUPPORT_BOARD = registerBlock("tactical_support_board",new TacticalSupportBoard(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
 
     private static Block registerBlock(String name,Block block){
         registerBlockItem(name,block);

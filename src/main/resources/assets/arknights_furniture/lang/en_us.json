@@ -690,6 +690,20 @@
   "block.arknights_furniture.solid_wood_couch":"Solid Wood Couch",
   "block.arknights_furniture.storage_rack":"Storage Rack",
 
+  "block.arknights_furniture.blue_cloth_sofa_chair":"Blue Cloth Sofa Chair",
+  "block.arknights_furniture.ceiling_lamp2":"Ceiling Lamp",
+  "block.arknights_furniture.combat_room_beverage_kits":"Combat Room Beverage Kits",
+  "block.arknights_furniture.communication_terminal":"Communication Terminal",
+  "block.arknights_furniture.communication_terminal_confidential_file_cabinet":"Communication Terminal Confidential File Cabinet",
+  "block.arknights_furniture.floor_lamp":"Floor Lamp",
+  "block.arknights_furniture.iron_wire_energy_saving_lamp":"Iron Wire Energy Saving Lamp",
+  "block.arknights_furniture.soft_light_night_light":"Soft Light Night Light",
+  "block.arknights_furniture.stretchable_electronic_screen":"Stretchable Electronic Screen",
+  "block.arknights_furniture.tactical_drill_rod":"Tactical Drill Rod",
+  "block.arknights_furniture.tactical_intelligence_hanging_board":"Tactical Intelligence Hanging Board",
+  "block.arknights_furniture.tactical_rehearsal_table":"Tactical Rehearsal Table",
+  "block.arknights_furniture.tactical_support_board":"Tactical Support Board",
+
   "itemgroup.logo": "LOGO Group",
 
   "itemgroup.freight_warehouse": "Freight Warehouse",
@@ -739,6 +753,7 @@
   "itemGroup.carraton_flower_and_light_house": "Carraton Flower And Light House",
   "itemGroup.impression_of_the_castle": "Impression Of The Castle",
   "itemGroup.lateran_notary_lounge": "Lateran Notary Lounge",
+  "itemGroup.storm_commando_war_room": "Storm Commando War Room",
 
   "painting.arknights_furniture.unconfirmed_biological_skeleton.title":"Unconfirmed Biological Skeleton",
   "painting.arknights_furniture.unconfirmed_biological_skeleton.author":"Hypergryph",

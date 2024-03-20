@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=east": {
+      "model": "arknights_furniture:block/tactical_drill_rod",
+      "y": 90
+    },
+    "facing=north": {
+      "model": "arknights_furniture:block/tactical_drill_rod"
+    },
+    "facing=south": {
+      "model": "arknights_furniture:block/tactical_drill_rod",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "arknights_furniture:block/tactical_drill_rod",
+      "y": 270
+    }
+  }
+}

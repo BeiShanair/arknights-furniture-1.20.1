@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=east": {
+      "model": "arknights_furniture:block/iron_wire_energy_saving_lamp",
+      "y": 90
+    },
+    "facing=north": {
+      "model": "arknights_furniture:block/iron_wire_energy_saving_lamp"
+    },
+    "facing=south": {
+      "model": "arknights_furniture:block/iron_wire_energy_saving_lamp",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "arknights_furniture:block/iron_wire_energy_saving_lamp",
+      "y": 270
+    }
+  }
+}

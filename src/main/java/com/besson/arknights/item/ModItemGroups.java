@@ -917,6 +917,25 @@ public class ModItemGroups {
                         entries.add(ModBlocks.SOLID_WOOD_COUCH);
                         entries.add(ModBlocks.STORAGE_RACK);
                     }).build());
+
+    public static final ItemGroup STORM_COMMANDO_WAR_ROOM = Registry.register(Registries.ITEM_GROUP,
+            new Identifier(ArknightsFurniture.MOD_ID,"storm_commando_war_room"),
+            FabricItemGroup.builder().displayName(Text.translatable("itemGroup.storm_commando_war_room"))
+                    .icon(() -> new ItemStack(ModBlocks.IRON_WIRE_ENERGY_SAVING_LAMP)).entries((displayContext, entries) -> {
+                        entries.add(ModBlocks.BLUE_CLOTH_SOFA_CHAIR);
+                        entries.add(ModBlocks.CEILING_LAMP2);
+                        entries.add(ModBlocks.COMBAT_ROOM_BEVERAGE_KITS);
+                        entries.add(ModBlocks.COMMUNICATION_TERMINAL);
+                        entries.add(ModBlocks.COMMUNICATION_TERMINAL_CONFIDENTIAL_FILE_CABINET);
+                        entries.add(ModBlocks.FLOOR_LAMP);
+                        entries.add(ModBlocks.IRON_WIRE_ENERGY_SAVING_LAMP);
+                        entries.add(ModBlocks.SOFT_LIGHT_NIGHT_LIGHT);
+                        entries.add(ModBlocks.STRETCHABLE_ELECTRONIC_SCREEN);
+                        entries.add(ModBlocks.TACTICAL_DRILL_ROD);
+                        entries.add(ModBlocks.TACTICAL_INTELLIGENCE_HANGING_BOARD);
+                        entries.add(ModBlocks.TACTICAL_REHEARSAL_TABLE);
+                        entries.add(ModBlocks.TACTICAL_SUPPORT_BOARD);
+                    }).build());
     // public static final ItemGroup  = Registry.register(Registries.ITEM_GROUP,
     //        new Identifier(ArknightsFurniture.MOD_ID,""),
     //        FabricItemGroup.builder().displayName(Text.translatable("itemgroup."))

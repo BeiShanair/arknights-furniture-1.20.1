@@ -679,6 +679,20 @@ public class ModModelProvider extends FabricModelProvider {
         blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.SOLID_WOOD_COUCH);
         blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.STORAGE_RACK);
 
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.BLUE_CLOTH_SOFA_CHAIR);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.CEILING_LAMP2);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.COMBAT_ROOM_BEVERAGE_KITS);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.COMMUNICATION_TERMINAL);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.COMMUNICATION_TERMINAL_CONFIDENTIAL_FILE_CABINET);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.FLOOR_LAMP);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.IRON_WIRE_ENERGY_SAVING_LAMP);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.SOFT_LIGHT_NIGHT_LIGHT);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.STRETCHABLE_ELECTRONIC_SCREEN);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.TACTICAL_DRILL_ROD);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.TACTICAL_INTELLIGENCE_HANGING_BOARD);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.TACTICAL_REHEARSAL_TABLE);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.TACTICAL_SUPPORT_BOARD);
+
     }
 
     @Override

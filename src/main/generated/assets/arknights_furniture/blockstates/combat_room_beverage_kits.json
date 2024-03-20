@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=east": {
+      "model": "arknights_furniture:block/combat_room_beverage_kits",
+      "y": 90
+    },
+    "facing=north": {
+      "model": "arknights_furniture:block/combat_room_beverage_kits"
+    },
+    "facing=south": {
+      "model": "arknights_furniture:block/combat_room_beverage_kits",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "arknights_furniture:block/combat_room_beverage_kits",
+      "y": 270
+    }
+  }
+}
