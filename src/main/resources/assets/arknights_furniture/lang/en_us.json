@@ -663,6 +663,20 @@
   "block.arknights_furniture.tree_shaped_high_platform":"Tree Shaped High Platform",
   "block.arknights_furniture.tree_shaped_round_table":"Tree Shaped Round Table",
 
+  "block.arknights_furniture.broken_long_mirror":"Broken Long Mirror",
+  "block.arknights_furniture.castle_footstool":"Castle Footstool",
+  "block.arknights_furniture.dilapidated_partition":"Dilapidated Partition",
+  "block.arknights_furniture.fenced_chandelier":"Fenced Chandelier",
+  "block.arknights_furniture.gaulish_noble_chair":"Gaulish Noble Chair",
+  "block.arknights_furniture.golden_grain_wooden_table":"Golden Grain Wooden Table",
+  "block.arknights_furniture.noble_bedding":"Noble Bedding",
+  "block.arknights_furniture.pillar_candlestick":"Pillar Candlestick",
+  "block.arknights_furniture.quaint_fireplace":"Quaint Fireplace",
+  "block.arknights_furniture.self_igniting_candle_lamp":"Self Igniting Candle Lamp",
+  "block.arknights_furniture.silver_clamp_kettle":"Silver Clamp Kettle",
+  "block.arknights_furniture.stone_bed_by_the_window":"Stone Bed By The Window",
+  "block.arknights_furniture.vital_fountain":"Vital Fountain",
+
   "itemgroup.logo": "LOGO Group",
 
   "itemgroup.freight_warehouse": "Freight Warehouse",
@@ -710,6 +724,7 @@
   "itemGroup.avant_garde_arcade_hall": "Avant-Garde Arcade Hall",
   "itemGroup.cherrag_style_hotel": "Cherrag Style Hotel",
   "itemGroup.carraton_flower_and_light_house": "Carraton Flower And Light House",
+  "itemGroup.impression_of_the_castle": "Impression Of The Castle",
 
   "painting.arknights_furniture.unconfirmed_biological_skeleton.title":"Unconfirmed Biological Skeleton",
   "painting.arknights_furniture.unconfirmed_biological_skeleton.author":"Hypergryph",

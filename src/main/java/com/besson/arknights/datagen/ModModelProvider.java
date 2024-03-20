@@ -652,6 +652,20 @@ public class ModModelProvider extends FabricModelProvider {
         blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.TREE_SHAPED_HIGH_PLATFORM);
         blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.TREE_SHAPED_ROUND_TABLE);
 
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.BROKEN_LONG_MIRROR);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.CASTLE_FOOTSTOOL);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.DILAPIDATED_PARTITION);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.FENCED_CHANDELIER);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.GAULISH_NOBLE_CHAIR);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.GOLDEN_GRAIN_WOODEN_TABLE);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.NOBLE_BEDDING);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.PILLAR_CANDLESTICK);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.QUAINT_FIREPLACE);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.SELF_IGNITING_CANDLE_LAMP);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.SILVER_CLAMP_KETTLE);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.STONE_BED_BY_THE_WINDOW);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.VITAL_FOUNTAIN);
+
     }
 
     @Override

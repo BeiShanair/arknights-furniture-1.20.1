@@ -880,6 +880,26 @@ public class ModItemGroups {
                         entries.add(ModBlocks.TREE_SHAPED_HIGH_PLATFORM);
                         entries.add(ModBlocks.TREE_SHAPED_ROUND_TABLE);
                     }).build());
+
+    public static final ItemGroup IMPRESSION_OF_THE_CASTLE = Registry.register(Registries.ITEM_GROUP,
+            new Identifier(ArknightsFurniture.MOD_ID,"impression_of_the_castle"),
+            FabricItemGroup.builder().displayName(Text.translatable("itemGroup.impression_of_the_castle"))
+                    .icon(() -> new ItemStack(ModBlocks.CASTLE_FOOTSTOOL)).entries((displayContext, entries) -> {
+                        entries.add(ModBlocks.BROKEN_LONG_MIRROR);
+                        entries.add(ModBlocks.CASTLE_FOOTSTOOL);
+                        entries.add(ModBlocks.DILAPIDATED_PARTITION);
+                        entries.add(ModBlocks.FENCED_CHANDELIER);
+                        entries.add(ModBlocks.GAULISH_NOBLE_CHAIR);
+                        entries.add(ModBlocks.GOLDEN_GRAIN_WOODEN_TABLE);
+                        entries.add(ModBlocks.NOBLE_BEDDING);
+                        entries.add(ModBlocks.PILLAR_CANDLESTICK);
+                        entries.add(ModBlocks.QUAINT_FIREPLACE);
+                        entries.add(ModBlocks.SELF_IGNITING_CANDLE_LAMP);
+                        entries.add(ModBlocks.SILVER_CLAMP_KETTLE);
+                        entries.add(ModBlocks.STONE_BED_BY_THE_WINDOW);
+                        entries.add(ModBlocks.VITAL_FOUNTAIN);
+
+                    }).build());
     // public static final ItemGroup  = Registry.register(Registries.ITEM_GROUP,
     //        new Identifier(ArknightsFurniture.MOD_ID,""),
     //        FabricItemGroup.builder().displayName(Text.translatable("itemgroup."))

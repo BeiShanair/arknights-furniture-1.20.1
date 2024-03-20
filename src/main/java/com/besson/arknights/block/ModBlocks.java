@@ -19,6 +19,7 @@ import com.besson.arknights.block.HuangDengDengGameRoom.*;
 import com.besson.arknights.block.IberiaResort.*;
 import com.besson.arknights.block.IllusionaryBiography.*;
 import com.besson.arknights.block.ImitationoftheLivingroomoftheLightHouse.*;
+import com.besson.arknights.block.ImpressionOfTheCastle.*;
 import com.besson.arknights.block.KnightsoftheRedPineLounge.*;
 import com.besson.arknights.block.LancellarBallroom.*;
 import com.besson.arknights.block.LenasRestingPlace.*;
@@ -715,6 +716,20 @@ public class ModBlocks {
     public static final Block SUMMER_IS_LUSH_AND_LUSH = registerBlock("summer_is_lush_and_lush",new SummerIsLushAndLush(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
     public static final Block TREE_SHAPED_HIGH_PLATFORM = registerBlock("tree_shaped_high_platform",new TreeShapedHighPlatform(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
     public static final Block TREE_SHAPED_ROUND_TABLE = registerBlock("tree_shaped_round_table",new TreeShapedRoundTable(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+
+    public static final Block BROKEN_LONG_MIRROR = registerBlock("broken_long_mirror",new BrokenLongMirror(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+    public static final Block CASTLE_FOOTSTOOL = registerBlock("castle_footstool",new CastleFootstool(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+    public static final Block DILAPIDATED_PARTITION = registerBlock("dilapidated_partition",new DilapidatedPartition(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+    public static final Block FENCED_CHANDELIER = registerBlock("fenced_chandelier",new FencedChandelier(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+    public static final Block GAULISH_NOBLE_CHAIR = registerBlock("gaulish_noble_chair",new GaulishNobleChair(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+    public static final Block GOLDEN_GRAIN_WOODEN_TABLE = registerBlock("golden_grain_wooden_table",new GoldenGrainWoodenTable(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+    public static final Block NOBLE_BEDDING = registerBlock("noble_bedding",new NobleBedding(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+    public static final Block PILLAR_CANDLESTICK = registerBlock("pillar_candlestick",new PillarCandlestick(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+    public static final Block QUAINT_FIREPLACE = registerBlock("quaint_fireplace",new QuaintFireplace(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+    public static final Block SELF_IGNITING_CANDLE_LAMP = registerBlock("self_igniting_candle_lamp",new SelfIgnitingCandleLamp(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+    public static final Block SILVER_CLAMP_KETTLE = registerBlock("silver_clamp_kettle",new SilverClampKettle(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+    public static final Block STONE_BED_BY_THE_WINDOW = registerBlock("stone_bed_by_the_window",new StoneBedByTheWindow(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+    public static final Block VITAL_FOUNTAIN = registerBlock("vital_fountain",new VitalFountain(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
 
     private static Block registerBlock(String name,Block block){
         registerBlockItem(name,block);
