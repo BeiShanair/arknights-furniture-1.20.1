@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=east": {
+      "model": "arknights_furniture:block/best_design_sofa_big",
+      "y": 90
+    },
+    "facing=north": {
+      "model": "arknights_furniture:block/best_design_sofa_big"
+    },
+    "facing=south": {
+      "model": "arknights_furniture:block/best_design_sofa_big",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "arknights_furniture:block/best_design_sofa_big",
+      "y": 270
+    }
+  }
+}

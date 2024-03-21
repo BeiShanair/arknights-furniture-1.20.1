@@ -1003,6 +1003,23 @@ public class ModItemGroups {
                         entries.add(ModBlocks.THE_BEGINNING_OF_DREAMS);
                         entries.add(ModBlocks.TREE_OF_LIFE);
                     }).build());
+
+    public static final ItemGroup BIG_PUDDLE_HAPPY_EXPERIENCE_HOUSE = Registry.register(Registries.ITEM_GROUP,
+            new Identifier(ArknightsFurniture.MOD_ID,"big_puddle_happy_experience_house"),
+            FabricItemGroup.builder().displayName(Text.translatable("itemGroup.big_puddle_happy_experience_house"))
+                    .icon(() -> new ItemStack(ModBlocks.BEST_DESIGN_SOFA_BIG)).entries((displayContext, entries) -> {
+                        entries.add(ModBlocks.BEST_DESIGN_SOFA);
+                        entries.add(ModBlocks.BEST_DESIGN_SOFA_BIG);
+                        entries.add(ModBlocks.DINGDANG_CHANDELIER);
+                        entries.add(ModBlocks.DRUNK_SURFBOARD);
+                        entries.add(ModBlocks.GOOD_SOUND_FAN);
+                        entries.add(ModBlocks.LIFEBUOY_HOLDER);
+                        entries.add(ModBlocks.LOW_FOOTED_BENCH_DEFAULT);
+                        entries.add(ModBlocks.PURE_WHITE_CEILING_LAMP);
+                        entries.add(ModBlocks.RAILING_KIT);
+                        entries.add(ModBlocks.TRANSPARENT_POTTED_PLANT);
+
+                    }).build());
     // public static final ItemGroup  = Registry.register(Registries.ITEM_GROUP,
     //        new Identifier(ArknightsFurniture.MOD_ID,""),
     //        FabricItemGroup.builder().displayName(Text.translatable("itemgroup."))

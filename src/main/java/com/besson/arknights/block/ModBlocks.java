@@ -3,6 +3,7 @@ package com.besson.arknights.block;
 import com.besson.arknights.ArknightsFurniture;
 import com.besson.arknights.block.AirtightChemicalSafetyCabin.*;
 import com.besson.arknights.block.AvantGardeArcadeHalls.*;
+import com.besson.arknights.block.BigPuddleHappyExperienceHouse.*;
 import com.besson.arknights.block.CarratonFlowerAndLightHouse.*;
 import com.besson.arknights.block.CasimirLiveRoom.*;
 import com.besson.arknights.block.ChensOffice.*;
@@ -810,6 +811,17 @@ public class ModBlocks {
     public static final Block RHINE_PRIVATE_FOLDER2 = registerBlock("rhine_private_folder2",new RhinePrivateFolder(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
     public static final Block THE_BEGINNING_OF_DREAMS = registerBlock("the_beginning_of_dreams",new TheBeginningOfDreams(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
     public static final Block TREE_OF_LIFE = registerBlock("tree_of_life",new TreeOfLife(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+
+    public static final Block BEST_DESIGN_SOFA = registerBlock("best_design_sofa",new BestDesignSofa(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+    public static final Block BEST_DESIGN_SOFA_BIG = registerBlock("best_design_sofa_big",new BestDesignSofaBig(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+    public static final Block DINGDANG_CHANDELIER = registerBlock("dingdang_chandelier",new DingdangChandelier(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+    public static final Block DRUNK_SURFBOARD = registerBlock("drunk_surfboard",new DrunkSurfboard(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+    public static final Block GOOD_SOUND_FAN = registerBlock("good_sound_fan",new GoodSoundFan(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+    public static final Block LIFEBUOY_HOLDER = registerBlock("lifebuoy_holder",new LifebuoyHolder(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+    public static final Block LOW_FOOTED_BENCH_DEFAULT = registerBlock("low_footed_bench_default",new LowFootedBench(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+    public static final Block PURE_WHITE_CEILING_LAMP = registerBlock("pure_white_ceiling_lamp",new PureWhiteCeilingLamp(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+    public static final Block RAILING_KIT = registerBlock("railing_kit",new RailingKit(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+    public static final Block TRANSPARENT_POTTED_PLANT = registerBlock("transparent_potted_plant",new TransparentPottedPlant(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
 
     private static Block registerBlock(String name,Block block){
         registerBlockItem(name,block);

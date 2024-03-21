@@ -751,6 +751,17 @@
   "block.arknights_furniture.the_beginning_of_dreams":"The Beginning Of Dreams",
   "block.arknights_furniture.tree_of_life":"Tree Of Life",
 
+  "block.arknights_furniture.best_design_sofa":"Best Design Sofa",
+  "block.arknights_furniture.best_design_sofa_big":"Best Design Sofa Big",
+  "block.arknights_furniture.dingdang_chandelier":"Dingdang Chandelier",
+  "block.arknights_furniture.drunk_surfboard":"Drunk Surfboard",
+  "block.arknights_furniture.good_sound_fan":"Good Sound Fan",
+  "block.arknights_furniture.lifebuoy_holder":"Lifebuoy Holder",
+  "block.arknights_furniture.low_footed_bench_default":"Low Footed Bench",
+  "block.arknights_furniture.pure_white_ceiling_lamp":"Pure White Ceiling Lamp",
+  "block.arknights_furniture.railing_kit":"Railing Kit",
+  "block.arknights_furniture.transparent_potted_plant":"Transparent Potted Plant",
+
   "itemgroup.logo": "LOGO Group",
 
   "itemgroup.freight_warehouse": "Freight Warehouse",
@@ -805,6 +816,7 @@
   "itemGroup.fools_room": "Fool's Room",
   "itemGroup.impression_music_room_in_the_sunset_area": "Impression Music Room In The Sunset Area",
   "itemGroup.rhine_experimental_culture_chamber": "Rhine Experimental Culture Chamber",
+  "itemGroup.big_puddle_happy_experience_house": "Big Puddle Happy Experience House",
 
   "painting.arknights_furniture.unconfirmed_biological_skeleton.title":"Unconfirmed Biological Skeleton",
   "painting.arknights_furniture.unconfirmed_biological_skeleton.author":"Hypergryph",
