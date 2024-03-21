@@ -716,6 +716,15 @@
   "block.arknights_furniture.solid_wood_chandelier":"Solid Wood Chandelier",
   "block.arknights_furniture.supporting_tool_rack":"Supporting Tool Rack",
 
+  "block.arknights_furniture.circular_tube_chandelier":"Circular Tube Chandelier",
+  "block.arknights_furniture.civilization_and_art":"Civilization And Art",
+  "block.arknights_furniture.column_pendant_lamp_group":"Column Pendant Lamp Group",
+  "block.arknights_furniture.decorative_candle_holder":"Decorative Candle Holder",
+  "block.arknights_furniture.evolutionary_self_illumination":"Evolutionary Self Illumination",
+  "block.arknights_furniture.fools_table":"Fools Table",
+  "block.arknights_furniture.movable_soft_stool":"Movable Soft Stool",
+  "block.arknights_furniture.shell_shaped_leisure_chair":"Shell Shaped Leisure Chair",
+
   "itemgroup.logo": "LOGO Group",
 
   "itemgroup.freight_warehouse": "Freight Warehouse",
@@ -767,6 +776,7 @@
   "itemGroup.lateran_notary_lounge": "Lateran Notary Lounge",
   "itemGroup.storm_commando_war_room": "Storm Commando War Room",
   "itemGroup.musical_instrument_repair_workshop": "Musical Instrument Repair Workshop",
+  "itemGroup.fools_room": "Fool's Room",
 
   "painting.arknights_furniture.unconfirmed_biological_skeleton.title":"Unconfirmed Biological Skeleton",
   "painting.arknights_furniture.unconfirmed_biological_skeleton.author":"Hypergryph",

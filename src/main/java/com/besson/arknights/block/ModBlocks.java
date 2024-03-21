@@ -13,6 +13,7 @@ import com.besson.arknights.block.DanqingPavilion.*;
 import com.besson.arknights.block.DosoresPrivateSAPRoom.*;
 import com.besson.arknights.block.EdgeSolid_OrangeSimpleHome.*;
 import com.besson.arknights.block.FlameHall.*;
+import com.besson.arknights.block.FoolsRoom.*;
 import com.besson.arknights.block.FreightWarehouse.*;
 import com.besson.arknights.block.HealthyFastFoodRestaurant.*;
 import com.besson.arknights.block.HuangDengDengGameRoom.*;
@@ -772,6 +773,15 @@ public class ModBlocks {
     public static final Block OLD_FASHIONED_PHONOGRAPH = registerBlock("old_fashioned_phonograph",new OldFashionedPhonograph(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
     public static final Block SOLID_WOOD_CHANDELIER = registerBlock("solid_wood_chandelier",new SolidWoodChandelier(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
     public static final Block SUPPORTING_TOOL_RACK = registerBlock("supporting_tool_rack",new SupportingToolRack(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+
+    public static final Block CIRCULAR_TUBE_CHANDELIER = registerBlock("circular_tube_chandelier",new CircularTubeChandelier(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+    public static final Block CIVILIZATION_AND_ART = registerBlock("civilization_and_art",new CivilizationAndArt(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+    public static final Block COLUMN_PENDANT_LAMP_GROUP = registerBlock("column_pendant_lamp_group",new ColumnPendantLampGroup(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+    public static final Block DECORATIVE_CANDLE_HOLDER = registerBlock("decorative_candle_holder",new DecorativeCandleHolder(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+    public static final Block EVOLUTIONARY_SELF_ILLUMINATION = registerBlock("evolutionary_self_illumination",new EvolutionarySelfIllumination(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+    public static final Block FOOLS_TABLE = registerBlock("fools_table",new FoolsTable(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+    public static final Block MOVABLE_SOFT_STOOL = registerBlock("movable_soft_stool",new MovableSoftStool(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+    public static final Block SHELL_SHAPED_LEISURE_CHAIR = registerBlock("shell_shaped_leisure_chair",new ShellShapedLeisureChair(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
 
     private static Block registerBlock(String name,Block block){
         registerBlockItem(name,block);

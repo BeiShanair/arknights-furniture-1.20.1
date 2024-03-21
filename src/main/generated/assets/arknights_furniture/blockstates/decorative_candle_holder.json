@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=east": {
+      "model": "arknights_furniture:block/decorative_candle_holder",
+      "y": 90
+    },
+    "facing=north": {
+      "model": "arknights_furniture:block/decorative_candle_holder"
+    },
+    "facing=south": {
+      "model": "arknights_furniture:block/decorative_candle_holder",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "arknights_furniture:block/decorative_candle_holder",
+      "y": 270
+    }
+  }
+}

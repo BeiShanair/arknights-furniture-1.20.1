@@ -953,6 +953,20 @@ public class ModItemGroups {
                         entries.add(ModBlocks.SOLID_WOOD_CHANDELIER);
                         entries.add(ModBlocks.SUPPORTING_TOOL_RACK);
                     }).build());
+
+    public static final ItemGroup FOOLS_ROOM = Registry.register(Registries.ITEM_GROUP,
+            new Identifier(ArknightsFurniture.MOD_ID,"fools_room"),
+            FabricItemGroup.builder().displayName(Text.translatable("itemGroup.fools_room"))
+                    .icon(() -> new ItemStack(ModBlocks.CIVILIZATION_AND_ART)).entries((displayContext, entries) -> {
+                        entries.add(ModBlocks.CIRCULAR_TUBE_CHANDELIER);
+                        entries.add(ModBlocks.CIVILIZATION_AND_ART);
+                        entries.add(ModBlocks.COLUMN_PENDANT_LAMP_GROUP);
+                        entries.add(ModBlocks.DECORATIVE_CANDLE_HOLDER);
+                        entries.add(ModBlocks.EVOLUTIONARY_SELF_ILLUMINATION);
+                        entries.add(ModBlocks.FOOLS_TABLE);
+                        entries.add(ModBlocks.MOVABLE_SOFT_STOOL);
+                        entries.add(ModBlocks.SHELL_SHAPED_LEISURE_CHAIR);
+                    }).build());
     // public static final ItemGroup  = Registry.register(Registries.ITEM_GROUP,
     //        new Identifier(ArknightsFurniture.MOD_ID,""),
     //        FabricItemGroup.builder().displayName(Text.translatable("itemgroup."))
