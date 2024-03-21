@@ -704,6 +704,18 @@
   "block.arknights_furniture.tactical_rehearsal_table":"Tactical Rehearsal Table",
   "block.arknights_furniture.tactical_support_board":"Tactical Support Board",
 
+  "block.arknights_furniture.ceiling_mounted_fluorescent_lamp":"Ceiling Mounted Fluorescent Lamp",
+  "block.arknights_furniture.cello_for_sale":"Cello For Sale",
+  "block.arknights_furniture.decorative_ceiling":"Decorative Ceiling",
+  "block.arknights_furniture.fire_sound":"Fire Sound",
+  "block.arknights_furniture.instrument_repair_table":"Instrument Repair Table",
+  "block.arknights_furniture.legendary_record_shelf":"Legendary Record Shelf",
+  "block.arknights_furniture.maintenance_desk_work_light":"Maintenance Desk Work Light",
+  "block.arknights_furniture.minimalist_sofa_chair":"Minimalist Sofa Chair",
+  "block.arknights_furniture.old_fashioned_phonograph":"Old Fashioned Phonograph",
+  "block.arknights_furniture.solid_wood_chandelier":"Solid Wood Chandelier",
+  "block.arknights_furniture.supporting_tool_rack":"Supporting Tool Rack",
+
   "itemgroup.logo": "LOGO Group",
 
   "itemgroup.freight_warehouse": "Freight Warehouse",
@@ -754,6 +766,7 @@
   "itemGroup.impression_of_the_castle": "Impression Of The Castle",
   "itemGroup.lateran_notary_lounge": "Lateran Notary Lounge",
   "itemGroup.storm_commando_war_room": "Storm Commando War Room",
+  "itemGroup.musical_instrument_repair_workshop": "Musical Instrument Repair Workshop",
 
   "painting.arknights_furniture.unconfirmed_biological_skeleton.title":"Unconfirmed Biological Skeleton",
   "painting.arknights_furniture.unconfirmed_biological_skeleton.author":"Hypergryph",

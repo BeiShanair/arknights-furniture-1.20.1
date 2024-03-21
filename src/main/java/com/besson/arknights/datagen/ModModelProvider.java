@@ -693,6 +693,18 @@ public class ModModelProvider extends FabricModelProvider {
         blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.TACTICAL_REHEARSAL_TABLE);
         blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.TACTICAL_SUPPORT_BOARD);
 
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.CEILING_MOUNTED_FLUORESCENT_LAMP);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.CELLO_FOR_SALE);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.DECORATIVE_CEILING);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.FIRE_SOUND);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.INSTRUMENT_REPAIR_TABLE);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.LEGENDARY_RECORD_SHELF);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.MAINTENANCE_DESK_WORK_LIGHT);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.MINIMALIST_SOFA_CHAIR);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.OLD_FASHIONED_PHONOGRAPH);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.SOLID_WOOD_CHANDELIER);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.SUPPORTING_TOOL_RACK);
+
     }
 
     @Override

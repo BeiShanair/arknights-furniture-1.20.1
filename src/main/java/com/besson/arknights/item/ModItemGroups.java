@@ -936,6 +936,23 @@ public class ModItemGroups {
                         entries.add(ModBlocks.TACTICAL_REHEARSAL_TABLE);
                         entries.add(ModBlocks.TACTICAL_SUPPORT_BOARD);
                     }).build());
+
+    public static final ItemGroup MUSICAL_INSTRUMENT_REPAIR_WORKSHOP = Registry.register(Registries.ITEM_GROUP,
+            new Identifier(ArknightsFurniture.MOD_ID,"musical_instrument_repair_workshop"),
+            FabricItemGroup.builder().displayName(Text.translatable("itemGroup.musical_instrument_repair_workshop"))
+                    .icon(() -> new ItemStack(ModBlocks.INSTRUMENT_REPAIR_TABLE)).entries((displayContext, entries) -> {
+                        entries.add(ModBlocks.CEILING_MOUNTED_FLUORESCENT_LAMP);
+                        entries.add(ModBlocks.CELLO_FOR_SALE);
+                        entries.add(ModBlocks.DECORATIVE_CEILING);
+                        entries.add(ModBlocks.FIRE_SOUND);
+                        entries.add(ModBlocks.INSTRUMENT_REPAIR_TABLE);
+                        entries.add(ModBlocks.LEGENDARY_RECORD_SHELF);
+                        entries.add(ModBlocks.MAINTENANCE_DESK_WORK_LIGHT);
+                        entries.add(ModBlocks.MINIMALIST_SOFA_CHAIR);
+                        entries.add(ModBlocks.OLD_FASHIONED_PHONOGRAPH);
+                        entries.add(ModBlocks.SOLID_WOOD_CHANDELIER);
+                        entries.add(ModBlocks.SUPPORTING_TOOL_RACK);
+                    }).build());
     // public static final ItemGroup  = Registry.register(Registries.ITEM_GROUP,
     //        new Identifier(ArknightsFurniture.MOD_ID,""),
     //        FabricItemGroup.builder().displayName(Text.translatable("itemgroup."))

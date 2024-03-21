@@ -29,6 +29,7 @@ import com.besson.arknights.block.LifeCycleModule12.*;
 import com.besson.arknights.block.LongmenRestaurant.*;
 import com.besson.arknights.block.MansfieldCell.*;
 import com.besson.arknights.block.MeditationGarden.*;
+import com.besson.arknights.block.MusicalInstrumentRepairWorkshop.*;
 import com.besson.arknights.block.OfficeoftheFirstAidExpertGroup.*;
 import com.besson.arknights.block.PenguinLogisticsSafeHouse.*;
 import com.besson.arknights.block.QuickChainPizzaShops.*;
@@ -759,6 +760,18 @@ public class ModBlocks {
     public static final Block TACTICAL_INTELLIGENCE_HANGING_BOARD = registerBlock("tactical_intelligence_hanging_board",new TacticalIntelligenceHangingBoard(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
     public static final Block TACTICAL_REHEARSAL_TABLE = registerBlock("tactical_rehearsal_table",new TacticalRehearsalTable(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
     public static final Block TACTICAL_SUPPORT_BOARD = registerBlock("tactical_support_board",new TacticalSupportBoard(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+
+    public static final Block CEILING_MOUNTED_FLUORESCENT_LAMP = registerBlock("ceiling_mounted_fluorescent_lamp",new CeilingMountedFluorescentLamp(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+    public static final Block CELLO_FOR_SALE = registerBlock("cello_for_sale",new CelloForSale(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+    public static final Block DECORATIVE_CEILING = registerBlock("decorative_ceiling",new DecorativeCeiling(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+    public static final Block FIRE_SOUND = registerBlock("fire_sound",new FireSound(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+    public static final Block INSTRUMENT_REPAIR_TABLE = registerBlock("instrument_repair_table",new InstrumentRepairTable(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+    public static final Block LEGENDARY_RECORD_SHELF = registerBlock("legendary_record_shelf",new LegendaryRecordShelf(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+    public static final Block MAINTENANCE_DESK_WORK_LIGHT = registerBlock("maintenance_desk_work_light",new MaintenanceDeskWorkLight(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+    public static final Block MINIMALIST_SOFA_CHAIR = registerBlock("minimalist_sofa_chair",new MinimalistSofaChair(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+    public static final Block OLD_FASHIONED_PHONOGRAPH = registerBlock("old_fashioned_phonograph",new OldFashionedPhonograph(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+    public static final Block SOLID_WOOD_CHANDELIER = registerBlock("solid_wood_chandelier",new SolidWoodChandelier(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+    public static final Block SUPPORTING_TOOL_RACK = registerBlock("supporting_tool_rack",new SupportingToolRack(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
 
     private static Block registerBlock(String name,Block block){
         registerBlockItem(name,block);
