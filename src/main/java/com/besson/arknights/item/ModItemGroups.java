@@ -847,6 +847,22 @@ public class ModItemGroups {
     public static final ItemGroup CHERRAG_STYLE_HOTEL = Registry.register(Registries.ITEM_GROUP,
             new Identifier(ArknightsFurniture.MOD_ID,"cherrag_style_hotel"),
             FabricItemGroup.builder().displayName(Text.translatable("itemGroup.cherrag_style_hotel"))
+                    .icon(() -> new ItemStack(ModBlocks.HANDMADE_TEXTILE_MACHINE)).entries((displayContext, entries) -> {
+                        entries.add(ModBlocks.EXOTIC_ROUND_STOOL);
+                        entries.add(ModBlocks.FIRE_PIT_HANGING_FURNACE);
+                        entries.add(ModBlocks.HANDMADE_TEXTILE_MACHINE);
+                        entries.add(ModBlocks.INTEGRATED_SOLID_WOOD_BED);
+                        entries.add(ModBlocks.SERVING_PLATFORM);
+                        entries.add(ModBlocks.SHARP_TOP_VERTICAL_CABINET);
+                        entries.add(ModBlocks.SHIRAZ);
+                        entries.add(ModBlocks.STORAGE_CEILING);
+                        entries.add(ModBlocks.TRADITIONAL_FIRE_PIT_TABLE);
+                        entries.add(ModBlocks.WINDPROOF_CHANDELIER);
+                    }).build());
+
+    public static final ItemGroup YAMASHIRO_TEA_HOUSE = Registry.register(Registries.ITEM_GROUP,
+            new Identifier(ArknightsFurniture.MOD_ID,"yanmashiro_tea_house"),
+            FabricItemGroup.builder().displayName(Text.translatable("itemGroup.yamashiro_tea_house"))
                     .icon(() -> new ItemStack(ModBlocks.LAKE_LIGHT_WATER_COLOR_CURTAIN)).entries((displayContext, entries) -> {
                         entries.add(ModBlocks.DOUBLE_STACKED_CABINET);
                         entries.add(ModBlocks.INVITE_FRIENDS_TO_EXPLORE_LANTERN);

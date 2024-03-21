@@ -8,10 +8,10 @@ import net.minecraft.util.math.BlockPos;
 import net.minecraft.util.shape.VoxelShape;
 import net.minecraft.world.BlockView;
 
-public class NewTeaDustpanRack extends FurnitureHorizontalFacingBlock {
-    public static final VoxelShape SHAPE = Block.createCuboidShape(0, 0, 0, 16, 32, 16);
+public class FirePitHangingFurnace extends FurnitureHorizontalFacingBlock {
+    public static final VoxelShape SHAPE = Block.createCuboidShape(4, 1, 4, 12, 32, 12);
 
-    public NewTeaDustpanRack(Settings settings) {
+    public FirePitHangingFurnace(Settings settings) {
         super(settings);
     }
 

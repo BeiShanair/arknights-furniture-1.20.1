@@ -762,6 +762,17 @@
   "block.arknights_furniture.railing_kit":"Railing Kit",
   "block.arknights_furniture.transparent_potted_plant":"Transparent Potted Plant",
 
+  "block.arknights_furniture.exotic_round_stool":"Exotic Round Stool",
+  "block.arknights_furniture.fire_pit_hanging_furnace":"Fire Pit Hanging Furnace",
+  "block.arknights_furniture.handmade_textile_machine":"Handmade Textile Machine",
+  "block.arknights_furniture.integrated_solid_wood_bed":"Integrated Solid WoodBed",
+  "block.arknights_furniture.serving_platform":"Serving Platform",
+  "block.arknights_furniture.sharp_top_vertical_cabinet":"Sharp Top Vertical Cabinet",
+  "block.arknights_furniture.shiraz":"Shiraz",
+  "block.arknights_furniture.storage_ceiling":"Storage Ceiling",
+  "block.arknights_furniture.traditional_fire_pit_table":"Traditional Fire Pit Table",
+  "block.arknights_furniture.windproof_chandelier":"Windproof Chandelier",
+
   "itemgroup.logo": "LOGO Group",
 
   "itemgroup.freight_warehouse": "Freight Warehouse",
@@ -808,6 +819,7 @@
   "itemGroup.casimir_live_room": "Casimir Live Room",
   "itemGroup.avant_garde_arcade_hall": "Avant-Garde Arcade Hall",
   "itemGroup.cherrag_style_hotel": "Cherrag Style Hotel",
+  "itemGroup.yamashiro_tea_house": "Yamashiro Tea House",
   "itemGroup.carraton_flower_and_light_house": "Carraton Flower And Light House",
   "itemGroup.impression_of_the_castle": "Impression Of The Castle",
   "itemGroup.lateran_notary_lounge": "Lateran Notary Lounge",

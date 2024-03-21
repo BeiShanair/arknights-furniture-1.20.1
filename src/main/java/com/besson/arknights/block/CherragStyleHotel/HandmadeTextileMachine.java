@@ -8,15 +8,20 @@ import net.minecraft.util.math.BlockPos;
 import net.minecraft.util.shape.VoxelShape;
 import net.minecraft.world.BlockView;
 
-public class QingyanTeaCookingPlatform extends FurnitureHorizontalFacingBlock {
-    public static final VoxelShape SHAPE = Block.createCuboidShape(2, 0, 2, 14, 20, 14);
+public class HandmadeTextileMachine extends FurnitureHorizontalFacingBlock {
+    public static final VoxelShape SHAPE_NS = Block.createCuboidShape(-8, 0, 0, 24, 22, 16);
 
-    public QingyanTeaCookingPlatform(Settings settings) {
+    public static final VoxelShape SHAPE_WE = Block.createCuboidShape(0, 0, -8, 16, 22, 24);
+
+    public HandmadeTextileMachine(Settings settings) {
         super(settings);
     }
 
     @Override
     public VoxelShape getOutlineShape(BlockState state, BlockView world, BlockPos pos, ShapeContext context) {
-        return SHAPE;
+        return switch (state.get(FACING)){
+            case WEST, EAST -> SHAPE_WE;
+            default -> SHAPE_NS;
+        };
     }
 }

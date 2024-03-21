@@ -1,4 +1,4 @@
-package com.besson.arknights.block.CherragStyleHotel;
+package com.besson.arknights.block.YamashiroTeahouse;
 
 import com.besson.arknights.block.FurnitureHorizontalFacingBlock;
 import net.minecraft.block.Block;
@@ -8,12 +8,12 @@ import net.minecraft.util.math.BlockPos;
 import net.minecraft.util.shape.VoxelShape;
 import net.minecraft.world.BlockView;
 
-public class DoubleStackedCabinet extends FurnitureHorizontalFacingBlock {
-    public static final VoxelShape SHAPE_NS = Block.createCuboidShape(-3, 0, 2, 19, 20, 14);
+public class ShuEmbroideryYarnPillar extends FurnitureHorizontalFacingBlock {
+    public static final VoxelShape SHAPE_NS = Block.createCuboidShape(2, 0, 7, 14, 32, 9);
 
-    public static final VoxelShape SHAPE_WE = Block.createCuboidShape(2, 0, -3, 14, 20, 19);
+    public static final VoxelShape SHAPE_WE = Block.createCuboidShape(7, 0, 2, 9, 32, 14);
 
-    public DoubleStackedCabinet(Settings settings) {
+    public ShuEmbroideryYarnPillar(Settings settings) {
         super(settings);
     }
 

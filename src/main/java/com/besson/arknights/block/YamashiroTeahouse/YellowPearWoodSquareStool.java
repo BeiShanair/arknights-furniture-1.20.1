@@ -1,4 +1,4 @@
-package com.besson.arknights.block.CherragStyleHotel;
+package com.besson.arknights.block.YamashiroTeahouse;
 
 import com.besson.arknights.block.FurnitureHorizontalFacingBlock;
 import com.besson.arknights.entity.SeatEntity;

@@ -1,4 +1,4 @@
-package com.besson.arknights.block.CherragStyleHotel;
+package com.besson.arknights.block.YamashiroTeahouse;
 
 import com.besson.arknights.block.FurnitureHorizontalFacingBlock;
 import net.minecraft.block.Block;
@@ -8,11 +8,11 @@ import net.minecraft.util.math.BlockPos;
 import net.minecraft.util.shape.VoxelShape;
 import net.minecraft.world.BlockView;
 
-public class TeaPickingBasket extends FurnitureHorizontalFacingBlock {
-    public static final VoxelShape SHAPE = Block.createCuboidShape(3, 0, 3, 13, 9, 13);
+public class InviteFriendsToExploreLantern extends FurnitureHorizontalFacingBlock {
+    public static final VoxelShape SHAPE = Block.createCuboidShape(0,0,0,16,16,16);
 
-    public TeaPickingBasket(Settings settings) {
-        super(settings);
+    public InviteFriendsToExploreLantern(Settings settings) {
+        super(settings.luminance(s -> 15));
     }
 
     @Override

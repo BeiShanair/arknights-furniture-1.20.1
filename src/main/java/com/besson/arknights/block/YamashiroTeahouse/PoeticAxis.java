@@ -1,4 +1,4 @@
-package com.besson.arknights.block.CherragStyleHotel;
+package com.besson.arknights.block.YamashiroTeahouse;
 
 import com.besson.arknights.block.FurnitureHorizontalFacingBlock;
 import net.minecraft.block.Block;
@@ -8,12 +8,12 @@ import net.minecraft.util.math.BlockPos;
 import net.minecraft.util.shape.VoxelShape;
 import net.minecraft.world.BlockView;
 
-public class YellowPearWoodChessTable extends FurnitureHorizontalFacingBlock {
-    public static final VoxelShape SHAPE_NS = Block.createCuboidShape(-6, 0, 0, 22, 16, 16);
+public class PoeticAxis extends FurnitureHorizontalFacingBlock {
+    public static final VoxelShape SHAPE_NS = Block.createCuboidShape(0, 0, 5, 16, 24, 11);
 
-    public static final VoxelShape SHAPE_WE = Block.createCuboidShape(0, 0, -6, 16, 16, 22);
+    public static final VoxelShape SHAPE_WE = Block.createCuboidShape(5, 0, 0, 11, 24, 16);
 
-    public YellowPearWoodChessTable(Settings settings) {
+    public PoeticAxis(Settings settings) {
         super(settings);
     }
 

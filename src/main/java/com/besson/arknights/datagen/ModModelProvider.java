@@ -750,6 +750,17 @@ public class ModModelProvider extends FabricModelProvider {
         blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.RAILING_KIT);
         blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.TRANSPARENT_POTTED_PLANT);
 
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.EXOTIC_ROUND_STOOL);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.FIRE_PIT_HANGING_FURNACE);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.HANDMADE_TEXTILE_MACHINE);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.INTEGRATED_SOLID_WOOD_BED);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.SERVING_PLATFORM);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.SHARP_TOP_VERTICAL_CABINET);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.SHIRAZ);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.STORAGE_CEILING);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.TRADITIONAL_FIRE_PIT_TABLE);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.WINDPROOF_CHANDELIER);
+
     }
 
     @Override
