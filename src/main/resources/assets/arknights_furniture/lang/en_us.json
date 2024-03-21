@@ -725,6 +725,19 @@
   "block.arknights_furniture.movable_soft_stool":"Movable Soft Stool",
   "block.arknights_furniture.shell_shaped_leisure_chair":"Shell Shaped Leisure Chair",
 
+  "block.arknights_furniture.antique_wooden_speaker":"Antique Wooden Speaker",
+  "block.arknights_furniture.an_array_of_stars":"An Array Of Stars",
+  "block.arknights_furniture.art_floor_lamp":"Art Floor Lamp",
+  "block.arknights_furniture.a_quaint_short_cabinet":"A Quaint Short Cabinet",
+  "block.arknights_furniture.dark_clouds2":"Dark Clouds2",
+  "block.arknights_furniture.instrumental_ensemble":"Instrumental Ensemble",
+  "block.arknights_furniture.music_rack_set":"Music RackSet",
+  "block.arknights_furniture.second_hand_piano_set":"Second Hand PianoSet",
+  "block.arknights_furniture.staggered_hanger":"Staggered Hanger",
+  "block.arknights_furniture.the_spectrum_rack_set_in_use":"The Spectrum Rack Set In Use",
+  "block.arknights_furniture.triangle_coffee_table":"Triangle Coffee Table",
+  "block.arknights_furniture.unfinished_manuscript":"Unfinished Manuscript",
+
   "itemgroup.logo": "LOGO Group",
 
   "itemgroup.freight_warehouse": "Freight Warehouse",
@@ -777,6 +790,7 @@
   "itemGroup.storm_commando_war_room": "Storm Commando War Room",
   "itemGroup.musical_instrument_repair_workshop": "Musical Instrument Repair Workshop",
   "itemGroup.fools_room": "Fool's Room",
+  "itemGroup.impression_music_room_in_the_sunset_area": "Impression Music Room In The Sunset Area",
 
   "painting.arknights_furniture.unconfirmed_biological_skeleton.title":"Unconfirmed Biological Skeleton",
   "painting.arknights_furniture.unconfirmed_biological_skeleton.author":"Hypergryph",

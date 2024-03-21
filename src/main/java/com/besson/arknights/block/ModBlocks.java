@@ -20,6 +20,7 @@ import com.besson.arknights.block.HuangDengDengGameRoom.*;
 import com.besson.arknights.block.IberiaResort.*;
 import com.besson.arknights.block.IllusionaryBiography.*;
 import com.besson.arknights.block.ImitationoftheLivingroomoftheLightHouse.*;
+import com.besson.arknights.block.ImpressionMusicRoomInTheSunsetArea.*;
 import com.besson.arknights.block.ImpressionOfTheCastle.*;
 import com.besson.arknights.block.KnightsoftheRedPineLounge.*;
 import com.besson.arknights.block.LancellarBallroom.*;
@@ -782,6 +783,19 @@ public class ModBlocks {
     public static final Block FOOLS_TABLE = registerBlock("fools_table",new FoolsTable(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
     public static final Block MOVABLE_SOFT_STOOL = registerBlock("movable_soft_stool",new MovableSoftStool(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
     public static final Block SHELL_SHAPED_LEISURE_CHAIR = registerBlock("shell_shaped_leisure_chair",new ShellShapedLeisureChair(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+
+    public static final Block ANTIQUE_WOODEN_SPEAKER = registerBlock("antique_wooden_speaker",new AntiqueWoodenSpeaker(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+    public static final Block AN_ARRAY_OF_STARS = registerBlock("an_array_of_stars",new AnArrayOfStars(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+    public static final Block ART_FLOOR_LAMP = registerBlock("art_floor_lamp",new ArtFloorLamp(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+    public static final Block A_QUAINT_SHORT_CABINET = registerBlock("a_quaint_short_cabinet",new AQuaintShortCabinet(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+    public static final Block DARK_CLOUDS2 = registerBlock("dark_clouds2",new DarkClouds2(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+    public static final Block INSTRUMENTAL_ENSEMBLE = registerBlock("instrumental_ensemble",new InstrumentalEnsemble(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+    public static final Block MUSIC_RACK_SET = registerBlock("music_rack_set",new MusicRackSet(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+    public static final Block SECOND_HAND_PIANO_SET = registerBlock("second_hand_piano_set",new SecondHandPianoSet(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+    public static final Block STAGGERED_HANGER = registerBlock("staggered_hanger",new StaggeredHanger(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+    public static final Block THE_SPECTRUM_RACK_SET_IN_USE = registerBlock("the_spectrum_rack_set_in_use",new TheSpectrumRackSetInUse(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+    public static final Block TRIANGLE_COFFEE_TABLE = registerBlock("triangle_coffee_table",new TriangleCoffeeTable(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+    public static final Block UNFINISHED_MANUSCRIPT = registerBlock("unfinished_manuscript",new UnfinishedManuscript(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
 
     private static Block registerBlock(String name,Block block){
         registerBlockItem(name,block);

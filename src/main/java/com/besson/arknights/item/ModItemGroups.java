@@ -967,6 +967,24 @@ public class ModItemGroups {
                         entries.add(ModBlocks.MOVABLE_SOFT_STOOL);
                         entries.add(ModBlocks.SHELL_SHAPED_LEISURE_CHAIR);
                     }).build());
+
+    public static final ItemGroup IMPRESSION_MUSIC_ROOM_IN_THE_SUNSET_AREA = Registry.register(Registries.ITEM_GROUP,
+            new Identifier(ArknightsFurniture.MOD_ID,"impression_music_room_in_the_sunset_area"),
+            FabricItemGroup.builder().displayName(Text.translatable("itemGroup.impression_music_room_in_the_sunset_area"))
+                    .icon(() -> new ItemStack(ModBlocks.ANTIQUE_WOODEN_SPEAKER)).entries((displayContext, entries) -> {
+                        entries.add(ModBlocks.ANTIQUE_WOODEN_SPEAKER);
+                        entries.add(ModBlocks.AN_ARRAY_OF_STARS);
+                        entries.add(ModBlocks.ART_FLOOR_LAMP);
+                        entries.add(ModBlocks.A_QUAINT_SHORT_CABINET);
+                        entries.add(ModBlocks.DARK_CLOUDS2);
+                        entries.add(ModBlocks.INSTRUMENTAL_ENSEMBLE);
+                        entries.add(ModBlocks.MUSIC_RACK_SET);
+                        entries.add(ModBlocks.SECOND_HAND_PIANO_SET);
+                        entries.add(ModBlocks.STAGGERED_HANGER);
+                        entries.add(ModBlocks.THE_SPECTRUM_RACK_SET_IN_USE);
+                        entries.add(ModBlocks.TRIANGLE_COFFEE_TABLE);
+                        entries.add(ModBlocks.UNFINISHED_MANUSCRIPT);
+                    }).build());
     // public static final ItemGroup  = Registry.register(Registries.ITEM_GROUP,
     //        new Identifier(ArknightsFurniture.MOD_ID,""),
     //        FabricItemGroup.builder().displayName(Text.translatable("itemgroup."))

@@ -714,6 +714,19 @@ public class ModModelProvider extends FabricModelProvider {
         blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.MOVABLE_SOFT_STOOL);
         blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.SHELL_SHAPED_LEISURE_CHAIR);
 
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.ANTIQUE_WOODEN_SPEAKER);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.AN_ARRAY_OF_STARS);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.ART_FLOOR_LAMP);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.A_QUAINT_SHORT_CABINET);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.DARK_CLOUDS2);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.INSTRUMENTAL_ENSEMBLE);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.MUSIC_RACK_SET);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.SECOND_HAND_PIANO_SET);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.STAGGERED_HANGER);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.THE_SPECTRUM_RACK_SET_IN_USE);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.TRIANGLE_COFFEE_TABLE);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.UNFINISHED_MANUSCRIPT);
+
     }
 
     @Override

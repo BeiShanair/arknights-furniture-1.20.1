@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=east": {
+      "model": "arknights_furniture:block/the_spectrum_rack_set_in_use",
+      "y": 90
+    },
+    "facing=north": {
+      "model": "arknights_furniture:block/the_spectrum_rack_set_in_use"
+    },
+    "facing=south": {
+      "model": "arknights_furniture:block/the_spectrum_rack_set_in_use",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "arknights_furniture:block/the_spectrum_rack_set_in_use",
+      "y": 270
+    }
+  }
+}
