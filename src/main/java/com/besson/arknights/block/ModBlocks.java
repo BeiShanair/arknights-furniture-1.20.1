@@ -35,6 +35,7 @@ import com.besson.arknights.block.MusicalInstrumentRepairWorkshop.*;
 import com.besson.arknights.block.OfficeoftheFirstAidExpertGroup.*;
 import com.besson.arknights.block.PenguinLogisticsSafeHouse.*;
 import com.besson.arknights.block.QuickChainPizzaShops.*;
+import com.besson.arknights.block.RhineExperimentalCultureChamber.*;
 import com.besson.arknights.block.RhodeIslandModernMusicRehearsalRoom.*;
 import com.besson.arknights.block.RhodeIslandOfficeofPersonnel.*;
 import com.besson.arknights.block.RhodeIslandWorkshop.*;
@@ -796,6 +797,19 @@ public class ModBlocks {
     public static final Block THE_SPECTRUM_RACK_SET_IN_USE = registerBlock("the_spectrum_rack_set_in_use",new TheSpectrumRackSetInUse(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
     public static final Block TRIANGLE_COFFEE_TABLE = registerBlock("triangle_coffee_table",new TriangleCoffeeTable(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
     public static final Block UNFINISHED_MANUSCRIPT = registerBlock("unfinished_manuscript",new UnfinishedManuscript(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+
+    public static final Block DISINFECTION_ACCESS_CONTROL = registerBlock("disinfection_access_control",new DisinfectionAccessControl(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+    public static final Block DUAL_SCREEN_DISPLAY_STATION = registerBlock("dual_screen_display_station",new DualScreenDisplayStation(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+    public static final Block EXPERIMENTAL_CONSOLE = registerBlock("experimental_console",new ExperimentalConsole(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+    public static final Block FIELD_OF_DREAM = registerBlock("field_of_dream",new FieldOfDream(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+    public static final Block FILTER_EYE_PROTECTION_CEILING = registerBlock("filter_eye_protection_ceiling",new FilterEyeProtectionCeiling(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+    public static final Block GAZE = registerBlock("gaze",new Gaze(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+    public static final Block MEDICAL_CART = registerBlock("medical_cart",new MedicalCart(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+    public static final Block MEDICAL_ROUND_STOOL = registerBlock("medical_round_stool",new MedicalRoundStool(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+    public static final Block RHINE_PRIVATE_FOLDER = registerBlock("rhine_private_folder",new RhinePrivateFolder(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+    public static final Block RHINE_PRIVATE_FOLDER2 = registerBlock("rhine_private_folder2",new RhinePrivateFolder(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+    public static final Block THE_BEGINNING_OF_DREAMS = registerBlock("the_beginning_of_dreams",new TheBeginningOfDreams(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+    public static final Block TREE_OF_LIFE = registerBlock("tree_of_life",new TreeOfLife(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
 
     private static Block registerBlock(String name,Block block){
         registerBlockItem(name,block);

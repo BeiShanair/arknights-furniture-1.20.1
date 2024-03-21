@@ -727,6 +727,19 @@ public class ModModelProvider extends FabricModelProvider {
         blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.TRIANGLE_COFFEE_TABLE);
         blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.UNFINISHED_MANUSCRIPT);
 
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.DISINFECTION_ACCESS_CONTROL);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.DUAL_SCREEN_DISPLAY_STATION);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.EXPERIMENTAL_CONSOLE);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.FIELD_OF_DREAM);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.FILTER_EYE_PROTECTION_CEILING);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.GAZE);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.MEDICAL_CART);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.MEDICAL_ROUND_STOOL);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.RHINE_PRIVATE_FOLDER);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.RHINE_PRIVATE_FOLDER2);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.THE_BEGINNING_OF_DREAMS);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.TREE_OF_LIFE);
+
     }
 
     @Override

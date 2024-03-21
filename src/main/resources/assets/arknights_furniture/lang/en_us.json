@@ -738,6 +738,19 @@
   "block.arknights_furniture.triangle_coffee_table":"Triangle Coffee Table",
   "block.arknights_furniture.unfinished_manuscript":"Unfinished Manuscript",
 
+  "block.arknights_furniture.disinfection_access_control":"Disinfection Access Control",
+  "block.arknights_furniture.dual_screen_display_station":"Dual Screen Display Station",
+  "block.arknights_furniture.experimental_console":"Experimental Console",
+  "block.arknights_furniture.field_of_dream":"Field Of Dream",
+  "block.arknights_furniture.filter_eye_protection_ceiling":"Filter Eye Protection Ceiling",
+  "block.arknights_furniture.gaze":"Gaze",
+  "block.arknights_furniture.medical_cart":"Medical Cart",
+  "block.arknights_furniture.medical_round_stool":"Medical Round Stool",
+  "block.arknights_furniture.rhine_private_folder":"Rhine Private Folder",
+  "block.arknights_furniture.rhine_private_folder2":"Rhine Private Folder2",
+  "block.arknights_furniture.the_beginning_of_dreams":"The Beginning Of Dreams",
+  "block.arknights_furniture.tree_of_life":"Tree Of Life",
+
   "itemgroup.logo": "LOGO Group",
 
   "itemgroup.freight_warehouse": "Freight Warehouse",
@@ -791,6 +804,7 @@
   "itemGroup.musical_instrument_repair_workshop": "Musical Instrument Repair Workshop",
   "itemGroup.fools_room": "Fool's Room",
   "itemGroup.impression_music_room_in_the_sunset_area": "Impression Music Room In The Sunset Area",
+  "itemGroup.rhine_experimental_culture_chamber": "Rhine Experimental Culture Chamber",
 
   "painting.arknights_furniture.unconfirmed_biological_skeleton.title":"Unconfirmed Biological Skeleton",
   "painting.arknights_furniture.unconfirmed_biological_skeleton.author":"Hypergryph",

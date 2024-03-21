@@ -985,6 +985,24 @@ public class ModItemGroups {
                         entries.add(ModBlocks.TRIANGLE_COFFEE_TABLE);
                         entries.add(ModBlocks.UNFINISHED_MANUSCRIPT);
                     }).build());
+
+    public static final ItemGroup RHINE_EXPERIMENTAL_CULTURE_CHAMBER = Registry.register(Registries.ITEM_GROUP,
+            new Identifier(ArknightsFurniture.MOD_ID,"rhine_experimental_culture_chamber"),
+            FabricItemGroup.builder().displayName(Text.translatable("itemGroup.rhine_experimental_culture_chamber"))
+                    .icon(() -> new ItemStack(ModBlocks.GAZE)).entries((displayContext, entries) -> {
+                        entries.add(ModBlocks.DISINFECTION_ACCESS_CONTROL);
+                        entries.add(ModBlocks.DUAL_SCREEN_DISPLAY_STATION);
+                        entries.add(ModBlocks.EXPERIMENTAL_CONSOLE);
+                        entries.add(ModBlocks.FIELD_OF_DREAM);
+                        entries.add(ModBlocks.FILTER_EYE_PROTECTION_CEILING);
+                        entries.add(ModBlocks.GAZE);
+                        entries.add(ModBlocks.MEDICAL_CART);
+                        entries.add(ModBlocks.MEDICAL_ROUND_STOOL);
+                        entries.add(ModBlocks.RHINE_PRIVATE_FOLDER);
+                        entries.add(ModBlocks.RHINE_PRIVATE_FOLDER2);
+                        entries.add(ModBlocks.THE_BEGINNING_OF_DREAMS);
+                        entries.add(ModBlocks.TREE_OF_LIFE);
+                    }).build());
     // public static final ItemGroup  = Registry.register(Registries.ITEM_GROUP,
     //        new Identifier(ArknightsFurniture.MOD_ID,""),
     //        FabricItemGroup.builder().displayName(Text.translatable("itemgroup."))
