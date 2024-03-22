@@ -773,6 +773,17 @@
   "block.arknights_furniture.traditional_fire_pit_table":"Traditional Fire Pit Table",
   "block.arknights_furniture.windproof_chandelier":"Windproof Chandelier",
 
+  "block.arknights_furniture.bell_suspended_ceiling":"Bell Suspended Ceiling",
+  "block.arknights_furniture.candy_fairys_table":"Candy Fairys Table",
+  "block.arknights_furniture.card_stools":"Card Stools",
+  "block.arknights_furniture.chess_standing_decoration":"Chess Standing Decoration",
+  "block.arknights_furniture.copper_arc_pendant_lamp":"Copper Arc Pendant Lamp",
+  "block.arknights_furniture.refreshment_sofa":"Refreshment Sofa",
+  "block.arknights_furniture.soft_tea_bed":"Soft Tea Bed",
+  "block.arknights_furniture.thread_floor_lamp":"Thread Floor Lamp",
+  "block.arknights_furniture.toys_and_old_friends":"Toys And Old Friends",
+  "block.arknights_furniture.vine_ceiling_lamp_group":"Vine Ceiling Lamp Group",
+
   "itemgroup.logo": "LOGO Group",
 
   "itemgroup.freight_warehouse": "Freight Warehouse",
@@ -829,6 +840,7 @@
   "itemGroup.impression_music_room_in_the_sunset_area": "Impression Music Room In The Sunset Area",
   "itemGroup.rhine_experimental_culture_chamber": "Rhine Experimental Culture Chamber",
   "itemGroup.big_puddle_happy_experience_house": "Big Puddle Happy Experience House",
+  "itemGroup.the_banquet_hall_of_the_candy_fairy": "The Banquet Hall Of The Candy Fairy",
 
   "painting.arknights_furniture.unconfirmed_biological_skeleton.title":"Unconfirmed Biological Skeleton",
   "painting.arknights_furniture.unconfirmed_biological_skeleton.author":"Hypergryph",

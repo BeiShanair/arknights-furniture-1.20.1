@@ -8,6 +8,7 @@ import com.besson.arknights.block.CarratonFlowerAndLightHouse.*;
 import com.besson.arknights.block.CasimirLiveRoom.*;
 import com.besson.arknights.block.ChensOffice.*;
 import com.besson.arknights.block.CherragStyleHotel.*;
+import com.besson.arknights.block.TheBanquetHallOfTheCandyFairy.*;
 import com.besson.arknights.block.YamashiroTeahouse.*;
 import com.besson.arknights.block.ColumbiaCafe.*;
 import com.besson.arknights.block.ColumbiaModernHotel.*;
@@ -834,6 +835,17 @@ public class ModBlocks {
     public static final Block STORAGE_CEILING = registerBlock("storage_ceiling",new StorageCeiling(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
     public static final Block TRADITIONAL_FIRE_PIT_TABLE = registerBlock("traditional_fire_pit_table",new TraditionalFirePitTable(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
     public static final Block WINDPROOF_CHANDELIER = registerBlock("windproof_chandelier",new WindproofChandelier(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+
+    public static final Block BELL_SUSPENDED_CEILING = registerBlock("bell_suspended_ceiling",new BellSuspendedCeiling(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+    public static final Block CANDY_FAIRYS_TABLE = registerBlock("candy_fairys_table",new CandyFairysTable(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+    public static final Block CARD_STOOLS = registerBlock("card_stools",new CardStools(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+    public static final Block CHESS_STANDING_DECORATION = registerBlock("chess_standing_decoration",new ChessStandingDecoration(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+    public static final Block COPPER_ARC_PENDANT_LAMP = registerBlock("copper_arc_pendant_lamp",new CopperArcPendantLamp(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+    public static final Block REFRESHMENT_SOFA = registerBlock("refreshment_sofa",new RefreshmentSofa(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+    public static final Block SOFT_TEA_BED = registerBlock("soft_tea_bed",new SoftTeaBed(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+    public static final Block THREAD_FLOOR_LAMP = registerBlock("thread_floor_lamp",new ThreadFloorLamp(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+    public static final Block TOYS_AND_OLD_FRIENDS = registerBlock("toys_and_old_friends",new ToysAndOldFriends(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+    public static final Block VINE_CEILING_LAMP_GROUP = registerBlock("vine_ceiling_lamp_group",new VineCeilingLampGroup(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
 
     private static Block registerBlock(String name,Block block){
         registerBlockItem(name,block);

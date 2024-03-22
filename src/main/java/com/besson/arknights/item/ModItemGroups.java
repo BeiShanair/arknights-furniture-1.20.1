@@ -1034,7 +1034,22 @@ public class ModItemGroups {
                         entries.add(ModBlocks.PURE_WHITE_CEILING_LAMP);
                         entries.add(ModBlocks.RAILING_KIT);
                         entries.add(ModBlocks.TRANSPARENT_POTTED_PLANT);
+                    }).build());
 
+    public static final ItemGroup THE_BANQUET_HALL_OF_THE_CANDY_FAIRY = Registry.register(Registries.ITEM_GROUP,
+            new Identifier(ArknightsFurniture.MOD_ID,"the_banquet_hall_of_the_candy_fairy"),
+            FabricItemGroup.builder().displayName(Text.translatable("itemGroup.the_banquet_hall_of_the_candy_fairy"))
+                    .icon(() -> new ItemStack(ModBlocks.BELL_SUSPENDED_CEILING)).entries((displayContext, entries) -> {
+                        entries.add(ModBlocks.BELL_SUSPENDED_CEILING);
+                        entries.add(ModBlocks.CANDY_FAIRYS_TABLE);
+                        entries.add(ModBlocks.CARD_STOOLS);
+                        entries.add(ModBlocks.CHESS_STANDING_DECORATION);
+                        entries.add(ModBlocks.COPPER_ARC_PENDANT_LAMP);
+                        entries.add(ModBlocks.REFRESHMENT_SOFA);
+                        entries.add(ModBlocks.SOFT_TEA_BED);
+                        entries.add(ModBlocks.THREAD_FLOOR_LAMP);
+                        entries.add(ModBlocks.TOYS_AND_OLD_FRIENDS);
+                        entries.add(ModBlocks.VINE_CEILING_LAMP_GROUP);
                     }).build());
     // public static final ItemGroup  = Registry.register(Registries.ITEM_GROUP,
     //        new Identifier(ArknightsFurniture.MOD_ID,""),
