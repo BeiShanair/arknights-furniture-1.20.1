@@ -784,6 +784,18 @@
   "block.arknights_furniture.toys_and_old_friends":"Toys And Old Friends",
   "block.arknights_furniture.vine_ceiling_lamp_group":"Vine Ceiling Lamp Group",
 
+  "block.arknights_furniture.camping_art_pendant":"Camping Art Pendant",
+  "block.arknights_furniture.camping_barbecue_rack":"Camping Barbecue Rack",
+  "block.arknights_furniture.camping_bench":"Camping Bench",
+  "block.arknights_furniture.camping_ceiling_light":"Camping Ceiling Light",
+  "block.arknights_furniture.camping_decoration_ceiling":"Camping Decoration Ceiling",
+  "block.arknights_furniture.camping_kitchen_table":"Camping Kitchen Table",
+  "block.arknights_furniture.camping_table":"Camping Table",
+  "block.arknights_furniture.carbon_fire_basin_to_be_ignited":"Carbon Fire Basin To Be Ignited",
+  "block.arknights_furniture.portable_fishing_gear_set":"Portable Fishing GearSet",
+  "block.arknights_furniture.wilderness_moss_and_stone":"Wilderness Moss And Stone",
+  "block.arknights_furniture.wilderness_radio_station":"Wilderness Radio Station",
+
   "itemgroup.logo": "LOGO Group",
 
   "itemgroup.freight_warehouse": "Freight Warehouse",
@@ -841,6 +853,7 @@
   "itemGroup.rhine_experimental_culture_chamber": "Rhine Experimental Culture Chamber",
   "itemGroup.big_puddle_happy_experience_house": "Big Puddle Happy Experience House",
   "itemGroup.the_banquet_hall_of_the_candy_fairy": "The Banquet Hall Of The Candy Fairy",
+  "itemGroup.tswinek_country_camp": "Tswinek Country Camp",
 
   "painting.arknights_furniture.unconfirmed_biological_skeleton.title":"Unconfirmed Biological Skeleton",
   "painting.arknights_furniture.unconfirmed_biological_skeleton.author":"Hypergryph",

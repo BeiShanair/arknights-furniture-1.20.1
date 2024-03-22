@@ -1051,6 +1051,23 @@ public class ModItemGroups {
                         entries.add(ModBlocks.TOYS_AND_OLD_FRIENDS);
                         entries.add(ModBlocks.VINE_CEILING_LAMP_GROUP);
                     }).build());
+
+    public static final ItemGroup TSWINEK_COUNTRY_CAMP = Registry.register(Registries.ITEM_GROUP,
+            new Identifier(ArknightsFurniture.MOD_ID,"tswinek_country_camp"),
+            FabricItemGroup.builder().displayName(Text.translatable("itemGroup.tswinek_country_camp"))
+                    .icon(() -> new ItemStack(ModBlocks.CAMPING_BENCH)).entries((displayContext, entries) -> {
+                        entries.add(ModBlocks.CAMPING_ART_PENDANT);
+                        entries.add(ModBlocks.CAMPING_BARBECUE_RACK);
+                        entries.add(ModBlocks.CAMPING_BENCH);
+                        entries.add(ModBlocks.CAMPING_CEILING_LIGHT);
+                        entries.add(ModBlocks.CAMPING_DECORATION_CEILING);
+                        entries.add(ModBlocks.CAMPING_KITCHEN_TABLE);
+                        entries.add(ModBlocks.CAMPING_TABLE);
+                        entries.add(ModBlocks.CARBON_FIRE_BASIN_TO_BE_IGNITED);
+                        entries.add(ModBlocks.PORTABLE_FISHING_GEAR_SET);
+                        entries.add(ModBlocks.WILDERNESS_MOSS_AND_STONE);
+                        entries.add(ModBlocks.WILDERNESS_RADIO_STATION);
+                    }).build());
     // public static final ItemGroup  = Registry.register(Registries.ITEM_GROUP,
     //        new Identifier(ArknightsFurniture.MOD_ID,""),
     //        FabricItemGroup.builder().displayName(Text.translatable("itemgroup."))

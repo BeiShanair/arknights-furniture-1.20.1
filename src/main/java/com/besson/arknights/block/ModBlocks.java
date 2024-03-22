@@ -9,6 +9,7 @@ import com.besson.arknights.block.CasimirLiveRoom.*;
 import com.besson.arknights.block.ChensOffice.*;
 import com.besson.arknights.block.CherragStyleHotel.*;
 import com.besson.arknights.block.TheBanquetHallOfTheCandyFairy.*;
+import com.besson.arknights.block.TswinekCountryCamp.*;
 import com.besson.arknights.block.YamashiroTeahouse.*;
 import com.besson.arknights.block.ColumbiaCafe.*;
 import com.besson.arknights.block.ColumbiaModernHotel.*;
@@ -846,6 +847,18 @@ public class ModBlocks {
     public static final Block THREAD_FLOOR_LAMP = registerBlock("thread_floor_lamp",new ThreadFloorLamp(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
     public static final Block TOYS_AND_OLD_FRIENDS = registerBlock("toys_and_old_friends",new ToysAndOldFriends(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
     public static final Block VINE_CEILING_LAMP_GROUP = registerBlock("vine_ceiling_lamp_group",new VineCeilingLampGroup(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+
+    public static final Block CAMPING_ART_PENDANT = registerBlock("camping_art_pendant",new CampingArtPendant(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+    public static final Block CAMPING_BARBECUE_RACK = registerBlock("camping_barbecue_rack",new CampingBarbecueRack(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+    public static final Block CAMPING_BENCH = registerBlock("camping_bench",new CampingBench(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+    public static final Block CAMPING_CEILING_LIGHT = registerBlock("camping_ceiling_light",new CampingCeilingLight(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+    public static final Block CAMPING_DECORATION_CEILING = registerBlock("camping_decoration_ceiling",new CampingDecorationCeiling(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+    public static final Block CAMPING_KITCHEN_TABLE = registerBlock("camping_kitchen_table",new CampingKitchenTable(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+    public static final Block CAMPING_TABLE = registerBlock("camping_table",new CampingTable(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+    public static final Block CARBON_FIRE_BASIN_TO_BE_IGNITED = registerBlock("carbon_fire_basin_to_be_ignited",new CarbonFireBasinToBeIgnited(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+    public static final Block PORTABLE_FISHING_GEAR_SET = registerBlock("portable_fishing_gear_set",new PortableFishingGearSet(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+    public static final Block WILDERNESS_MOSS_AND_STONE = registerBlock("wilderness_moss_and_stone",new WildernessMossAndStone(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+    public static final Block WILDERNESS_RADIO_STATION = registerBlock("wilderness_radio_station",new WildernessRadioStation(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
 
     private static Block registerBlock(String name,Block block){
         registerBlockItem(name,block);

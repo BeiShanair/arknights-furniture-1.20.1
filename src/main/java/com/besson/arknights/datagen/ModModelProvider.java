@@ -772,6 +772,18 @@ public class ModModelProvider extends FabricModelProvider {
         blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.TOYS_AND_OLD_FRIENDS);
         blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.VINE_CEILING_LAMP_GROUP);
 
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.CAMPING_ART_PENDANT);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.CAMPING_BARBECUE_RACK);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.CAMPING_BENCH);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.CAMPING_CEILING_LIGHT);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.CAMPING_DECORATION_CEILING);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.CAMPING_KITCHEN_TABLE);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.CAMPING_TABLE);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.CARBON_FIRE_BASIN_TO_BE_IGNITED);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.PORTABLE_FISHING_GEAR_SET);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.WILDERNESS_MOSS_AND_STONE);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.WILDERNESS_RADIO_STATION);
+
     }
 
     @Override
