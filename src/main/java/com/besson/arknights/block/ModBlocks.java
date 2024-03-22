@@ -8,6 +8,7 @@ import com.besson.arknights.block.CarratonFlowerAndLightHouse.*;
 import com.besson.arknights.block.CasimirLiveRoom.*;
 import com.besson.arknights.block.ChensOffice.*;
 import com.besson.arknights.block.CherragStyleHotel.*;
+import com.besson.arknights.block.ClassroomInSanMarceau.*;
 import com.besson.arknights.block.SeasideImpressions.*;
 import com.besson.arknights.block.TheBanquetHallOfTheCandyFairy.*;
 import com.besson.arknights.block.TswinekCountryCamp.*;
@@ -874,6 +875,22 @@ public class ModBlocks {
     public static final Block WOOD_STORAGE_CABINET = registerBlock("wood_storage_cabinet",new WoodStorageCabinet(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
     public static final Block XISTA_BEACH_BENCH = registerBlock("xista_beach_bench",new XistaBeachBench(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
     public static final Block XISTA_LEISURE_CHAIR = registerBlock("xista_leisure_chair",new XistaLeisureChair(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+
+    public static final Block ANTIQUE_WALL_CLOCK = registerBlock("antique_wall_clock",new AntiqueWallClock(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+    public static final Block CLASSROOM_PENDANT_LIGHTS = registerBlock("classroom_pendant_lights",new ClassroomPendantLights(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+    public static final Block DESK_COMBINATION = registerBlock("desk_combination",new DeskCombination(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+    public static final Block GIANT_MAP = registerBlock("giant_map",new GiantMap(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+    public static final Block LOW_COFFEE_TABLE_BY_THE_WINDOW = registerBlock("low_coffee_table_by_the_window",new LowCoffeeTableByTheWindow(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+    public static final Block NOTICE_BOARD = registerBlock("notice_board",new NoticeBoard(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+    public static final Block PROJECTION_SCREEN = registerBlock("projection_screen",new ProjectionScreen(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+    public static final Block SMALL_BOOK_BOX = registerBlock("small_book_box",new SmallBookBox(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+    public static final Block TEACHING_AIDS_STORAGE_CABINET = registerBlock("teaching_aids_storage_cabinet",new TeachingAidsStorageCabinet(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+    public static final Block THE_PEN_HOLDER_ON_THE_STACK_OF_BOOKS = registerBlock("the_pen_holder_on_the_stack_of_books",new ThePenHolderOnTheStackOfBooks(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+    public static final Block TOP_BEAM_PILLAR_BOTTOM = registerBlock("top_beam_pillar_bottom",new TopBeamPillar(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+    public static final Block TOP_BEAM_PILLAR_MIDDLE = registerBlock("top_beam_pillar_middle",new TopBeamPillar(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+    public static final Block TOP_BEAM_PILLAR_TOP = registerBlock("top_beam_pillar_top",new TopBeamPillar(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+    public static final Block WOODEN_BOOKSHELF = registerBlock("wooden_bookshelf",new WoodenBookshelf(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+    public static final Block WOODEN_BOOK_LADDER = registerBlock("wooden_book_ladder",new WoodenBookLadder(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
 
     private static Block registerBlock(String name,Block block){
         registerBlockItem(name,block);

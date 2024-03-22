@@ -810,6 +810,22 @@
   "block.arknights_furniture.xista_beach_bench":"Xista Beach Bench",
   "block.arknights_furniture.xista_leisure_chair":"Xista Leisure Chair",
 
+  "block.arknights_furniture.antique_wall_clock":"Antique Wall Clock",
+  "block.arknights_furniture.classroom_pendant_lights":"Classroom Pendant Lights",
+  "block.arknights_furniture.desk_combination":"Desk Combination",
+  "block.arknights_furniture.giant_map":"Giant Map",
+  "block.arknights_furniture.low_coffee_table_by_the_window":"Low Coffee Table By The Window",
+  "block.arknights_furniture.notice_board":"Notice Board",
+  "block.arknights_furniture.projection_screen":"Projection Screen",
+  "block.arknights_furniture.small_book_box":"Small Book Box",
+  "block.arknights_furniture.teaching_aids_storage_cabinet":"Teaching Aids Storage Cabinet",
+  "block.arknights_furniture.the_pen_holder_on_the_stack_of_books":"The Pen Holder On The Stack Of Books",
+  "block.arknights_furniture.top_beam_pillar_bottom":"TopBeam Pillar Bottom",
+  "block.arknights_furniture.top_beam_pillar_middle":"TopBeam Pillar Middle",
+  "block.arknights_furniture.top_beam_pillar_top":"TopBeam Pillar Top",
+  "block.arknights_furniture.wooden_bookshelf":"Wooden Bookshelf",
+  "block.arknights_furniture.wooden_book_ladder":"Wooden Book Ladder",
+
   "itemgroup.logo": "LOGO Group",
 
   "itemgroup.freight_warehouse": "Freight Warehouse",
@@ -869,6 +885,7 @@
   "itemGroup.the_banquet_hall_of_the_candy_fairy": "The Banquet Hall Of The Candy Fairy",
   "itemGroup.tswinek_country_camp": "Tswinek Country Camp",
   "itemGroup.seaside_impression": "Seaside Impression",
+  "itemGroup.classroom_in_san_marceau": "Classroom In San Marceau",
 
   "painting.arknights_furniture.unconfirmed_biological_skeleton.title":"Unconfirmed Biological Skeleton",
   "painting.arknights_furniture.unconfirmed_biological_skeleton.author":"Hypergryph",

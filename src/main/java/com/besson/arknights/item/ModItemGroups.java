@@ -1087,6 +1087,27 @@ public class ModItemGroups {
                                 entries.add(ModBlocks.XISTA_BEACH_BENCH);
                                 entries.add(ModBlocks.XISTA_LEISURE_CHAIR);
                             }).build());
+
+    public static final ItemGroup CLASSROOM_IN_SAN_MARCEAU = Registry.register(Registries.ITEM_GROUP,
+            new Identifier(ArknightsFurniture.MOD_ID,"classroom_in_san_marceau"),
+            FabricItemGroup.builder().displayName(Text.translatable("itemGroup.classroom_in_san_marceau"))
+                    .icon(() -> new ItemStack(ModBlocks.ANTIQUE_WALL_CLOCK)).entries((displayContext, entries) -> {
+                        entries.add(ModBlocks.ANTIQUE_WALL_CLOCK);
+                        entries.add(ModBlocks.CLASSROOM_PENDANT_LIGHTS);
+                        entries.add(ModBlocks.DESK_COMBINATION);
+                        entries.add(ModBlocks.GIANT_MAP);
+                        entries.add(ModBlocks.LOW_COFFEE_TABLE_BY_THE_WINDOW);
+                        entries.add(ModBlocks.NOTICE_BOARD);
+                        entries.add(ModBlocks.PROJECTION_SCREEN);
+                        entries.add(ModBlocks.SMALL_BOOK_BOX);
+                        entries.add(ModBlocks.TEACHING_AIDS_STORAGE_CABINET);
+                        entries.add(ModBlocks.THE_PEN_HOLDER_ON_THE_STACK_OF_BOOKS);
+                        entries.add(ModBlocks.TOP_BEAM_PILLAR_BOTTOM);
+                        entries.add(ModBlocks.TOP_BEAM_PILLAR_MIDDLE);
+                        entries.add(ModBlocks.TOP_BEAM_PILLAR_TOP);
+                        entries.add(ModBlocks.WOODEN_BOOKSHELF);
+                        entries.add(ModBlocks.WOODEN_BOOK_LADDER);
+                    }).build());
                         // public static final ItemGroup  = Registry.register(Registries.ITEM_GROUP,
     //        new Identifier(ArknightsFurniture.MOD_ID,""),
     //        FabricItemGroup.builder().displayName(Text.translatable("itemgroup."))

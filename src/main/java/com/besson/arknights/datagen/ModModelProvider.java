@@ -798,6 +798,22 @@ public class ModModelProvider extends FabricModelProvider {
         blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.XISTA_BEACH_BENCH);
         blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.XISTA_LEISURE_CHAIR);
 
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.ANTIQUE_WALL_CLOCK);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.CLASSROOM_PENDANT_LIGHTS);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.DESK_COMBINATION);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.GIANT_MAP);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.LOW_COFFEE_TABLE_BY_THE_WINDOW);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.NOTICE_BOARD);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.PROJECTION_SCREEN);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.SMALL_BOOK_BOX);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.TEACHING_AIDS_STORAGE_CABINET);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.THE_PEN_HOLDER_ON_THE_STACK_OF_BOOKS);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.TOP_BEAM_PILLAR_BOTTOM);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.TOP_BEAM_PILLAR_MIDDLE);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.TOP_BEAM_PILLAR_TOP);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.WOODEN_BOOKSHELF);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.WOODEN_BOOK_LADDER);
+
     }
 
     @Override
