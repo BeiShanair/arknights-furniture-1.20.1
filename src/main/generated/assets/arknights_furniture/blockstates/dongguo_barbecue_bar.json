@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=east": {
+      "model": "arknights_furniture:block/dongguo_barbecue_bar",
+      "y": 90
+    },
+    "facing=north": {
+      "model": "arknights_furniture:block/dongguo_barbecue_bar"
+    },
+    "facing=south": {
+      "model": "arknights_furniture:block/dongguo_barbecue_bar",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "arknights_furniture:block/dongguo_barbecue_bar",
+      "y": 270
+    }
+  }
+}

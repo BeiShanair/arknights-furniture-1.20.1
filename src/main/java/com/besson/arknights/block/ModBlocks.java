@@ -8,6 +8,7 @@ import com.besson.arknights.block.CarratonFlowerAndLightHouse.*;
 import com.besson.arknights.block.CasimirLiveRoom.*;
 import com.besson.arknights.block.ChensOffice.*;
 import com.besson.arknights.block.CherragStyleHotel.*;
+import com.besson.arknights.block.SeasideImpressions.*;
 import com.besson.arknights.block.TheBanquetHallOfTheCandyFairy.*;
 import com.besson.arknights.block.TswinekCountryCamp.*;
 import com.besson.arknights.block.YamashiroTeahouse.*;
@@ -859,6 +860,20 @@ public class ModBlocks {
     public static final Block PORTABLE_FISHING_GEAR_SET = registerBlock("portable_fishing_gear_set",new PortableFishingGearSet(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
     public static final Block WILDERNESS_MOSS_AND_STONE = registerBlock("wilderness_moss_and_stone",new WildernessMossAndStone(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
     public static final Block WILDERNESS_RADIO_STATION = registerBlock("wilderness_radio_station",new WildernessRadioStation(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+
+    public static final Block AGOR_ICE_DRINK_BAR = registerBlock("agor_ice_drink_bar",new AgorIceDrinkBar(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+    public static final Block AIR_DRIED_LEATHER = registerBlock("air_dried_leather",new AirDriedLeather(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+    public static final Block DONGGUO_BARBECUE_BAR = registerBlock("dongguo_barbecue_bar",new DongguoBarbecueBar(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+    public static final Block DOSOREST_BEACH_BOARD = registerBlock("dosorest_beach_board",new DosorestBeachBoard(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+    public static final Block DOSOREST_DRINKING_BUCKET = registerBlock("dosorest_drinking_bucket",new DosorestDrinkingBucket(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+    public static final Block LOW_BOX_SOFA = registerBlock("low_box_sofa",new LowBoxSofa(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+    public static final Block SEASIDE_MINI_SOUND_SYSTEM = registerBlock("seaside_mini_sound_system",new SeasideMiniSoundSystem(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+    public static final Block SEASIDE_MISCELLANEOUS_TENT = registerBlock("seaside_miscellaneous_tent",new SeasideMiscellaneousTent(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+    public static final Block SEASIDE_PORTABLE_FREEZER = registerBlock("seaside_portable_freezer",new SeasidePortableFreezer(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+    public static final Block WIND_CHIME_CHANDELIER = registerBlock("wind_chime_chandelier",new WindChimeChandelier(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+    public static final Block WOOD_STORAGE_CABINET = registerBlock("wood_storage_cabinet",new WoodStorageCabinet(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+    public static final Block XISTA_BEACH_BENCH = registerBlock("xista_beach_bench",new XistaBeachBench(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+    public static final Block XISTA_LEISURE_CHAIR = registerBlock("xista_leisure_chair",new XistaLeisureChair(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
 
     private static Block registerBlock(String name,Block block){
         registerBlockItem(name,block);

@@ -784,6 +784,20 @@ public class ModModelProvider extends FabricModelProvider {
         blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.WILDERNESS_MOSS_AND_STONE);
         blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.WILDERNESS_RADIO_STATION);
 
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.AGOR_ICE_DRINK_BAR);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.AIR_DRIED_LEATHER);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.DONGGUO_BARBECUE_BAR);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.DOSOREST_BEACH_BOARD);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.DOSOREST_DRINKING_BUCKET);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.LOW_BOX_SOFA);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.SEASIDE_MINI_SOUND_SYSTEM);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.SEASIDE_MISCELLANEOUS_TENT);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.SEASIDE_PORTABLE_FREEZER);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.WIND_CHIME_CHANDELIER);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.WOOD_STORAGE_CABINET);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.XISTA_BEACH_BENCH);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.XISTA_LEISURE_CHAIR);
+
     }
 
     @Override

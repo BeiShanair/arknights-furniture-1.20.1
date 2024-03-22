@@ -796,6 +796,20 @@
   "block.arknights_furniture.wilderness_moss_and_stone":"Wilderness Moss And Stone",
   "block.arknights_furniture.wilderness_radio_station":"Wilderness Radio Station",
 
+  "block.arknights_furniture.agor_ice_drink_bar":"Agor Ice Drink Bar",
+  "block.arknights_furniture.air_dried_leather":"Air Dried Leather",
+  "block.arknights_furniture.dongguo_barbecue_bar":"Dongguo Barbecue Bar",
+  "block.arknights_furniture.dosorest_beach_board":"Dosorest Beach Board",
+  "block.arknights_furniture.dosorest_drinking_bucket":"Dosorest Drinking Bucket",
+  "block.arknights_furniture.low_box_sofa":"Low Box Sofa",
+  "block.arknights_furniture.seaside_mini_sound_system":"Seaside Mini Sound System",
+  "block.arknights_furniture.seaside_miscellaneous_tent":"Seaside Miscellaneous Tent",
+  "block.arknights_furniture.seaside_portable_freezer":"Seaside Portable Freezer",
+  "block.arknights_furniture.wind_chime_chandelier":"Wind Chime Chandelier",
+  "block.arknights_furniture.wood_storage_cabinet":"Wood Storage Cabinet",
+  "block.arknights_furniture.xista_beach_bench":"Xista Beach Bench",
+  "block.arknights_furniture.xista_leisure_chair":"Xista Leisure Chair",
+
   "itemgroup.logo": "LOGO Group",
 
   "itemgroup.freight_warehouse": "Freight Warehouse",
@@ -854,6 +868,7 @@
   "itemGroup.big_puddle_happy_experience_house": "Big Puddle Happy Experience House",
   "itemGroup.the_banquet_hall_of_the_candy_fairy": "The Banquet Hall Of The Candy Fairy",
   "itemGroup.tswinek_country_camp": "Tswinek Country Camp",
+  "itemGroup.seaside_impression": "Seaside Impression",
 
   "painting.arknights_furniture.unconfirmed_biological_skeleton.title":"Unconfirmed Biological Skeleton",
   "painting.arknights_furniture.unconfirmed_biological_skeleton.author":"Hypergryph",

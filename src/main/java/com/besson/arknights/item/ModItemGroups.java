@@ -1068,7 +1068,26 @@ public class ModItemGroups {
                         entries.add(ModBlocks.WILDERNESS_MOSS_AND_STONE);
                         entries.add(ModBlocks.WILDERNESS_RADIO_STATION);
                     }).build());
-    // public static final ItemGroup  = Registry.register(Registries.ITEM_GROUP,
+
+    public static final ItemGroup SEASIDE_IMPRESSION = Registry.register(Registries.ITEM_GROUP,
+            new Identifier(ArknightsFurniture.MOD_ID,"seaside_impression"),
+            FabricItemGroup.builder().displayName(Text.translatable("itemGroup.seaside_impression"))
+                    .icon(() -> new ItemStack(ModBlocks.AGOR_ICE_DRINK_BAR)).entries((displayContext, entries) -> {
+                                entries.add(ModBlocks.AGOR_ICE_DRINK_BAR);
+                                entries.add(ModBlocks.AIR_DRIED_LEATHER);
+                                entries.add(ModBlocks.DONGGUO_BARBECUE_BAR);
+                                entries.add(ModBlocks.DOSOREST_BEACH_BOARD);
+                                entries.add(ModBlocks.DOSOREST_DRINKING_BUCKET);
+                                entries.add(ModBlocks.LOW_BOX_SOFA);
+                                entries.add(ModBlocks.SEASIDE_MINI_SOUND_SYSTEM);
+                                entries.add(ModBlocks.SEASIDE_MISCELLANEOUS_TENT);
+                                entries.add(ModBlocks.SEASIDE_PORTABLE_FREEZER);
+                                entries.add(ModBlocks.WIND_CHIME_CHANDELIER);
+                                entries.add(ModBlocks.WOOD_STORAGE_CABINET);
+                                entries.add(ModBlocks.XISTA_BEACH_BENCH);
+                                entries.add(ModBlocks.XISTA_LEISURE_CHAIR);
+                            }).build());
+                        // public static final ItemGroup  = Registry.register(Registries.ITEM_GROUP,
     //        new Identifier(ArknightsFurniture.MOD_ID,""),
     //        FabricItemGroup.builder().displayName(Text.translatable("itemgroup."))
     //                .icon(() -> new ItemStack(ModBlocks.)).entries((displayContext, entries) -> {
