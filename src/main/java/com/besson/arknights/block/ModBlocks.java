@@ -13,6 +13,7 @@ import com.besson.arknights.block.CourtOfJusticeOfSyracuse.*;
 import com.besson.arknights.block.OnceUponATimeInSyracuse.*;
 import com.besson.arknights.block.SeasideImpressions.*;
 import com.besson.arknights.block.TheBanquetHallOfTheCandyFairy.*;
+import com.besson.arknights.block.TheHutOfTheReeds.*;
 import com.besson.arknights.block.TswinekCountryCamp.*;
 import com.besson.arknights.block.YamashiroTeahouse.*;
 import com.besson.arknights.block.ColumbiaCafe.*;
@@ -921,6 +922,16 @@ public class ModBlocks {
     public static final Block MARBLE_BAR_COUNTER = registerBlock("marble_bar_counter",new MarbleBarCounter(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
     public static final Block MARBLE_LOW_COFFEE_TABLE = registerBlock("marble_low_coffee_table",new MarbleLowCoffeeTable(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
     public static final Block RETRO_VIEWING_SET = registerBlock("retro_viewing_set",new RetroViewingSet(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+
+    public static final Block FOOD_STORAGE_BOX = registerBlock("food_storage_box",new FoodStorageBox(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+    public static final Block HAYSTACK_CART = registerBlock("haystack_cart",new HaystackCart(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+    public static final Block PURE_WHITE_CERAMIC_TILE_STONE_TABLE = registerBlock("pure_white_ceramic_tile_stone_table",new PureWhiteCeramicTileStoneTable(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+    public static final Block SECOND_HAND_FOLDING_CHAIRS = registerBlock("second_hand_folding_chairs",new SecondHandFoldingChairs(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+    public static final Block SOLID_WOOD_CEILING = registerBlock("solid_wood_ceiling",new SolidWoodCeiling(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+    public static final Block THE_INNE_FLAME = registerBlock("the_inne_flame",new TheInneFlame(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+    public static final Block VINE_WOVEN_CHANDELIER = registerBlock("vine_woven_chandelier",new VineWovenChandelier(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+    public static final Block WARM_OVEN = registerBlock("warm_oven",new WarmOven(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+    public static final Block WOODEN_JAM_RACK = registerBlock("wooden_jam_rack",new WoodenJamRack(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
 
     private static Block registerBlock(String name,Block block){
         registerBlockItem(name,block);

@@ -1147,6 +1147,21 @@ public class ModItemGroups {
                         entries.add(ModBlocks.RETRO_VIEWING_SET);
                     }).build());
 
+    public static final ItemGroup THE_HUT_OF_THE_REEDS = Registry.register(Registries.ITEM_GROUP,
+            new Identifier(ArknightsFurniture.MOD_ID,"the_hut_of_the_reeds"),
+            FabricItemGroup.builder().displayName(Text.translatable("itemGroup.the_hut_of_the_reeds"))
+                    .icon(() -> new ItemStack(ModBlocks.WOODEN_JAM_RACK)).entries((displayContext, entries) -> {
+                        entries.add(ModBlocks.FOOD_STORAGE_BOX);
+                        entries.add(ModBlocks.HAYSTACK_CART);
+                        entries.add(ModBlocks.PURE_WHITE_CERAMIC_TILE_STONE_TABLE);
+                        entries.add(ModBlocks.SECOND_HAND_FOLDING_CHAIRS);
+                        entries.add(ModBlocks.SOLID_WOOD_CEILING);
+                        entries.add(ModBlocks.THE_INNE_FLAME);
+                        entries.add(ModBlocks.VINE_WOVEN_CHANDELIER);
+                        entries.add(ModBlocks.WARM_OVEN);
+                        entries.add(ModBlocks.WOODEN_JAM_RACK);
+                    }).build());
+
     // public static final ItemGroup  = Registry.register(Registries.ITEM_GROUP,
     //        new Identifier(ArknightsFurniture.MOD_ID,""),
     //        FabricItemGroup.builder().displayName(Text.translatable("itemgroup."))

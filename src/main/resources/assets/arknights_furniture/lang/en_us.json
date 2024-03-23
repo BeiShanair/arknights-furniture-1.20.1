@@ -854,6 +854,16 @@
   "block.arknights_furniture.marble_low_coffee_table":"Marble Low Coffee Table",
   "block.arknights_furniture.retro_viewing_set":"Retro Viewing Set",
 
+  "block.arknights_furniture.food_storage_box":"Food Storage Box",
+  "block.arknights_furniture.haystack_cart":"Haystack Cart",
+  "block.arknights_furniture.pure_white_ceramic_tile_stone_table":"Pure White Ceramic Tile Stone Table",
+  "block.arknights_furniture.second_hand_folding_chairs":"Second Hand Folding Chairs",
+  "block.arknights_furniture.solid_wood_ceiling":"Solid Wood Ceiling",
+  "block.arknights_furniture.the_inne_flame":"The Inne Flame",
+  "block.arknights_furniture.vine_woven_chandelier":"Vine Woven Chandelier",
+  "block.arknights_furniture.warm_oven":"Warm Oven",
+  "block.arknights_furniture.wooden_jam_rack":"Wooden Jam Rack",
+
   "itemgroup.logo": "LOGO Group",
 
   "itemgroup.freight_warehouse": "Freight Warehouse",
@@ -916,6 +926,7 @@
   "itemGroup.classroom_in_san_marceau": "Classroom In San Marceau",
   "itemGroup.court_of_justice_of_syracuse": "Court Of Justice Of Syracuse",
   "itemGroup.once_upon_a_time_in_syracuse": "Once Upon A Time In Syracuse",
+  "itemGroup.the_hut_of_the_reeds": "The Hut Of The Reeds",
 
   "painting.arknights_furniture.unconfirmed_biological_skeleton.title":"Unconfirmed Biological Skeleton",
   "painting.arknights_furniture.unconfirmed_biological_skeleton.author":"Hypergryph",
