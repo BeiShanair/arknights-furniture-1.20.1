@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=east": {
+      "model": "arknights_furniture:block/conceal_brilliance",
+      "y": 90
+    },
+    "facing=north": {
+      "model": "arknights_furniture:block/conceal_brilliance"
+    },
+    "facing=south": {
+      "model": "arknights_furniture:block/conceal_brilliance",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "arknights_furniture:block/conceal_brilliance",
+      "y": 270
+    }
+  }
+}

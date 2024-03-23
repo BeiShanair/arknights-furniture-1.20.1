@@ -1181,6 +1181,26 @@ public class ModItemGroups {
                         entries.add(ModBlocks.THE_DETECTIVE_ARMCHAIR);
                     }).build());
 
+    public static final ItemGroup YUMEN_MEDICAL_CENTER = Registry.register(Registries.ITEM_GROUP,
+            new Identifier(ArknightsFurniture.MOD_ID,"yumen_medical_center"),
+            FabricItemGroup.builder().displayName(Text.translatable("itemGroup.yumen_medical_center"))
+                    .icon(() -> new ItemStack(ModBlocks.DECOCTION_AND_FIREWOOD_STOVE)).entries((displayContext, entries) -> {
+                        entries.add(ModBlocks.COHESION);
+                        entries.add(ModBlocks.CONCEAL_BRILLIANCE);
+                        entries.add(ModBlocks.DECOCTION_AND_FIREWOOD_STOVE);
+                        entries.add(ModBlocks.DISPENSING_GRINDING_TABLE);
+                        entries.add(ModBlocks.DRUMMING_AND_STRIVING);
+                        entries.add(ModBlocks.GRINDING_MEDICINE_GREEN_STONE_PLATFORM);
+                        entries.add(ModBlocks.MEDICINE_DRYING_DUSTPAN_RACK);
+                        entries.add(ModBlocks.MEDITATION_AND_FORGETFULNESS);
+                        entries.add(ModBlocks.MUTUAL_PULSATION);
+                        entries.add(ModBlocks.SHALLOW_TERMINAL_SENSATION);
+                        entries.add(ModBlocks.STUFFED_WITH_SPRING_LIFE);
+                        entries.add(ModBlocks.SUSPENDED_PERMANENT_LIGHT);
+                        entries.add(ModBlocks.THE_NATURAL);
+                        entries.add(ModBlocks.WASHING_DUST_WITH_SAND);
+                    }).build());
+
     // public static final ItemGroup  = Registry.register(Registries.ITEM_GROUP,
     //        new Identifier(ArknightsFurniture.MOD_ID,""),
     //        FabricItemGroup.builder().displayName(Text.translatable("itemgroup."))

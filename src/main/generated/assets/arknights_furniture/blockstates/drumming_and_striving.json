@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=east": {
+      "model": "arknights_furniture:block/drumming_and_striving",
+      "y": 90
+    },
+    "facing=north": {
+      "model": "arknights_furniture:block/drumming_and_striving"
+    },
+    "facing=south": {
+      "model": "arknights_furniture:block/drumming_and_striving",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "arknights_furniture:block/drumming_and_striving",
+      "y": 270
+    }
+  }
+}

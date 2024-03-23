@@ -63,6 +63,7 @@ import com.besson.arknights.block.UrsasStudentLounge.*;
 import com.besson.arknights.block.VictoriaGuardsCollegeDormitory.*;
 import com.besson.arknights.block.WalterTrendRoom.*;
 import com.besson.arknights.block.WhiteWangno.*;
+import com.besson.arknights.block.YumenMedicalCenter.*;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.fabricmc.fabric.api.object.builder.v1.block.FabricBlockSettings;
 import net.minecraft.block.Block;
@@ -947,6 +948,21 @@ public class ModBlocks {
     public static final Block PRISONERS_SCHEMES_MOTIVES_GROUND = registerBlock("prisoners_schemes_motives_ground",new PrisonersSchemesMotivesGround(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
     public static final Block RHODE_ISLAND_DAILY = registerBlock("rhode_island_daily",new RhodeIslandDaily(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
     public static final Block THE_DETECTIVE_ARMCHAIR = registerBlock("the_detective_armchair",new TheDetectiveArmchair(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+
+    public static final Block COHESION = registerBlock("cohesion",new Cohesion(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+    public static final Block CONCEAL_BRILLIANCE = registerBlock("conceal_brilliance",new ConcealBrilliance(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+    public static final Block DECOCTION_AND_FIREWOOD_STOVE = registerBlock("decoction_and_firewood_stove",new DecoctionAndFirewoodStove(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+    public static final Block DISPENSING_GRINDING_TABLE = registerBlock("dispensing_grinding_table",new DispensingGrindingTable(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+    public static final Block DRUMMING_AND_STRIVING = registerBlock("drumming_and_striving",new DrummingAndStriving(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+    public static final Block GRINDING_MEDICINE_GREEN_STONE_PLATFORM = registerBlock("grinding_medicine_green_stone_platform",new GrindingMedicineGreenStonePlatform(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+    public static final Block MEDICINE_DRYING_DUSTPAN_RACK = registerBlock("medicine_drying_dustpan_rack",new MedicineDryingDustpanRack(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+    public static final Block MEDITATION_AND_FORGETFULNESS = registerBlock("meditation_and_forgetfulness",new MeditationAndForgetfulness(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+    public static final Block MUTUAL_PULSATION = registerBlock("mutual_pulsation",new MutualPulsation(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+    public static final Block SHALLOW_TERMINAL_SENSATION = registerBlock("shallow_terminal_sensation",new ShallowTerminalSensation(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+    public static final Block STUFFED_WITH_SPRING_LIFE = registerBlock("stuffed_with_spring_life",new StuffedWithSpringLife(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+    public static final Block SUSPENDED_PERMANENT_LIGHT = registerBlock("suspended_permanent_light",new SuspendedPermanentLight(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+    public static final Block THE_NATURAL = registerBlock("the_natural",new TheNatural(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+    public static final Block WASHING_DUST_WITH_SAND = registerBlock("washing_dust_with_sand",new WashingDustWithSand(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
 
     private static Block registerBlock(String name,Block block){
         registerBlockItem(name,block);

@@ -865,6 +865,21 @@ public class ModModelProvider extends FabricModelProvider {
         blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.RHODE_ISLAND_DAILY);
         blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.THE_DETECTIVE_ARMCHAIR);
 
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.COHESION);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.CONCEAL_BRILLIANCE);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.DECOCTION_AND_FIREWOOD_STOVE);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.DISPENSING_GRINDING_TABLE);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.DRUMMING_AND_STRIVING);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.GRINDING_MEDICINE_GREEN_STONE_PLATFORM);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.MEDICINE_DRYING_DUSTPAN_RACK);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.MEDITATION_AND_FORGETFULNESS);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.MUTUAL_PULSATION);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.SHALLOW_TERMINAL_SENSATION);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.STUFFED_WITH_SPRING_LIFE);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.SUSPENDED_PERMANENT_LIGHT);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.THE_NATURAL);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.WASHING_DUST_WITH_SAND);
+
     }
 
     @Override

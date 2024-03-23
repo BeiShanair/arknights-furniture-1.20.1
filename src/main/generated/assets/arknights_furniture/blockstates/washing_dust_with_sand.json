@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=east": {
+      "model": "arknights_furniture:block/washing_dust_with_sand",
+      "y": 90
+    },
+    "facing=north": {
+      "model": "arknights_furniture:block/washing_dust_with_sand"
+    },
+    "facing=south": {
+      "model": "arknights_furniture:block/washing_dust_with_sand",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "arknights_furniture:block/washing_dust_with_sand",
+      "y": 270
+    }
+  }
+}

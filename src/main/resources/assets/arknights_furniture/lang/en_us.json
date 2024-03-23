@@ -878,6 +878,21 @@
   "block.arknights_furniture.rhode_island_daily":"Rhode Island Daily",
   "block.arknights_furniture.the_detective_armchair":"The Detective Armchair",
 
+  "block.arknights_furniture.cohesion":"Cohesion",
+  "block.arknights_furniture.conceal_brilliance":"Conceal Brilliance",
+  "block.arknights_furniture.decoction_and_firewood_stove":"Decoration And Firewood Stove",
+  "block.arknights_furniture.dispensing_grinding_table":"Dispensing Grinding Table",
+  "block.arknights_furniture.drumming_and_striving":"Drumming And Striving",
+  "block.arknights_furniture.grinding_medicine_green_stone_platform":"Grinding Medicine Green Stone Platform",
+  "block.arknights_furniture.medicine_drying_dustpan_rack":"Medicine Drying Dustpan Rack",
+  "block.arknights_furniture.meditation_and_forgetfulness":"Meditation And Forgetfulness",
+  "block.arknights_furniture.mutual_pulsation":"Mutual Pulsation",
+  "block.arknights_furniture.shallow_terminal_sensation":"Shallow Terminal Sensation",
+  "block.arknights_furniture.stuffed_with_spring_life":"Stuffed With Spring Life",
+  "block.arknights_furniture.suspended_permanent_light":"Suspended Permanent Light",
+  "block.arknights_furniture.the_natural":"The Natural",
+  "block.arknights_furniture.washing_dust_with_sand":"Washing Dust With Sand",
+
   "itemgroup.logo": "LOGO Group",
 
   "itemgroup.freight_warehouse": "Freight Warehouse",
@@ -942,6 +957,7 @@
   "itemGroup.once_upon_a_time_in_syracuse": "Once Upon A Time In Syracuse",
   "itemGroup.the_hut_of_the_reeds": "The Hut Of The Reeds",
   "itemGroup.detectives_study": "Detective's Study",
+  "itemGroup.yumen_medical_center": "Yumen Medical Center",
 
   "painting.arknights_furniture.unconfirmed_biological_skeleton.title":"Unconfirmed Biological Skeleton",
   "painting.arknights_furniture.unconfirmed_biological_skeleton.author":"Hypergryph",
