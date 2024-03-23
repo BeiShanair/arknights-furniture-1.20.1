@@ -841,6 +841,19 @@
   "block.arknights_furniture.speaker_seat":"Speaker Seat",
   "block.arknights_furniture.wooden_hanger":"Wooden Hanger",
 
+  "block.arknights_furniture.at_the_beginning_of_the_fire_union":"At The Beginning Of The Fire Union",
+  "block.arknights_furniture.bar_stool":"Bar Stool",
+  "block.arknights_furniture.broad_leaved_green_plants":"Broad Leaved Green Plants",
+  "block.arknights_furniture.fabric_chandelier":"Fabric Chandelier",
+  "block.arknights_furniture.glass_pendant_lamp_group":"Glass Pendant Lamp Group",
+  "block.arknights_furniture.have_a_pleasant_meal":"Have A Pleasant Meal",
+  "block.arknights_furniture.imprest":"Imprest",
+  "block.arknights_furniture.leather_single_person_sofa":"Leather Single Person Sofa",
+  "block.arknights_furniture.let_there_be_light":"Let There Be Light",
+  "block.arknights_furniture.marble_bar_counter":"Marble Bar Counter",
+  "block.arknights_furniture.marble_low_coffee_table":"Marble Low Coffee Table",
+  "block.arknights_furniture.retro_viewing_set":"Retro Viewing Set",
+
   "itemgroup.logo": "LOGO Group",
 
   "itemgroup.freight_warehouse": "Freight Warehouse",
@@ -902,6 +915,7 @@
   "itemGroup.seaside_impression": "Seaside Impression",
   "itemGroup.classroom_in_san_marceau": "Classroom In San Marceau",
   "itemGroup.court_of_justice_of_syracuse": "Court Of Justice Of Syracuse",
+  "itemGroup.once_upon_a_time_in_syracuse": "Once Upon A Time In Syracuse",
 
   "painting.arknights_furniture.unconfirmed_biological_skeleton.title":"Unconfirmed Biological Skeleton",
   "painting.arknights_furniture.unconfirmed_biological_skeleton.author":"Hypergryph",

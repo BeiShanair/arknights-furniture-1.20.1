@@ -1128,7 +1128,26 @@ public class ModItemGroups {
                         entries.add(ModBlocks.SPEAKER_SEAT);
                         entries.add(ModBlocks.WOODEN_HANGER);
                     }).build());
-                        // public static final ItemGroup  = Registry.register(Registries.ITEM_GROUP,
+
+    public static final ItemGroup ONCE_UPON_A_TIME_IN_SYRACUSE = Registry.register(Registries.ITEM_GROUP,
+            new Identifier(ArknightsFurniture.MOD_ID,"once_upon_a_time_in_syracuse"),
+            FabricItemGroup.builder().displayName(Text.translatable("itemGroup.once_upon_a_time_in_syracuse"))
+                    .icon(() -> new ItemStack(ModBlocks.BAR_STOOL)).entries((displayContext, entries) -> {
+                        entries.add(ModBlocks.AT_THE_BEGINNING_OF_THE_FIRE_UNION);
+                        entries.add(ModBlocks.BAR_STOOL);
+                        entries.add(ModBlocks.BROAD_LEAVED_GREEN_PLANTS);
+                        entries.add(ModBlocks.FABRIC_CHANDELIER);
+                        entries.add(ModBlocks.GLASS_PENDANT_LAMP_GROUP);
+                        entries.add(ModBlocks.HAVE_A_PLEASANT_MEAL);
+                        entries.add(ModBlocks.IMPREST);
+                        entries.add(ModBlocks.LEATHER_SINGLE_PERSON_SOFA);
+                        entries.add(ModBlocks.LET_THERE_BE_LIGHT);
+                        entries.add(ModBlocks.MARBLE_BAR_COUNTER);
+                        entries.add(ModBlocks.MARBLE_LOW_COFFEE_TABLE);
+                        entries.add(ModBlocks.RETRO_VIEWING_SET);
+                    }).build());
+
+    // public static final ItemGroup  = Registry.register(Registries.ITEM_GROUP,
     //        new Identifier(ArknightsFurniture.MOD_ID,""),
     //        FabricItemGroup.builder().displayName(Text.translatable("itemgroup."))
     //                .icon(() -> new ItemStack(ModBlocks.)).entries((displayContext, entries) -> {

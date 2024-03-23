@@ -10,6 +10,7 @@ import com.besson.arknights.block.ChensOffice.*;
 import com.besson.arknights.block.CherragStyleHotel.*;
 import com.besson.arknights.block.ClassroomInSanMarceau.*;
 import com.besson.arknights.block.CourtOfJusticeOfSyracuse.*;
+import com.besson.arknights.block.OnceUponATimeInSyracuse.*;
 import com.besson.arknights.block.SeasideImpressions.*;
 import com.besson.arknights.block.TheBanquetHallOfTheCandyFairy.*;
 import com.besson.arknights.block.TswinekCountryCamp.*;
@@ -907,6 +908,19 @@ public class ModBlocks {
     public static final Block SKYLIGHT_CEILING = registerBlock("skylight_ceiling",new SkylightCeiling(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
     public static final Block SPEAKER_SEAT = registerBlock("speaker_seat",new SpeakerSeat(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
     public static final Block WOODEN_HANGER = registerBlock("wooden_hanger",new WoodenHanger(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+
+    public static final Block AT_THE_BEGINNING_OF_THE_FIRE_UNION = registerBlock("at_the_beginning_of_the_fire_union",new AtTheBeginningOfTheFireUnion(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+    public static final Block BAR_STOOL = registerBlock("bar_stool",new BarStool(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+    public static final Block BROAD_LEAVED_GREEN_PLANTS = registerBlock("broad_leaved_green_plants",new BroadLeavedGreenPlants(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+    public static final Block FABRIC_CHANDELIER = registerBlock("fabric_chandelier",new FabricChandelier(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+    public static final Block GLASS_PENDANT_LAMP_GROUP = registerBlock("glass_pendant_lamp_group",new GlassPendantLampGroup(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+    public static final Block HAVE_A_PLEASANT_MEAL = registerBlock("have_a_pleasant_meal",new HaveAPleasantMeal(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+    public static final Block IMPREST = registerBlock("imprest",new Imprest(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+    public static final Block LEATHER_SINGLE_PERSON_SOFA = registerBlock("leather_single_person_sofa",new LeatherSinglePersonSofa(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+    public static final Block LET_THERE_BE_LIGHT = registerBlock("let_there_be_light",new LetThereBeLight(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+    public static final Block MARBLE_BAR_COUNTER = registerBlock("marble_bar_counter",new MarbleBarCounter(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+    public static final Block MARBLE_LOW_COFFEE_TABLE = registerBlock("marble_low_coffee_table",new MarbleLowCoffeeTable(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+    public static final Block RETRO_VIEWING_SET = registerBlock("retro_viewing_set",new RetroViewingSet(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
 
     private static Block registerBlock(String name,Block block){
         registerBlockItem(name,block);

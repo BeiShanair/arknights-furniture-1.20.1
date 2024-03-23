@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=east": {
+      "model": "arknights_furniture:block/have_a_pleasant_meal",
+      "y": 90
+    },
+    "facing=north": {
+      "model": "arknights_furniture:block/have_a_pleasant_meal"
+    },
+    "facing=south": {
+      "model": "arknights_furniture:block/have_a_pleasant_meal",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "arknights_furniture:block/have_a_pleasant_meal",
+      "y": 270
+    }
+  }
+}

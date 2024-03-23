@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=east": {
+      "model": "arknights_furniture:block/at_the_beginning_of_the_fire_union",
+      "y": 90
+    },
+    "facing=north": {
+      "model": "arknights_furniture:block/at_the_beginning_of_the_fire_union"
+    },
+    "facing=south": {
+      "model": "arknights_furniture:block/at_the_beginning_of_the_fire_union",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "arknights_furniture:block/at_the_beginning_of_the_fire_union",
+      "y": 270
+    }
+  }
+}

@@ -828,6 +828,19 @@ public class ModModelProvider extends FabricModelProvider {
         blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.SPEAKER_SEAT);
         blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.WOODEN_HANGER);
 
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.AT_THE_BEGINNING_OF_THE_FIRE_UNION);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.BAR_STOOL);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.BROAD_LEAVED_GREEN_PLANTS);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.FABRIC_CHANDELIER);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.GLASS_PENDANT_LAMP_GROUP);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.HAVE_A_PLEASANT_MEAL);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.IMPREST);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.LEATHER_SINGLE_PERSON_SOFA);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.LET_THERE_BE_LIGHT);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.MARBLE_BAR_COUNTER);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.MARBLE_LOW_COFFEE_TABLE);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.RETRO_VIEWING_SET);
+
     }
 
     @Override
