@@ -1108,6 +1108,26 @@ public class ModItemGroups {
                         entries.add(ModBlocks.WOODEN_BOOKSHELF);
                         entries.add(ModBlocks.WOODEN_BOOK_LADDER);
                     }).build());
+
+    public static final ItemGroup COURT_OF_JUSTICE_OF_SYRACUSE = Registry.register(Registries.ITEM_GROUP,
+            new Identifier(ArknightsFurniture.MOD_ID,"court_of_justice_of_syracuse"),
+            FabricItemGroup.builder().displayName(Text.translatable("itemGroup.court_of_justice_of_syracuse"))
+            .icon(() -> new ItemStack(ModBlocks.COURT_CHANDELIER)).entries((displayContext, entries) -> {
+                        entries.add(ModBlocks.CLASSICAL_COLUMNS_BOTTOM);
+                        entries.add(ModBlocks.CLASSICAL_COLUMNS_MIDDLE);
+                        entries.add(ModBlocks.CLASSICAL_COLUMNS_TOP);
+                        entries.add(ModBlocks.COURT_CHANDELIER);
+                        entries.add(ModBlocks.COURT_WALL_LAMP);
+                        entries.add(ModBlocks.FENCE_PLATFORM_PILE);
+                        entries.add(ModBlocks.JUDGMENT_SEAT);
+                        entries.add(ModBlocks.PRESIDING_JUDGE_SEAT);
+                        entries.add(ModBlocks.PUBLIC_BOOKSHELF);
+                        entries.add(ModBlocks.PUBLIC_GALLERY);
+                        entries.add(ModBlocks.REPAIR_BOARD);
+                        entries.add(ModBlocks.SKYLIGHT_CEILING);
+                        entries.add(ModBlocks.SPEAKER_SEAT);
+                        entries.add(ModBlocks.WOODEN_HANGER);
+                    }).build());
                         // public static final ItemGroup  = Registry.register(Registries.ITEM_GROUP,
     //        new Identifier(ArknightsFurniture.MOD_ID,""),
     //        FabricItemGroup.builder().displayName(Text.translatable("itemgroup."))

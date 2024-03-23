@@ -826,6 +826,21 @@
   "block.arknights_furniture.wooden_bookshelf":"Wooden Bookshelf",
   "block.arknights_furniture.wooden_book_ladder":"Wooden Book Ladder",
 
+  "block.arknights_furniture.classical_columns_bottom":"Classical Columns Bottom",
+  "block.arknights_furniture.classical_columns_middle":"Classical Columns Middle",
+  "block.arknights_furniture.classical_columns_top":"Classical Columns Top",
+  "block.arknights_furniture.court_chandelier":"Court Chandelier",
+  "block.arknights_furniture.court_wall_lamp":"Court Wall Lamp",
+  "block.arknights_furniture.fence_platform_pile":"Fence Platform Pile",
+  "block.arknights_furniture.judgment_seat":"Judgment Seat",
+  "block.arknights_furniture.presiding_judge_seat":"Presiding Judge Seat",
+  "block.arknights_furniture.public_bookshelf":"Public Bookshelf",
+  "block.arknights_furniture.public_gallery":"Public Gallery",
+  "block.arknights_furniture.repair_board":"Repair Board",
+  "block.arknights_furniture.skylight_ceiling":"Skylight Ceiling",
+  "block.arknights_furniture.speaker_seat":"Speaker Seat",
+  "block.arknights_furniture.wooden_hanger":"Wooden Hanger",
+
   "itemgroup.logo": "LOGO Group",
 
   "itemgroup.freight_warehouse": "Freight Warehouse",
@@ -886,6 +901,7 @@
   "itemGroup.tswinek_country_camp": "Tswinek Country Camp",
   "itemGroup.seaside_impression": "Seaside Impression",
   "itemGroup.classroom_in_san_marceau": "Classroom In San Marceau",
+  "itemGroup.court_of_justice_of_syracuse": "Court Of Justice Of Syracuse",
 
   "painting.arknights_furniture.unconfirmed_biological_skeleton.title":"Unconfirmed Biological Skeleton",
   "painting.arknights_furniture.unconfirmed_biological_skeleton.author":"Hypergryph",

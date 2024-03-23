@@ -814,6 +814,20 @@ public class ModModelProvider extends FabricModelProvider {
         blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.WOODEN_BOOKSHELF);
         blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.WOODEN_BOOK_LADDER);
 
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.CLASSICAL_COLUMNS_BOTTOM);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.CLASSICAL_COLUMNS_MIDDLE);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.CLASSICAL_COLUMNS_TOP);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.COURT_CHANDELIER);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.COURT_WALL_LAMP);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.FENCE_PLATFORM_PILE);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.JUDGMENT_SEAT);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.PRESIDING_JUDGE_SEAT);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.PUBLIC_BOOKSHELF);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.REPAIR_BOARD);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.SKYLIGHT_CEILING);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.SPEAKER_SEAT);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.WOODEN_HANGER);
+
     }
 
     @Override

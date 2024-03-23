@@ -9,6 +9,7 @@ import com.besson.arknights.block.CasimirLiveRoom.*;
 import com.besson.arknights.block.ChensOffice.*;
 import com.besson.arknights.block.CherragStyleHotel.*;
 import com.besson.arknights.block.ClassroomInSanMarceau.*;
+import com.besson.arknights.block.CourtOfJusticeOfSyracuse.*;
 import com.besson.arknights.block.SeasideImpressions.*;
 import com.besson.arknights.block.TheBanquetHallOfTheCandyFairy.*;
 import com.besson.arknights.block.TswinekCountryCamp.*;
@@ -891,6 +892,21 @@ public class ModBlocks {
     public static final Block TOP_BEAM_PILLAR_TOP = registerBlock("top_beam_pillar_top",new TopBeamPillar(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
     public static final Block WOODEN_BOOKSHELF = registerBlock("wooden_bookshelf",new WoodenBookshelf(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
     public static final Block WOODEN_BOOK_LADDER = registerBlock("wooden_book_ladder",new WoodenBookLadder(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+
+    public static final Block CLASSICAL_COLUMNS_BOTTOM = registerBlock("classical_columns_bottom",new ClassicalColumns(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+    public static final Block CLASSICAL_COLUMNS_MIDDLE = registerBlock("classical_columns_middle",new ClassicalColumns(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+    public static final Block CLASSICAL_COLUMNS_TOP = registerBlock("classical_columns_top",new ClassicalColumns(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+    public static final Block COURT_CHANDELIER = registerBlock("court_chandelier",new CourtChandelier(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+    public static final Block COURT_WALL_LAMP = registerBlock("court_wall_lamp",new CourtWallLamp(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+    public static final Block FENCE_PLATFORM_PILE = registerBlock("fence_platform_pile",new FencePlatformPile(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+    public static final Block JUDGMENT_SEAT = registerBlock("judgment_seat",new JudgmentSeat(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+    public static final Block PRESIDING_JUDGE_SEAT = registerBlock("presiding_judge_seat",new PresidingJudgeSeat(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+    public static final Block PUBLIC_BOOKSHELF = registerBlock("public_bookshelf",new PublicBookshelf(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+    public static final Block PUBLIC_GALLERY = registerBlock("public_gallery",new PublicGallery(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+    public static final Block REPAIR_BOARD = registerBlock("repair_board",new RepairBoard(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+    public static final Block SKYLIGHT_CEILING = registerBlock("skylight_ceiling",new SkylightCeiling(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+    public static final Block SPEAKER_SEAT = registerBlock("speaker_seat",new SpeakerSeat(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+    public static final Block WOODEN_HANGER = registerBlock("wooden_hanger",new WoodenHanger(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
 
     private static Block registerBlock(String name,Block block){
         registerBlockItem(name,block);
