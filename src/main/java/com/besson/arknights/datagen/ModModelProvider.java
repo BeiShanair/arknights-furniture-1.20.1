@@ -851,6 +851,20 @@ public class ModModelProvider extends FabricModelProvider {
         blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.WARM_OVEN);
         blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.WOODEN_JAM_RACK);
 
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.CHAMBER_STYLE_CHANDELIER);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.DATA_COLLECTION_DEPARTMENT);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.DETECTIVE_DESK);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.DIFFICULT_SUDOKU_GAME);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.EVIDENCE_STORAGE_AREA);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.GLASS_BOOK_PAGE_CHANDELIER);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.INSPIRATION_HIDING_PLACE);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.INTELLIGENCE_INQUIRY_DIVISION);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.MOSAIC_INVESTIGATION_BOARD);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.PRISONERS_SCHEMES_MOTIVES_BOOKSHELF);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.PRISONERS_SCHEMES_MOTIVES_GROUND);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.RHODE_ISLAND_DAILY);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.THE_DETECTIVE_ARMCHAIR);
+
     }
 
     @Override

@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=east": {
+      "model": "arknights_furniture:block/inspiration_hiding_place",
+      "y": 90
+    },
+    "facing=north": {
+      "model": "arknights_furniture:block/inspiration_hiding_place"
+    },
+    "facing=south": {
+      "model": "arknights_furniture:block/inspiration_hiding_place",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "arknights_furniture:block/inspiration_hiding_place",
+      "y": 270
+    }
+  }
+}

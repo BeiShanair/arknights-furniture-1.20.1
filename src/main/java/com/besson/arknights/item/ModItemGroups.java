@@ -1162,6 +1162,25 @@ public class ModItemGroups {
                         entries.add(ModBlocks.WOODEN_JAM_RACK);
                     }).build());
 
+    public static final ItemGroup DETECTIVES_STUDY = Registry.register(Registries.ITEM_GROUP,
+            new Identifier(ArknightsFurniture.MOD_ID,"detectives_study"),
+            FabricItemGroup.builder().displayName(Text.translatable("itemGroup.detectives_study"))
+                    .icon(() -> new ItemStack(ModBlocks.DATA_COLLECTION_DEPARTMENT)).entries((displayContext, entries) -> {
+                        entries.add(ModBlocks.CHAMBER_STYLE_CHANDELIER);
+                        entries.add(ModBlocks.DATA_COLLECTION_DEPARTMENT);
+                        entries.add(ModBlocks.DETECTIVE_DESK);
+                        entries.add(ModBlocks.DIFFICULT_SUDOKU_GAME);
+                        entries.add(ModBlocks.EVIDENCE_STORAGE_AREA);
+                        entries.add(ModBlocks.GLASS_BOOK_PAGE_CHANDELIER);
+                        entries.add(ModBlocks.INSPIRATION_HIDING_PLACE);
+                        entries.add(ModBlocks.INTELLIGENCE_INQUIRY_DIVISION);
+                        entries.add(ModBlocks.MOSAIC_INVESTIGATION_BOARD);
+                        entries.add(ModBlocks.PRISONERS_SCHEMES_MOTIVES_BOOKSHELF);
+                        entries.add(ModBlocks.PRISONERS_SCHEMES_MOTIVES_GROUND);
+                        entries.add(ModBlocks.RHODE_ISLAND_DAILY);
+                        entries.add(ModBlocks.THE_DETECTIVE_ARMCHAIR);
+                    }).build());
+
     // public static final ItemGroup  = Registry.register(Registries.ITEM_GROUP,
     //        new Identifier(ArknightsFurniture.MOD_ID,""),
     //        FabricItemGroup.builder().displayName(Text.translatable("itemgroup."))

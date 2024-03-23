@@ -864,6 +864,20 @@
   "block.arknights_furniture.warm_oven":"Warm Oven",
   "block.arknights_furniture.wooden_jam_rack":"Wooden Jam Rack",
 
+  "block.arknights_furniture.chamber_style_chandelier":"Chamber Style Chandelier",
+  "block.arknights_furniture.data_collection_department":"Data Collection Department",
+  "block.arknights_furniture.detective_desk":"Detective Desk",
+  "block.arknights_furniture.difficult_sudoku_game":"Difficult Sudoku Game",
+  "block.arknights_furniture.evidence_storage_area":"Evidence Storage Area",
+  "block.arknights_furniture.glass_book_page_chandelier":"Glass Book Page Chandelier",
+  "block.arknights_furniture.inspiration_hiding_place":"Inspiration Hiding Place",
+  "block.arknights_furniture.intelligence_inquiry_division":"Intelligence Inquiry Division",
+  "block.arknights_furniture.mosaic_investigation_board":"Mosaic Investigation Board",
+  "block.arknights_furniture.prisoners_schemes_motives_bookshelf":"Prisoners Schemes Motives Bookshelf",
+  "block.arknights_furniture.prisoners_schemes_motives_ground":"Prisoners Schemes Motives Ground",
+  "block.arknights_furniture.rhode_island_daily":"Rhode Island Daily",
+  "block.arknights_furniture.the_detective_armchair":"The Detective Armchair",
+
   "itemgroup.logo": "LOGO Group",
 
   "itemgroup.freight_warehouse": "Freight Warehouse",
@@ -927,6 +941,7 @@
   "itemGroup.court_of_justice_of_syracuse": "Court Of Justice Of Syracuse",
   "itemGroup.once_upon_a_time_in_syracuse": "Once Upon A Time In Syracuse",
   "itemGroup.the_hut_of_the_reeds": "The Hut Of The Reeds",
+  "itemGroup.detectives_study": "Detective's Study",
 
   "painting.arknights_furniture.unconfirmed_biological_skeleton.title":"Unconfirmed Biological Skeleton",
   "painting.arknights_furniture.unconfirmed_biological_skeleton.author":"Hypergryph",

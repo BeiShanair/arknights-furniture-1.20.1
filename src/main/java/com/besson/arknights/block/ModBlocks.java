@@ -10,6 +10,7 @@ import com.besson.arknights.block.ChensOffice.*;
 import com.besson.arknights.block.CherragStyleHotel.*;
 import com.besson.arknights.block.ClassroomInSanMarceau.*;
 import com.besson.arknights.block.CourtOfJusticeOfSyracuse.*;
+import com.besson.arknights.block.DetectivesStudy.*;
 import com.besson.arknights.block.OnceUponATimeInSyracuse.*;
 import com.besson.arknights.block.SeasideImpressions.*;
 import com.besson.arknights.block.TheBanquetHallOfTheCandyFairy.*;
@@ -932,6 +933,20 @@ public class ModBlocks {
     public static final Block VINE_WOVEN_CHANDELIER = registerBlock("vine_woven_chandelier",new VineWovenChandelier(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
     public static final Block WARM_OVEN = registerBlock("warm_oven",new WarmOven(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
     public static final Block WOODEN_JAM_RACK = registerBlock("wooden_jam_rack",new WoodenJamRack(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+
+    public static final Block CHAMBER_STYLE_CHANDELIER = registerBlock("chamber_style_chandelier",new ChamberStyleChandelier(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+    public static final Block DATA_COLLECTION_DEPARTMENT = registerBlock("data_collection_department",new DataCollectionDepartment(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+    public static final Block DETECTIVE_DESK = registerBlock("detective_desk",new DetectiveDesk(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+    public static final Block DIFFICULT_SUDOKU_GAME = registerBlock("difficult_sudoku_game",new DifficultSudokuGame(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+    public static final Block EVIDENCE_STORAGE_AREA = registerBlock("evidence_storage_area",new EvidenceStorageArea(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+    public static final Block GLASS_BOOK_PAGE_CHANDELIER = registerBlock("glass_book_page_chandelier",new GlassBookPageChandelier(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+    public static final Block INSPIRATION_HIDING_PLACE = registerBlock("inspiration_hiding_place",new InspirationHidingPlace(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+    public static final Block INTELLIGENCE_INQUIRY_DIVISION = registerBlock("intelligence_inquiry_division",new IntelligenceInquiryDivision(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+    public static final Block MOSAIC_INVESTIGATION_BOARD = registerBlock("mosaic_investigation_board",new MosaicInvestigationBoard(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+    public static final Block PRISONERS_SCHEMES_MOTIVES_BOOKSHELF = registerBlock("prisoners_schemes_motives_bookshelf",new PrisonersSchemesMotivesBookshelf(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+    public static final Block PRISONERS_SCHEMES_MOTIVES_GROUND = registerBlock("prisoners_schemes_motives_ground",new PrisonersSchemesMotivesGround(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+    public static final Block RHODE_ISLAND_DAILY = registerBlock("rhode_island_daily",new RhodeIslandDaily(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+    public static final Block THE_DETECTIVE_ARMCHAIR = registerBlock("the_detective_armchair",new TheDetectiveArmchair(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
 
     private static Block registerBlock(String name,Block block){
         registerBlockItem(name,block);

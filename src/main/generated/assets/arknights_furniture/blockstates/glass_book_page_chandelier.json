@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=east": {
+      "model": "arknights_furniture:block/glass_book_page_chandelier",
+      "y": 90
+    },
+    "facing=north": {
+      "model": "arknights_furniture:block/glass_book_page_chandelier"
+    },
+    "facing=south": {
+      "model": "arknights_furniture:block/glass_book_page_chandelier",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "arknights_furniture:block/glass_book_page_chandelier",
+      "y": 270
+    }
+  }
+}
