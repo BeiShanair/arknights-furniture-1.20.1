@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=east": {
+      "model": "arknights_furniture:block/fence_platform_pile",
+      "y": 90
+    },
+    "facing=north": {
+      "model": "arknights_furniture:block/fence_platform_pile"
+    },
+    "facing=south": {
+      "model": "arknights_furniture:block/fence_platform_pile",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "arknights_furniture:block/fence_platform_pile",
+      "y": 270
+    }
+  }
+}
