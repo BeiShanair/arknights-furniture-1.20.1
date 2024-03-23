@@ -880,6 +880,14 @@ public class ModModelProvider extends FabricModelProvider {
         blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.THE_NATURAL);
         blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.WASHING_DUST_WITH_SAND);
 
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.LANTERNS_FROM_THE_MOVING_MOUNTAIN_TEMPLE);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.MOVING_MOUNTAIN_TEMPLE_FIRE_POT);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.MOVING_MOUNTAIN_TEMPLE_INCENSE_BURNER);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.MOVING_MOUNTAIN_TEMPLE_PUTUAN);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.OFFERING_TABLE_AT_THE_MOVING_MOUNTAIN_TEMPLE);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.SCREEN_OF_MOVING_MOUNTAIN_TEMPLE);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.WATER_TANK_OF_THE_MOVING_MOUNTAIN_TEMPLE);
+
     }
 
     @Override

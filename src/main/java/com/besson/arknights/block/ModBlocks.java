@@ -63,6 +63,7 @@ import com.besson.arknights.block.UrsasStudentLounge.*;
 import com.besson.arknights.block.VictoriaGuardsCollegeDormitory.*;
 import com.besson.arknights.block.WalterTrendRoom.*;
 import com.besson.arknights.block.WhiteWangno.*;
+import com.besson.arknights.block.YishanTemple.*;
 import com.besson.arknights.block.YumenMedicalCenter.*;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.fabricmc.fabric.api.object.builder.v1.block.FabricBlockSettings;
@@ -963,6 +964,14 @@ public class ModBlocks {
     public static final Block SUSPENDED_PERMANENT_LIGHT = registerBlock("suspended_permanent_light",new SuspendedPermanentLight(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
     public static final Block THE_NATURAL = registerBlock("the_natural",new TheNatural(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
     public static final Block WASHING_DUST_WITH_SAND = registerBlock("washing_dust_with_sand",new WashingDustWithSand(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+
+    public static final Block LANTERNS_FROM_THE_MOVING_MOUNTAIN_TEMPLE = registerBlock("lanterns_from_the_moving_mountain_temple",new LanternsFromTheMovingMountainTemple(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+    public static final Block MOVING_MOUNTAIN_TEMPLE_FIRE_POT = registerBlock("moving_mountain_temple_fire_pot",new MovingMountainTempleFirePot(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+    public static final Block MOVING_MOUNTAIN_TEMPLE_INCENSE_BURNER = registerBlock("moving_mountain_temple_incense_burner",new MovingMountainTempleIncenseBurner(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+    public static final Block MOVING_MOUNTAIN_TEMPLE_PUTUAN = registerBlock("moving_mountain_temple_putuan",new MovingMountainTemplePutuan(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+    public static final Block OFFERING_TABLE_AT_THE_MOVING_MOUNTAIN_TEMPLE = registerBlock("offering_table_at_the_moving_mountain_temple",new OfferingTableAtTheMovingMountainTemple(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+    public static final Block SCREEN_OF_MOVING_MOUNTAIN_TEMPLE = registerBlock("screen_of_moving_mountain_temple",new ScreenOfMovingMountainTemple(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+    public static final Block WATER_TANK_OF_THE_MOVING_MOUNTAIN_TEMPLE = registerBlock("water_tank_of_the_moving_mountain_temple",new WaterTankOfTheMovingMountainTemple(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
 
     private static Block registerBlock(String name,Block block){
         registerBlockItem(name,block);

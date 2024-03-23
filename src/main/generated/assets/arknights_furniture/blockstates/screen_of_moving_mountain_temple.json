@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=east": {
+      "model": "arknights_furniture:block/screen_of_moving_mountain_temple",
+      "y": 90
+    },
+    "facing=north": {
+      "model": "arknights_furniture:block/screen_of_moving_mountain_temple"
+    },
+    "facing=south": {
+      "model": "arknights_furniture:block/screen_of_moving_mountain_temple",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "arknights_furniture:block/screen_of_moving_mountain_temple",
+      "y": 270
+    }
+  }
+}

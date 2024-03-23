@@ -893,6 +893,14 @@
   "block.arknights_furniture.the_natural":"The Natural",
   "block.arknights_furniture.washing_dust_with_sand":"Washing Dust With Sand",
 
+  "block.arknights_furniture.lanterns_from_the_moving_mountain_temple":"Lanterns From The Moving Mountain Temple",
+  "block.arknights_furniture.moving_mountain_temple_fire_pot":"Moving Mountain Temple Fire Pot",
+  "block.arknights_furniture.moving_mountain_temple_incense_burner":"Moving Mountain Temple Incense Burner",
+  "block.arknights_furniture.moving_mountain_temple_putuan":"Moving Mountain Temple Putuan",
+  "block.arknights_furniture.offering_table_at_the_moving_mountain_temple":"Offering Table At The Moving Mountain Temple",
+  "block.arknights_furniture.screen_of_moving_mountain_temple":"Screen Of Moving Mountain Temple",
+  "block.arknights_furniture.water_tank_of_the_moving_mountain_temple":"Water Tank Of The Moving Mountain Temple",
+
   "itemgroup.logo": "LOGO Group",
 
   "itemgroup.freight_warehouse": "Freight Warehouse",
@@ -958,6 +966,7 @@
   "itemGroup.the_hut_of_the_reeds": "The Hut Of The Reeds",
   "itemGroup.detectives_study": "Detective's Study",
   "itemGroup.yumen_medical_center": "Yumen Medical Center",
+  "itemGroup.yishan_temple": "Yishan Temple",
 
   "painting.arknights_furniture.unconfirmed_biological_skeleton.title":"Unconfirmed Biological Skeleton",
   "painting.arknights_furniture.unconfirmed_biological_skeleton.author":"Hypergryph",

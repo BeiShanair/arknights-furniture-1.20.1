@@ -1201,6 +1201,19 @@ public class ModItemGroups {
                         entries.add(ModBlocks.WASHING_DUST_WITH_SAND);
                     }).build());
 
+    public static final ItemGroup YISHAN_TEMPLE = Registry.register(Registries.ITEM_GROUP,
+            new Identifier(ArknightsFurniture.MOD_ID,"yishan_temple"),
+            FabricItemGroup.builder().displayName(Text.translatable("itemGroup.yishan_temple"))
+                    .icon(() -> new ItemStack(ModBlocks.MOVING_MOUNTAIN_TEMPLE_FIRE_POT)).entries((displayContext, entries) -> {
+                        entries.add(ModBlocks.LANTERNS_FROM_THE_MOVING_MOUNTAIN_TEMPLE);
+                        entries.add(ModBlocks.MOVING_MOUNTAIN_TEMPLE_FIRE_POT);
+                        entries.add(ModBlocks.MOVING_MOUNTAIN_TEMPLE_INCENSE_BURNER);
+                        entries.add(ModBlocks.MOVING_MOUNTAIN_TEMPLE_PUTUAN);
+                        entries.add(ModBlocks.OFFERING_TABLE_AT_THE_MOVING_MOUNTAIN_TEMPLE);
+                        entries.add(ModBlocks.SCREEN_OF_MOVING_MOUNTAIN_TEMPLE);
+                        entries.add(ModBlocks.WATER_TANK_OF_THE_MOVING_MOUNTAIN_TEMPLE);
+                    }).build());
+
     // public static final ItemGroup  = Registry.register(Registries.ITEM_GROUP,
     //        new Identifier(ArknightsFurniture.MOD_ID,""),
     //        FabricItemGroup.builder().displayName(Text.translatable("itemgroup."))

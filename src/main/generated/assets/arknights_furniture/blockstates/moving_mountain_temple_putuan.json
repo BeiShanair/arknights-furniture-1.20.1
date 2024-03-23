@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=east": {
+      "model": "arknights_furniture:block/moving_mountain_temple_putuan",
+      "y": 90
+    },
+    "facing=north": {
+      "model": "arknights_furniture:block/moving_mountain_temple_putuan"
+    },
+    "facing=south": {
+      "model": "arknights_furniture:block/moving_mountain_temple_putuan",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "arknights_furniture:block/moving_mountain_temple_putuan",
+      "y": 270
+    }
+  }
+}
