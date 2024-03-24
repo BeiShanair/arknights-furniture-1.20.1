@@ -1214,6 +1214,20 @@ public class ModItemGroups {
                         entries.add(ModBlocks.WATER_TANK_OF_THE_MOVING_MOUNTAIN_TEMPLE);
                     }).build());
 
+    public static final ItemGroup LONGMEN_STYLE_TEA_ROOM = Registry.register(Registries.ITEM_GROUP,
+            new Identifier(ArknightsFurniture.MOD_ID,"longmen_style_tea_room"),
+            FabricItemGroup.builder().displayName(Text.translatable("itemGroup.longmen_style_tea_room"))
+                    .icon(() -> new ItemStack(ModBlocks.LONG_FLOWING_WATER)).entries((displayContext, entries) -> {
+                        entries.add(ModBlocks.LONG_FLOWING_WATER);
+                        entries.add(ModBlocks.NOT_OLD_PINE_DEFAULT);
+                        entries.add(ModBlocks.RECRUITING_WEALTH_PART1);
+                        entries.add(ModBlocks.RECRUITING_WEALTH_PART2);
+                        entries.add(ModBlocks.RECRUITING_WEALTH_PART3);
+                        entries.add(ModBlocks.TEA_ROOM_PRIVATE_ROOM_LIGHT_GROUP);
+                        entries.add(ModBlocks.TEA_ROOM_PRIVATE_ROOM_SOFA_CHAIRS);
+
+                    }).build());
+
     // public static final ItemGroup  = Registry.register(Registries.ITEM_GROUP,
     //        new Identifier(ArknightsFurniture.MOD_ID,""),
     //        FabricItemGroup.builder().displayName(Text.translatable("itemgroup."))

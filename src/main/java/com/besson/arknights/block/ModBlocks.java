@@ -11,6 +11,7 @@ import com.besson.arknights.block.CherragStyleHotel.*;
 import com.besson.arknights.block.ClassroomInSanMarceau.*;
 import com.besson.arknights.block.CourtOfJusticeOfSyracuse.*;
 import com.besson.arknights.block.DetectivesStudy.*;
+import com.besson.arknights.block.LongmenStyleTeaRoom.*;
 import com.besson.arknights.block.OnceUponATimeInSyracuse.*;
 import com.besson.arknights.block.SeasideImpressions.*;
 import com.besson.arknights.block.TheBanquetHallOfTheCandyFairy.*;
@@ -972,6 +973,14 @@ public class ModBlocks {
     public static final Block OFFERING_TABLE_AT_THE_MOVING_MOUNTAIN_TEMPLE = registerBlock("offering_table_at_the_moving_mountain_temple",new OfferingTableAtTheMovingMountainTemple(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
     public static final Block SCREEN_OF_MOVING_MOUNTAIN_TEMPLE = registerBlock("screen_of_moving_mountain_temple",new ScreenOfMovingMountainTemple(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
     public static final Block WATER_TANK_OF_THE_MOVING_MOUNTAIN_TEMPLE = registerBlock("water_tank_of_the_moving_mountain_temple",new WaterTankOfTheMovingMountainTemple(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+
+    public static final Block LONG_FLOWING_WATER = registerBlock("long_flowing_water",new LongFlowingWater(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+    public static final Block NOT_OLD_PINE_DEFAULT = registerBlock("not_old_pine_default",new NotOldPine(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+    public static final Block RECRUITING_WEALTH_PART1 = registerBlock("recruiting_wealth_part1",new RecruitingWealthPart1(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+    public static final Block RECRUITING_WEALTH_PART2 = registerBlock("recruiting_wealth_part2",new RecruitingWealthPart2(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+    public static final Block RECRUITING_WEALTH_PART3 = registerBlock("recruiting_wealth_part3",new RecruitingWealthPart3(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+    public static final Block TEA_ROOM_PRIVATE_ROOM_LIGHT_GROUP = registerBlock("tea_room_private_room_light_group",new TeaRoomPrivateRoomLightGroup(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+    public static final Block TEA_ROOM_PRIVATE_ROOM_SOFA_CHAIRS = registerBlock("tea_room_private_room_sofa_chairs",new TeaRoomPrivateRoomSofaChairs(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
 
     private static Block registerBlock(String name,Block block){
         registerBlockItem(name,block);

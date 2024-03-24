@@ -901,6 +901,14 @@
   "block.arknights_furniture.screen_of_moving_mountain_temple":"Screen Of Moving Mountain Temple",
   "block.arknights_furniture.water_tank_of_the_moving_mountain_temple":"Water Tank Of The Moving Mountain Temple",
 
+  "block.arknights_furniture.long_flowing_water":"Long Flowing Water",
+  "block.arknights_furniture.not_old_pine_default":"Not Old Pine",
+  "block.arknights_furniture.recruiting_wealth_part1":"Recruiting Wealth Part1",
+  "block.arknights_furniture.recruiting_wealth_part2":"Recruiting Wealth Part2",
+  "block.arknights_furniture.recruiting_wealth_part3":"Recruiting Wealth Part3",
+  "block.arknights_furniture.tea_room_private_room_light_group":"TeaRoom Private Room Light Group",
+  "block.arknights_furniture.tea_room_private_room_sofa_chairs":"TeaRoom Private Room Sofa Chairs",
+
   "itemgroup.logo": "LOGO Group",
 
   "itemgroup.freight_warehouse": "Freight Warehouse",
@@ -967,6 +975,7 @@
   "itemGroup.detectives_study": "Detective's Study",
   "itemGroup.yumen_medical_center": "Yumen Medical Center",
   "itemGroup.yishan_temple": "Yishan Temple",
+  "itemGroup.longmen_style_tea_room": "Longmen Style Tea Room",
 
   "painting.arknights_furniture.unconfirmed_biological_skeleton.title":"Unconfirmed Biological Skeleton",
   "painting.arknights_furniture.unconfirmed_biological_skeleton.author":"Hypergryph",
