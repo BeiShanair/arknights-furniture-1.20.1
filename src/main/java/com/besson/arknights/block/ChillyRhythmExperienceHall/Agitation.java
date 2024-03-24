@@ -9,7 +9,7 @@ import net.minecraft.util.shape.VoxelShape;
 import net.minecraft.world.BlockView;
 
 public class Agitation extends FurnitureHorizontalFacingBlock {
-    public static final VoxelShape SHAPE = Block.createCuboidShape(0,0,0,16,16,16);
+    public static final VoxelShape SHAPE = Block.createCuboidShape(0,0,0,16,32,16);
 
     public Agitation(Settings settings) {
         super(settings);
