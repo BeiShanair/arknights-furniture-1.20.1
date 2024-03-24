@@ -1395,6 +1395,36 @@ public class ModItemGroups {
                         entries.add(ModBlocks.SUSPENDED_CEILING_MAINTENANCE_EQUIPMENT);
                     }).build());
 
+    public static final ItemGroup WHERE_THE_MERCENARIES_ARE_STAYING = Registry.register(Registries.ITEM_GROUP,
+            new Identifier(ArknightsFurniture.MOD_ID,"where_the_mercenaries_are_staying"),
+            FabricItemGroup.builder().displayName(Text.translatable("itemGroup.where_the_mercenaries_are_staying"))
+                    .icon(() -> new ItemStack(ModBlocks.BASEMENT_WALL_LIGHTS)).entries((displayContext, entries) -> {
+                                entries.add(ModBlocks.BASEMENT_WALL_LIGHTS);
+                                entries.add(ModBlocks.MOBILE_MAILBOX);
+                                entries.add(ModBlocks.MULTIPLE_USES_OF_ONE_MATERIAL);
+                                entries.add(ModBlocks.PERHAPS_ITS_A_BONSAI);
+                                entries.add(ModBlocks.PORTABLE_STOVE);
+                                entries.add(ModBlocks.SECOND_HAND_INFORMATION_CABINET);
+                                entries.add(ModBlocks.SECOND_HAND_LEATHER_CHAIRS);
+                                entries.add(ModBlocks.SIMPLE_HANGING_LAMP_IN_THE_STUDY_ROOM);
+                                entries.add(ModBlocks.SIMPLE_WELDING_STOOL);
+                                entries.add(ModBlocks.WEAPON_MAINTENANCE_STATION);
+                                entries.add(ModBlocks.WORK_AREA_CEILING_LIGHT);
+                                entries.add(ModBlocks.WORK_AREA_WALL_STORAGE_PANEL);
+                            }).build());
+
+    public static final ItemGroup SNOW_MOUNTAIN_SMALL_POST_OFFICE = Registry.register(Registries.ITEM_GROUP,
+            new Identifier(ArknightsFurniture.MOD_ID,"snow_mountain_small_post_office"),
+            FabricItemGroup.builder().displayName(Text.translatable("itemGroup.snow_mountain_small_post_office"))
+                    .icon(() -> new ItemStack(ModBlocks.LINSHI_SHELF)).entries((displayContext, entries) -> {
+                                entries.add(ModBlocks.LINSHI_SHELF);
+                                entries.add(ModBlocks.LOGISTICS_FLOOR_SCALE);
+                                entries.add(ModBlocks.NO_OPEN_FLAME_HEATER);
+                                entries.add(ModBlocks.SHIPPING_COUNTER);
+                                entries.add(ModBlocks.SMALL_MAILBOX);
+                                entries.add(ModBlocks.SMALL_POST_OFFICE_DESK);
+                            }).build());
+
                         // public static final ItemGroup  = Registry.register(Registries.ITEM_GROUP,
     //        new Identifier(ArknightsFurniture.MOD_ID,""),
     //        FabricItemGroup.builder().displayName(Text.translatable("itemgroup."))

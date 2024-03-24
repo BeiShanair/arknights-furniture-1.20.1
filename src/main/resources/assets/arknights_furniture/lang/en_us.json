@@ -1027,6 +1027,26 @@
   "block.arknights_furniture.splicing_vertical_lighting_fixtures":"Splicing Vertical Lighting Fixtures",
   "block.arknights_furniture.suspended_ceiling_maintenance_equipment":"Suspended Ceiling Maintenance Equipment",
 
+  "block.arknights_furniture.basement_wall_lights":"Basement Wall Lights",
+  "block.arknights_furniture.mobile_mailbox":"Mobile Mailbox",
+  "block.arknights_furniture.multiple_uses_of_one_material":"Multiple Uses Of One Material",
+  "block.arknights_furniture.perhaps_its_a_bonsai":"Perhaps Its A Bonsai",
+  "block.arknights_furniture.portable_stove":"Portable Stove",
+  "block.arknights_furniture.second_hand_information_cabinet":"Second Hand Information Cabinet",
+  "block.arknights_furniture.second_hand_leather_chairs":"Second Hand Leather Chairs",
+  "block.arknights_furniture.simple_hanging_lamp_in_the_study_room":"Simple Hanging Lamp In The Study Room",
+  "block.arknights_furniture.simple_welding_stool":"Simple Welding Stool",
+  "block.arknights_furniture.weapon_maintenance_station":"Weapon Maintenance Station",
+  "block.arknights_furniture.work_area_ceiling_light":"Work Area Ceiling Light",
+  "block.arknights_furniture.work_area_wall_storage_panel":"Work Area Wall Storage Panel",
+
+  "block.arknights_furniture.linshi_shelf":"Linshi Shelf",
+  "block.arknights_furniture.logistics_floor_scale":"Logistics Floor Scale",
+  "block.arknights_furniture.no_open_flame_heater":"No Open Flame Heater",
+  "block.arknights_furniture.shipping_counter":"Shipping Counter",
+  "block.arknights_furniture.small_mailbox":"Small Mailbox",
+  "block.arknights_furniture.small_post_office_desk":"Small Post Office Desk",
+
   "itemgroup.logo": "Logo Group",
 
   "itemgroup.freight_warehouse": "Freight Warehouse",
@@ -1104,6 +1124,8 @@
   "itemGroup.pure_white_volcano_tour": "Pure White Volcano Tour",
   "itemGroup.sami_impressions": "Sami Impressions",
   "itemGroup.blacksteel_international_safe_house": "Black Steel International Safe House",
+  "itemGroup.where_the_mercenaries_are_staying": "Where The Mercenaries Are Staying",
+  "itemGroup.snow_mountain_small_post_office": "Snow Mountain Small Post Office",
 
   "painting.arknights_furniture.unconfirmed_biological_skeleton.title":"Unconfirmed Biological Skeleton",
   "painting.arknights_furniture.unconfirmed_biological_skeleton.author":"Hypergryph",

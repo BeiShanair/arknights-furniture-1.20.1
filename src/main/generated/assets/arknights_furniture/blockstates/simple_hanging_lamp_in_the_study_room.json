@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=east": {
+      "model": "arknights_furniture:block/simple_hanging_lamp_in_the_study_room",
+      "y": 90
+    },
+    "facing=north": {
+      "model": "arknights_furniture:block/simple_hanging_lamp_in_the_study_room"
+    },
+    "facing=south": {
+      "model": "arknights_furniture:block/simple_hanging_lamp_in_the_study_room",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "arknights_furniture:block/simple_hanging_lamp_in_the_study_room",
+      "y": 270
+    }
+  }
+}

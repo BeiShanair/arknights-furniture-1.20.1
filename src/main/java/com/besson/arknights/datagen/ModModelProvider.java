@@ -1011,6 +1011,26 @@ public class ModModelProvider extends FabricModelProvider {
         blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.SPLICING_VERTICAL_LIGHTING_FIXTURES);
         blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.SUSPENDED_CEILING_MAINTENANCE_EQUIPMENT);
 
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.BASEMENT_WALL_LIGHTS);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.MOBILE_MAILBOX);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.MULTIPLE_USES_OF_ONE_MATERIAL);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.PERHAPS_ITS_A_BONSAI);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.PORTABLE_STOVE);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.SECOND_HAND_INFORMATION_CABINET);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.SECOND_HAND_LEATHER_CHAIRS);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.SIMPLE_HANGING_LAMP_IN_THE_STUDY_ROOM);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.SIMPLE_WELDING_STOOL);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.WEAPON_MAINTENANCE_STATION);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.WORK_AREA_CEILING_LIGHT);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.WORK_AREA_WALL_STORAGE_PANEL);
+
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.LINSHI_SHELF);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.LOGISTICS_FLOOR_SCALE);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.NO_OPEN_FLAME_HEATER);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.SHIPPING_COUNTER);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.SMALL_MAILBOX);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.SMALL_POST_OFFICE_DESK);
+
     }
 
     @Override

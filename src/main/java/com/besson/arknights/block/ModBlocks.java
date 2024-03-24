@@ -24,9 +24,11 @@ import com.besson.arknights.block.PureWhiteVolcanoTour.*;
 import com.besson.arknights.block.RhineLifeEcologicalPark.*;
 import com.besson.arknights.block.SamiImpressions.*;
 import com.besson.arknights.block.SeasideImpressions.*;
+import com.besson.arknights.block.SnowMountainSmallPostOffice.*;
 import com.besson.arknights.block.TheBanquetHallOfTheCandyFairy.*;
 import com.besson.arknights.block.TheHutOfTheReeds.*;
 import com.besson.arknights.block.TswinekCountryCamp.*;
+import com.besson.arknights.block.WhereTheMercenariesAreStaying.*;
 import com.besson.arknights.block.YamashiroTeahouse.*;
 import com.besson.arknights.block.ColumbiaCafe.*;
 import com.besson.arknights.block.ColumbiaModernHotel.*;
@@ -1109,6 +1111,26 @@ public class ModBlocks {
     public static final Block SEISMIC_PILLAR = registerBlock("seismic_pillar",new SeismicPillar(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
     public static final Block SPLICING_VERTICAL_LIGHTING_FIXTURES = registerBlock("splicing_vertical_lighting_fixtures",new SplicingVerticalLightingFixtures(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
     public static final Block SUSPENDED_CEILING_MAINTENANCE_EQUIPMENT = registerBlock("suspended_ceiling_maintenance_equipment",new SuspendedCeilingMaintenanceEquipment(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+
+    public static final Block BASEMENT_WALL_LIGHTS = registerBlock("basement_wall_lights",new BasementWallLights(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+    public static final Block MOBILE_MAILBOX = registerBlock("mobile_mailbox",new MobileMailbox(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+    public static final Block MULTIPLE_USES_OF_ONE_MATERIAL = registerBlock("multiple_uses_of_one_material",new MultipleUsesOfOneMaterial(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+    public static final Block PERHAPS_ITS_A_BONSAI = registerBlock("perhaps_its_a_bonsai",new PerhapsItsABonsai(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+    public static final Block PORTABLE_STOVE = registerBlock("portable_stove",new PortableStove(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+    public static final Block SECOND_HAND_INFORMATION_CABINET = registerBlock("second_hand_information_cabinet",new SecondHandInformationCabinet(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+    public static final Block SECOND_HAND_LEATHER_CHAIRS = registerBlock("second_hand_leather_chairs",new SecondHandLeatherChairs(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+    public static final Block SIMPLE_HANGING_LAMP_IN_THE_STUDY_ROOM = registerBlock("simple_hanging_lamp_in_the_study_room",new SimpleHangingLampInTheStudyRoom(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+    public static final Block SIMPLE_WELDING_STOOL = registerBlock("simple_welding_stool",new SimpleWeldingStool(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+    public static final Block WEAPON_MAINTENANCE_STATION = registerBlock("weapon_maintenance_station",new WeaponMaintenanceStation(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+    public static final Block WORK_AREA_CEILING_LIGHT = registerBlock("work_area_ceiling_light",new WorkAreaCeilingLight(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+    public static final Block WORK_AREA_WALL_STORAGE_PANEL = registerBlock("work_area_wall_storage_panel",new WorkAreaWallStoragePanel(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+
+    public static final Block LINSHI_SHELF = registerBlock("linshi_shelf",new LinshiShelf(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+    public static final Block LOGISTICS_FLOOR_SCALE = registerBlock("logistics_floor_scale",new LogisticsFloorScale(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+    public static final Block NO_OPEN_FLAME_HEATER = registerBlock("no_open_flame_heater",new NoOpenFlameHeater(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+    public static final Block SHIPPING_COUNTER = registerBlock("shipping_counter",new ShippingCounter(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+    public static final Block SMALL_MAILBOX = registerBlock("small_mailbox",new SmallMailbox(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+    public static final Block SMALL_POST_OFFICE_DESK = registerBlock("small_post_office_desk",new SmallPostOfficeDesk(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
 
     private static Block registerBlock(String name,Block block){
         registerBlockItem(name,block);

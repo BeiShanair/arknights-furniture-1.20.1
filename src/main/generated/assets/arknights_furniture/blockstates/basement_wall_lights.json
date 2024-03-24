@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=east": {
+      "model": "arknights_furniture:block/basement_wall_lights",
+      "y": 90
+    },
+    "facing=north": {
+      "model": "arknights_furniture:block/basement_wall_lights"
+    },
+    "facing=south": {
+      "model": "arknights_furniture:block/basement_wall_lights",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "arknights_furniture:block/basement_wall_lights",
+      "y": 270
+    }
+  }
+}
