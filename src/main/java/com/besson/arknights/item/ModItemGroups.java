@@ -1264,7 +1264,24 @@ public class ModItemGroups {
                         entries.add(ModBlocks.VERTICAL_HUMANOID_SANDBAG);
                     }).build());
 
-                        // public static final ItemGroup  = Registry.register(Registries.ITEM_GROUP,
+    public static final ItemGroup NATURAL_DISASTER_OBSERVATION_AND_RESEARCH_STATION = Registry.register(Registries.ITEM_GROUP,
+            new Identifier(ArknightsFurniture.MOD_ID,"natural_disaster_observation_and_research_station"),
+            FabricItemGroup.builder().displayName(Text.translatable("itemGroup.natural_disaster_observation_and_research_station"))
+                    .icon(() -> new ItemStack(ModBlocks.ENVIRONMENTAL_MONITORING_DISPLAY_SCREEN)).entries((displayContext, entries) -> {
+                        entries.add(ModBlocks.ENVIRONMENTAL_MONITORING_DISPLAY_SCREEN);
+                        entries.add(ModBlocks.GEOLOGICAL_SAMPLE_COLLECTOR);
+                        entries.add(ModBlocks.MODIFYING_CHANDELIERS);
+                        entries.add(ModBlocks.OBSERVATION_AND_RECORDING_WORKBENCH);
+                        entries.add(ModBlocks.OUTDOOR_STRONG_LIGHT_SEARCHLIGHT);
+                        entries.add(ModBlocks.PLANT_HYDROPONIC_TANK);
+                        entries.add(ModBlocks.SIMPLE_METEOROLOGICAL_OBSERVATION_FRAME);
+                        entries.add(ModBlocks.SMALL_RADAR_ANTENNA);
+                        entries.add(ModBlocks.STEAM_TABLE);
+                        entries.add(ModBlocks.THERMOSTATIC_SEEDLING_BOX);
+                        entries.add(ModBlocks.WORK_CHAIR);
+                    }).build());
+
+    // public static final ItemGroup  = Registry.register(Registries.ITEM_GROUP,
     //        new Identifier(ArknightsFurniture.MOD_ID,""),
     //        FabricItemGroup.builder().displayName(Text.translatable("itemgroup."))
     //                .icon(() -> new ItemStack(ModBlocks.)).entries((displayContext, entries) -> {

@@ -14,6 +14,7 @@ import com.besson.arknights.block.DetectivesStudy.*;
 import com.besson.arknights.block.GlasgowGangBoxingGym.*;
 import com.besson.arknights.block.LongmenStyleTeaRoom.*;
 import com.besson.arknights.block.MomijiHostel.*;
+import com.besson.arknights.block.NaturalDisasterObservationAndResearchStation.*;
 import com.besson.arknights.block.OnceUponATimeInSyracuse.*;
 import com.besson.arknights.block.SeasideImpressions.*;
 import com.besson.arknights.block.TheBanquetHallOfTheCandyFairy.*;
@@ -1010,6 +1011,18 @@ public class ModBlocks {
     public static final Block STEEL_FRAME_STAIRCASE = registerBlock("steel_frame_staircase",new SteelFrameStaircase(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
     public static final Block SUSPENDED_SANDBAG = registerBlock("suspended_sandbag",new SuspendedSandbag(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
     public static final Block VERTICAL_HUMANOID_SANDBAG = registerBlock("vertical_humanoid_sandbag",new VerticalHumanoidSandbag(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+
+    public static final Block ENVIRONMENTAL_MONITORING_DISPLAY_SCREEN = registerBlock("environmental_monitoring_display_screen",new EnvironmentalMonitoringDisplayScreen(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+    public static final Block GEOLOGICAL_SAMPLE_COLLECTOR = registerBlock("geological_sample_collector",new GeologicalSampleCollector(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+    public static final Block MODIFYING_CHANDELIERS = registerBlock("modifying_chandeliers",new ModifyingChandeliers(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+    public static final Block OBSERVATION_AND_RECORDING_WORKBENCH = registerBlock("observation_and_recording_workbench",new ObservationAndRecordingWorkbench(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+    public static final Block OUTDOOR_STRONG_LIGHT_SEARCHLIGHT = registerBlock("outdoor_strong_light_searchlight",new OutdoorStrongLightSearchlight(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+    public static final Block PLANT_HYDROPONIC_TANK = registerBlock("plant_hydroponic_tank",new PlantHydroponicTank(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+    public static final Block SIMPLE_METEOROLOGICAL_OBSERVATION_FRAME = registerBlock("simple_meteorological_observation_frame",new SimpleMeteorologicalObservationFrame(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+    public static final Block SMALL_RADAR_ANTENNA = registerBlock("small_radar_antenna",new SmallRadarAntenna(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+    public static final Block STEAM_TABLE = registerBlock("steam_table",new SteamTable(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+    public static final Block THERMOSTATIC_SEEDLING_BOX = registerBlock("thermostatic_seedling_box",new ThermostaticSeedlingBox(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+    public static final Block WORK_CHAIR = registerBlock("work_chair",new WorkChair(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
 
     private static Block registerBlock(String name,Block block){
         registerBlockItem(name,block);

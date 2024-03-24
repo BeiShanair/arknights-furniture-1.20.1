@@ -936,6 +936,18 @@
   "block.arknights_furniture.suspended_sandbag":"Suspended Sandbag",
   "block.arknights_furniture.vertical_humanoid_sandbag":"Vertical Humanoid Sandbag",
 
+  "block.arknights_furniture.environmental_monitoring_display_screen":"Environmental Monitoring Display Screen",
+  "block.arknights_furniture.geological_sample_collector":"Geological Sample Collector",
+  "block.arknights_furniture.modifying_chandeliers":"Modifying Chandeliers",
+  "block.arknights_furniture.observation_and_recording_workbench":"Observation And Recording Workbench",
+  "block.arknights_furniture.outdoor_strong_light_searchlight":"Outdoor Strong Light Searchlight",
+  "block.arknights_furniture.plant_hydroponic_tank":"Plant Hydroponic Tank",
+  "block.arknights_furniture.simple_meteorological_observation_frame":"Simple Meteorological Observation Frame",
+  "block.arknights_furniture.small_radar_antenna":"Small Radar Antenna",
+  "block.arknights_furniture.steam_table":"Steam Table",
+  "block.arknights_furniture.thermostatic_seedling_box":"Thermostatic Seedling Box",
+  "block.arknights_furniture.work_chair":"Work Chair",
+
   "itemgroup.logo": "LOGO Group",
 
   "itemgroup.freight_warehouse": "Freight Warehouse",
@@ -1005,6 +1017,7 @@
   "itemGroup.longmen_style_tea_room": "Longmen Style Tea Room",
   "itemGroup.momiji_hostel": "Momiji Hostel",
   "itemGroup.glasgow_gang_boxing_gym": "Glasgow Gang Boxing Gym",
+  "itemGroup.natural_disaster_observation_and_research_station": "Natural Disaster Observation And Research Station",
 
   "painting.arknights_furniture.unconfirmed_biological_skeleton.title":"Unconfirmed Biological Skeleton",
   "painting.arknights_furniture.unconfirmed_biological_skeleton.author":"Hypergryph",

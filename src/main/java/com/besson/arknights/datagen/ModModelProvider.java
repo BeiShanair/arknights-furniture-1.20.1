@@ -921,6 +921,18 @@ public class ModModelProvider extends FabricModelProvider {
         blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.SUSPENDED_SANDBAG);
         blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.VERTICAL_HUMANOID_SANDBAG);
 
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.ENVIRONMENTAL_MONITORING_DISPLAY_SCREEN);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.GEOLOGICAL_SAMPLE_COLLECTOR);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.MODIFYING_CHANDELIERS);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.OBSERVATION_AND_RECORDING_WORKBENCH);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.OUTDOOR_STRONG_LIGHT_SEARCHLIGHT);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.PLANT_HYDROPONIC_TANK);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.SIMPLE_METEOROLOGICAL_OBSERVATION_FRAME);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.SMALL_RADAR_ANTENNA);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.STEAM_TABLE);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.THERMOSTATIC_SEEDLING_BOX);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.WORK_CHAIR);
+
     }
 
     @Override
