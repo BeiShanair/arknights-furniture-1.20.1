@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=east": {
+      "model": "arknights_furniture:block/small_stool_that_can_be_swam",
+      "y": 90
+    },
+    "facing=north": {
+      "model": "arknights_furniture:block/small_stool_that_can_be_swam"
+    },
+    "facing=south": {
+      "model": "arknights_furniture:block/small_stool_that_can_be_swam",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "arknights_furniture:block/small_stool_that_can_be_swam",
+      "y": 270
+    }
+  }
+}

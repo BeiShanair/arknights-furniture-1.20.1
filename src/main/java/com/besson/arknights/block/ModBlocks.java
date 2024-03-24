@@ -19,6 +19,7 @@ import com.besson.arknights.block.LongmenStyleTeaRoom.*;
 import com.besson.arknights.block.MomijiHostel.*;
 import com.besson.arknights.block.NaturalDisasterObservationAndResearchStation.*;
 import com.besson.arknights.block.OnceUponATimeInSyracuse.*;
+import com.besson.arknights.block.PureWhiteVolcanoTour.*;
 import com.besson.arknights.block.RhineLifeEcologicalPark.*;
 import com.besson.arknights.block.SeasideImpressions.*;
 import com.besson.arknights.block.TheBanquetHallOfTheCandyFairy.*;
@@ -1071,6 +1072,18 @@ public class ModBlocks {
     public static final Block SLED_SHAPED_CHANDELIER = registerBlock("sled_shaped_chandelier",new SledShapedChandelier(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
     public static final Block SNOW_VELVET_ROUND_STOOL = registerBlock("snow_velvet_round_stool",new SnowVelvetRoundStool(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
     public static final Block SOLAR_PENDANT_LIGHT = registerBlock("solar_pendant_light",new SolarPendantLight(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+
+    public static final Block BRICK_WALL_SENTRY = registerBlock("brick_wall_sentry",new BrickWallSentry(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+    public static final Block DIZZY_SWIVEL_CHAIR = registerBlock("dizzy_swivel_chair",new DizzySwivelChair(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+    public static final Block DRIFTING_HELMSMAN = registerBlock("drifting_helmsman",new DriftingHelmsman(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+    public static final Block DWARF_REFRIGERATOR = registerBlock("dwarf_refrigerator",new DwarfRefrigerator(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+    public static final Block FLAVOR_MAGE = registerBlock("flavor_mage",new FlavorMage(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+    public static final Block LARGE_ARMCHAIR_THAT_CAN_BE_ROTATED = registerBlock("large_armchair_that_can_be_rotated",new LargeArmchairThatCanBeRotated(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+    public static final Block LETAOTAO_SPLICING_TABLE = registerBlock("letaotao_splicing_table",new LetaotaoSplicingTable(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+    public static final Block NURSERY_RHYME_GUARD = registerBlock("nursery_rhyme_guard",new NurseryRhymeGuard(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+    public static final Block SMALL_STOOL_THAT_CAN_BE_SWAM = registerBlock("small_stool_that_can_be_swam",new SmallStoolThatCanBeSwam(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+    public static final Block SOFT_CANDY_COMPANION = registerBlock("soft_candy_companion",new SoftCandyCompanion(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+    public static final Block TEA_AND_RICE_ATTENDANT = registerBlock("tea_and_rice_attendant",new TeaAndRiceAttendant(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
 
     private static Block registerBlock(String name,Block block){
         registerBlockItem(name,block);

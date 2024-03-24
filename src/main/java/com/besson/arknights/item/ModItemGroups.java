@@ -1345,6 +1345,23 @@ public class ModItemGroups {
                         entries.add(ModBlocks.SOLAR_PENDANT_LIGHT);
                     }).build());
 
+    public static final ItemGroup PURE_WHITE_VOLCANO_TOUR = Registry.register(Registries.ITEM_GROUP,
+            new Identifier(ArknightsFurniture.MOD_ID,"pure_white_volcano_tourist_center"),
+            FabricItemGroup.builder().displayName(Text.translatable("itemGroup.pure_white_volcano_tour"))
+                    .icon(() -> new ItemStack(ModBlocks.BRICK_WALL_SENTRY)).entries((displayContext, entries) -> {
+                        entries.add(ModBlocks.BRICK_WALL_SENTRY);
+                        entries.add(ModBlocks.DIZZY_SWIVEL_CHAIR);
+                        entries.add(ModBlocks.DRIFTING_HELMSMAN);
+                        entries.add(ModBlocks.DWARF_REFRIGERATOR);
+                        entries.add(ModBlocks.FLAVOR_MAGE);
+                        entries.add(ModBlocks.LARGE_ARMCHAIR_THAT_CAN_BE_ROTATED);
+                        entries.add(ModBlocks.LETAOTAO_SPLICING_TABLE);
+                        entries.add(ModBlocks.NURSERY_RHYME_GUARD);
+                        entries.add(ModBlocks.SMALL_STOOL_THAT_CAN_BE_SWAM);
+                        entries.add(ModBlocks.SOFT_CANDY_COMPANION);
+                        entries.add(ModBlocks.TEA_AND_RICE_ATTENDANT);
+                    }).build());
+
     // public static final ItemGroup  = Registry.register(Registries.ITEM_GROUP,
     //        new Identifier(ArknightsFurniture.MOD_ID,""),
     //        FabricItemGroup.builder().displayName(Text.translatable("itemgroup."))

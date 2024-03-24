@@ -1,0 +1,112 @@
+{
+	"credit": "Made with Blockbench",
+	"texture_size": [64, 64],
+	"textures": {
+		"0": "arknights_furniture:block/soft_candy_companion",
+		"particle": "arknights_furniture:block/white"
+	},
+	"elements": [
+		{
+			"from": [1, 0, 3],
+			"to": [15, 2, 16],
+			"faces": {
+				"north": {"uv": [10.5, 6.25, 14, 6.75], "texture": "#0"},
+				"east": {"uv": [10.5, 7.25, 13.75, 7.75], "texture": "#0"},
+				"south": {"uv": [10.5, 6.75, 14, 7.25], "texture": "#0"},
+				"west": {"uv": [10.5, 7.75, 13.75, 8.25], "texture": "#0"},
+				"up": {"uv": [7.5, 9.25, 4, 6], "texture": "#0"},
+				"down": {"uv": [3.5, 7.5, 0, 10.75], "texture": "#0"}
+			}
+		},
+		{
+			"from": [0, 2, 2],
+			"to": [16, 8, 14],
+			"faces": {
+				"north": {"uv": [8, 2.25, 12, 3.75], "texture": "#0"},
+				"east": {"uv": [7.5, 8.25, 10.5, 9.75], "texture": "#0"},
+				"south": {"uv": [8, 3.75, 12, 5.25], "texture": "#0"},
+				"west": {"uv": [3.5, 9.25, 6.5, 10.75], "texture": "#0"},
+				"up": {"uv": [8, 3, 4, 0], "texture": "#0"},
+				"down": {"uv": [8, 3, 4, 6], "texture": "#0"}
+			}
+		},
+		{
+			"from": [0, 2, 14],
+			"to": [16, 17, 16],
+			"faces": {
+				"north": {"uv": [0, 0, 4, 3.75], "texture": "#0"},
+				"east": {"uv": [0, 10.75, 0.5, 14.5], "texture": "#0"},
+				"south": {"uv": [0, 3.75, 4, 7.5], "texture": "#0"},
+				"west": {"uv": [0.5, 10.75, 1, 14.5], "texture": "#0"},
+				"up": {"uv": [12, 5.75, 8, 5.25], "texture": "#0"},
+				"down": {"uv": [14.5, 5.75, 10.5, 6.25], "texture": "#0"}
+			}
+		},
+		{
+			"from": [2, 17, 14],
+			"to": [14, 22, 16],
+			"faces": {
+				"north": {"uv": [6.5, 9.75, 9.5, 11], "texture": "#0"},
+				"east": {"uv": [3.5, 7.5, 4, 8.75], "texture": "#0"},
+				"south": {"uv": [9.5, 9.75, 12.5, 11], "texture": "#0"},
+				"west": {"uv": [5, 10.75, 5.5, 12], "texture": "#0"},
+				"up": {"uv": [13.5, 8.75, 10.5, 8.25], "texture": "#0"},
+				"down": {"uv": [13.5, 8.75, 10.5, 9.25], "texture": "#0"}
+			}
+		},
+		{
+			"from": [2, 11, 5],
+			"to": [14, 20, 7],
+			"rotation": {"angle": 22.5, "axis": "x", "origin": [0, 0, 0]},
+			"faces": {
+				"north": {"uv": [7.5, 6, 10.5, 8.25], "texture": "#0"},
+				"east": {"uv": [4, 10.75, 4.5, 13], "texture": "#0"},
+				"south": {"uv": [8, 0, 11, 2.25], "texture": "#0"},
+				"west": {"uv": [4.5, 10.75, 5, 13], "texture": "#0"},
+				"up": {"uv": [13.5, 9.75, 10.5, 9.25], "texture": "#0"},
+				"down": {"uv": [4, 10.75, 1, 11.25], "texture": "#0"}
+			}
+		}
+	],
+	"display": {
+		"thirdperson_righthand": {
+			"rotation": [75, 45, 0],
+			"translation": [0, 2.5, 0],
+			"scale": [0.375, 0.375, 0.375]
+		},
+		"thirdperson_lefthand": {
+			"rotation": [75, 45, 0],
+			"translation": [0, 2.5, 0],
+			"scale": [0.375, 0.375, 0.375]
+		},
+		"firstperson_righthand": {
+			"rotation": [0, 45, 0],
+			"scale": [0.4, 0.4, 0.4]
+		},
+		"firstperson_lefthand": {
+			"rotation": [0, 225, 0],
+			"scale": [0.4, 0.4, 0.4]
+		},
+		"ground": {
+			"translation": [0, 3, 0],
+			"scale": [0.25, 0.25, 0.25]
+		},
+		"gui": {
+			"rotation": [30, 225, 0],
+			"translation": [0, -1.5, 0],
+			"scale": [0.3, 0.3, 0.3]
+		},
+		"fixed": {
+			"scale": [0.3, 0.3, 0.3]
+		}
+	},
+	"groups": [
+		{
+			"name": "VoxelShapes",
+			"origin": [0, 0, 0],
+			"color": 0,
+			"nbt": "{}",
+			"children": [0, 1, 2, 3, 4]
+		}
+	]
+}

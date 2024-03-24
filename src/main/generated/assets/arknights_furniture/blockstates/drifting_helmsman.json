@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=east": {
+      "model": "arknights_furniture:block/drifting_helmsman",
+      "y": 90
+    },
+    "facing=north": {
+      "model": "arknights_furniture:block/drifting_helmsman"
+    },
+    "facing=south": {
+      "model": "arknights_furniture:block/drifting_helmsman",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "arknights_furniture:block/drifting_helmsman",
+      "y": 270
+    }
+  }
+}

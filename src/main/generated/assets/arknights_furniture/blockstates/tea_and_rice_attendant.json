@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=east": {
+      "model": "arknights_furniture:block/tea_and_rice_attendant",
+      "y": 90
+    },
+    "facing=north": {
+      "model": "arknights_furniture:block/tea_and_rice_attendant"
+    },
+    "facing=south": {
+      "model": "arknights_furniture:block/tea_and_rice_attendant",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "arknights_furniture:block/tea_and_rice_attendant",
+      "y": 270
+    }
+  }
+}

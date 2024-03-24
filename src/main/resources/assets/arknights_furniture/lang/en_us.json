@@ -992,6 +992,18 @@
   "block.arknights_furniture.snow_velvet_round_stool":"Snow Velvet Round Stool",
   "block.arknights_furniture.solar_pendant_light":"Solar Pendant Light",
 
+  "block.arknights_furniture.brick_wall_sentry":"Brick Wall Sentry",
+  "block.arknights_furniture.dizzy_swivel_chair":"Dizzy Swivel Chair",
+  "block.arknights_furniture.drifting_helmsman":"Drifting Helmsman",
+  "block.arknights_furniture.dwarf_refrigerator":"Dwarf Refrigerator",
+  "block.arknights_furniture.flavor_mage":"Flavor Mage",
+  "block.arknights_furniture.large_armchair_that_can_be_rotated":"Large Armchair That Can Be Rotated",
+  "block.arknights_furniture.letaotao_splicing_table":"Letaotao Splicing Table",
+  "block.arknights_furniture.nursery_rhyme_guard":"Nursery Rhyme Guard",
+  "block.arknights_furniture.small_stool_that_can_be_swam":"Small Stool That Can Be Swam",
+  "block.arknights_furniture.soft_candy_companion":"Soft Candy Companion",
+  "block.arknights_furniture.tea_and_rice_attendant":"Tea And Rice Attendant",
+
   "itemgroup.logo": "LOGO Group",
 
   "itemgroup.freight_warehouse": "Freight Warehouse",
@@ -1066,6 +1078,7 @@
   "itemGroup.culinary_research_center": "Culinary Research Center",
   "itemGroup.ambrosius_lounge": "Ambrosius Lounge",
   "itemGroup.chilly_rhythm_experimental_hall": "Chilly Rhythm Experimental Hall",
+  "itemGroup.pure_white_volcano_tour": "Pure White Volcano Tour",
 
   "painting.arknights_furniture.unconfirmed_biological_skeleton.title":"Unconfirmed Biological Skeleton",
   "painting.arknights_furniture.unconfirmed_biological_skeleton.author":"Hypergryph",
