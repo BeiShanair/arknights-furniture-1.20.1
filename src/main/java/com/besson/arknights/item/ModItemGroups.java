@@ -1246,7 +1246,25 @@ public class ModItemGroups {
                         entries.add(ModBlocks.WOODEN_STORAGE_BOX);
                     }).build());
 
-    // public static final ItemGroup  = Registry.register(Registries.ITEM_GROUP,
+    public static final ItemGroup GLASGOW_GANG_BOXING_GYM = Registry.register(Registries.ITEM_GROUP,
+            new Identifier(ArknightsFurniture.MOD_ID,"glasgow_gang_boxing_gym"),
+            FabricItemGroup.builder().displayName(Text.translatable("itemGroup.glasgow_gang_boxing_gym"))
+                    .icon(() -> new ItemStack(ModBlocks.BOXING_FORCE_TESTING_GAME_MACHINE)).entries((displayContext, entries) -> {
+                        entries.add(ModBlocks.ARENA_CEILING_LIGHT);
+                        entries.add(ModBlocks.BOXING_FORCE_TESTING_GAME_MACHINE);
+                        entries.add(ModBlocks.CONNECTED_CABINET_TYPE_IRON_MESH_PARTITION);
+                        entries.add(ModBlocks.FIST_HALL_SCOREBOARD);
+                        entries.add(ModBlocks.FIST_HALL_SUPPLY_BOX);
+                        entries.add(ModBlocks.HANGING_BELT_TYPE_IRON_MESH_PARTITION);
+                        entries.add(ModBlocks.HANGING_OLD_SOFA_DEFAULT);
+                        entries.add(ModBlocks.HOMEMADE_POSTER_PENDANT);
+                        entries.add(ModBlocks.REST_AREA_PENDANT_LIGHT);
+                        entries.add(ModBlocks.STEEL_FRAME_STAIRCASE);
+                        entries.add(ModBlocks.SUSPENDED_SANDBAG);
+                        entries.add(ModBlocks.VERTICAL_HUMANOID_SANDBAG);
+                    }).build());
+
+                        // public static final ItemGroup  = Registry.register(Registries.ITEM_GROUP,
     //        new Identifier(ArknightsFurniture.MOD_ID,""),
     //        FabricItemGroup.builder().displayName(Text.translatable("itemgroup."))
     //                .icon(() -> new ItemStack(ModBlocks.)).entries((displayContext, entries) -> {

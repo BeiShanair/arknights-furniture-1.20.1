@@ -909,6 +909,18 @@ public class ModModelProvider extends FabricModelProvider {
         blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.WARM_CURRENT);
         blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.WOODEN_STORAGE_BOX);
 
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.ARENA_CEILING_LIGHT);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.BOXING_FORCE_TESTING_GAME_MACHINE);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.CONNECTED_CABINET_TYPE_IRON_MESH_PARTITION);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.FIST_HALL_SCOREBOARD);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.FIST_HALL_SUPPLY_BOX);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.HANGING_BELT_TYPE_IRON_MESH_PARTITION);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.HOMEMADE_POSTER_PENDANT);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.REST_AREA_PENDANT_LIGHT);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.STEEL_FRAME_STAIRCASE);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.SUSPENDED_SANDBAG);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.VERTICAL_HUMANOID_SANDBAG);
+
     }
 
     @Override

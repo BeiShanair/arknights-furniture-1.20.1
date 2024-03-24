@@ -11,6 +11,7 @@ import com.besson.arknights.block.CherragStyleHotel.*;
 import com.besson.arknights.block.ClassroomInSanMarceau.*;
 import com.besson.arknights.block.CourtOfJusticeOfSyracuse.*;
 import com.besson.arknights.block.DetectivesStudy.*;
+import com.besson.arknights.block.GlasgowGangBoxingGym.*;
 import com.besson.arknights.block.LongmenStyleTeaRoom.*;
 import com.besson.arknights.block.MomijiHostel.*;
 import com.besson.arknights.block.OnceUponATimeInSyracuse.*;
@@ -996,6 +997,19 @@ public class ModBlocks {
     public static final Block SOFT_CEILING_LIGHT3 = registerBlock("soft_ceiling_light3",new SoftCeilingLight3(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
     public static final Block WARM_CURRENT = registerBlock("warm_current",new WarmCurrent(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
     public static final Block WOODEN_STORAGE_BOX = registerBlock("wooden_storage_box",new WoodenStorageBox(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+
+    public static final Block ARENA_CEILING_LIGHT = registerBlock("arena_ceiling_light",new ArenaCeilingLight(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+    public static final Block BOXING_FORCE_TESTING_GAME_MACHINE = registerBlock("boxing_force_testing_game_machine",new BoxingForceTestingGameMachine(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+    public static final Block CONNECTED_CABINET_TYPE_IRON_MESH_PARTITION = registerBlock("connected_cabinet_type_iron_mesh_partition",new ConnectedCabinetTypeIronMeshPartition(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+    public static final Block FIST_HALL_SCOREBOARD = registerBlock("fist_hall_scoreboard",new FistHallScoreboard(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+    public static final Block FIST_HALL_SUPPLY_BOX = registerBlock("fist_hall_supply_box",new FistHallSupplyBox(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+    public static final Block HANGING_BELT_TYPE_IRON_MESH_PARTITION = registerBlock("hanging_belt_type_iron_mesh_partition",new HangingBeltTypeIronMeshPartition(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+    public static final Block HANGING_OLD_SOFA_DEFAULT = registerBlock("hanging_old_sofa_default",new HangingOldSofa(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+    public static final Block HOMEMADE_POSTER_PENDANT = registerBlock("homemade_poster_pendant",new HomemadePosterPendant(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+    public static final Block REST_AREA_PENDANT_LIGHT = registerBlock("rest_area_pendant_light",new RestAreaPendantLight(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+    public static final Block STEEL_FRAME_STAIRCASE = registerBlock("steel_frame_staircase",new SteelFrameStaircase(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+    public static final Block SUSPENDED_SANDBAG = registerBlock("suspended_sandbag",new SuspendedSandbag(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+    public static final Block VERTICAL_HUMANOID_SANDBAG = registerBlock("vertical_humanoid_sandbag",new VerticalHumanoidSandbag(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
 
     private static Block registerBlock(String name,Block block){
         registerBlockItem(name,block);

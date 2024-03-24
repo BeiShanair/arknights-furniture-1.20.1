@@ -923,6 +923,19 @@
   "block.arknights_furniture.warm_current":"Warm Current",
   "block.arknights_furniture.wooden_storage_box":"Wooden Storage Box",
 
+  "block.arknights_furniture.arena_ceiling_light":"Arena Ceiling Light",
+  "block.arknights_furniture.boxing_force_testing_game_machine":"Boxing Force Testing Game Machine",
+  "block.arknights_furniture.connected_cabinet_type_iron_mesh_partition":"Connected Cabinet Type Iron Mesh Partition",
+  "block.arknights_furniture.fist_hall_scoreboard":"Fist Hall Scoreboard",
+  "block.arknights_furniture.fist_hall_supply_box":"Fist Hall Supply Box",
+  "block.arknights_furniture.hanging_belt_type_iron_mesh_partition":"Hanging Belt Type Iron Mesh Partition",
+  "block.arknights_furniture.hanging_old_sofa_default":"Hanging Old Sofa",
+  "block.arknights_furniture.homemade_poster_pendant":"Homemade Poster Pendant",
+  "block.arknights_furniture.rest_area_pendant_light":"Rest Area Pendant Light",
+  "block.arknights_furniture.steel_frame_staircase":"Steel Frame Staircase",
+  "block.arknights_furniture.suspended_sandbag":"Suspended Sandbag",
+  "block.arknights_furniture.vertical_humanoid_sandbag":"Vertical Humanoid Sandbag",
+
   "itemgroup.logo": "LOGO Group",
 
   "itemgroup.freight_warehouse": "Freight Warehouse",
@@ -991,6 +1004,7 @@
   "itemGroup.yishan_temple": "Yishan Temple",
   "itemGroup.longmen_style_tea_room": "Longmen Style Tea Room",
   "itemGroup.momiji_hostel": "Momiji Hostel",
+  "itemGroup.glasgow_gang_boxing_gym": "Glasgow Gang Boxing Gym",
 
   "painting.arknights_furniture.unconfirmed_biological_skeleton.title":"Unconfirmed Biological Skeleton",
   "painting.arknights_furniture.unconfirmed_biological_skeleton.author":"Hypergryph",
