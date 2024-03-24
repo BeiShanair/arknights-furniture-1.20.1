@@ -1362,6 +1362,21 @@ public class ModItemGroups {
                         entries.add(ModBlocks.TEA_AND_RICE_ATTENDANT);
                     }).build());
 
+    public static final ItemGroup SAMI_IMPRESSIONS = Registry.register(Registries.ITEM_GROUP,
+            new Identifier(ArknightsFurniture.MOD_ID,"sami_impressions"),
+            FabricItemGroup.builder().displayName(Text.translatable("itemGroup.sami_impressions"))
+                    .icon(() -> new ItemStack(ModBlocks.CONCEALED_CAST_IRON_OIL_LAMP)).entries((displayContext, entries) -> {
+                        entries.add(ModBlocks.CONCEALED_CAST_IRON_OIL_LAMP);
+                        entries.add(ModBlocks.FOREST_CHARCOAL_STOVE);
+                        entries.add(ModBlocks.PRAYERS_ON_WINTER_NIGHTS);
+                        entries.add(ModBlocks.SILENT_INTIMACY);
+                        entries.add(ModBlocks.THE_GUARDS_OF_WINTER_NIGHTS);
+                        entries.add(ModBlocks.WARM_LONELINESS);
+                        entries.add(ModBlocks.WARM_STORAGE_BOX);
+                        entries.add(ModBlocks.WOODLAND_HARD_HIGH_STOOL);
+                        entries.add(ModBlocks.WOODLAND_SOFT_HIGH_STOOLS);
+                    }).build());
+
     // public static final ItemGroup  = Registry.register(Registries.ITEM_GROUP,
     //        new Identifier(ArknightsFurniture.MOD_ID,""),
     //        FabricItemGroup.builder().displayName(Text.translatable("itemgroup."))

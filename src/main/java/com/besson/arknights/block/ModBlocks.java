@@ -21,6 +21,7 @@ import com.besson.arknights.block.NaturalDisasterObservationAndResearchStation.*
 import com.besson.arknights.block.OnceUponATimeInSyracuse.*;
 import com.besson.arknights.block.PureWhiteVolcanoTour.*;
 import com.besson.arknights.block.RhineLifeEcologicalPark.*;
+import com.besson.arknights.block.SamiImpressions.*;
 import com.besson.arknights.block.SeasideImpressions.*;
 import com.besson.arknights.block.TheBanquetHallOfTheCandyFairy.*;
 import com.besson.arknights.block.TheHutOfTheReeds.*;
@@ -1084,6 +1085,16 @@ public class ModBlocks {
     public static final Block SMALL_STOOL_THAT_CAN_BE_SWAM = registerBlock("small_stool_that_can_be_swam",new SmallStoolThatCanBeSwam(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
     public static final Block SOFT_CANDY_COMPANION = registerBlock("soft_candy_companion",new SoftCandyCompanion(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
     public static final Block TEA_AND_RICE_ATTENDANT = registerBlock("tea_and_rice_attendant",new TeaAndRiceAttendant(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+
+    public static final Block CONCEALED_CAST_IRON_OIL_LAMP = registerBlock("concealed_cast_iron_oil_lamp",new ConcealedCastIronOilLamp(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+    public static final Block FOREST_CHARCOAL_STOVE = registerBlock("forest_charcoal_stove",new ForestCharcoalStove(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+    public static final Block PRAYERS_ON_WINTER_NIGHTS = registerBlock("prayers_on_winter_nights",new PrayersOnWinterNights(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+    public static final Block SILENT_INTIMACY = registerBlock("silent_intimacy",new SilentIntimacy(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+    public static final Block THE_GUARDS_OF_WINTER_NIGHTS = registerBlock("the_guards_of_winter_nights",new TheGuardsOfWinterNights(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+    public static final Block WARM_LONELINESS = registerBlock("warm_loneliness",new WarmLoneliness(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+    public static final Block WARM_STORAGE_BOX = registerBlock("warm_storage_box",new WarmStorageBox(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+    public static final Block WOODLAND_HARD_HIGH_STOOL = registerBlock("woodland_hard_high_stool",new WoodlandHardHighStool(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+    public static final Block WOODLAND_SOFT_HIGH_STOOLS = registerBlock("woodland_soft_high_stools",new WoodlandSoftHighStools(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
 
     private static Block registerBlock(String name,Block block){
         registerBlockItem(name,block);

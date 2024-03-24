@@ -1004,7 +1004,17 @@
   "block.arknights_furniture.soft_candy_companion":"Soft Candy Companion",
   "block.arknights_furniture.tea_and_rice_attendant":"Tea And Rice Attendant",
 
-  "itemgroup.logo": "LOGO Group",
+  "block.arknights_furniture.concealed_cast_iron_oil_lamp":"Concealed Cast Iron Oil Lamp",
+  "block.arknights_furniture.forest_charcoal_stove":"Forest Charcoal Stove",
+  "block.arknights_furniture.prayers_on_winter_nights":"Prayers On Winter Nights",
+  "block.arknights_furniture.silent_intimacy":"Silent Intimacy",
+  "block.arknights_furniture.the_guards_of_winter_nights":"The Guards Of Winter Nights",
+  "block.arknights_furniture.warm_loneliness":"Warm Loneliness",
+  "block.arknights_furniture.warm_storage_box":"Warm Storage Box",
+  "block.arknights_furniture.woodland_hard_high_stool":"Woodland Hard High Stool",
+  "block.arknights_furniture.woodland_soft_high_stools":"Woodland Soft High Stools",
+
+  "itemgroup.logo": "Logo Group",
 
   "itemgroup.freight_warehouse": "Freight Warehouse",
   "itemgroup.edge_solid_orange_simple_home": "Edge-Solid/Orange Simple Home",
@@ -1079,6 +1089,7 @@
   "itemGroup.ambrosius_lounge": "Ambrosius Lounge",
   "itemGroup.chilly_rhythm_experimental_hall": "Chilly Rhythm Experimental Hall",
   "itemGroup.pure_white_volcano_tour": "Pure White Volcano Tour",
+  "itemGroup.sami_impressions": "Sami Impressions",
 
   "painting.arknights_furniture.unconfirmed_biological_skeleton.title":"Unconfirmed Biological Skeleton",
   "painting.arknights_furniture.unconfirmed_biological_skeleton.author":"Hypergryph",
