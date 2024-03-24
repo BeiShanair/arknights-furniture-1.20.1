@@ -946,6 +946,17 @@ public class ModModelProvider extends FabricModelProvider {
         blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.THE_LIGHT_OF_THE_FOREST_SHADE);
         blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.THE_MOUNTAIN);
 
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.ADVERTISING_SIGNBOARD);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.COMMONLY_USEDS_SPICE_POTTED_PLANTS);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.DISPLAY_SCREEN_CEILING);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.EDIBLE_DINING_TABLE);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.EXPERIMENTAL_PENDANT_LAMP_GROUP);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.LOW_GREY_BENCH);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.MARBLE_STORAGE_CABINET);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.MENU_SIGNBOARD);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.ROTATING_CHAIR_FOR_LARGE_COOKING_TABLE);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.SHARED_BENCH);
+
     }
 
     @Override

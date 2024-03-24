@@ -1299,6 +1299,22 @@ public class ModItemGroups {
                         entries.add(ModBlocks.THE_MOUNTAIN);
                     }).build());
 
+    public static final ItemGroup CULINARY_RESEARCH_CENTER = Registry.register(Registries.ITEM_GROUP,
+            new Identifier(ArknightsFurniture.MOD_ID,"culinary_research_center"),
+            FabricItemGroup.builder().displayName(Text.translatable("itemGroup.culinary_research_center"))
+                    .icon(() -> new ItemStack(ModBlocks.ADVERTISING_SIGNBOARD)).entries((displayContext, entries) -> {
+                        entries.add(ModBlocks.ADVERTISING_SIGNBOARD);
+                        entries.add(ModBlocks.COMMONLY_USEDS_SPICE_POTTED_PLANTS);
+                        entries.add(ModBlocks.DISPLAY_SCREEN_CEILING);
+                        entries.add(ModBlocks.EDIBLE_DINING_TABLE);
+                        entries.add(ModBlocks.EXPERIMENTAL_PENDANT_LAMP_GROUP);
+                        entries.add(ModBlocks.LOW_GREY_BENCH);
+                        entries.add(ModBlocks.MARBLE_STORAGE_CABINET);
+                        entries.add(ModBlocks.MENU_SIGNBOARD);
+                        entries.add(ModBlocks.ROTATING_CHAIR_FOR_LARGE_COOKING_TABLE);
+                        entries.add(ModBlocks.SHARED_BENCH);
+                    }).build());
+
     // public static final ItemGroup  = Registry.register(Registries.ITEM_GROUP,
     //        new Identifier(ArknightsFurniture.MOD_ID,""),
     //        FabricItemGroup.builder().displayName(Text.translatable("itemgroup."))

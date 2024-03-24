@@ -961,6 +961,17 @@
   "block.arknights_furniture.the_light_of_the_forest_shade":"The Light Of The Forest Shade",
   "block.arknights_furniture.the_mountain":"The Mountain",
 
+  "block.arknights_furniture.advertising_signboard":"Advertising Signboard",
+  "block.arknights_furniture.commonly_useds_spice_potted_plants":"Commonly Useds Spice Potted Plants",
+  "block.arknights_furniture.display_screen_ceiling":"Display Screen Ceiling",
+  "block.arknights_furniture.edible_dining_table":"Edible Dining Table",
+  "block.arknights_furniture.experimental_pendant_lamp_group":"Experimental Pendant Lamp Group",
+  "block.arknights_furniture.low_grey_bench":"Low Grey Bench",
+  "block.arknights_furniture.marble_storage_cabinet":"Marble Storage Cabinet",
+  "block.arknights_furniture.menu_signboard":"Menu Signboard",
+  "block.arknights_furniture.rotating_chair_for_large_cooking_table":"Rotating Chair For Large Cooking Table",
+  "block.arknights_furniture.shared_bench":"Shared Bench",
+
   "itemgroup.logo": "LOGO Group",
 
   "itemgroup.freight_warehouse": "Freight Warehouse",
@@ -1032,6 +1043,7 @@
   "itemGroup.glasgow_gang_boxing_gym": "Glasgow Gang Boxing Gym",
   "itemGroup.natural_disaster_observation_and_research_station": "Natural Disaster Observation And Research Station",
   "itemGroup.rhiine_life_ecological_park": "Rhiine Life Ecological Park",
+  "itemGroup.culinary_research_center": "Culinary Research Center",
 
   "painting.arknights_furniture.unconfirmed_biological_skeleton.title":"Unconfirmed Biological Skeleton",
   "painting.arknights_furniture.unconfirmed_biological_skeleton.author":"Hypergryph",

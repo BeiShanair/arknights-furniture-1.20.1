@@ -10,6 +10,7 @@ import com.besson.arknights.block.ChensOffice.*;
 import com.besson.arknights.block.CherragStyleHotel.*;
 import com.besson.arknights.block.ClassroomInSanMarceau.*;
 import com.besson.arknights.block.CourtOfJusticeOfSyracuse.*;
+import com.besson.arknights.block.CulinaryResearchCenter.*;
 import com.besson.arknights.block.DetectivesStudy.*;
 import com.besson.arknights.block.GlasgowGangBoxingGym.*;
 import com.besson.arknights.block.LongmenStyleTeaRoom.*;
@@ -1037,6 +1038,17 @@ public class ModBlocks {
     public static final Block THE_CORNER_OF_THE_STREET_LAMP = registerBlock("the_corner_of_the_street_lamp",new TheCornerOfTheStreetLamp(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
     public static final Block THE_LIGHT_OF_THE_FOREST_SHADE = registerBlock("the_light_of_the_forest_shade",new TheLightOfTheForestShade(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
     public static final Block THE_MOUNTAIN = registerBlock("the_mountain",new TheMountain(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+
+    public static final Block ADVERTISING_SIGNBOARD = registerBlock("advertising_signboard",new AdvertisingSignboard(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+    public static final Block COMMONLY_USEDS_SPICE_POTTED_PLANTS = registerBlock("commonly_useds_spice_potted_plants",new CommonlyUsedsSpicePottedPlants(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+    public static final Block DISPLAY_SCREEN_CEILING = registerBlock("display_screen_ceiling",new DisplayScreenCeiling(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+    public static final Block EDIBLE_DINING_TABLE = registerBlock("edible_dining_table",new EdibleDiningTable(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+    public static final Block EXPERIMENTAL_PENDANT_LAMP_GROUP = registerBlock("experimental_pendant_lamp_group",new ExperimentalPendantLampGroup(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+    public static final Block LOW_GREY_BENCH = registerBlock("low_grey_bench",new LowGreyBench(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+    public static final Block MARBLE_STORAGE_CABINET = registerBlock("marble_storage_cabinet",new MarbleStorageCabinet(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+    public static final Block MENU_SIGNBOARD = registerBlock("menu_signboard",new MenuSignboard(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+    public static final Block ROTATING_CHAIR_FOR_LARGE_COOKING_TABLE = registerBlock("rotating_chair_for_large_cooking_table",new RotatingChairForLargeCookingTable(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+    public static final Block SHARED_BENCH = registerBlock("shared_bench",new SharedBench(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
 
     private static Block registerBlock(String name,Block block){
         registerBlockItem(name,block);
