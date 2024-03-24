@@ -948,6 +948,19 @@
   "block.arknights_furniture.thermostatic_seedling_box":"Thermostatic Seedling Box",
   "block.arknights_furniture.work_chair":"Work Chair",
 
+  "block.arknights_furniture.alarm_clock":"Alarm Clock",
+  "block.arknights_furniture.bookshelf":"Bookshelf",
+  "block.arknights_furniture.box":"Box",
+  "block.arknights_furniture.branch":"Branch",
+  "block.arknights_furniture.feather_beast_nest":"Feather Beast Nest",
+  "block.arknights_furniture.firefly":"Firefly",
+  "block.arknights_furniture.footprint":"Footprint",
+  "block.arknights_furniture.showcase":"Showcase",
+  "block.arknights_furniture.swim":"Swim",
+  "block.arknights_furniture.the_corner_of_the_street_lamp":"The Corner Of The Street Lamp",
+  "block.arknights_furniture.the_light_of_the_forest_shade":"The Light Of The Forest Shade",
+  "block.arknights_furniture.the_mountain":"The Mountain",
+
   "itemgroup.logo": "LOGO Group",
 
   "itemgroup.freight_warehouse": "Freight Warehouse",
@@ -1018,6 +1031,7 @@
   "itemGroup.momiji_hostel": "Momiji Hostel",
   "itemGroup.glasgow_gang_boxing_gym": "Glasgow Gang Boxing Gym",
   "itemGroup.natural_disaster_observation_and_research_station": "Natural Disaster Observation And Research Station",
+  "itemGroup.rhiine_life_ecological_park": "Rhiine Life Ecological Park",
 
   "painting.arknights_furniture.unconfirmed_biological_skeleton.title":"Unconfirmed Biological Skeleton",
   "painting.arknights_furniture.unconfirmed_biological_skeleton.author":"Hypergryph",

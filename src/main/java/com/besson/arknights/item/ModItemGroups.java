@@ -1281,6 +1281,24 @@ public class ModItemGroups {
                         entries.add(ModBlocks.WORK_CHAIR);
                     }).build());
 
+    public static final ItemGroup RHIINE_LIFE_ECOLOGICAL_PARK = Registry.register(Registries.ITEM_GROUP,
+            new Identifier(ArknightsFurniture.MOD_ID,"rhiine_life_ecological_park"),
+            FabricItemGroup.builder().displayName(Text.translatable("itemGroup.rhiine_life_ecological_park"))
+                    .icon(() -> new ItemStack(ModBlocks.ALARM_CLOCK)).entries((displayContext, entries) -> {
+                        entries.add(ModBlocks.ALARM_CLOCK);
+                        entries.add(ModBlocks.BOOKSHELF);
+                        entries.add(ModBlocks.BOX);
+                        entries.add(ModBlocks.BRANCH);
+                        entries.add(ModBlocks.FEATHER_BEAST_NEST);
+                        entries.add(ModBlocks.FIREFLY);
+                        entries.add(ModBlocks.FOOTPRINT);
+                        entries.add(ModBlocks.SHOWCASE);
+                        entries.add(ModBlocks.SWIM);
+                        entries.add(ModBlocks.THE_CORNER_OF_THE_STREET_LAMP);
+                        entries.add(ModBlocks.THE_LIGHT_OF_THE_FOREST_SHADE);
+                        entries.add(ModBlocks.THE_MOUNTAIN);
+                    }).build());
+
     // public static final ItemGroup  = Registry.register(Registries.ITEM_GROUP,
     //        new Identifier(ArknightsFurniture.MOD_ID,""),
     //        FabricItemGroup.builder().displayName(Text.translatable("itemgroup."))

@@ -16,6 +16,7 @@ import com.besson.arknights.block.LongmenStyleTeaRoom.*;
 import com.besson.arknights.block.MomijiHostel.*;
 import com.besson.arknights.block.NaturalDisasterObservationAndResearchStation.*;
 import com.besson.arknights.block.OnceUponATimeInSyracuse.*;
+import com.besson.arknights.block.RhineLifeEcologicalPark.*;
 import com.besson.arknights.block.SeasideImpressions.*;
 import com.besson.arknights.block.TheBanquetHallOfTheCandyFairy.*;
 import com.besson.arknights.block.TheHutOfTheReeds.*;
@@ -1023,6 +1024,19 @@ public class ModBlocks {
     public static final Block STEAM_TABLE = registerBlock("steam_table",new SteamTable(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
     public static final Block THERMOSTATIC_SEEDLING_BOX = registerBlock("thermostatic_seedling_box",new ThermostaticSeedlingBox(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
     public static final Block WORK_CHAIR = registerBlock("work_chair",new WorkChair(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+
+    public static final Block ALARM_CLOCK = registerBlock("alarm_clock",new AlarmClock(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+    public static final Block BOOKSHELF = registerBlock("bookshelf",new Bookshelf(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+    public static final Block BOX = registerBlock("box",new Box(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+    public static final Block BRANCH = registerBlock("branch",new Branch(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+    public static final Block FEATHER_BEAST_NEST = registerBlock("feather_beast_nest",new FeatherBeastNest(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+    public static final Block FIREFLY = registerBlock("firefly",new Firefly(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+    public static final Block FOOTPRINT = registerBlock("footprint",new Footprint(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+    public static final Block SHOWCASE = registerBlock("showcase",new Showcase(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+    public static final Block SWIM = registerBlock("swim",new Swim(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+    public static final Block THE_CORNER_OF_THE_STREET_LAMP = registerBlock("the_corner_of_the_street_lamp",new TheCornerOfTheStreetLamp(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+    public static final Block THE_LIGHT_OF_THE_FOREST_SHADE = registerBlock("the_light_of_the_forest_shade",new TheLightOfTheForestShade(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+    public static final Block THE_MOUNTAIN = registerBlock("the_mountain",new TheMountain(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
 
     private static Block registerBlock(String name,Block block){
         registerBlockItem(name,block);

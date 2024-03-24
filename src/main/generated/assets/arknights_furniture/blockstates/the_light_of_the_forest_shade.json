@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=east": {
+      "model": "arknights_furniture:block/the_light_of_the_forest_shade",
+      "y": 90
+    },
+    "facing=north": {
+      "model": "arknights_furniture:block/the_light_of_the_forest_shade"
+    },
+    "facing=south": {
+      "model": "arknights_furniture:block/the_light_of_the_forest_shade",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "arknights_furniture:block/the_light_of_the_forest_shade",
+      "y": 270
+    }
+  }
+}
