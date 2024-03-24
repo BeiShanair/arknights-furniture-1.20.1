@@ -1328,6 +1328,23 @@ public class ModItemGroups {
                         entries.add(ModBlocks.THE_DISCERNING_LAMP);
                     }).build());
 
+    public static final ItemGroup CHILLY_RHYTHM_EXPERIMENTAL_HALL = Registry.register(Registries.ITEM_GROUP,
+            new Identifier(ArknightsFurniture.MOD_ID,"chilly_rhythm_experimental_hall"),
+            FabricItemGroup.builder().displayName(Text.translatable("itemGroup.chilly_rhythm_experimental_hall"))
+                    .icon(() -> new ItemStack(ModBlocks.AGITATION)).entries((displayContext, entries) -> {
+                        entries.add(ModBlocks.AGITATION);
+                        entries.add(ModBlocks.CABLE_CAR_SEATS);
+                        entries.add(ModBlocks.DEFINITION_OF_COLD);
+                        entries.add(ModBlocks.GET_STARTED);
+                        entries.add(ModBlocks.ICE_FIELD_PICNIC_SET);
+                        entries.add(ModBlocks.ICE_FIELD_SCIENTIFIC_EXAMINATION_SIGN);
+                        entries.add(ModBlocks.REPRODUCE);
+                        entries.add(ModBlocks.SKI_EQUIPMENT_STORAGE_RACK);
+                        entries.add(ModBlocks.SLED_SHAPED_CHANDELIER);
+                        entries.add(ModBlocks.SNOW_VELVET_ROUND_STOOL);
+                        entries.add(ModBlocks.SOLAR_PENDANT_LIGHT);
+                    }).build());
+
     // public static final ItemGroup  = Registry.register(Registries.ITEM_GROUP,
     //        new Identifier(ArknightsFurniture.MOD_ID,""),
     //        FabricItemGroup.builder().displayName(Text.translatable("itemgroup."))

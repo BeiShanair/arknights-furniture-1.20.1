@@ -964,6 +964,18 @@ public class ModModelProvider extends FabricModelProvider {
         blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.THE_CHAIR_OF_CONTEMPLATION);
         blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.THE_DISCERNING_LAMP);
 
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.AGITATION);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.CABLE_CAR_SEATS);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.DEFINITION_OF_COLD);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.GET_STARTED);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.ICE_FIELD_PICNIC_SET);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.ICE_FIELD_SCIENTIFIC_EXAMINATION_SIGN);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.REPRODUCE);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.SKI_EQUIPMENT_STORAGE_RACK);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.SLED_SHAPED_CHANDELIER);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.SNOW_VELVET_ROUND_STOOL);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.SOLAR_PENDANT_LIGHT);
+
     }
 
     @Override

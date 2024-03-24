@@ -9,6 +9,7 @@ import com.besson.arknights.block.CarratonFlowerAndLightHouse.*;
 import com.besson.arknights.block.CasimirLiveRoom.*;
 import com.besson.arknights.block.ChensOffice.*;
 import com.besson.arknights.block.CherragStyleHotel.*;
+import com.besson.arknights.block.ChillyRhythmExperienceHall.*;
 import com.besson.arknights.block.ClassroomInSanMarceau.*;
 import com.besson.arknights.block.CourtOfJusticeOfSyracuse.*;
 import com.besson.arknights.block.CulinaryResearchCenter.*;
@@ -1058,6 +1059,18 @@ public class ModBlocks {
     public static final Block SOLID_WOOD_STATUE_WALL_CABINET = registerBlock("solid_wood_statue_wall_cabinet",new SolidWoodStatueWallCabinet(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
     public static final Block THE_CHAIR_OF_CONTEMPLATION = registerBlock("the_chair_of_contemplation",new TheChairOfContemplation(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
     public static final Block THE_DISCERNING_LAMP = registerBlock("the_discerning_lamp",new TheDiscerningLamp(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+
+    public static final Block AGITATION = registerBlock("agitation",new Agitation(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+    public static final Block CABLE_CAR_SEATS = registerBlock("cable_car_seats",new CableCarSeats(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+    public static final Block DEFINITION_OF_COLD = registerBlock("definition_of_cold",new DefinitionOfCold(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+    public static final Block GET_STARTED = registerBlock("get_started",new GetStarted(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+    public static final Block ICE_FIELD_PICNIC_SET = registerBlock("ice_field_picnic_set",new IceFieldPicnicSet(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+    public static final Block ICE_FIELD_SCIENTIFIC_EXAMINATION_SIGN = registerBlock("ice_field_scientific_examination_sign",new IceFieldScientificExaminationSign(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+    public static final Block REPRODUCE = registerBlock("reproduce",new Reproduce(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+    public static final Block SKI_EQUIPMENT_STORAGE_RACK = registerBlock("ski_equipment_storage_rack",new SkiEquipmentStorageRack(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+    public static final Block SLED_SHAPED_CHANDELIER = registerBlock("sled_shaped_chandelier",new SledShapedChandelier(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+    public static final Block SNOW_VELVET_ROUND_STOOL = registerBlock("snow_velvet_round_stool",new SnowVelvetRoundStool(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+    public static final Block SOLAR_PENDANT_LIGHT = registerBlock("solar_pendant_light",new SolarPendantLight(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
 
     private static Block registerBlock(String name,Block block){
         registerBlockItem(name,block);

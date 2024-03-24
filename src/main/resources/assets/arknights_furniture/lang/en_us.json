@@ -980,6 +980,18 @@
   "block.arknights_furniture.the_chair_of_contemplation":"The Chair Of Contemplation",
   "block.arknights_furniture.the_discerning_lamp":"The Discerning Lamp",
 
+  "block.arknights_furniture.agitation":"Agitation",
+  "block.arknights_furniture.cable_car_seats":"Cable Car Seats",
+  "block.arknights_furniture.definition_of_cold":"Definition Of Cold",
+  "block.arknights_furniture.get_started":"Get Started",
+  "block.arknights_furniture.ice_field_picnic_set":"Ice Field Picnic Set",
+  "block.arknights_furniture.ice_field_scientific_examination_sign":"Ice Field Scientific Examination Sign",
+  "block.arknights_furniture.reproduce":"Reproduce",
+  "block.arknights_furniture.ski_equipment_storage_rack":"Ski Equipment Storage Rack",
+  "block.arknights_furniture.sled_shaped_chandelier":"Sled Shaped Chandelier",
+  "block.arknights_furniture.snow_velvet_round_stool":"Snow Velvet Round Stool",
+  "block.arknights_furniture.solar_pendant_light":"Solar Pendant Light",
+
   "itemgroup.logo": "LOGO Group",
 
   "itemgroup.freight_warehouse": "Freight Warehouse",
@@ -1053,6 +1065,7 @@
   "itemGroup.rhiine_life_ecological_park": "Rhiine Life Ecological Park",
   "itemGroup.culinary_research_center": "Culinary Research Center",
   "itemGroup.ambrosius_lounge": "Ambrosius Lounge",
+  "itemGroup.chilly_rhythm_experimental_hall": "Chilly Rhythm Experimental Hall",
 
   "painting.arknights_furniture.unconfirmed_biological_skeleton.title":"Unconfirmed Biological Skeleton",
   "painting.arknights_furniture.unconfirmed_biological_skeleton.author":"Hypergryph",
