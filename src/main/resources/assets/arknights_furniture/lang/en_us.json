@@ -1047,6 +1047,14 @@
   "block.arknights_furniture.small_mailbox":"Small Mailbox",
   "block.arknights_furniture.small_post_office_desk":"Small Post Office Desk",
 
+  "block.arknights_furniture.high_chair":"High Chair",
+  "block.arknights_furniture.ironing_rack":"Ironing Rack",
+  "block.arknights_furniture.long_table":"Long Table",
+  "block.arknights_furniture.small_book_and_newspaper_shelves":"Small Book And Newspaper Shelves",
+  "block.arknights_furniture.small_cart":"Small Cart",
+  "block.arknights_furniture.standard_clothes_basket":"Standard Clothes Basket",
+  "block.arknights_furniture.table":"Table",
+
   "itemgroup.logo": "Logo Group",
 
   "itemgroup.freight_warehouse": "Freight Warehouse",
@@ -1126,6 +1134,7 @@
   "itemGroup.blacksteel_international_safe_house": "Black Steel International Safe House",
   "itemGroup.where_the_mercenaries_are_staying": "Where The Mercenaries Are Staying",
   "itemGroup.snow_mountain_small_post_office": "Snow Mountain Small Post Office",
+  "itemGroup.rhode_island_laundry": "Rhode Island Laundry",
 
   "painting.arknights_furniture.unconfirmed_biological_skeleton.title":"Unconfirmed Biological Skeleton",
   "painting.arknights_furniture.unconfirmed_biological_skeleton.author":"Hypergryph",

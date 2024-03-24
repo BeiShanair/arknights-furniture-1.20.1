@@ -22,6 +22,7 @@ import com.besson.arknights.block.NaturalDisasterObservationAndResearchStation.*
 import com.besson.arknights.block.OnceUponATimeInSyracuse.*;
 import com.besson.arknights.block.PureWhiteVolcanoTour.*;
 import com.besson.arknights.block.RhineLifeEcologicalPark.*;
+import com.besson.arknights.block.RhodeIslandlaundry.*;
 import com.besson.arknights.block.SamiImpressions.*;
 import com.besson.arknights.block.SeasideImpressions.*;
 import com.besson.arknights.block.SnowMountainSmallPostOffice.*;
@@ -1131,6 +1132,14 @@ public class ModBlocks {
     public static final Block SHIPPING_COUNTER = registerBlock("shipping_counter",new ShippingCounter(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
     public static final Block SMALL_MAILBOX = registerBlock("small_mailbox",new SmallMailbox(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
     public static final Block SMALL_POST_OFFICE_DESK = registerBlock("small_post_office_desk",new SmallPostOfficeDesk(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+
+    public static final Block HIGH_CHAIR = registerBlock("high_chair",new HighChair(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+    public static final Block IRONING_RACK = registerBlock("ironing_rack",new IroningRack(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+    public static final Block LONG_TABLE = registerBlock("long_table",new LongTable(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+    public static final Block SMALL_BOOK_AND_NEWSPAPER_SHELVES = registerBlock("small_book_and_newspaper_shelves",new SmallBookAndNewspaperShelves(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+    public static final Block SMALL_CART = registerBlock("small_cart",new SmallCart(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+    public static final Block STANDARD_CLOTHES_BASKET = registerBlock("standard_clothes_basket",new StandardClothesBasket(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+    public static final Block TABLE = registerBlock("table",new Table(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
 
     private static Block registerBlock(String name,Block block){
         registerBlockItem(name,block);

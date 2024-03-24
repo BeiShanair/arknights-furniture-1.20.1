@@ -1031,6 +1031,14 @@ public class ModModelProvider extends FabricModelProvider {
         blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.SMALL_MAILBOX);
         blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.SMALL_POST_OFFICE_DESK);
 
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.HIGH_CHAIR);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.IRONING_RACK);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.LONG_TABLE);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.SMALL_BOOK_AND_NEWSPAPER_SHELVES);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.SMALL_CART);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.STANDARD_CLOTHES_BASKET);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.TABLE);
+
     }
 
     @Override

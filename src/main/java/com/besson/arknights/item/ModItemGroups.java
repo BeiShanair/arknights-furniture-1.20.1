@@ -1425,6 +1425,19 @@ public class ModItemGroups {
                                 entries.add(ModBlocks.SMALL_POST_OFFICE_DESK);
                             }).build());
 
+    public static final ItemGroup RHODE_ISLAND_LAUNDRY = Registry.register(Registries.ITEM_GROUP,
+            new Identifier(ArknightsFurniture.MOD_ID,"rhode_island_laundry"),
+            FabricItemGroup.builder().displayName(Text.translatable("itemGroup.rhode_island_laundry"))
+                    .icon(() -> new ItemStack(ModBlocks.HIGH_CHAIR)).entries((displayContext, entries) -> {
+                                entries.add(ModBlocks.HIGH_CHAIR);
+                                entries.add(ModBlocks.IRONING_RACK);
+                                entries.add(ModBlocks.LONG_TABLE);
+                                entries.add(ModBlocks.SMALL_BOOK_AND_NEWSPAPER_SHELVES);
+                                entries.add(ModBlocks.SMALL_CART);
+                                entries.add(ModBlocks.STANDARD_CLOTHES_BASKET);
+                                entries.add(ModBlocks.TABLE);
+                            }).build());
+
                         // public static final ItemGroup  = Registry.register(Registries.ITEM_GROUP,
     //        new Identifier(ArknightsFurniture.MOD_ID,""),
     //        FabricItemGroup.builder().displayName(Text.translatable("itemgroup."))

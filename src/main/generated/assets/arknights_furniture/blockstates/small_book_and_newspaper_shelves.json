@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=east": {
+      "model": "arknights_furniture:block/small_book_and_newspaper_shelves",
+      "y": 90
+    },
+    "facing=north": {
+      "model": "arknights_furniture:block/small_book_and_newspaper_shelves"
+    },
+    "facing=south": {
+      "model": "arknights_furniture:block/small_book_and_newspaper_shelves",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "arknights_furniture:block/small_book_and_newspaper_shelves",
+      "y": 270
+    }
+  }
+}
