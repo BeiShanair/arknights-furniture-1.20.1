@@ -1014,6 +1014,19 @@
   "block.arknights_furniture.woodland_hard_high_stool":"Woodland Hard High Stool",
   "block.arknights_furniture.woodland_soft_high_stools":"Woodland Soft High Stools",
 
+  "block.arknights_furniture.enron_moment":"Enron Moment",
+  "block.arknights_furniture.explosion_proof_fluorescent_lamp":"Explosion Proof Fluorescent Lamp",
+  "block.arknights_furniture.multi_purpose_folding_chair":"Multi Purpose Folding Chair",
+  "block.arknights_furniture.necessary_preparations":"Necessary Preparations",
+  "block.arknights_furniture.pipeline_mobile_lighting_fixtures":"Pipeline Mobile Lighting Fixtures",
+  "block.arknights_furniture.private_space_bottom":"Private Space Bottom",
+  "block.arknights_furniture.private_space_middle":"Private Space Middle",
+  "block.arknights_furniture.private_space_top":"Private Space Top",
+  "block.arknights_furniture.reinforced_work_bench":"Reinforced Work Bench",
+  "block.arknights_furniture.seismic_pillar":"Seismic Pillar",
+  "block.arknights_furniture.splicing_vertical_lighting_fixtures":"Splicing Vertical Lighting Fixtures",
+  "block.arknights_furniture.suspended_ceiling_maintenance_equipment":"Suspended Ceiling Maintenance Equipment",
+
   "itemgroup.logo": "Logo Group",
 
   "itemgroup.freight_warehouse": "Freight Warehouse",
@@ -1090,6 +1103,7 @@
   "itemGroup.chilly_rhythm_experimental_hall": "Chilly Rhythm Experimental Hall",
   "itemGroup.pure_white_volcano_tour": "Pure White Volcano Tour",
   "itemGroup.sami_impressions": "Sami Impressions",
+  "itemGroup.blacksteel_international_safe_house": "Black Steel International Safe House",
 
   "painting.arknights_furniture.unconfirmed_biological_skeleton.title":"Unconfirmed Biological Skeleton",
   "painting.arknights_furniture.unconfirmed_biological_skeleton.author":"Hypergryph",

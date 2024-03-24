@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=east": {
+      "model": "arknights_furniture:block/pipeline_mobile_lighting_fixtures",
+      "y": 90
+    },
+    "facing=north": {
+      "model": "arknights_furniture:block/pipeline_mobile_lighting_fixtures"
+    },
+    "facing=south": {
+      "model": "arknights_furniture:block/pipeline_mobile_lighting_fixtures",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "arknights_furniture:block/pipeline_mobile_lighting_fixtures",
+      "y": 270
+    }
+  }
+}

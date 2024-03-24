@@ -998,6 +998,19 @@ public class ModModelProvider extends FabricModelProvider {
         blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.WOODLAND_HARD_HIGH_STOOL);
         blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.WOODLAND_SOFT_HIGH_STOOLS);
 
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.ENRON_MOMENT);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.EXPLOSION_PROOF_FLUORESCENT_LAMP);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.MULTI_PURPOSE_FOLDING_CHAIR);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.NECESSARY_PREPARATIONS);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.PIPELINE_MOBILE_LIGHTING_FIXTURES);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.PRIVATE_SPACE_BOTTOM);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.PRIVATE_SPACE_MIDDLE);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.PRIVATE_SPACE_TOP);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.REINFORCED_WORK_BENCH);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.SEISMIC_PILLAR);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.SPLICING_VERTICAL_LIGHTING_FIXTURES);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.SUSPENDED_CEILING_MAINTENANCE_EQUIPMENT);
+
     }
 
     @Override

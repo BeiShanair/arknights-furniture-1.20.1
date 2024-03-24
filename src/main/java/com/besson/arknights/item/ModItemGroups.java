@@ -1377,7 +1377,25 @@ public class ModItemGroups {
                         entries.add(ModBlocks.WOODLAND_SOFT_HIGH_STOOLS);
                     }).build());
 
-    // public static final ItemGroup  = Registry.register(Registries.ITEM_GROUP,
+    public static final ItemGroup BLACKSTEEL_INTERNATIONAL_SAFE_HOUSE = Registry.register(Registries.ITEM_GROUP,
+            new Identifier(ArknightsFurniture.MOD_ID,"blacksteel_international_safe_house"),
+            FabricItemGroup.builder().displayName(Text.translatable("itemGroup.blacksteel_international_safe_house"))
+                    .icon(() -> new ItemStack(ModBlocks.EXPLOSION_PROOF_FLUORESCENT_LAMP)).entries((displayContext, entries) -> {
+                        entries.add(ModBlocks.ENRON_MOMENT);
+                        entries.add(ModBlocks.EXPLOSION_PROOF_FLUORESCENT_LAMP);
+                        entries.add(ModBlocks.MULTI_PURPOSE_FOLDING_CHAIR);
+                        entries.add(ModBlocks.NECESSARY_PREPARATIONS);
+                        entries.add(ModBlocks.PIPELINE_MOBILE_LIGHTING_FIXTURES);
+                        entries.add(ModBlocks.PRIVATE_SPACE_BOTTOM);
+                        entries.add(ModBlocks.PRIVATE_SPACE_MIDDLE);
+                        entries.add(ModBlocks.PRIVATE_SPACE_TOP);
+                        entries.add(ModBlocks.REINFORCED_WORK_BENCH);
+                        entries.add(ModBlocks.SEISMIC_PILLAR);
+                        entries.add(ModBlocks.SPLICING_VERTICAL_LIGHTING_FIXTURES);
+                        entries.add(ModBlocks.SUSPENDED_CEILING_MAINTENANCE_EQUIPMENT);
+                    }).build());
+
+                        // public static final ItemGroup  = Registry.register(Registries.ITEM_GROUP,
     //        new Identifier(ArknightsFurniture.MOD_ID,""),
     //        FabricItemGroup.builder().displayName(Text.translatable("itemgroup."))
     //                .icon(() -> new ItemStack(ModBlocks.)).entries((displayContext, entries) -> {

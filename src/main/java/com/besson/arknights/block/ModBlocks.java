@@ -5,6 +5,7 @@ import com.besson.arknights.block.AirtightChemicalSafetyCabin.*;
 import com.besson.arknights.block.AmbrosiusLounge.*;
 import com.besson.arknights.block.AvantGardeArcadeHalls.*;
 import com.besson.arknights.block.BigPuddleHappyExperienceHouse.*;
+import com.besson.arknights.block.BlacksteelInternationalSafeHouse.*;
 import com.besson.arknights.block.CarratonFlowerAndLightHouse.*;
 import com.besson.arknights.block.CasimirLiveRoom.*;
 import com.besson.arknights.block.ChensOffice.*;
@@ -1095,6 +1096,19 @@ public class ModBlocks {
     public static final Block WARM_STORAGE_BOX = registerBlock("warm_storage_box",new WarmStorageBox(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
     public static final Block WOODLAND_HARD_HIGH_STOOL = registerBlock("woodland_hard_high_stool",new WoodlandHardHighStool(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
     public static final Block WOODLAND_SOFT_HIGH_STOOLS = registerBlock("woodland_soft_high_stools",new WoodlandSoftHighStools(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+
+    public static final Block ENRON_MOMENT = registerBlock("enron_moment",new EnronMoment(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+    public static final Block EXPLOSION_PROOF_FLUORESCENT_LAMP = registerBlock("explosion_proof_fluorescent_lamp",new ExplosionProofFluorescentLamp(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+    public static final Block MULTI_PURPOSE_FOLDING_CHAIR = registerBlock("multi_purpose_folding_chair",new MultiPurposeFoldingChair(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+    public static final Block NECESSARY_PREPARATIONS = registerBlock("necessary_preparations",new NecessaryPreparations(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+    public static final Block PIPELINE_MOBILE_LIGHTING_FIXTURES = registerBlock("pipeline_mobile_lighting_fixtures",new PipelineMobileLightingFixtures(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+    public static final Block PRIVATE_SPACE_BOTTOM = registerBlock("private_space_bottom",new PrivateSpace(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+    public static final Block PRIVATE_SPACE_MIDDLE = registerBlock("private_space_middle",new PrivateSpace(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+    public static final Block PRIVATE_SPACE_TOP = registerBlock("private_space_top",new PrivateSpace(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+    public static final Block REINFORCED_WORK_BENCH = registerBlock("reinforced_work_bench",new ReinforcedWorkBench(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+    public static final Block SEISMIC_PILLAR = registerBlock("seismic_pillar",new SeismicPillar(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+    public static final Block SPLICING_VERTICAL_LIGHTING_FIXTURES = registerBlock("splicing_vertical_lighting_fixtures",new SplicingVerticalLightingFixtures(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+    public static final Block SUSPENDED_CEILING_MAINTENANCE_EQUIPMENT = registerBlock("suspended_ceiling_maintenance_equipment",new SuspendedCeilingMaintenanceEquipment(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
 
     private static Block registerBlock(String name,Block block){
         registerBlockItem(name,block);
