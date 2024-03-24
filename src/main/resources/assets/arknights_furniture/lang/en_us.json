@@ -1055,6 +1055,17 @@
   "block.arknights_furniture.standard_clothes_basket":"Standard Clothes Basket",
   "block.arknights_furniture.table":"Table",
 
+  "block.arknights_furniture.an_unpopular_bench_default":"An Unpopular Bench",
+  "block.arknights_furniture.a_very_popular_bench_default":"A Very Popular Bench",
+  "block.arknights_furniture.drinking_bottle_tree_water_machine":"Drinking Bottle Tree Water Machine",
+  "block.arknights_furniture.gnawing_floor_processing_table":"Gnawing Floor Processing Table",
+  "block.arknights_furniture.guyuan_rock_shovel":"Guyuan Rock Shovel",
+  "block.arknights_furniture.hundred_catties_top":"Hundred Catties Top",
+  "block.arknights_furniture.locked_unicycle":"Locked Unicycle",
+  "block.arknights_furniture.renewable_snack_bowl":"Renewable Snack Bowl",
+  "block.arknights_furniture.very_dangerous_power_cabinet":"Very Dangerous Power Cabinet",
+  "block.arknights_furniture.very_simple_console":"Very Simple Console",
+
   "itemgroup.logo": "Logo Group",
 
   "itemgroup.freight_warehouse": "Freight Warehouse",
@@ -1135,6 +1146,7 @@
   "itemGroup.where_the_mercenaries_are_staying": "Where The Mercenaries Are Staying",
   "itemGroup.snow_mountain_small_post_office": "Snow Mountain Small Post Office",
   "itemGroup.rhode_island_laundry": "Rhode Island Laundry",
+  "itemGroup.ride_the_wilderness_truck": "Ride The Wilderness Truck",
 
   "painting.arknights_furniture.unconfirmed_biological_skeleton.title":"Unconfirmed Biological Skeleton",
   "painting.arknights_furniture.unconfirmed_biological_skeleton.author":"Hypergryph",

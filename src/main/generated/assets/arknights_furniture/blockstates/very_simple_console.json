@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=east": {
+      "model": "arknights_furniture:block/very_simple_console",
+      "y": 90
+    },
+    "facing=north": {
+      "model": "arknights_furniture:block/very_simple_console"
+    },
+    "facing=south": {
+      "model": "arknights_furniture:block/very_simple_console",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "arknights_furniture:block/very_simple_console",
+      "y": 270
+    }
+  }
+}

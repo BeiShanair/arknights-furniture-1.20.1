@@ -1039,6 +1039,15 @@ public class ModModelProvider extends FabricModelProvider {
         blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.STANDARD_CLOTHES_BASKET);
         blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.TABLE);
 
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.DRINKING_BOTTLE_TREE_WATER_MACHINE);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.GNAWING_FLOOR_PROCESSING_TABLE);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.GUYUAN_ROCK_SHOVEL);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.HUNDRED_CATTIES_TOP);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.LOCKED_UNICYCLE);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.RENEWABLE_SNACK_BOWL);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.VERY_DANGEROUS_POWER_CABINET);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.VERY_SIMPLE_CONSOLE);
+
     }
 
     @Override

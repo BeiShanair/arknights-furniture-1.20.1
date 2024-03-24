@@ -23,6 +23,7 @@ import com.besson.arknights.block.OnceUponATimeInSyracuse.*;
 import com.besson.arknights.block.PureWhiteVolcanoTour.*;
 import com.besson.arknights.block.RhineLifeEcologicalPark.*;
 import com.besson.arknights.block.RhodeIslandlaundry.*;
+import com.besson.arknights.block.RideTheWildernessTruck.*;
 import com.besson.arknights.block.SamiImpressions.*;
 import com.besson.arknights.block.SeasideImpressions.*;
 import com.besson.arknights.block.SnowMountainSmallPostOffice.*;
@@ -1140,6 +1141,17 @@ public class ModBlocks {
     public static final Block SMALL_CART = registerBlock("small_cart",new SmallCart(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
     public static final Block STANDARD_CLOTHES_BASKET = registerBlock("standard_clothes_basket",new StandardClothesBasket(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
     public static final Block TABLE = registerBlock("table",new Table(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+
+    public static final Block AN_UNPOPULAR_BENCH_DEFAULT = registerBlock("an_unpopular_bench_default",new AnUnpopularBenchDefault(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+    public static final Block A_VERY_POPULAR_BENCH_DEFAULT = registerBlock("a_very_popular_bench_default",new AVeryPopularBenchDefault(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+    public static final Block DRINKING_BOTTLE_TREE_WATER_MACHINE = registerBlock("drinking_bottle_tree_water_machine",new DrinkingBottleTreeWaterMachine(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+    public static final Block GNAWING_FLOOR_PROCESSING_TABLE = registerBlock("gnawing_floor_processing_table",new GnawingFloorProcessingTable(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+    public static final Block GUYUAN_ROCK_SHOVEL = registerBlock("guyuan_rock_shovel",new GuyuanRockShovel(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+    public static final Block HUNDRED_CATTIES_TOP = registerBlock("hundred_catties_top",new HundredCattiesTop(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+    public static final Block LOCKED_UNICYCLE = registerBlock("locked_unicycle",new LockedUnicycle(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+    public static final Block RENEWABLE_SNACK_BOWL = registerBlock("renewable_snack_bowl",new RenewableSnackBowl(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+    public static final Block VERY_DANGEROUS_POWER_CABINET = registerBlock("very_dangerous_power_cabinet",new VeryDangerousPowerCabinet(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+    public static final Block VERY_SIMPLE_CONSOLE = registerBlock("very_simple_console",new VerySimpleConsole(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
 
     private static Block registerBlock(String name,Block block){
         registerBlockItem(name,block);

@@ -1438,6 +1438,23 @@ public class ModItemGroups {
                                 entries.add(ModBlocks.TABLE);
                             }).build());
 
+    public static final ItemGroup RIDE_THE_WILDERNESS_TRUCK = Registry.register(Registries.ITEM_GROUP,
+            new Identifier(ArknightsFurniture.MOD_ID,"ride_the_wilderness_truck"),
+            FabricItemGroup.builder().displayName(Text.translatable("itemGroup.ride_the_wilderness_truck"))
+                    .icon(() -> new ItemStack(ModBlocks.DRINKING_BOTTLE_TREE_WATER_MACHINE)).entries((displayContext, entries) -> {
+                        entries.add(ModBlocks.AN_UNPOPULAR_BENCH_DEFAULT);
+                        entries.add(ModBlocks.A_VERY_POPULAR_BENCH_DEFAULT);
+                        entries.add(ModBlocks.DRINKING_BOTTLE_TREE_WATER_MACHINE);
+                        entries.add(ModBlocks.GNAWING_FLOOR_PROCESSING_TABLE);
+                        entries.add(ModBlocks.GUYUAN_ROCK_SHOVEL);
+                        entries.add(ModBlocks.HUNDRED_CATTIES_TOP);
+                        entries.add(ModBlocks.LOCKED_UNICYCLE);
+                        entries.add(ModBlocks.RENEWABLE_SNACK_BOWL);
+                        entries.add(ModBlocks.VERY_DANGEROUS_POWER_CABINET);
+                        entries.add(ModBlocks.VERY_SIMPLE_CONSOLE);
+
+                    }).build());
+
                         // public static final ItemGroup  = Registry.register(Registries.ITEM_GROUP,
     //        new Identifier(ArknightsFurniture.MOD_ID,""),
     //        FabricItemGroup.builder().displayName(Text.translatable("itemgroup."))
