@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=east": {
+      "model": "arknights_furniture:block/the_chair_of_contemplation",
+      "y": 90
+    },
+    "facing=north": {
+      "model": "arknights_furniture:block/the_chair_of_contemplation"
+    },
+    "facing=south": {
+      "model": "arknights_furniture:block/the_chair_of_contemplation",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "arknights_furniture:block/the_chair_of_contemplation",
+      "y": 270
+    }
+  }
+}

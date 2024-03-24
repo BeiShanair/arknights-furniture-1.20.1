@@ -972,6 +972,14 @@
   "block.arknights_furniture.rotating_chair_for_large_cooking_table":"Rotating Chair For Large Cooking Table",
   "block.arknights_furniture.shared_bench":"Shared Bench",
 
+  "block.arknights_furniture.bench_default":"Bench",
+  "block.arknights_furniture.interpretation_table":"Interpretation Table",
+  "block.arknights_furniture.monastery_chandelier":"Monastery Chandelier",
+  "block.arknights_furniture.solid_wood_prayer_platform":"Solid Wood Prayer Platform",
+  "block.arknights_furniture.solid_wood_statue_wall_cabinet":"Solid Wood Statue Wall Cabinet",
+  "block.arknights_furniture.the_chair_of_contemplation":"The Chair Of Contemplation",
+  "block.arknights_furniture.the_discerning_lamp":"The Discerning Lamp",
+
   "itemgroup.logo": "LOGO Group",
 
   "itemgroup.freight_warehouse": "Freight Warehouse",
@@ -1044,6 +1052,7 @@
   "itemGroup.natural_disaster_observation_and_research_station": "Natural Disaster Observation And Research Station",
   "itemGroup.rhiine_life_ecological_park": "Rhiine Life Ecological Park",
   "itemGroup.culinary_research_center": "Culinary Research Center",
+  "itemGroup.ambrosius_lounge": "Ambrosius Lounge",
 
   "painting.arknights_furniture.unconfirmed_biological_skeleton.title":"Unconfirmed Biological Skeleton",
   "painting.arknights_furniture.unconfirmed_biological_skeleton.author":"Hypergryph",

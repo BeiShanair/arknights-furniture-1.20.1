@@ -2,6 +2,7 @@ package com.besson.arknights.block;
 
 import com.besson.arknights.ArknightsFurniture;
 import com.besson.arknights.block.AirtightChemicalSafetyCabin.*;
+import com.besson.arknights.block.AmbrosiusLounge.*;
 import com.besson.arknights.block.AvantGardeArcadeHalls.*;
 import com.besson.arknights.block.BigPuddleHappyExperienceHouse.*;
 import com.besson.arknights.block.CarratonFlowerAndLightHouse.*;
@@ -1049,6 +1050,14 @@ public class ModBlocks {
     public static final Block MENU_SIGNBOARD = registerBlock("menu_signboard",new MenuSignboard(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
     public static final Block ROTATING_CHAIR_FOR_LARGE_COOKING_TABLE = registerBlock("rotating_chair_for_large_cooking_table",new RotatingChairForLargeCookingTable(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
     public static final Block SHARED_BENCH = registerBlock("shared_bench",new SharedBench(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+
+    public static final Block BENCH_DEFAULT = registerBlock("bench_default",new BenchDefault(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+    public static final Block INTERPRETATION_TABLE = registerBlock("interpretation_table",new InterpretationTable(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+    public static final Block MONASTERY_CHANDELIER = registerBlock("monastery_chandelier",new MonasteryChandelier(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+    public static final Block SOLID_WOOD_PRAYER_PLATFORM = registerBlock("solid_wood_prayer_platform",new SolidWoodPrayerPlatform(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+    public static final Block SOLID_WOOD_STATUE_WALL_CABINET = registerBlock("solid_wood_statue_wall_cabinet",new SolidWoodStatueWallCabinet(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+    public static final Block THE_CHAIR_OF_CONTEMPLATION = registerBlock("the_chair_of_contemplation",new TheChairOfContemplation(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+    public static final Block THE_DISCERNING_LAMP = registerBlock("the_discerning_lamp",new TheDiscerningLamp(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
 
     private static Block registerBlock(String name,Block block){
         registerBlockItem(name,block);

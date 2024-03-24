@@ -1315,6 +1315,19 @@ public class ModItemGroups {
                         entries.add(ModBlocks.SHARED_BENCH);
                     }).build());
 
+    public static final ItemGroup AMBROSIUS_LOUNGE = Registry.register(Registries.ITEM_GROUP,
+            new Identifier(ArknightsFurniture.MOD_ID,"ambrosius_lounge"),
+            FabricItemGroup.builder().displayName(Text.translatable("itemGroup.ambrosius_lounge"))
+                    .icon(() -> new ItemStack(ModBlocks.INTERPRETATION_TABLE)).entries((displayContext, entries) -> {
+                        entries.add(ModBlocks.BENCH_DEFAULT);
+                        entries.add(ModBlocks.INTERPRETATION_TABLE);
+                        entries.add(ModBlocks.MONASTERY_CHANDELIER);
+                        entries.add(ModBlocks.SOLID_WOOD_PRAYER_PLATFORM);
+                        entries.add(ModBlocks.SOLID_WOOD_STATUE_WALL_CABINET);
+                        entries.add(ModBlocks.THE_CHAIR_OF_CONTEMPLATION);
+                        entries.add(ModBlocks.THE_DISCERNING_LAMP);
+                    }).build());
+
     // public static final ItemGroup  = Registry.register(Registries.ITEM_GROUP,
     //        new Identifier(ArknightsFurniture.MOD_ID,""),
     //        FabricItemGroup.builder().displayName(Text.translatable("itemgroup."))
