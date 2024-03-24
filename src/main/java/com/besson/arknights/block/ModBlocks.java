@@ -12,6 +12,7 @@ import com.besson.arknights.block.ClassroomInSanMarceau.*;
 import com.besson.arknights.block.CourtOfJusticeOfSyracuse.*;
 import com.besson.arknights.block.DetectivesStudy.*;
 import com.besson.arknights.block.LongmenStyleTeaRoom.*;
+import com.besson.arknights.block.MomijiHostel.*;
 import com.besson.arknights.block.OnceUponATimeInSyracuse.*;
 import com.besson.arknights.block.SeasideImpressions.*;
 import com.besson.arknights.block.TheBanquetHallOfTheCandyFairy.*;
@@ -981,6 +982,20 @@ public class ModBlocks {
     public static final Block RECRUITING_WEALTH_PART3 = registerBlock("recruiting_wealth_part3",new RecruitingWealthPart3(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
     public static final Block TEA_ROOM_PRIVATE_ROOM_LIGHT_GROUP = registerBlock("tea_room_private_room_light_group",new TeaRoomPrivateRoomLightGroup(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
     public static final Block TEA_ROOM_PRIVATE_ROOM_SOFA_CHAIRS = registerBlock("tea_room_private_room_sofa_chairs",new TeaRoomPrivateRoomSofaChairs(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+
+    public static final Block AUTUMN_BREEZE_RED_LEAF_SCREEN = registerBlock("autumn_breeze_red_leaf_screen",new AutumnBreezeRedLeafScreen(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+    public static final Block BAMBOO_FOREST_HUNTING_SCENERY_SCREEN = registerBlock("bamboo_forest_hunting_scenery_screen",new BambooForestHuntingSceneryScreen(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+    public static final Block BAMBOO_SLING = registerBlock("bamboo_sling",new BambooSling(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+    public static final Block CLASSICAL_STANDING_CABINET = registerBlock("classical_standing_cabinet",new ClassicalStandingCabinet(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+    public static final Block CLIMBING_HIGH = registerBlock("climbing_high",new ClimbingHigh(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+    public static final Block COOL_BREEZE = registerBlock("cool_breeze",new CoolBreeze(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+    public static final Block DONGGUO_MAKEUP_MIRROR_TABLE = registerBlock("dongguo_makeup_mirror_table",new DongguoMakeupMirrorTable(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+    public static final Block DONGGUO_SOLID_WOOD_BED = registerBlock("dongguo_solid_wood_bed",new DongguoSolidWoodBed(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+    public static final Block GRUEL_OF_MILLET_FLOUR_AND_SUGAR = registerBlock("gruel_of_millet_flour_and_sugar",new GruelOfMilletFlourAndSugar(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+    public static final Block PINE_BONSAI = registerBlock("pine_bonsai",new PineBonsai(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+    public static final Block SOFT_CEILING_LIGHT3 = registerBlock("soft_ceiling_light3",new SoftCeilingLight3(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+    public static final Block WARM_CURRENT = registerBlock("warm_current",new WarmCurrent(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
+    public static final Block WOODEN_STORAGE_BOX = registerBlock("wooden_storage_box",new WoodenStorageBox(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
 
     private static Block registerBlock(String name,Block block){
         registerBlockItem(name,block);

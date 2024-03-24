@@ -1225,7 +1225,25 @@ public class ModItemGroups {
                         entries.add(ModBlocks.RECRUITING_WEALTH_PART3);
                         entries.add(ModBlocks.TEA_ROOM_PRIVATE_ROOM_LIGHT_GROUP);
                         entries.add(ModBlocks.TEA_ROOM_PRIVATE_ROOM_SOFA_CHAIRS);
+                    }).build());
 
+    public static final ItemGroup MOMIJI_HOSTEL = Registry.register(Registries.ITEM_GROUP,
+            new Identifier(ArknightsFurniture.MOD_ID,"momiji_hostel"),
+            FabricItemGroup.builder().displayName(Text.translatable("itemGroup.momiji_hostel"))
+                    .icon(() -> new ItemStack(ModBlocks.AUTUMN_BREEZE_RED_LEAF_SCREEN)).entries((displayContext, entries) -> {
+                        entries.add(ModBlocks.AUTUMN_BREEZE_RED_LEAF_SCREEN);
+                        entries.add(ModBlocks.BAMBOO_FOREST_HUNTING_SCENERY_SCREEN);
+                        entries.add(ModBlocks.BAMBOO_SLING);
+                        entries.add(ModBlocks.CLASSICAL_STANDING_CABINET);
+                        entries.add(ModBlocks.CLIMBING_HIGH);
+                        entries.add(ModBlocks.COOL_BREEZE);
+                        entries.add(ModBlocks.DONGGUO_MAKEUP_MIRROR_TABLE);
+                        entries.add(ModBlocks.DONGGUO_SOLID_WOOD_BED);
+                        entries.add(ModBlocks.GRUEL_OF_MILLET_FLOUR_AND_SUGAR);
+                        entries.add(ModBlocks.PINE_BONSAI);
+                        entries.add(ModBlocks.SOFT_CEILING_LIGHT3);
+                        entries.add(ModBlocks.WARM_CURRENT);
+                        entries.add(ModBlocks.WOODEN_STORAGE_BOX);
                     }).build());
 
     // public static final ItemGroup  = Registry.register(Registries.ITEM_GROUP,

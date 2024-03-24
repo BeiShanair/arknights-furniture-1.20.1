@@ -895,6 +895,20 @@ public class ModModelProvider extends FabricModelProvider {
         blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.TEA_ROOM_PRIVATE_ROOM_LIGHT_GROUP);
         blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.TEA_ROOM_PRIVATE_ROOM_SOFA_CHAIRS);
 
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.AUTUMN_BREEZE_RED_LEAF_SCREEN);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.BAMBOO_FOREST_HUNTING_SCENERY_SCREEN);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.BAMBOO_SLING);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.CLASSICAL_STANDING_CABINET);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.CLIMBING_HIGH);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.COOL_BREEZE);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.DONGGUO_MAKEUP_MIRROR_TABLE);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.DONGGUO_SOLID_WOOD_BED);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.GRUEL_OF_MILLET_FLOUR_AND_SUGAR);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.PINE_BONSAI);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.SOFT_CEILING_LIGHT3);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.WARM_CURRENT);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.WOODEN_STORAGE_BOX);
+
     }
 
     @Override

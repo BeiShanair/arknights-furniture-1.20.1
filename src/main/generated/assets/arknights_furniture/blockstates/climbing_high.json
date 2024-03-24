@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=east": {
+      "model": "arknights_furniture:block/climbing_high",
+      "y": 90
+    },
+    "facing=north": {
+      "model": "arknights_furniture:block/climbing_high"
+    },
+    "facing=south": {
+      "model": "arknights_furniture:block/climbing_high",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "arknights_furniture:block/climbing_high",
+      "y": 270
+    }
+  }
+}

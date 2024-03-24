@@ -909,6 +909,20 @@
   "block.arknights_furniture.tea_room_private_room_light_group":"TeaRoom Private Room Light Group",
   "block.arknights_furniture.tea_room_private_room_sofa_chairs":"TeaRoom Private Room Sofa Chairs",
 
+  "block.arknights_furniture.autumn_breeze_red_leaf_screen":"Autumn Breeze Red Leaf Screen",
+  "block.arknights_furniture.bamboo_forest_hunting_scenery_screen":"Bamboo Forest Hunting Scenery Screen",
+  "block.arknights_furniture.bamboo_sling":"Bamboo Sling",
+  "block.arknights_furniture.classical_standing_cabinet":"Classical Standing Cabinet",
+  "block.arknights_furniture.climbing_high":"Climbing High",
+  "block.arknights_furniture.cool_breeze":"Cool Breeze",
+  "block.arknights_furniture.dongguo_makeup_mirror_table":"Dongguo Makeup Mirror Table",
+  "block.arknights_furniture.dongguo_solid_wood_bed":"Dongguo Solid Wood Bed",
+  "block.arknights_furniture.gruel_of_millet_flour_and_sugar":"Gruel Of Millet Flour And Sugar",
+  "block.arknights_furniture.pine_bonsai":"Pine Bonsai",
+  "block.arknights_furniture.soft_ceiling_light3":"Soft Ceiling Light",
+  "block.arknights_furniture.warm_current":"Warm Current",
+  "block.arknights_furniture.wooden_storage_box":"Wooden Storage Box",
+
   "itemgroup.logo": "LOGO Group",
 
   "itemgroup.freight_warehouse": "Freight Warehouse",
@@ -976,6 +990,7 @@
   "itemGroup.yumen_medical_center": "Yumen Medical Center",
   "itemGroup.yishan_temple": "Yishan Temple",
   "itemGroup.longmen_style_tea_room": "Longmen Style Tea Room",
+  "itemGroup.momiji_hostel": "Momiji Hostel",
 
   "painting.arknights_furniture.unconfirmed_biological_skeleton.title":"Unconfirmed Biological Skeleton",
   "painting.arknights_furniture.unconfirmed_biological_skeleton.author":"Hypergryph",
