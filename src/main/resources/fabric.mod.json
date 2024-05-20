@@ -3,13 +3,13 @@
 	"id": "arknights_furniture",
 	"version": "${version}",
 	"name": "Arknights Furniture",
-	"description": "这是明日方舟的家具模组",
+	"description": "这是明日方舟的家具模组，是明日方舟罗德岛陆行舰的配套模组",
 	"authors": [
 		"北山_Besson"
 	],
 	"contact": {
-		"homepage": "https://fabricmc.net/",
-		"sources": "https://github.com/FabricMC/fabric-example-mod"
+		"homepage": "https://github.com/BeiShanair/arknights-furniture-1.20.1",
+		"sources": "https://github.com/BeiShanair/arknights-furniture-1.20.1"
 	},
 	"license": "GPL-3.0",
 	"icon": "assets/arknights_furniture/icon.png",
