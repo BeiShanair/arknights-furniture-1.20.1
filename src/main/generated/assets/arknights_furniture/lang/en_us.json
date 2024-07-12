@@ -1,0 +1,21 @@
+{
+  "block.arknights_furniture.cardboard_box": "Cardboard Box",
+  "block.arknights_furniture.cargo_pad": "Cargo Pad",
+  "block.arknights_furniture.carton_stool": "Carton Stool",
+  "block.arknights_furniture.freight_carts": "Freight Carts",
+  "block.arknights_furniture.large_shelves1": "Large Shelves 1",
+  "block.arknights_furniture.large_shelves2": "Large Shelves 2",
+  "block.arknights_furniture.large_shelves3": "Large Shelves 3",
+  "block.arknights_furniture.large_shelves4": "Large Shelves 4",
+  "block.arknights_furniture.many_cardboard_boxes": "Many Cardboard Boxes",
+  "block.arknights_furniture.portable_calculator": "Portable Calculator",
+  "block.arknights_furniture.practical_air_cushion": "Practical Air Cushion",
+  "block.arknights_furniture.quick_postit_notes": "Quick Post-it Notes",
+  "block.arknights_furniture.shift_attendance_board": "Shift Attendance Board",
+  "block.arknights_furniture.street_graffiti": "Street Graffiti",
+  "item.arknights_furniture.cardboard": "Cardboard",
+  "item.arknights_furniture.coin_furn": "Coin Furn",
+  "item.arknights_furniture.rhodes_island_logo": "Rhodes Island Logo",
+  "itemGroup.logo": "Logo",
+  "itemGroup.material": "Material"
+}

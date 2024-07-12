@@ -2,8 +2,7 @@
 	"credit": "Made with Blockbench",
 	"texture_size": [128, 128],
 	"textures": {
-		"1": "arknights_furniture:block/street_graffiti",
-		"particle": "arknights_furniture:block/gray"
+		"1": "arknights_furniture:block/street_graffiti"
 	},
 	"elements": [
 		{

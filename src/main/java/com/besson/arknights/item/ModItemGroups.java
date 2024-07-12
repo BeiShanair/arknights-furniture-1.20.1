@@ -11,9 +11,16 @@ import net.minecraft.text.Text;
 import net.minecraft.util.Identifier;
 
 public class ModItemGroups {
+    public static final ItemGroup MATERIAL_GROUP = Registry.register(Registries.ITEM_GROUP,
+            new Identifier(ArknightsFurniture.MOD_ID,"material"),
+            ItemGroup.create(null, -1).displayName(Text.translatable("itemGroup.material"))
+                    .icon(() -> new ItemStack(ModItems.COIN_FURN)).entries((displayContext, entries) -> {
+                        entries.add(ModItems.COIN_FURN);
+                        entries.add(ModItems.CARDBOARD);
+                    }).build());
     public static final ItemGroup LOGO_GROUP = Registry.register(Registries.ITEM_GROUP,
             new Identifier(ArknightsFurniture.MOD_ID,"logo"),
-            FabricItemGroup.builder().displayName(Text.translatable("itemgroup.logo"))
+            FabricItemGroup.builder().displayName(Text.translatable("itemGroup.logo"))
                     .icon(() -> new ItemStack(ModItems.RHODES_ISLAND_LOGO)).entries((displayContext, entries) ->{
                         entries.add(ModItems.RHODES_ISLAND_LOGO);
     }).build());

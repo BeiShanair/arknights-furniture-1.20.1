@@ -1052,6 +1052,8 @@ public class ModModelProvider extends FabricModelProvider {
 
     @Override
     public void generateItemModels(ItemModelGenerator itemModelGenerator) {
+        itemModelGenerator.register(ModItems.COIN_FURN, Models.GENERATED);
+        itemModelGenerator.register(ModItems.CARDBOARD, Models.GENERATED);
         itemModelGenerator.register(ModItems.RHODES_ISLAND_LOGO, Models.GENERATED);
 
     }

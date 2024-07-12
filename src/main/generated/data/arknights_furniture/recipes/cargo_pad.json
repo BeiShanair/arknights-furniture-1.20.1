@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "key": {
+    "#": {
+      "item": "arknights_furniture:cardboard"
+    }
+  },
+  "pattern": [
+    "###"
+  ],
+  "result": {
+    "item": "arknights_furniture:cargo_pad"
+  },
+  "show_notification": true
+}

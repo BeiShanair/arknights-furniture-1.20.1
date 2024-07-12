@@ -1,0 +1,19 @@
+{
+  "replace": false,
+  "values": [
+    "arknights_furniture:cardboard_box",
+    "arknights_furniture:cargo_pad",
+    "arknights_furniture:carton_stool",
+    "arknights_furniture:freight_carts",
+    "arknights_furniture:large_shelves1",
+    "arknights_furniture:large_shelves2",
+    "arknights_furniture:large_shelves3",
+    "arknights_furniture:large_shelves4",
+    "arknights_furniture:many_cardboard_boxes",
+    "arknights_furniture:portable_calculator",
+    "arknights_furniture:practical_air_cushion",
+    "arknights_furniture:quick_postit_notes",
+    "arknights_furniture:shift_attendance_board",
+    "arknights_furniture:street_graffiti"
+  ]
+}

@@ -3,7 +3,7 @@
 	"texture_size": [64, 64],
 	"textures": {
 		"0": "arknights_furniture:block/quick_postit_notes",
-		"particle": "arknights_furniture:block/white"
+		"particle": "arknights_furniture:block/quick_postit_notes"
 	},
 	"elements": [
 		{
@@ -43,8 +43,9 @@
 			}
 		},
 		{
-			"from": [10, 15, 15.8],
-			"to": [12, 18, 15.8],
+			"from": [11, 14.3, 15.8],
+			"to": [13, 17.3, 15.8],
+			"rotation": {"angle": 0, "axis": "y", "origin": [1, -0.7, 0]},
 			"faces": {
 				"north": {"uv": [4, 5.5, 4.5, 6.25], "texture": "#0"},
 				"east": {"uv": [0, 0, 0, 0.75], "texture": "#0"},
@@ -55,8 +56,9 @@
 			}
 		},
 		{
-			"from": [10, 11, 15.8],
-			"to": [12, 14, 15.8],
+			"from": [11, 10.3, 15.8],
+			"to": [13, 13.3, 15.8],
+			"rotation": {"angle": 0, "axis": "y", "origin": [1, -0.7, 0]},
 			"faces": {
 				"north": {"uv": [5, 5.5, 5.5, 6.25], "texture": "#0"},
 				"east": {"uv": [0, 0, 0, 0.75], "texture": "#0"},
@@ -67,8 +69,9 @@
 			}
 		},
 		{
-			"from": [3, 9, 15.8],
-			"to": [5, 12, 15.8],
+			"from": [3.4, 8.6, 15.8],
+			"to": [5.4, 11.6, 15.8],
+			"rotation": {"angle": 0, "axis": "y", "origin": [0.4, -0.4, 0]},
 			"faces": {
 				"north": {"uv": [6, 0, 6.5, 0.75], "texture": "#0"},
 				"east": {"uv": [0, 0, 0, 0.75], "texture": "#0"},
@@ -139,6 +142,7 @@
 			"name": "VoxelShapes",
 			"origin": [8, 8, 8],
 			"color": 0,
+			"nbt": "{}",
 			"children": [0, 1, 2, 3, 4, 5, 6, 7]
 		}
 	]

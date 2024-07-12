@@ -13,9 +13,9 @@ public class FreightCarts extends FurnitureHorizontalFacingBlock {
         super(settings);
     }
 
-    private static final VoxelShape SHAPE_NS = Block.createCuboidShape(-13, 0, -4, 29, 27, 20);
+    private static final VoxelShape SHAPE_NS = Block.createCuboidShape(-8, 0, -2, 24, 21, 18);
 
-    private static final VoxelShape SHAPE_WE = Block.createCuboidShape(-4, 0, -13, 20, 27, 29);
+    private static final VoxelShape SHAPE_WE = Block.createCuboidShape(-2, 0, -8, 18, 21, 24);
 
     @Override
     public VoxelShape getOutlineShape(BlockState state, BlockView world, BlockPos pos, ShapeContext context) {

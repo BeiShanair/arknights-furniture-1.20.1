@@ -3,7 +3,7 @@
 	"texture_size": [64, 64],
 	"textures": {
 		"0": "arknights_furniture:block/portable_calculator",
-		"particle": "arknights_furniture:block/yellow"
+		"particle": "arknights_furniture:block/portable_calculator"
 	},
 	"elements": [
 		{
@@ -19,9 +19,9 @@
 			}
 		},
 		{
-			"from": [1, 12.12149, 13.41655],
-			"to": [15, 22.12149, 14.41655],
-			"rotation": {"angle": 22.5, "axis": "x", "origin": [8, 16.12149, 14.91655]},
+			"from": [1, 12.12149, 12.91655],
+			"to": [15, 22.12149, 13.91655],
+			"rotation": {"angle": 22.5, "axis": "x", "origin": [8, 16.12149, 14.41655]},
 			"faces": {
 				"north": {"uv": [8, 0, 11.5, 2.5], "texture": "#0"},
 				"east": {"uv": [7.5, 9, 7.75, 11.5], "texture": "#0"},
@@ -80,6 +80,7 @@
 			"name": "group",
 			"origin": [8, 8, 8],
 			"color": 0,
+			"nbt": "{}",
 			"children": [0, 1, 2]
 		}
 	]

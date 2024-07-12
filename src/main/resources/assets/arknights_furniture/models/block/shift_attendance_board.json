@@ -2,8 +2,7 @@
 	"credit": "Made with Blockbench",
 	"texture_size": [128, 128],
 	"textures": {
-		"1": "arknights_furniture:block/shift_attendance_board",
-		"particle": "arknights_furniture:block/white"
+		"1": "arknights_furniture:block/shift_attendance_board"
 	},
 	"elements": [
 		{
@@ -56,6 +55,7 @@
 			"name": "group",
 			"origin": [8, 8, 8],
 			"color": 0,
+			"nbt": "{}",
 			"children": [0]
 		}
 	]

@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "key": {
+    "#": {
+      "item": "arknights_furniture:cardboard"
+    },
+    "A": {
+      "item": "minecraft:minecart"
+    }
+  },
+  "pattern": [
+    "A##"
+  ],
+  "result": {
+    "item": "arknights_furniture:freight_carts"
+  },
+  "show_notification": true
+}

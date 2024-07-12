@@ -2,8 +2,7 @@
 	"credit": "Made with Blockbench",
 	"texture_size": [64, 64],
 	"textures": {
-		"1": "arknights_furniture:block/practical_air_cushion",
-		"particle": "arknights_furniture:block/gray"
+		"1": "arknights_furniture:block/practical_air_cushion"
 	},
 	"elements": [
 		{
